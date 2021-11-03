@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "/Users/anton/.pyenv/versions/3.9.4/envs/bachelor/bin/python"
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.python-version": true    }
+}
