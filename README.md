@@ -8,4 +8,6 @@
     - Find the respective article Peter was talking about
     - Decide on timeframe of data
     - Decide on institutes to get data from
-    - Get/Scrape the data and replicate the plot of the article (Peter)
+    - https://twitter.com/laurenzennser/status/1445727395525365764 
+
+![](/Users/anton/Downloads/FBBAa_yWUAAo6Vy.png)
