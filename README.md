@@ -1,5 +1,8 @@
-# Survey Manipulation in Austria from the FPÖ
+# Anatomie des Umfrageskandals in Österreich
 
+## Laurenz Ennser Jedanastik
+    Differenz zwischen
+    ![Anatomie des Umfrageskandals in Österreich](/Users/anton/Documents/University/Semester_7/Bachelor_Thesis/images/diff.png)
 
 ## Expose is due the 22.12.21
 
@@ -10,4 +13,3 @@
     - Decide on institutes to get data from
     - https://twitter.com/laurenzennser/status/1445727395525365764 
 
-![](/Users/anton/Downloads/FBBAa_yWUAAo6Vy.png)
