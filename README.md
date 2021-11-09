@@ -1,8 +1,8 @@
 # Anatomie des Umfrageskandals in Österreich
 
 ## Laurenz Ennser Jedanastik
-    Differenz zwischen
-    ![Anatomie des Umfrageskandals in Österreich](/Users/anton/Documents/University/Semester_7/Bachelor_Thesis/images/diff.png)
+Differenz zwischen
+![Anatomie des Umfrageskandals in Österreich](/Users/anton/Documents/University/Semester_7/Bachelor_Thesis/images/diff.png)
 
 ## Expose is due the 22.12.21
 
