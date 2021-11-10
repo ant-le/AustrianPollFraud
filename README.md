@@ -1,7 +1,9 @@
 # Anatomie des Umfrageskandals in Österreich
 
 ## Laurenz Ennser Jedanastik
-![Anatomie des Umfrageskandals in Österreich](https://github.com/ant-le/Bachelor_Thesis/blob/main/images/diff.png?raw=true)
+![ÖVP against FPÖ](https://github.com/ant-le/Bachelor_Thesis/blob/main/images/ovp_vs_fpo.png)
+
+![ÖVP against SPÖ](https://github.com/ant-le/Bachelor_Thesis/blob/main/images/ovp_vs_spo.png)
 
 ## Expose is due the 22.12.21
 
