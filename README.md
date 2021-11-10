@@ -13,3 +13,11 @@ Differenz zwischen
     - Decide on institutes to get data from
     - https://twitter.com/laurenzennser/status/1445727395525365764 
 
+- Sauberen Effekt finden -> Liegt es evt. doch an der Gesamtstimmung? 
+- Historisch -> HÄngt sich irgenjemand an jemand anderen dran?
+
+Wie isoliere ich das von der von der allgemeinen Stimmung? 
+-> Kurz-Effekt? -> Wurde ÖVP überschätzt? 
+Wurde ÖVP immer unterschätzt?
+
+-> Herding-Effekte? 
