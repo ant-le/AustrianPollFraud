@@ -26,3 +26,4 @@ Wurde ÖVP immer unterschätzt?
 # Alternative - BART
 https://towardsdatascience.com/bayesian-additive-regression-trees-paper-summary-9da19708fa71
 
+- AI in German Politics - Advantages and Disadvantages 
