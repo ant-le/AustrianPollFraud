@@ -22,3 +22,7 @@ Wie isoliere ich das von der von der allgemeinen Stimmung?
 Wurde ÖVP immer unterschätzt?
 
 -> Herding-Effekte? 
+
+# Alternative - BART
+https://towardsdatascience.com/bayesian-additive-regression-trees-paper-summary-9da19708fa71
+
