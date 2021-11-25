@@ -13,8 +13,12 @@
     - WUrde Kurz wegen Umfragen beliebter oder waren die Umfragen wegen Beliebtheit von Sebastian Kurz hoch?
 
 # Alternative - Eurobarometer zu Covid 
+How did different policies 
     - Countries
         - Sweden
         - Germany 
         - Italy 
-    - before /after Covid? 
+        
+    - Covid
+        - Before 
+        - After
