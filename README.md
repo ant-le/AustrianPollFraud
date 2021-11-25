@@ -13,12 +13,22 @@
     - WUrde Kurz wegen Umfragen beliebter oder waren die Umfragen wegen Beliebtheit von Sebastian Kurz hoch?
 
 # Alternative - Eurobarometer zu Covid 
-How did different policies 
-    - Countries
-        - Sweden
-        - Germany 
-        - Italy 
-        
+> What effect did the Covid19-Pandemic have on (some aspect included in the Eurobarometer)?
+
+    - Country  
+        - Germany
     - Covid
         - Before 
         - After
+    - Treating the Pandemic as-if radnom -> Treatment Effect?
+ 
+> What effect did different strategies in dealing with the Covid-19 pandemic have on (some aspect included in the Eurobarometer)?
+
+    - Countries
+        - Sweden
+        - Germany 
+        - Italy
+    - Covid
+        - Before
+        - After
+    - Fixed Effects Estimation?    
