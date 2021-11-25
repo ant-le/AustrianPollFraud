@@ -13,6 +13,8 @@
     - WUrde Kurz wegen Umfragen beliebter oder waren die Umfragen wegen Beliebtheit von Sebastian Kurz hoch?
 
 # Alternative - Eurobarometer zu Covid 
+> Only Germany over time with relevant decision (Bundesnotbremse) as random events.
+
 > What effect did the Covid19-Pandemic have on (some aspect included in the Eurobarometer)?
 
     - Country  
@@ -34,4 +36,5 @@
     - Fixed Effects Estimation?    
     
 - How suitable is the Eurobarometer Survey for academic work (especially due to changes in data collection during the Covid19-Pandemic)
-
+    - Matching
+    - Fixed Effects
