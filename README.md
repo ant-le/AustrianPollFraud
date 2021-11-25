@@ -32,3 +32,6 @@
         - Before
         - After
     - Fixed Effects Estimation?    
+    
+- How suitable is the Eurobarometer Survey for academic work (especially due to changes in data collection during the Covid19-Pandemic)
+
