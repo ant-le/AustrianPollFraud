@@ -1,7 +1,7 @@
 # Anatomie des Umfrageskandals in Österreich
 ## Thomas Rabensteiner
 - https://twitter.com/thomsiaae/status/1447138233264005120
-- 
+
 ![Number of Pools of Institutes per year](https://github.com/ant-le/Bachelor_Thesis/blob/main/images/N_of_polls.jpeg)
 
 ![Difference of vote shares](https://github.com/ant-le/Bachelor_Thesis/blob/main/images/Diff_RA.jpeg)
