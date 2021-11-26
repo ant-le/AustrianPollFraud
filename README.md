@@ -1,4 +1,10 @@
-# Anatomie des Umfrageskandals in Österreich
+# Anatomie des Umfrageskandals in Österreich <img src="https://user-images.githubusercontent.com/5679180/79618120-0daffb80-80be-11ea-819e-d2b0fa904d07.gif" width="27px">  <a href="https://twitter.com/thomsiaae/status/1447138233264005120"> <img align="right" alt="Anton Lechuga | Linkedin" width="24px" src="https://github.com/piyushP7pravin/piyushP7pravin/blob/master/Twitter.svg" /> <img align="right" alt="Anton Lechuga | Linkedin" width="24px" src="https://github.com/piyushP7pravin/piyushP7pravin/blob/master/Twitter.svg" />
+  </a>
+
+This is the reprository for my Bachelor-Theisis at Konstanz University
+<br>  
+
+
 ## Thomas Rabensteiner
 - https://twitter.com/thomsiaae/status/1447138233264005120
 
@@ -18,29 +24,3 @@
 - In welche Richtung gehen Effekte? 
     - WUrde Kurz wegen Umfragen beliebter oder waren die Umfragen wegen Beliebtheit von Sebastian Kurz hoch?
 
-# Alternative - Eurobarometer zu Covid 
-> Only Germany over time with relevant decision (Bundesnotbremse) as random events.
-
-> What effect did the Covid19-Pandemic have on (some aspect included in the Eurobarometer)?
-
-    - Country  
-        - Germany
-    - Covid
-        - Before 
-        - After
-    - Treating the Pandemic as-if radnom -> Treatment Effect?
- 
-> What effect did different strategies in dealing with the Covid-19 pandemic have on (some aspect included in the Eurobarometer)?
-
-    - Countries
-        - Sweden
-        - Germany 
-        - Italy
-    - Covid
-        - Before
-        - After
-    - Fixed Effects Estimation?    
-    
-- How suitable is the Eurobarometer Survey for academic work (especially due to changes in data collection during the Covid19-Pandemic)
-    - Matching
-    - Fixed Effects
