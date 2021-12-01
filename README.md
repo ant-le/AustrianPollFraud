@@ -1,5 +1,6 @@
-# Anatomie des Umfrageskandals in Österreich <img src="https://user-images.githubusercontent.com/5679180/79618120-0daffb80-80be-11ea-819e-d2b0fa904d07.gif" width="27px">  <a href="https://twitter.com/thomsiaae/status/1447138233264005120"> <img align="right" alt="Anton Lechuga | Linkedin" width="24px" src="https://github.com/piyushP7pravin/piyushP7pravin/blob/master/Twitter.svg" /> <img align="right" alt="Anton Lechuga | Linkedin" width="24px" src="https://github.com/piyushP7pravin/piyushP7pravin/blob/master/Twitter.svg" />
-  </a>
+# Anatomie des Umfrageskandals in Österreich <a href="https://twitter.com/thomsiaae/status/1447138233264005120"> <img align="right" alt="Thomas Rabensteiner | Twitter" width="24px" src="https://github.com/piyushP7pravin/piyushP7pravin/blob/master/Twitter.svg" /> <a href="https://twitter.com/laurenzennser/status/1445727395525365764"> <img align="right" alt="Laurenz Ennser Jedanastik  | Twitter" width="24px" src="https://github.com/piyushP7pravin/piyushP7pravin/blob/master/Twitter.svg" />
+
+
 
 This is the reprository for my Bachelor-Theisis at Konstanz University
 <br>  
