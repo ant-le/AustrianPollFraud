@@ -9,4 +9,3 @@ This is the reprository for my Bachelor-Theisis at Konstanz University
 - Mit welchen Daten könnte man das potentiell Herding-Verhalten anderer Institute und den Aufschwung durch die anfängliche Beliebtheit von Sebastian Kurz isolieren?
 - In welche Richtung gehen Effekte? 
     - WUrde Kurz wegen Umfragen beliebter oder waren die Umfragen wegen Beliebtheit von Sebastian Kurz hoch?
-
