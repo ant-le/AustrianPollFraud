@@ -8,5 +8,6 @@
         "**/.DS_Store": true,
         "**/.python-version": true,
         "**/__pycache__": true,
-        "**/.ipynb_checkpoints":true    }
+        "**/.ipynb_checkpoints":true,
+        "**/paper":true}
 }
