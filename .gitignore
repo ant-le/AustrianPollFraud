@@ -129,8 +129,8 @@ dmypy.json
 .pyre/
 
 # Visual Studio Code
-.vscode
+.vscode/* 
 
 # Paper Folder
 /paper
-.DS-Store
+.DS_Store
