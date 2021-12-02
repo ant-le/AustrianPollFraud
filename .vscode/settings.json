@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/Users/anton/.pyenv/versions/3.9.4/envs/bachelor/bin/python"
+    "python.pythonPath": "/Users/anton/.pyenv/versions/3.9.4/envs/bachelor/bin/python",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -9,5 +9,5 @@
         "**/.python-version": true,
         "**/__pycache__": true,
         "**/.ipynb_checkpoints":true,
-        "**/paper":true}
+        "**/paper":true},
 }
