@@ -130,6 +130,7 @@ dmypy.json
 
 # Visual Studio Code
 .vscode/* 
+.vscode/settings.json
 
 # Paper Folder
 /paper
