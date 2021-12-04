@@ -4,6 +4,24 @@ from pathlib import Path
 class Directories:
     
     def __init__(self):
-        pass
+        self.path = Path(__file__).parent.parent
+
     
-    Path(__file__).parent.parent # Directory Path
+    def analysisFolder(self):
+        return self.path / "data" / "analysis"
+    
+    
+    def rawFolder(self):
+        return self.path / "data" / "raw"
+    
+    
+    def replicationFolder(self):
+        return self.path / "data" / "replication"
+    
+    
+    def imageFolder(self):
+        return self.path / "images"
+    
+
+if __name__ == "__main__":
+    pass

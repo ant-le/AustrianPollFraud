@@ -1,16 +1,10 @@
 
+import logging
 import json
 import requests
 import pandas as pd
 from tqdm import tqdm
 
-import logging
-
-logging.basicConfig(
-    format="%(levelname)s\t %(asctime)s\t %(message)s",
-    datefmt="%m/%d/%Y %H:%M:%S",
-    level=logging.INFO, # change to logging.ERROR to only log errors
-)
 
 class Scraper:
     """
