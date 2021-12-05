@@ -1,0 +1,1304 @@
+id,regionID,region,institut,medium,n,f,datum,methode,p1Party,p1Value,p1Css,p2Party,p2Value,p2Css,p3Party,p3Value,p3Css,p4Party,p4Value,p4Css,p5Party,p5Value,p5Css,p6Party,p6Value,p6Css
+1591,1,�sterreich,Unique Research,profil,817,3.4,2020-06-13,Telefon und Online,�VP,44,ovp,SP�,17,spo,GR�NE,16,gru,FP�,14,fpo,NEOS,8,neo,So,1,and
+1590,1,�sterreich,Research Affairs,TZ �STERREICH,1000,3.1,2020-06-11,Online,�VP,42,ovp,SP�,19,spo,GR�NE,16,gru,FP�,12,fpo,NEOS,7,neo,DA�,3,strachepar
+1589,2,Wien,Unique Research,Heute,809,3.4,2020-06-05,Telefon und Online,SP�,38,spo,�VP,25,ovp,GR�NE,15,gru,FP�,8,fpo,NEOS,7,neo,DA�,5,strachepar
+1588,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2020-05-31,Online,�VP,43,ovp,SP�,18,spo,GR�NE,16,gru,FP�,12,fpo,NEOS,7,neo,DA�,3,strachepar
+1585,1,�sterreich,Market,Der Standard,1000,3.1,2020-05-23,Online,�VP,43,ovp,SP�,21,spo,GR�NE,17,gru,FP�,12,fpo,NEOS,6,neo,So,1,and
+1584,1,�sterreich,Unique Research,profil,802,3.4,2020-05-16,Telefon und Online,�VP,46,ovp,SP�,17,spo,GR�NE,15,gru,FP�,14,fpo,NEOS,6,neo,So,2,and
+1582,1,�sterreich,Market,Der Standard,1000,3.1,2020-05-15,Online,�VP,44,ovp,SP�,21,spo,GR�NE,17,gru,FP�,11,fpo,NEOS,6,neo,So,1,and
+1583,1,�sterreich,Research Affairs,TZ �STERREICH,1000,3.1,2020-05-14,Online,�VP,44,ovp,SP�,18,spo,GR�NE,17,gru,FP�,11,fpo,NEOS,7,neo,DA�,2,strachepar
+1581,1,�sterreich,Research Affairs,TZ �STERREICH,1000,3.1,2020-05-07,Online,�VP,45,ovp,GR�NE,18,gru,SP�,17,spo,FP�,10,fpo,NEOS,6,neo,DA�,3,strachepar
+1587,2,Wien,Research Affairs,TZ �STERREICH,400,4.9,2020-04-24,Online,SP�,37,spo,�VP,23,ovp,GR�NE,17,gru,FP�,9,fpo,NEOS,7,neo,DA�,5,strachepar
+1579,1,�sterreich,Market,Der Standard,1000,3.1,2020-04-23,Online,�VP,44,ovp,SP�,20,spo,GR�NE,18,gru,FP�,10,fpo,NEOS,7,neo,So,1,and
+1580,1,�sterreich,Research Affairs,TZ �STERREICH,1000,3.1,2020-04-23,Online,�VP,45,ovp,GR�NE,19,gru,SP�,16,spo,FP�,10,fpo,NEOS,6,neo,DA�,2,strachepar
+1586,2,Wien,OGM,Kronen Zeitung,791,3.4,2020-04-19,Telefon und Online,SP�,37,spo,�VP,24,ovp,GR�NE,17,gru,FP�,8,fpo,NEOS,7,neo,DA�,5,strachepar
+1578,1,�sterreich,Unique Research,profil,806,3.4,2020-04-16,Telefon und Online,�VP,48,ovp,SP�,16,spo,GR�NE,16,gru,FP�,13,fpo,NEOS,6,neo,So,1,and
+1577,1,�sterreich,Hajek,ATV,807,3.4,2020-04-15,Telefon und Online,�VP,46,ovp,SP�,17,spo,GR�NE,16,gru,FP�,10,fpo,NEOS,7,neo,DA�,3,strachepar
+1576,1,�sterreich,Market,Der Standard,1800,2.3,2020-04-13,Telefon und Online,�VP,44,ovp,SP�,19,spo,GR�NE,19,gru,FP�,11,fpo,NEOS,6,neo,So,1,and
+1573,1,�sterreich,Research Affairs,TZ �STERREICH,1000,3.1,2020-04-07,Onlinr,�VP,41,ovp,GR�NE,19,gru,SP�,18,spo,FP�,10,fpo,NEOS,7,neo,DA�,3,strachepar
+1575,1,�sterreich,OGM,Kurier,800,3.4,2020-04-04,Telefon und Online,�VP,45,ovp,GR�NE,18,gru,SP�,16,spo,FP�,12,fpo,NEOS,7,neo,So,2,and
+1572,1,�sterreich,Market,Der Standard,1000,3.1,2020-04-02,Online,�VP,43,ovp,GR�NE,19,gru,SP�,19,spo,FP�,11,fpo,NEOS,7,neo,So,1,and
+1571,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2020-03-13,Online,�VP,39,ovp,SP�,17,spo,GR�NE,17,gru,FP�,12,fpo,NEOS,9,neo,DA�,4,strachepar
+1574,1,�sterreich,Market,Der Standard,1000,3.1,2020-03-13,Online,�VP,40,ovp,SP�,20,spo,GR�NE,17,gru,FP�,13,fpo,NEOS,9,neo,So,1,and
+1570,2,Wien,Unique Research,Heute,800,3.4,2020-03-06,Telefon und Online,SP�,36,spo,�VP,22,ovp,GR�NE,19,gru,FP�,10,fpo,NEOS,6,neo,DA�,5,strachepar
+1568,2,Wien,OGM,Kronen Zeitung,0,0.0,2020-03-01,Telefon und Online,SP�,36,spo,�VP,21,ovp,GR�NE,18,gru,FP�,10,fpo,NEOS,8,neo,DA�,5,strachepar
+1569,2,Wien,Research Affairs,TZ �STERREICH,400,4.9,2020-03-01,Online,SP�,34,spo,�VP,20,ovp,GR�NE,17,gru,FP�,11,fpo,NEOS,9,neo,DA�,7,strachepar
+1557,1,�sterreich,Unique Research,profil,804,3.4,2020-02-15,Telefon und Online,�VP,38,ovp,GR�NE,17,gru,FP�,16,fpo,SP�,15,spo,NEOS,10,neo,So,4,and
+1556,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2020-02-13,Online,�VP,39,ovp,SP�,18,spo,GR�NE,17,gru,FP�,12,fpo,NEOS,9,neo,DA�,4,strachepar
+1555,1,�sterreich,Market,Der Standard,813,3.4,2020-02-10,Telefon und Online,�VP,39,ovp,SP�,19,spo,GR�NE,17,gru,FP�,15,fpo,NEOS,9,neo,So,1,and
+1553,1,�sterreich,Research Affairs,TZ �STERREICH,500,4.3,2020-02-01,Online,�VP,39,ovp,SP�,17,spo,GR�NE,17,gru,FP�,11,fpo,NEOS,10,neo,DA�,5,strachepar
+1554,1,�sterreich,Hajek,ATV,802,3.4,2020-01-31,Telefon und Online,�VP,40,ovp,SP�,18,spo,FP�,15,fpo,GR�NE,14,gru,NEOS,9,neo,DA�,3,strachepar
+1567,2,Wien,Karmasin Research & Identity,Puls4,1000,3.1,2020-01-29,Telefon und Online,SP�,35,spo,�VP,19,ovp,GR�NE,16,gru,FP�,13,fpo,NEOS,8,neo,DA�,7,strachepar
+1552,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2020-01-22,Online,�VP,39,ovp,GR�NE,17,gru,SP�,16,spo,FP�,12,fpo,NEOS,11,neo,DA�,4,strachepar
+1549,1,�sterreich,Karmasin Research & Identity,Kronen Zeitung,1000,3.1,2020-01-16,Online,�VP,39,ovp,SP�,17,spo,GR�NE,17,gru,FP�,15,fpo,NEOS,9,neo,So,3,and
+1551,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2020-01-16,Online,�VP,39,ovp,GR�NE,17,gru,SP�,16,spo,FP�,13,fpo,NEOS,10,neo,So,5,and
+1548,1,�sterreich,Unique Research,profil,806,3.4,2020-01-11,Telefon und Online,�VP,38,ovp,GR�NE,17,gru,SP�,16,spo,FP�,16,fpo,NEOS,10,neo,So,3,and
+1550,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2020-01-09,Online,�VP,39,ovp,SP�,17,spo,GR�NE,17,gru,FP�,12,fpo,NEOS,9,neo,So,0,and
+1566,2,Wien,Research Affairs,TZ �STERREICH,400,4.9,2020-01-09,Online,SP�,32,spo,�VP,21,ovp,GR�NE,17,gru,FP�,12,fpo,NEOS,10,neo,DA�,5,strachepar
+1565,2,Wien,OGM,W24,902,3.2,2019-12-20,Telefon und Online,SP�,35,spo,�VP,20,ovp,GR�NE,20,gru,FP�,14,fpo,NEOS,8,neo,So,3,and
+1546,1,�sterreich,Unique Research,profil,807,3.4,2019-12-14,Telefon und Online,�VP,39,ovp,SP�,18,spo,GR�NE,17,gru,FP�,15,fpo,NEOS,10,neo,So,1,and
+1547,1,�sterreich,Research Affairs,TZ �STERREICH,1001,3.1,2019-12-13,Online,�VP,38,ovp,SP�,17,spo,GR�NE,16,gru,FP�,14,fpo,NEOS,9,neo,DA�,3,strachepar
+1545,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2019-12-05,Online,�VP,39,ovp,SP�,17,spo,GR�NE,16,gru,FP�,14,fpo,NEOS,10,neo,So,4,and
+1564,2,Wien,Research Affairs,TZ �STERREICH,400,4.9,2019-12-05,Online,SP�,33,spo,�VP,20,ovp,GR�NE,17,gru,FP�,14,fpo,NEOS,10,neo,DA�,4,strachepar
+1544,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2019-11-28,Online,�VP,38,ovp,SP�,18,spo,GR�NE,16,gru,FP�,14,fpo,NEOS,10,neo,So,4,and
+1543,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2019-11-21,Online,�VP,38,ovp,SP�,20,spo,GR�NE,16,gru,FP�,14,fpo,NEOS,9,neo,So,3,and
+1537,5,Steiermark,Market,Der Standard,774,3.5,2019-11-16,Telefon und Online,�VP,32,ovp,SP�,25,spo,FP�,18,fpo,GR�NE,13,gru,NEOS,7,neo,KP�,5,kpo
+1538,5,Steiermark,Karmasin Research & Identity,Puls4,700,3.7,2019-11-15,Telefon und Onlin,�VP,35,ovp,SP�,22,spo,FP�,20,fpo,GR�NE,13,gru,KP�,6,kpo,NEOS,4,neo
+1542,1,�sterreich,Unique Research,profil,817,3.4,2019-11-15,Telefon und Online,�VP,38,ovp,SP�,19,spo,FP�,17,fpo,GR�NE,16,gru,NEOS,9,neo,So,1,and
+1540,1,�sterreich,Karmasin Research & Identity,Puls4,3000,1.8,2019-11-14,Telefon und Online,�VP,38,ovp,SP�,20,spo,FP�,15,fpo,GR�NE,15,gru,NEOS,9,neo,So,3,and
+1541,1,�sterreich,Research Affairs,TZ �STERREICH,844,3.3,2019-11-14,Online,�VP,38,ovp,SP�,20,spo,GR�NE,16,gru,FP�,15,fpo,NEOS,8,neo,So,3,and
+1535,5,Steiermark,IMAS,Kronen Zeitung,804,3.4,2019-11-10,Telefon und Online,�VP,33,ovp,SP�,25,spo,FP�,21,fpo,GR�NE,12,gru,NEOS,5,neo,KP�,4,kpo
+1539,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2019-11-07,Online,�VP,37,ovp,SP�,20,spo,GR�NE,16,gru,FP�,15,fpo,NEOS,9,neo,So,3,and
+1563,2,Wien,Unique Research,N/A,0,0.0,2019-11-02,,SP�,36,spo,�VP,20,ovp,GR�NE,18,gru,FP�,16,fpo,NEOS,8,neo,So,2,and
+1532,1,�sterreich,Research Affairs,TZ �STERREICH,788,3.5,2019-11-01,Online,�VP,38,ovp,SP�,19,spo,GR�NE,16,gru,FP�,15,fpo,NEOS,9,neo,So,3,and
+1536,5,Steiermark,Research Affairs,TZ �STERREICH,400,4.9,2019-11-01,Online,�VP,36,ovp,SP�,21,spo,FP�,21,fpo,GR�NE,13,gru,NEOS,5,neo,KP�,4,kpo
+1531,1,�sterreich,Research Affairs,TZ �STERREICH,1000,3.1,2019-10-25,Online,�VP,38,ovp,SP�,19,spo,GR�NE,15,gru,FP�,15,fpo,NEOS,9,neo,So,4,and
+1534,5,Steiermark,OGM,Kurier,746,3.6,2019-10-22,,�VP,35,ovp,SP�,21,spo,FP�,20,fpo,GR�NE,12,gru,KP�,5,kpo,NEOS,5,neo
+1530,1,�sterreich,Research Affairs,oe24.at,1001,3.1,2019-10-17,Online,�VP,38,ovp,SP�,20,spo,FP�,15,fpo,GR�NE,15,gru,NEOS,8,neo,So,4,and
+1525,1,�sterreich,OGM,ServusTV,1006,3.1,2019-09-26,Telefon und Online,�VP,34,ovp,SP�,22,spo,FP�,20,fpo,GR�NE,12,gru,NEOS,8,neo,JETZT,2,pilz
+1524,1,�sterreich,Hajek,Puls4,3021,1.8,2019-09-22,Telefon und Online,�VP,34,ovp,SP�,22,spo,FP�,20,fpo,GR�NE,13,gru,NEOS,8,neo,JETZT,2,pilz
+1526,1,�sterreich,Market,Weekend Magazin,800,3.4,2019-09-18,Telefon und online,�VP,34,ovp,SP�,22,spo,FP�,21,fpo,GR�NE,10,gru,NEOS,10,neo,JETZT,2,pilz
+1527,1,�sterreich,Karmasin Research & Identity,Puls4,3000,1.8,2019-09-18,Telefon und online,�VP,34,ovp,SP�,22,spo,FP�,20,fpo,GR�NE,13,gru,NEOS,9,neo,JETZT,1,pilz
+1522,1,�sterreich,Unique Research,Heute,2402,2.0,2019-09-14,Telefon und Online,�VP,33,ovp,SP�,22,spo,FP�,20,fpo,GR�NE,13,gru,NEOS,8,neo,JETZT,2,pilz
+1523,1,�sterreich,OGM,Kurier,2167,2.1,2019-09-14,Telefon und Online,�VP,35,ovp,SP�,22,spo,FP�,20,fpo,GR�NE,11,gru,NEOS,8,neo,JETZT,2,pilz
+1521,1,�sterreich,Karmasin Research & Identity,Puls4,3000,1.8,2019-09-12,Telefon und Online,�VP,35,ovp,SP�,22,spo,FP�,19,fpo,GR�NE,12,gru,NEOS,9,neo,JETZT,2,pilz
+1520,1,�sterreich,Market,Der Standard,800,3.4,2019-09-07,Telefon und Online,�VP,34,ovp,SP�,22,spo,FP�,21,fpo,GR�NE,11,gru,NEOS,9,neo,JETZT,2,pilz
+1533,5,Steiermark,OGM,Kleine Zeitung,512,4.3,2019-09-07,Telefon,�VP,31,ovp,FP�,26,fpo,SP�,23,spo,GR�NE,7,gru,KP�,5,kpo,NEOS,4,neo
+1519,1,�sterreich,Karmasin Research & Identity,Puls4,3000,1.8,2019-09-06,Telefon und Online,�VP,35,ovp,SP�,21,spo,FP�,20,fpo,GR�NE,12,gru,NEOS,9,neo,JETZT,1,pilz
+1518,1,�sterreich,Unique Research,profil,800,3.4,2019-08-24,Telefon und Online,�VP,36,ovp,SP�,20,spo,FP�,20,fpo,GR�NE,12,gru,NEOS,9,neo,JETZT,1,pilz
+1517,1,�sterreich,OGM,Kurier,812,3.4,2019-08-14,Telefon und Online,�VP,35,ovp,SP�,23,spo,FP�,20,fpo,GR�NE,11,gru,NEOS,8,neo,JETZT,2,pilz
+1529,1,�sterreich,Market,Der Standard,800,3.4,2019-08-11,Telefon und Online,�VP,35,ovp,SP�,22,spo,FP�,20,fpo,GR�NE,10,gru,NEOS,10,neo,JETZT,2,pilz
+1516,5,Steiermark,OGM,Kronen Zeitung,752,3.5,2019-08-04,Telefon,�VP,33,ovp,FP�,27,fpo,SP�,20,spo,GR�NE,10,gru,KP�,5,kpo,NEOS,4,neo
+1515,1,�sterreich,Research Affairs,TZ �STERREICH,502,4.3,2019-08-02,Online,�VP,36,ovp,SP�,22,spo,FP�,20,fpo,GR�NE,12,gru,NEOS,7,neo,JETZT,1,pilz
+1514,1,�sterreich,Research Affairs,TZ �STERREICH,504,4.3,2019-07-25,Online,�VP,36,ovp,SP�,22,spo,FP�,20,fpo,GR�NE,12,gru,NEOS,7,neo,JETZT,1,pilz
+1513,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2019-07-19,Online,�VP,37,ovp,SP�,22,spo,FP�,19,fpo,GR�NE,12,gru,NEOS,7,neo,JETZT,1,pilz
+1562,2,Wien,Research Affairs,TZ �STERREICH,403,4.8,2019-07-19,Online,SP�,34,spo,FP�,24,fpo,�VP,16,ovp,GR�NE,12,gru,NEOS,8,neo,JETZT,3,pilz
+1511,1,�sterreich,Research Affairs,TZ �STERREICH,501,4.3,2019-07-13,Online,�VP,37,ovp,SP�,22,spo,FP�,18,fpo,GR�NE,12,gru,NEOS,8,neo,JETZT,1,pilz
+1512,1,�sterreich,Unique Research,profil,800,3.4,2019-07-13,Telefon und Online,�VP,37,ovp,FP�,21,fpo,SP�,20,spo,GR�NE,11,gru,NEOS,9,neo,JETZT,1,pilz
+1510,1,�sterreich,IFES,Kronen Zeitung,1200,2.8,2019-07-11,Telefon und Online,�VP,37,ovp,SP�,23,spo,FP�,19,fpo,GR�NE,11,gru,NEOS,8,neo,JETZT,1,pilz
+1509,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2019-07-06,Online,�VP,37,ovp,SP�,22,spo,FP�,18,fpo,GR�NE,11,gru,NEOS,8,neo,JETZT,2,pilz
+1508,1,�sterreich,Hajek,ATV,800,3.4,2019-07-01,Telefon und Online,�VP,38,ovp,SP�,20,spo,FP�,20,fpo,GR�NE,11,gru,NEOS,9,neo,JETZT,1,pilz
+1507,1,�sterreich,SORA,ORF,1089,2.9,2019-06-19,Telefon und Online,�VP,38,ovp,SP�,21,spo,FP�,18,fpo,GR�NE,12,gru,NEOS,8,neo,JETZT,1,pilz
+1504,1,�sterreich,Research Affairs,TZ �STERREICH,1000,3.1,2019-06-06,Online,�VP,38,ovp,SP�,23,spo,FP�,17,fpo,NEOS,9,neo,GR�NE,9,gru,JETZT,1,pilz
+1506,1,�sterreich,Unique Research,profil,800,3.4,2019-06-06,Telefon und Online,�VP,37,ovp,FP�,21,fpo,SP�,20,spo,NEOS,10,neo,GR�NE,10,gru,JETZT,1,pilz
+1501,1,�sterreich,Research Affairs,TZ �STERREICH,500,4.3,2019-06-02,Online,�VP,38,ovp,SP�,23,spo,FP�,17,fpo,NEOS,10,neo,GR�NE,8,gru,JETZT,1,pilz
+1505,1,�sterreich,Unique Research,Kronen Zeitung,954,3.1,2019-06-02,Telefon und Online,�VP,38,ovp,SP�,21,spo,FP�,19,fpo,NEOS,10,neo,GR�NE,10,gru,JETZT,1,pilz
+1503,1,�sterreich,OGM,Kleine Zeitung,805,3.4,2019-06-01,Telefon,�VP,36,ovp,SP�,22,spo,FP�,21,fpo,GR�NE,10,gru,NEOS,8,neo,JETZT,2,pilz
+1500,1,�sterreich,Research Affairs,TZ �STERREICH,500,4.3,2019-05-20,Online,�VP,38,ovp,SP�,26,spo,FP�,18,fpo,NEOS,9,neo,GR�NE,5,gru,So,4,and
+1499,44,�sterreich_EU,Unique Research,profil,2405,2.0,2019-05-10,Telefon und Online,�VP,30,ovp,SP�,27,spo,FP�,23,fpo,GR�NE,10,gru,NEOS,8,neo,JETZT,1,pilz
+1498,44,�sterreich_EU,OGM,Kurier,860,3.3,2019-05-05,Telefon und Online,�VP,31,ovp,SP�,28,spo,FP�,25,fpo,NEOS,7,neo,GR�NE,7,gru,JETZT,2,pilz
+1495,44,�sterreich_EU,Research Affairs,TZ �STERREICH,1002,3.1,2019-05-02,Telefon und Online,�VP,29,ovp,SP�,27,spo,FP�,23,fpo,NEOS,10,neo,GR�NE,7,gru,JETZT,2,pilz
+1494,4,Ober�sterreich,IFES,Heute,1000,3.1,2019-04-29,Telefon und Online,�VP,38,ovp,FP�,24,fpo,SP�,21,spo,GR�NE,9,gru,NEOS,4,neo,So,4,and
+1497,44,�sterreich_EU,Research Affairs,TZ �STERREICH,1007,3.1,2019-04-18,Online,�VP,29,ovp,SP�,27,spo,FP�,22,fpo,NEOS,10,neo,GR�NE,7,gru,JETZT,2,pilz
+1492,1,�sterreich,Unique Research,profil,800,3.4,2019-04-13,Telefon und Online,�VP,34,ovp,SP�,28,spo,FP�,22,fpo,NEOS,7,neo,GR�NE,5,gru,JETZT,2,pilz
+1493,1,�sterreich,Research Affairs,TZ �STERREICH,1001,3.1,2019-04-05,Online,�VP,34,ovp,SP�,24,spo,FP�,23,fpo,NEOS,8,neo,GR�NE,5,gru,JETZT,3,pilz
+1496,44,�sterreich_EU,Research Affairs,TZ �STERREICH,1001,3.1,2019-04-04,Online,�VP,29,ovp,SP�,26,spo,FP�,22,fpo,NEOS,9,neo,GR�NE,8,gru,JETZT,3,pilz
+1560,2,Wien,Demox Research,�VP,492,4.4,2019-03-31,,SP�,39,spo,FP�,24,fpo,�VP,16,ovp,GR�NE,9,gru,NEOS,8,neo,JETZT,2,pilz
+1561,2,Wien,Unique Research,Kronen Zeitung,800,3.4,2019-03-30,Telefon und Online,SP�,37,spo,FP�,21,fpo,�VP,17,ovp,GR�NE,14,gru,NEOS,8,neo,So,3,and
+1490,9,Vorarlberg,SORA,Die Gr�nen Vorarlberg,841,3.3,2019-03-24,Telefon,�VP,45,ovp,FP�,21,fpo,GR�NE,13,gru,NEOS,11,neo,SP�,9,spo,So,1,and
+1488,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2019-03-23,Online,�VP,34,ovp,FP�,25,fpo,SP�,24,spo,NEOS,7,neo,GR�NE,5,gru,JETZT,3,pilz
+1489,44,�sterreich_EU,Research Affairs,TZ �STERREICH,1002,3.1,2019-03-23,Online,�VP,28,ovp,SP�,26,spo,FP�,23,fpo,NEOS,8,neo,GR�NE,8,gru,JETZT,3,pilz
+1491,1,�sterreich,Unique Research,profil,800,3.4,2019-03-16,Telefon und Online,�VP,34,ovp,SP�,25,spo,FP�,24,fpo,NEOS,8,neo,GR�NE,6,gru,JETZT,2,pilz
+1485,1,�sterreich,Research Affairs,TZ �STERREICH,1001,3.1,2019-03-08,Telefon und Online,�VP,34,ovp,SP�,24,spo,FP�,24,fpo,NEOS,7,neo,GR�NE,6,gru,JETZT,3,pilz
+1486,44,�sterreich_EU,Research Affairs,TZ �STERREICH,1001,3.1,2019-03-08,Online,�VP,28,ovp,SP�,26,spo,FP�,23,fpo,GR�NE,9,gru,NEOS,9,neo,JETZT,2,pilz
+1487,1,�sterreich,Unique Research,Heute,800,3.4,2019-03-08,Telefon und Online,�VP,33,ovp,SP�,27,spo,FP�,24,fpo,NEOS,7,neo,GR�NE,6,gru,JETZT,2,pilz
+1484,1,�sterreich,Hajek,ATV,800,3.4,2019-03-01,Telefon und Online,�VP,34,ovp,SP�,27,spo,FP�,23,fpo,NEOS,8,neo,GR�NE,6,gru,JETZT,1,pilz
+1481,1,�sterreich,Unique Research,profil,800,3.4,2019-02-16,Telefon und Online,�VP,32,ovp,SP�,26,spo,FP�,25,fpo,NEOS,8,neo,GR�NE,6,gru,JETZT,1,pilz
+1483,1,�sterreich,Demox Research,Die Presse,1000,3.1,2019-02-16,Telefon und Online,�VP,34,ovp,SP�,27,spo,FP�,22,fpo,NEOS,9,neo,GR�NE,5,gru,JETZT,2,pilz
+1480,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2019-02-10,Online,�VP,34,ovp,SP�,25,spo,FP�,23,fpo,NEOS,7,neo,GR�NE,5,gru,JETZT,3,pilz
+1479,44,�sterreich_EU,Research Affairs,TZ �STERREICH,1002,3.1,2019-02-08,Online,�VP,27,ovp,SP�,26,spo,FP�,22,fpo,NEOS,10,neo,GR�NE,7,gru,JETZT,4,pilz
+1482,5,Steiermark,Market,Der Standard,793,3.4,2019-02-04,Telefon und Online,�VP,30,ovp,SP�,27,spo,FP�,24,fpo,GR�NE,9,gru,KP�,4,kpo,NEOS,4,neo
+1559,2,Wien,Research Affairs,TZ �STERREICH,409,4.8,2019-01-24,Online,SP�,36,spo,FP�,26,fpo,�VP,16,ovp,NEOS,10,neo,GR�NE,8,gru,JETZT,2,pilz
+1478,1,�sterreich,Unique Research,profil,800,3.4,2019-01-12,,�VP,35,ovp,SP�,27,spo,FP�,21,fpo,NEOS,8,neo,GR�NE,6,gru,JETZT,2,pilz
+1477,44,�sterreich_EU,Research Affairs,TZ �STERREICH,1001,3.1,2018-12-16,Online,�VP,27,ovp,SP�,26,spo,FP�,23,fpo,NEOS,9,neo,GR�NE,7,gru,JETZT,2,pilz
+1472,1,�sterreich,Unique Research,profil,800,3.4,2018-12-15,Telefon und Online,�VP,35,ovp,SP�,26,spo,FP�,22,fpo,NEOS,8,neo,GR�NE,6,gru,JETZT,2,pilz
+1474,1,�sterreich,Market,Der Standard,804,3.4,2018-12-15,Telefon,�VP,34,ovp,SP�,27,spo,FP�,24,fpo,NEOS,7,neo,GR�NE,5,gru,JETZT,2,pilz
+1473,1,�sterreich,Hajek,ATV,800,3.4,2018-12-13,Telefon und online,�VP,35,ovp,SP�,26,spo,FP�,22,fpo,NEOS,9,neo,GR�NE,5,gru,JETZT,3,pilz
+1476,1,�sterreich,Unique Research,Heute,805,3.4,2018-12-07,Telefon und Online,�VP,33,ovp,SP�,26,spo,FP�,22,fpo,NEOS,9,neo,GR�NE,6,gru,JETZT,3,pilz
+1558,2,Wien,Unique Research,Heute,800,3.4,2018-11-18,Telefon und Online,SP�,37,spo,FP�,25,fpo,�VP,17,ovp,GR�NE,10,gru,NEOS,8,neo,So,3,and
+1467,1,�sterreich,Unique Research,profil,800,3.4,2018-11-17,Telefon und Online,�VP,35,ovp,FP�,24,fpo,SP�,24,spo,NEOS,9,neo,GR�NE,5,gru,JETZT,2,pilz
+1468,1,�sterreich,Spectra,Eigenauftrag,1025,3.0,2018-11-17,Face2Face,�VP,33,ovp,FP�,26,fpo,SP�,25,spo,NEOS,6,neo,JETZT,5,pilz,GR�NE,4,gru
+1471,44,�sterreich_EU,Research Affairs,TZ �STERREICH,1001,3.1,2018-11-15,Online,�VP,27,ovp,SP�,26,spo,FP�,24,fpo,NEOS,8,neo,GR�NE,7,gru,JETZT,3,pilz
+1475,1,�sterreich,Research Affairs,TZ �STERREICH,1001,3.1,2018-11-15,Online,�VP,34,ovp,SP�,25,spo,FP�,24,fpo,NEOS,6,neo,GR�NE,5,gru,JETZT,3,pilz
+1464,1,�sterreich,Research Affairs,TZ �STERREICH,1004,3.1,2018-11-02,Online,�VP,34,ovp,SP�,25,spo,FP�,25,fpo,NEOS,7,neo,GR�NE,4,gru,JETZT,2,pilz
+1466,1,�sterreich,Hajek,ATV,1000,3.1,2018-11-02,Telefon und Online,�VP,33,ovp,SP�,25,spo,FP�,25,fpo,NEOS,7,neo,GR�NE,6,gru,JETZT,2,pilz
+1463,1,�sterreich,Research Affairs,TZ �STERREICH,1001,3.1,2018-10-19,Online,�VP,34,ovp,SP�,26,spo,FP�,24,fpo,NEOS,7,neo,GR�NE,4,gru,JETZT,2,pilz
+1470,44,�sterreich_EU,Research Affairs,TZ �STERREICH,1001,3.1,2018-10-18,Online,�VP,27,ovp,SP�,26,spo,FP�,24,fpo,NEOS,9,neo,GR�NE,6,gru,JETZT,3,pilz
+1462,1,�sterreich,OGM,Kurier,802,3.4,2018-10-14,Telefon und Online,�VP,34,ovp,SP�,26,spo,FP�,26,fpo,NEOS,6,neo,GR�NE,4,gru,JETZT,2,pilz
+1461,1,�sterreich,Unique Research,profil,800,3.4,2018-10-13,Telefon und Online,�VP,34,ovp,SP�,26,spo,FP�,25,fpo,NEOS,7,neo,GR�NE,5,gru,JETZT,2,pilz
+1460,1,�sterreich,Research Affairs,TZ �STERREICH,1003,3.1,2018-10-05,Online,�VP,34,ovp,SP�,27,spo,FP�,23,fpo,NEOS,7,neo,GR�NE,4,gru,JETZT,2,pilz
+1459,1,�sterreich,Market,Der Standard,804,3.4,2018-09-29,Telefon,�VP,33,ovp,SP�,28,spo,FP�,23,fpo,NEOS,8,neo,GR�NE,5,gru,JETZT,2,pilz
+1457,1,�sterreich,Research Affairs,TZ �STERREICH,506,4.3,2018-09-21,Online,�VP,34,ovp,SP�,24,spo,FP�,24,fpo,NEOS,8,neo,GR�NE,4,gru,JETZT,2,pilz
+1469,44,�sterreich_EU,Research Affairs,TZ �STERREICH,506,4.3,2018-09-21,Online,�VP,28,ovp,SP�,28,spo,FP�,24,fpo,NEOS,9,neo,GR�NE,5,gru,JETZT,1,pilz
+1455,1,�sterreich,Unique Research,profil,800,3.4,2018-09-15,Telefon und Online,�VP,34,ovp,SP�,28,spo,FP�,25,fpo,NEOS,7,neo,GR�NE,4,gru,JETZT,1,pilz
+1458,4,Ober�sterreich,Spectra,O�N,800,3.4,2018-09-15,Telefon,�VP,39,ovp,FP�,27,fpo,SP�,16,spo,GR�NE,7,gru,NEOS,3,neo,So,8,and
+1451,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2018-09-09,Online,�VP,33,ovp,SP�,27,spo,FP�,23,fpo,NEOS,7,neo,JETZT,3,pilz,GR�NE,3,gru
+1452,2,Wien,Research Affairs,TZ �STERREICH,415,4.8,2018-09-09,Online,SP�,35,spo,FP�,28,fpo,�VP,18,ovp,NEOS,8,neo,GR�NE,6,gru,JETZT,2,pilz
+1453,44,�sterreich_EU,Research Affairs,TZ �STERREICH,1002,3.1,2018-09-09,Online,�VP,28,ovp,SP�,27,spo,FP�,24,fpo,NEOS,9,neo,GR�NE,5,gru,JETZT,2,pilz
+1454,1,�sterreich,Unique Research,Heute,800,3.4,2018-09-07,Telefon und Online,�VP,33,ovp,SP�,29,spo,FP�,23,fpo,NEOS,7,neo,GR�NE,5,gru,JETZT,2,pilz
+1450,1,�sterreich,Market,Der Standard,800,3.4,2018-08-28,Telefon und Online,�VP,33,ovp,SP�,28,spo,FP�,23,fpo,NEOS,7,neo,GR�NE,6,gru,JETZT,2,pilz
+1449,1,�sterreich,Research Affairs,TZ �STERREICH,1001,3.1,2018-08-24,Online,�VP,33,ovp,SP�,26,spo,FP�,23,fpo,NEOS,8,neo,GR�NE,3,gru,JETZT,3,pilz
+1447,1,�sterreich,Unique Research,profil,800,3.4,2018-08-11,Online,�VP,34,ovp,SP�,29,spo,FP�,23,fpo,NEOS,5,neo,GR�NE,4,gru,JETZT,2,pilz
+1448,1,�sterreich,Research Affairs,TZ �STERREICH,1002,3.1,2018-08-10,Online,�VP,33,ovp,SP�,27,spo,FP�,24,fpo,NEOS,7,neo,GR�NE,3,gru,JETZT,2,pilz
+1445,1,�sterreich,Spectra,Eigenauftrag,983,3.1,2018-07-14,Face-to-face,�VP,34,ovp,FP�,28,fpo,SP�,26,spo,NEOS,4,neo,JETZT,4,pilz,GR�NE,3,gru
+1446,1,�sterreich,Unique Research,profil,800,3.4,2018-07-14,Telefon und Online,�VP,34,ovp,SP�,29,spo,FP�,24,fpo,NEOS,5,neo,GR�NE,4,gru,JETZT,2,pilz
+1442,1,�sterreich,OGM,Kurier,806,3.4,2018-07-01,,�VP,33,ovp,SP�,28,spo,FP�,25,fpo,NEOS,6,neo,GR�NE,5,gru,JETZT,2,pilz
+1441,1,�sterreich,Research Affairs,TZ �STERREICH,1004,3.1,2018-06-28,Online,�VP,33,ovp,SP�,26,spo,FP�,25,fpo,NEOS,6,neo,GR�NE,5,gru,JETZT,2,pilz
+1440,1,�sterreich,Unique Research,profil,800,3.4,2018-06-23,Telefon und Online,�VP,33,ovp,SP�,27,spo,FP�,25,fpo,NEOS,7,neo,GR�NE,4,gru,JETZT,3,pilz
+1439,1,�sterreich,Market,Der Standard,800,3.4,2018-06-21,CATI,�VP,34,ovp,SP�,26,spo,FP�,25,fpo,NEOS,7,neo,GR�NE,5,gru,JETZT,2,pilz
+1438,1,�sterreich,Research Affairs,TZ �STERREICH,1004,3.1,2018-06-15,Online,�VP,33,ovp,SP�,26,spo,FP�,25,fpo,NEOS,5,neo,GR�NE,5,gru,JETZT,2,pilz
+1465,1,�sterreich,Hajek,ATV,700,3.7,2018-06-15,Telefon und Online,�VP,34,ovp,SP�,26,spo,FP�,25,fpo,NEOS,8,neo,GR�NE,4,gru,JETZT,1,pilz
+1437,1,�sterreich,Unique Research,Heute,800,3.4,2018-06-08,Telefon und Online,�VP,33,ovp,SP�,27,spo,FP�,25,fpo,NEOS,8,neo,GR�NE,4,gru,JETZT,1,pilz
+1444,1,�sterreich,Spectra,Eigenauftrag,1001,3.1,2018-06-06,Face-to-face,�VP,33,ovp,FP�,28,fpo,SP�,27,spo,NEOS,4,neo,JETZT,4,pilz,GR�NE,3,gru
+1436,1,�sterreich,Research Affairs,TZ �STERREICH,1003,3.1,2018-06-01,Online,�VP,32,ovp,SP�,26,spo,FP�,24,fpo,NEOS,5,neo,GR�NE,5,gru,JETZT,3,pilz
+1434,1,�sterreich,IMAS,IMAS,1007,3.1,2018-05-31,Face-to-face,�VP,33,ovp,SP�,28,spo,FP�,26,fpo,NEOS,5,neo,GR�NE,5,gru,JETZT,2,pilz
+1435,1,�sterreich,Unique Research,profil,800,3.4,2018-05-26,Telefon und Online,�VP,32,ovp,SP�,25,spo,FP�,25,fpo,NEOS,7,neo,GR�NE,6,gru,JETZT,4,pilz
+1433,1,�sterreich,Research Affairs,TZ �STERREICH,1008,3.1,2018-05-18,Online,�VP,32,ovp,SP�,27,spo,FP�,23,fpo,NEOS,6,neo,GR�NE,5,gru,JETZT,3,pilz
+1432,1,�sterreich,Spectra,O�N,997,3.1,2018-05-11,Face-to-face,�VP,31,ovp,FP�,29,fpo,SP�,27,spo,JETZT,6,pilz,NEOS,4,neo,GR�NE,2,gru
+1431,1,�sterreich,Research Affairs,TZ �STERREICH,1005,3.1,2018-05-04,Online,�VP,32,ovp,SP�,28,spo,FP�,24,fpo,NEOS,7,neo,GR�NE,4,gru,JETZT,2,pilz
+1443,1,�sterreich,Spectra,Eigenauftrag,1011,3.1,2018-04-30,Face-to-face,�VP,34,ovp,SP�,28,spo,FP�,27,fpo,NEOS,5,neo,JETZT,4,pilz,GR�NE,1,gru
+1430,1,�sterreich,Hajek,ATV,700,3.7,2018-04-27,Telefon und Online,�VP,33,ovp,FP�,26,fpo,SP�,26,spo,NEOS,8,neo,GR�NE,4,gru,JETZT,2,pilz
+1425,1,�sterreich,Research Affairs,TZ �STERREICH,1004,3.1,2018-04-20,Online,�VP,32,ovp,SP�,27,spo,FP�,24,fpo,NEOS,7,neo,GR�NE,5,gru,JETZT,2,pilz
+1456,4,Ober�sterreich,Spectra,O�N,800,3.4,2018-04-18,Telefon,�VP,42,ovp,FP�,31,fpo,SP�,17,spo,GR�NE,6,gru,NEOS,3,neo,,,
+1422,1,�sterreich,Unique Research,profil,500,4.3,2018-04-14,Telefon und Online,�VP,33,ovp,SP�,27,spo,FP�,24,fpo,NEOS,6,neo,GR�NE,6,gru,JETZT,2,pilz
+1421,1,�sterreich,Research Affairs,TZ �STERREICH,1008,3.1,2018-04-07,Online,�VP,32,ovp,SP�,28,spo,FP�,23,fpo,NEOS,7,neo,GR�NE,4,gru,JETZT,3,pilz
+1428,7,Salzburg,GMK,Mein Bezirk,900,3.2,2018-04-04,Telefon,�VP,40,ovp,SP�,21,spo,FP�,18,fpo,GR�NE,11,gru,NEOS,6,neo,FPS,2,fpssbg
+1420,1,�sterreich,Market,Der Standard,811,3.4,2018-04-03,Telefon und Online,�VP,32,ovp,SP�,28,spo,FP�,25,fpo,NEOS,8,neo,GR�NE,4,gru,JETZT,2,pilz
+1429,7,Salzburg,IMAS,Salzburger Nachrichten,800,3.4,2018-03-29,Telefon,�VP,34,ovp,SP�,25,spo,FP�,17,fpo,GR�NE,16,gru,NEOS,6,neo,So,3,and
+1419,1,�sterreich,IMAS,Kronen Zeitung,2073,2.1,2018-03-25,Telefon und Face-to-Face,�VP,32,ovp,SP�,28,spo,FP�,25,fpo,NEOS,7,neo,GR�NE,3,gru,JETZT,2,pilz
+1416,1,�sterreich,Research Affairs,TZ �STERREICH,1008,3.1,2018-03-23,Online,�VP,32,ovp,SP�,28,spo,FP�,22,fpo,NEOS,6,neo,GR�NE,5,gru,JETZT,3,pilz
+1417,1,�sterreich,Unique Research,Heute,800,3.4,2018-03-23,Telefon und Online,�VP,32,ovp,SP�,30,spo,FP�,23,fpo,NEOS,8,neo,GR�NE,4,gru,JETZT,2,pilz
+1418,1,�sterreich,OGM,ServusTV,519,4.3,2018-03-23,Telefon und Online,�VP,32,ovp,SP�,28,spo,FP�,24,fpo,NEOS,7,neo,GR�NE,5,gru,JETZT,3,pilz
+1414,1,�sterreich,Unique Research,profil,500,4.3,2018-03-18,Telefon,�VP,31,ovp,SP�,28,spo,FP�,25,fpo,NEOS,7,neo,GR�NE,6,gru,JETZT,3,pilz
+1415,5,Steiermark,bmm,Kronen Zeitung,510,4.3,2018-03-18,,�VP,34,ovp,FP�,26,fpo,SP�,26,spo,GR�NE,6,gru,NEOS,5,neo,KP�,3,kpo
+1412,7,Salzburg,IMAS,Kronen Zeitung,800,3.4,2018-03-08,Telefon,�VP,32,ovp,SP�,24,spo,FP�,19,fpo,GR�NE,15,gru,NEOS,8,neo,SBG,1,teamsbg
+1413,1,�sterreich,Research Affairs,TZ �STERREICH,1048,3.0,2018-03-08,Online,�VP,32,ovp,SP�,27,spo,FP�,24,fpo,NEOS,6,neo,GR�NE,4,gru,JETZT,3,pilz
+1410,8,K�rnten,OGM,Kleine Zeitung,786,3.5,2018-02-22,Telefon,SP�,44,spo,FP�,24,fpo,�VP,18,ovp,TK,5,tkktn,NEOS,5,neo,GR�NE,3,gru
+1411,1,�sterreich,Research Affairs,TZ �STERREICH,1010,3.1,2018-02-22,Online,�VP,31,ovp,SP�,26,spo,FP�,24,fpo,NEOS,7,neo,GR�NE,5,gru,JETZT,3,pilz
+1409,10,Tirol,IFAP,Kronen Zeitung,600,4.0,2018-02-18,,�VP,40,ovp,FP�,17,fpo,SP�,16,spo,GR�NE,12,gru,NEOS,7,neo,FRITZ,6,lfr
+1408,1,�sterreich,Unique Research,profil,500,4.3,2018-02-17,Telefon und Online,�VP,33,ovp,FP�,26,fpo,SP�,26,spo,NEOS,7,neo,GR�NE,5,gru,JETZT,2,pilz
+1407,1,�sterreich,Research Affairs,TZ �STERREICH,1001,3.1,2018-02-08,Online,�VP,31,ovp,SP�,26,spo,FP�,25,fpo,NEOS,6,neo,GR�NE,5,gru,JETZT,3,pilz
+1405,9,Vorarlberg,Edwin Berndt,Vorarlberger Nachrichten,501,4.3,2018-01-27,"Telefon, Online und Face-to-Face",�VP,42,ovp,FP�,24,fpo,SP�,12,spo,GR�NE,12,gru,NEOS,7,neo,So,3,and
+1406,1,�sterreich,Research Affairs,TZ �STERREICH,997,3.1,2018-01-27,Online,�VP,31,ovp,SP�,27,spo,FP�,26,fpo,NEOS,6,neo,GR�NE,4,gru,JETZT,3,pilz
+1403,1,�sterreich,Unique Research,profil,500,4.3,2018-01-21,Telefon,�VP,34,ovp,SP�,27,spo,FP�,25,fpo,NEOS,6,neo,GR�NE,4,gru,JETZT,3,pilz
+1404,3,Nieder�sterreich,OGM,Kurier,831,3.4,2018-01-21,Telefon,�VP,45,ovp,SP�,26,spo,FP�,19,fpo,GR�NE,5,gru,NEOS,5,neo,,,
+1401,3,Nieder�sterreich,Research Affairs,TZ �STERREICH,413,4.8,2018-01-19,Online,�VP,45,ovp,SP�,23,spo,FP�,21,fpo,GR�NE,5,gru,NEOS,5,neo,So,1,and
+1402,2,Wien,Unique Research,Heute,500,4.3,2018-01-16,Telefon und Online,SP�,34,spo,�VP,22,ovp,FP�,20,fpo,GR�NE,8,gru,NEOS,8,neo,JETZT,6,pilz
+1400,3,Nieder�sterreich,Hajek,N�N,805,3.4,2018-01-15,,�VP,48,ovp,SP�,23,spo,FP�,17,fpo,NEOS,6,neo,GR�NE,5,gru,So,1,and
+1398,1,�sterreich,Research Affairs,TZ �STERREICH,1020,3.0,2018-01-12,Online,�VP,31,ovp,FP�,27,fpo,SP�,27,spo,NEOS,6,neo,GR�NE,4,gru,JETZT,2,pilz
+1399,3,Nieder�sterreich,Unique Research,Heute,500,4.3,2018-01-12,Telefon und Online,�VP,47,ovp,SP�,23,spo,FP�,18,fpo,GR�NE,5,gru,NEOS,5,neo,So,2,and
+1397,3,Nieder�sterreich,Research Affairs,TZ �STERREICH,410,4.8,2018-01-06,Online,�VP,45,ovp,SP�,22,spo,FP�,21,fpo,NEOS,5,neo,GR�NE,4,gru,? ,3,weissnicht
+1395,10,Tirol,Research Affairs,Tiroler Tageszeitung,600,4.0,2017-12-28,Online,�VP,38,ovp,FP�,24,fpo,SP�,14,spo,GR�NE,12,gru,NEOS,5,neo,FRITZ,3,lfr
+1393,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-12-23,Online,�VP,32,ovp,FP�,28,fpo,SP�,26,spo,NEOS,6,neo,GR�NE,3,gru,JETZT,2,pilz
+1394,7,Salzburg,Jaksch & Partner,Salzburger Nachrichten,808,3.4,2017-12-19,Telefon und Online,�VP,34,ovp,FP�,24,fpo,SP�,23,spo,GR�NE,10,gru,NEOS,8,neo,FPS,1,fpssbg
+1392,1,�sterreich,Unique Research,profil,500,4.3,2017-12-17,Telefon,�VP,31,ovp,SP�,27,spo,FP�,26,fpo,NEOS,8,neo,GR�NE,3,gru,JETZT,3,pilz
+1390,3,Nieder�sterreich,SOZAB,Die Presse,1500,2.5,2017-12-10,Telefon,�VP,50,ovp,SP�,22,spo,FP�,16,fpo,GR�NE,5,gru,NEOS,4,neo,? ,3,weissnicht
+1391,1,�sterreich,Market,Der Standard,814,3.4,2017-12-10,Telefon und Online,�VP,32,ovp,SP�,26,spo,FP�,26,fpo,NEOS,6,neo,GR�NE,5,gru,JETZT,3,pilz
+1388,2,Wien,OGM,Kurier,500,4.3,2017-12-03,Telefon,SP�,32,spo,FP�,29,fpo,�VP,20,ovp,NEOS,8,neo,GR�NE,6,gru,So,5,and
+1389,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-12-03,Online,�VP,32,ovp,SP�,27,spo,FP�,27,fpo,NEOS,4,neo,GR�NE,4,gru,JETZT,2,pilz
+1385,1,�sterreich,Unique Research,profil,500,4.3,2017-11-18,Telefon und Online,�VP,32,ovp,SP�,28,spo,FP�,24,fpo,NEOS,6,neo,GR�NE,6,gru,JETZT,2,pilz
+1386,3,Nieder�sterreich,OGM,Kurier,784,3.5,2017-11-18,,�VP,45,ovp,SP�,25,spo,FP�,20,fpo,GR�NE,4,gru,NEOS,4,neo,So,2,and
+1387,4,Ober�sterreich,Spectra,O�N,800,3.4,2017-11-18,Telefon,�VP,42,ovp,FP�,34,fpo,SP�,15,spo,GR�NE,5,gru,NEOS,3,neo,,,
+1384,1,�sterreich,Market,Der Standard,1030,3.0,2017-11-13,Telefon und Online,�VP,31,ovp,SP�,28,spo,FP�,26,fpo,NEOS,5,neo,JETZT,4,pilz,GR�NE,4,gru
+1383,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-11-09,Online,�VP,33,ovp,SP�,27,spo,FP�,27,fpo,GR�NE,5,gru,NEOS,4,neo,JETZT,2,pilz
+1382,1,�sterreich,Research Affairs,TZ �STERREICH,1000,3.1,2017-10-09,Online,�VP,33,ovp,FP�,27,fpo,SP�,23,spo,NEOS,6,neo,GR�NE,5,gru,JETZT,5,pilz
+1381,1,�sterreich,OGM,Kurier,1002,3.1,2017-10-08,Telefon,�VP,33,ovp,SP�,27,spo,FP�,25,fpo,NEOS,5,neo,GR�NE,4,gru,JETZT,4,pilz
+1380,1,�sterreich,Market,Der Standard,813,3.4,2017-10-06,Telefon und Online,�VP,33,ovp,FP�,25,fpo,SP�,23,spo,JETZT,6,pilz,GR�NE,5,gru,NEOS,5,neo
+1379,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-10-05,Online,�VP,34,ovp,FP�,27,fpo,SP�,22,spo,NEOS,6,neo,GR�NE,5,gru,JETZT,4,pilz
+1375,1,�sterreich,Research Affairs,TZ �STERREICH,1000,3.2,2017-10-01,Online,�VP,33,ovp,FP�,26,fpo,SP�,24,spo,NEOS,6,neo,GR�NE,5,gru,JETZT,4,pilz
+1378,1,�sterreich,Spectra,O�N,900,3.2,2017-09-30,Face-to-Face,�VP,33,ovp,FP�,27,fpo,SP�,22,spo,GR�NE,6,gru,JETZT,5,pilz,NEOS,4,neo
+1376,1,�sterreich,Unique Research,Heute,1500,2.5,2017-09-29,Telefon und Online,�VP,34,ovp,SP�,27,spo,FP�,25,fpo,GR�NE,4,gru,NEOS,4,neo,JETZT,4,pilz
+1377,1,�sterreich,Christina Matzka TripleM,NEWS,800,3.4,2017-09-29,Telefon und Online,�VP,32,ovp,SP�,26,spo,FP�,25,fpo,NEOS,5,neo,JETZT,5,pilz,GR�NE,4,gru
+1374,1,�sterreich,OGM,Kurier,803,3.4,2017-09-24,Telefon,�VP,33,ovp,SP�,26,spo,FP�,25,fpo,GR�NE,5,gru,NEOS,5,neo,JETZT,4,pilz
+1373,1,�sterreich,Unique Research,profil,500,4.3,2017-09-23,Telefon,�VP,33,ovp,SP�,24,spo,FP�,24,fpo,GR�NE,5,gru,NEOS,5,neo,JETZT,5,pilz
+1372,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-09-21,Online,�VP,33,ovp,FP�,25,fpo,SP�,24,spo,GR�NE,6,gru,NEOS,6,neo,JETZT,4,pilz
+1371,1,�sterreich,IMAS,Kronen Zeitung,1033,3.0,2017-09-17,Face-to-face (MTU),�VP,34,ovp,FP�,24,fpo,SP�,23,spo,GR�NE,8,gru,NEOS,4,neo,JETZT,4,pilz
+1370,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-09-15,Online,�VP,33,ovp,FP�,25,fpo,SP�,24,spo,GR�NE,5,gru,NEOS,5,neo,JETZT,5,pilz
+1369,1,�sterreich,Market,Der Standard,814,3.4,2017-09-11,Telefon und Online,�VP,33,ovp,SP�,26,spo,FP�,24,fpo,NEOS,5,neo,JETZT,5,pilz,GR�NE,4,gru
+1368,1,�sterreich,OGM,Kurier,805,3.4,2017-09-10,Telefon,�VP,33,ovp,SP�,25,spo,FP�,25,fpo,GR�NE,5,gru,NEOS,5,neo,JETZT,5,pilz
+1367,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-09-08,Online,�VP,33,ovp,SP�,24,spo,FP�,24,fpo,GR�NE,6,gru,NEOS,5,neo,JETZT,5,pilz
+1365,1,�sterreich,Unique Research,Heute,800,3.4,2017-09-01,Telefon und Online,�VP,33,ovp,SP�,24,spo,FP�,23,fpo,GR�NE,6,gru,NEOS,5,neo,JETZT,5,pilz
+1366,1,�sterreich,Research Affairs,TZ �STERREICH,400,4.9,2017-09-01,Online,�VP,33,ovp,FP�,24,fpo,SP�,23,spo,GR�NE,7,gru,NEOS,5,neo,JETZT,5,pilz
+1363,1,�sterreich,Unique Research,profil,500,4.3,2017-08-26,Telefon,�VP,33,ovp,SP�,25,spo,FP�,23,fpo,NEOS,6,neo,JETZT,6,pilz,GR�NE,4,gru
+1360,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-08-25,Online,�VP,33,ovp,FP�,23,fpo,SP�,22,spo,GR�NE,7,gru,JETZT,6,pilz,NEOS,5,neo
+1359,1,�sterreich,Hajek,ATV,700,3.7,2017-08-18,Tel.,�VP,32,ovp,SP�,27,spo,FP�,24,fpo,NEOS,6,neo,GR�NE,5,gru,JETZT,4,pilz
+1358,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-08-17,Online,�VP,34,ovp,FP�,24,fpo,SP�,22,spo,GR�NE,7,gru,NEOS,5,neo,JETZT,5,pilz
+1357,1,�sterreich,AKonsult,Mein Bezirk,603,4.0,2017-08-14,CATI,�VP,32,ovp,SP�,25,spo,FP�,25,fpo,JETZT,7,pilz,GR�NE,6,gru,NEOS,5,neo
+1356,1,�sterreich,GfK,Kurier,1000,3.1,2017-08-13,CATI,�VP,32,ovp,SP�,25,spo,FP�,22,fpo,GR�NE,6,gru,JETZT,6,pilz,NEOS,5,neo
+1354,1,�sterreich,Market,Der Standard,802,3.4,2017-08-09,CATI,�VP,33,ovp,SP�,25,spo,FP�,24,fpo,GR�NE,7,gru,NEOS,5,neo,JETZT,4,pilz
+1352,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-08-04,Online,�VP,34,ovp,SP�,23,spo,FP�,23,fpo,GR�NE,7,gru,NEOS,5,neo,JETZT,4,pilz
+1350,1,�sterreich,Unique Research,profil,500,4.3,2017-07-29,Telefon,�VP,33,ovp,SP�,26,spo,FP�,22,fpo,GR�NE,7,gru,NEOS,6,neo,JETZT,5,pilz
+1346,4,Ober�sterreich,Spectra,O�N,800,3.4,2017-07-25,CATI,�VP,42,ovp,FP�,34,fpo,SP�,14,spo,GR�NE,8,gru,NEOS,2,neo,,,
+1344,1,�sterreich,OGM,Kurier,503,4.3,2017-07-23,,�VP,32,ovp,SP�,26,spo,FP�,26,fpo,GR�NE,7,gru,NEOS,5,neo,JETZT,2,pilz
+1343,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-07-21,,�VP,33,ovp,SP�,24,spo,FP�,23,fpo,GR�NE,6,gru,NEOS,5,neo,JETZT,4,pilz
+1345,1,�sterreich,Christina Matzka TripleM,NEWS,800,3.4,2017-07-21,Mixed Mode ,�VP,32,ovp,FP�,27,fpo,SP�,26,spo,GR�NE,6,gru,NEOS,5,neo,KP�,1,kpo
+1340,1,�sterreich,IMAS,Kronen Zeitung,1027,3.0,2017-07-19,face-to-face Omnibus,�VP,35,ovp,SP�,25,spo,FP�,24,fpo,GR�NE,11,gru,NEOS,3,neo,So,2,and
+1339,1,�sterreich,GfK,Kurier,1000,3.1,2017-07-16,,�VP,32,ovp,SP�,25,spo,FP�,22,fpo,GR�NE,8,gru,JETZT,7,pilz,NEOS,5,neo
+1338,1,�sterreich,IFES,Kronen Zeitung,804,3.4,2017-07-10,telefonische Befragung kombiniert mit online Befragung,�VP,34,ovp,SP�,31,spo,FP�,22,fpo,GR�NE,8,gru,NEOS,4,neo,So,2,and
+1337,1,�sterreich,Spectra,O�N,1010,3.1,2017-07-08,Face-to-Face Befragung,�VP,30,ovp,FP�,27,fpo,SP�,23,spo,GR�NE,9,gru,NEOS,5,neo,TS,2,ts
+1336,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-07-07,Online,�VP,34,ovp,FP�,25,fpo,SP�,23,spo,GR�NE,6,gru,JETZT,5,pilz,NEOS,4,neo
+1335,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-06-30,Online,�VP,33,ovp,FP�,25,fpo,SP�,23,spo,GR�NE,9,gru,NEOS,6,neo,? ,4,weissnicht
+1333,1,�sterreich,Market,Der Standard,815,3.4,2017-06-25,Telefon und Online,�VP,33,ovp,SP�,26,spo,FP�,24,fpo,GR�NE,9,gru,NEOS,4,neo,? ,4,weissnicht
+1330,1,�sterreich,Unique Research,profil,500,4.3,2017-06-24,Online,�VP,32,ovp,SP�,28,spo,FP�,25,fpo,GR�NE,8,gru,NEOS,5,neo,? ,2,weissnicht
+1334,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-06-16,Online,�VP,33,ovp,FP�,26,fpo,SP�,22,spo,GR�NE,10,gru,NEOS,5,neo,? ,4,weissnicht
+1329,1,�sterreich,Hajek,ATV,704,3.7,2017-06-09,Telefon und Online,�VP,34,ovp,SP�,26,spo,FP�,24,fpo,GR�NE,9,gru,NEOS,5,neo,? ,2,weissnicht
+1328,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-06-03,30.05.-02.06.2017,�VP,34,ovp,FP�,26,fpo,SP�,21,spo,GR�NE,10,gru,NEOS,6,neo,? ,3,weissnicht
+1327,1,�sterreich,Market,Der Standard,801,3.4,2017-05-26,Telefon und Online,�VP,32,ovp,SP�,27,spo,FP�,25,fpo,GR�NE,9,gru,NEOS,5,neo,? ,2,weissnicht
+1326,1,�sterreich,OGM,Kurier,800,3.4,2017-05-21,Telefon,�VP,31,ovp,SP�,28,spo,FP�,26,fpo,GR�NE,9,gru,NEOS,4,neo,? ,2,weissnicht
+1325,1,�sterreich,Unique Research,profil,500,4.3,2017-05-20,Telefon,�VP,33,ovp,SP�,27,spo,FP�,26,fpo,GR�NE,8,gru,NEOS,5,neo,? ,1,weissnicht
+1321,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-05-19,Online,�VP,35,ovp,FP�,26,fpo,SP�,20,spo,GR�NE,9,gru,NEOS,7,neo,? ,3,weissnicht
+1322,1,�sterreich,Unique Research,Heute,800,3.4,2017-05-19,Telefon und Online,�VP,33,ovp,SP�,26,spo,FP�,26,fpo,GR�NE,8,gru,NEOS,5,neo,TS,1,ts
+1320,10,Tirol,Market,Tiroler Tageszeitung,401,4.8,2017-05-16,,�VP,41,ovp,FP�,22,fpo,SP�,13,spo,GR�NE,13,gru,FRITZ,6,lfr,NEOS,4,neo
+1319,1,�sterreich,IFES,Kronen Zeitung,1200,2.8,2017-05-14,Telefon,SP�,28,spo,�VP,28,ovp,FP�,26,fpo,GR�NE,12,gru,NEOS,5,neo,So,1,and
+1310,1,�sterreich,Market,Der Standard,400,4.9,2017-05-09,CATI,FP�,29,fpo,SP�,28,spo,�VP,21,ovp,GR�NE,11,gru,NEOS,7,neo,TS,1,ts
+1309,8,K�rnten,TrendCom,Kurier,1100,2.9,2017-05-06,Tel.,SP�,39,spo,FP�,28,fpo,�VP,13,ovp,GR�NE,12,gru,TK,4,tkktn,NEOS,3,neo
+1306,2,Wien,Research Affairs,TZ �STERREICH,300,5.6,2017-04-28,,FP�,40,fpo,SP�,24,spo,GR�NE,15,gru,�VP,10,ovp,NEOS,8,neo,? ,3,weissnicht
+1307,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-04-28,,FP�,32,fpo,SP�,29,spo,�VP,22,ovp,GR�NE,8,gru,NEOS,6,neo,? ,3,weissnicht
+1305,1,�sterreich,Unique Research,profil,500,4.3,2017-04-27,Telefon,FP�,32,fpo,SP�,28,spo,�VP,23,ovp,GR�NE,9,gru,NEOS,6,neo,? ,2,weissnicht
+1304,1,�sterreich,Spectra,O�N,1502,2.5,2017-04-22,Face to Face,FP�,30,fpo,SP�,28,spo,�VP,21,ovp,GR�NE,12,gru,NEOS,4,neo,TS,1,ts
+1302,1,�sterreich,IMAS,Kronen Zeitung,1003,3.1,2017-04-21,face-to-face Befragung,FP�,27,fpo,SP�,26,spo,�VP,26,ovp,GR�NE,14,gru,NEOS,5,neo,TS,0,ts
+1303,7,Salzburg,Hajek,Salzburger Nachrichten,1352,2.6,2017-04-21,Telefon und Online,�VP,32,ovp,FP�,25,fpo,SP�,16,spo,GR�NE,14,gru,NEOS,7,neo,FPS,4,fpssbg
+1301,1,�sterreich,Research Affairs,TZ �STERREICH,602,4.0,2017-04-14,,FP�,32,fpo,SP�,30,spo,�VP,21,ovp,GR�NE,9,gru,NEOS,5,neo,? ,3,weissnicht
+1300,87,Innsbruck,IMAD,ORF,300,5.6,2017-04-10,"Telefonische Befragung, CATI IMAD  Onlinebefragung, Panel IMAD",GR�NE,29,gru,FP�,16,fpo,FI,15,fiibk,�VP,14,ovp,SP�,12,spo,NEOS,7,neo
+1299,1,�sterreich,AG Wahlen,Tiroler Tageszeitung,2000,2.2,2017-04-07,CATI,SP�,30,spo,FP�,28,fpo,�VP,24,ovp,GR�NE,11,gru,NEOS,5,neo,,,
+1298,6,Burgenland,TrendCom,bvz.at,800,3.4,2017-04-05,,SP�,43,spo,�VP,26,ovp,FP�,18,fpo,GR�NE,7,gru,LBL,5,lblbgld,NEOS,3,neo
+1297,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-04-01,,FP�,33,fpo,SP�,28,spo,�VP,20,ovp,GR�NE,11,gru,NEOS,5,neo,? ,3,weissnicht
+1296,1,�sterreich,Market,Der Standard,412,4.8,2017-03-19,CATI,FP�,30,fpo,SP�,29,spo,�VP,20,ovp,GR�NE,12,gru,NEOS,6,neo,TS,1,ts
+1295,1,�sterreich,Unique Research,profil,500,4.3,2017-03-18,,FP�,31,fpo,SP�,29,spo,�VP,22,ovp,GR�NE,12,gru,NEOS,5,neo,? ,1,weissnicht
+1294,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-03-17,,FP�,33,fpo,SP�,29,spo,�VP,19,ovp,GR�NE,12,gru,NEOS,6,neo,? ,1,weissnicht
+1293,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-03-04,,FP�,33,fpo,SP�,29,spo,�VP,19,ovp,GR�NE,11,gru,NEOS,6,neo,? ,2,weissnicht
+1292,4,Ober�sterreich,Spectra,O�N,800,3.4,2017-02-26,CATI,�VP,40,ovp,FP�,35,fpo,SP�,15,spo,GR�NE,9,gru,NEOS,1,neo,,,
+1281,1,�sterreich,Unique Research,profil,500,4.3,2017-02-18,,FP�,31,fpo,SP�,29,spo,�VP,20,ovp,GR�NE,11,gru,NEOS,6,neo,? ,3,weissnicht
+1280,1,�sterreich,Research Affairs,TZ �STERREICH,602,4.0,2017-02-17,,FP�,34,fpo,SP�,28,spo,�VP,19,ovp,GR�NE,11,gru,NEOS,6,neo,? ,2,weissnicht
+1283,7,Salzburg,IMAS,Salzburger Nachrichten,800,3.4,2017-02-15,Telefon,�VP,32,ovp,FP�,22,fpo,SP�,20,spo,GR�NE,15,gru,NEOS,6,neo,SBG,3,teamsbg
+1278,1,�sterreich,Research Affairs,TZ �STERREICH,602,4.0,2017-02-03,,FP�,33,fpo,SP�,29,spo,�VP,20,ovp,GR�NE,10,gru,NEOS,6,neo,? ,2,weissnicht
+1277,1,�sterreich,Unique Research,Heute,800,3.4,2017-01-27,Telefon und Online,FP�,32,fpo,SP�,29,spo,�VP,19,ovp,GR�NE,12,gru,NEOS,6,neo,So,2,and
+1276,1,�sterreich,IMAS,Kronen Zeitung,1000,3.1,2017-01-25,Face to face,FP�,29,fpo,SP�,26,spo,�VP,25,ovp,GR�NE,13,gru,NEOS,5,neo,,,
+1270,1,�sterreich,OGM,Kurier,783,3.5,2017-01-21,,FP�,33,fpo,SP�,27,spo,�VP,20,ovp,GR�NE,12,gru,NEOS,6,neo,? ,2,weissnicht
+1269,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2017-01-21,,FP�,34,fpo,SP�,28,spo,�VP,19,ovp,GR�NE,11,gru,NEOS,6,neo,? ,2,weissnicht
+1271,1,�sterreich,Unique Research,profil,500,4.3,2017-01-21,,FP�,33,fpo,SP�,27,spo,�VP,20,ovp,GR�NE,11,gru,NEOS,8,neo,? ,1,weissnicht
+1266,2,Wien,Unique Research,Heute,500,4.3,2017-01-20,Telefon und Online,FP�,37,fpo,SP�,31,spo,GR�NE,11,gru,�VP,10,ovp,NEOS,9,neo,? ,2,weissnicht
+1261,2,Wien,Research Affairs,TZ �STERREICH,400,4.9,2017-01-15,Online,FP�,38,fpo,SP�,25,spo,GR�NE,17,gru,�VP,9,ovp,NEOS,8,neo,? ,3,weissnicht
+1264,1,�sterreich,Research Affairs,TZ �STERREICH,500,4.3,2017-01-07,,FP�,34,fpo,SP�,27,spo,�VP,18,ovp,GR�NE,12,gru,NEOS,7,neo,? ,2,weissnicht
+1257,1,�sterreich,Unique Research,profil,500,4.3,2016-12-31,,FP�,34,fpo,SP�,28,spo,�VP,19,ovp,GR�NE,11,gru,NEOS,7,neo,? ,1,weissnicht
+1255,10,Tirol,Research Affairs,Tiroler Tageszeitung,602,4.0,2016-12-28,,�VP,33,ovp,FP�,25,fpo,GR�NE,17,gru,SP�,13,spo,NEOS,5,neo,FRITZ,3,lfr
+1254,10,Tirol,Institut f�r Angewandte Politikwissenschaften in Hall in Tirol,�VP,0,0.0,2016-12-21,,�VP,41,ovp,FP�,21,fpo,GR�NE,14,gru,SP�,14,spo,NEOS,4,neo,FRITZ,4,lfr
+1253,7,Salzburg,GMK,Mein Bezirk,400,4.9,2016-12-20,,�VP,38,ovp,FP�,21,fpo,GR�NE,19,gru,SP�,12,spo,FPS,4,fpssbg,SBG,4,teamsbg
+1251,1,�sterreich,Market,Der Standard,415,4.8,2016-12-19,,FP�,31,fpo,SP�,25,spo,�VP,22,ovp,GR�NE,12,gru,NEOS,6,neo,? ,4,weissnicht
+1249,1,�sterreich,Gallup,TZ �STERREICH,800,3.4,2016-12-10,Telefon und Online,FP�,34,fpo,SP�,27,spo,�VP,19,ovp,GR�NE,12,gru,NEOS,6,neo,? ,2,weissnicht
+1248,1,�sterreich,Research Affairs,TZ �STERREICH,600,4.0,2016-12-08,Online,FP�,35,fpo,SP�,26,spo,�VP,18,ovp,GR�NE,13,gru,NEOS,7,neo,? ,1,weissnicht
+1263,86,Graz (GRW),GMK,SP�,600,4.0,2016-12-04,,�VP,31,ovp,FP�,19,fpo,KP�,18,kpo,SP�,15,spo,GR�NE,9,gru,NEOS,4,neo
+1252,86,Graz (GRW),bmm,Kronen Zeitung,500,4.3,2016-11-27,,�VP,31,ovp,FP�,26,fpo,KP�,14,kpo,GR�NE,12,gru,SP�,11,spo,So,6,and
+1256,1,�sterreich,Unique Research,profil,500,4.3,2016-11-26,,FP�,33,fpo,SP�,27,spo,�VP,19,ovp,GR�NE,11,gru,NEOS,8,neo,? ,2,weissnicht
+1262,86,Graz (GRW),?,FP�,334,5.3,2016-11-12,,�VP,29,ovp,FP�,21,fpo,KP�,16,kpo,SP�,16,spo,GR�NE,10,gru,? ,8,weissnicht
+1244,1,�sterreich,Gallup,TZ �STERREICH,800,3.4,2016-11-05,Online + Telefon,FP�,35,fpo,SP�,27,spo,�VP,18,ovp,GR�NE,12,gru,NEOS,6,neo,So,2,and
+1241,1,�sterreich,AKonsult,Regionalmedien Austria,607,3.9,2016-11-04,CATI,FP�,33,fpo,SP�,25,spo,�VP,22,ovp,GR�NE,12,gru,NEOS,7,neo,TS,1,ts
+1243,1,�sterreich,Gallup,TZ �STERREICH,800,3.4,2016-10-22,Online + Telefon,FP�,34,fpo,SP�,27,spo,�VP,19,ovp,GR�NE,12,gru,NEOS,6,neo,So,2,and
+1239,2,Wien,Hajek,neos.eu,1000,3.1,2016-10-16,Online,FP�,40,fpo,SP�,27,spo,GR�NE,15,gru,NEOS,8,neo,�VP,7,ovp,So,3,and
+1238,1,�sterreich,Unique Research,profil,500,4.3,2016-10-15,,FP�,34,fpo,SP�,28,spo,�VP,18,ovp,GR�NE,12,gru,NEOS,6,neo,? ,2,weissnicht
+1236,1,�sterreich,Gallup,TZ �STERREICH,800,3.4,2016-10-09,Telefon und Online,FP�,34,fpo,SP�,27,spo,�VP,19,ovp,GR�NE,12,gru,NEOS,6,neo,? ,2,weissnicht
+1231,1,�sterreich,Gallup,TZ �STERREICH,800,3.4,2016-09-25,Telefon und Online,FP�,34,fpo,SP�,27,spo,�VP,19,ovp,GR�NE,11,gru,NEOS,7,neo,? ,2,weissnicht
+1226,1,�sterreich,Gallup,TZ �STERREICH,800,3.4,2016-09-17,Telefon und Online,FP�,35,fpo,SP�,26,spo,�VP,19,ovp,GR�NE,11,gru,NEOS,7,neo,? ,2,weissnicht
+1230,1,�sterreich,Unique Research,profil,500,4.3,2016-09-17,,FP�,33,fpo,SP�,26,spo,�VP,20,ovp,GR�NE,13,gru,NEOS,7,neo,? ,1,weissnicht
+1223,4,Ober�sterreich,IMAS,Kronen Zeitung,800,3.4,2016-09-10,CATI,FP�,34,fpo,�VP,33,ovp,SP�,18,spo,GR�NE,11,gru,NEOS,4,neo,,,
+1215,1,�sterreich,Gallup,TZ �STERREICH,600,4.0,2016-09-09,CAWI,FP�,34,fpo,SP�,26,spo,�VP,20,ovp,GR�NE,11,gru,NEOS,7,neo,? ,2,weissnicht
+1216,1,�sterreich,Unique Research,Heute,800,3.4,2016-09-09,Mix Telefon/Online,FP�,35,fpo,SP�,26,spo,�VP,19,ovp,GR�NE,12,gru,NEOS,6,neo,TS,0,ts
+1210,1,�sterreich,Hajek,ATV,700,3.7,2016-09-02,Tel.,FP�,34,fpo,SP�,26,spo,�VP,21,ovp,GR�NE,12,gru,NEOS,6,neo,TS,0,ts
+1201,1,�sterreich,Gallup,TZ �STERREICH,600,4.0,2016-08-28,CAWI,FP�,35,fpo,SP�,25,spo,�VP,20,ovp,GR�NE,11,gru,NEOS,7,neo,? ,2,weissnicht
+1204,1,�sterreich,OGM,Kurier,778,3.5,2016-08-28,,FP�,33,fpo,SP�,26,spo,�VP,21,ovp,GR�NE,12,gru,NEOS,6,neo,? ,2,weissnicht
+1196,1,�sterreich,Market,Der Standard,400,4.9,2016-08-21,CATI,FP�,34,fpo,SP�,25,spo,�VP,18,ovp,GR�NE,12,gru,NEOS,8,neo,TS,1,ts
+1193,1,�sterreich,Unique Research,profil,500,4.3,2016-08-20,,FP�,33,fpo,SP�,26,spo,�VP,21,ovp,GR�NE,12,gru,NEOS,7,neo,? ,1,weissnicht
+1205,1,�sterreich,SORA,Eigenauftrag,824,3.4,2016-08-20,"telefonische Interviews (CATI), durchgef?hrt von IPR + Jaksch & Partner",FP�,34,fpo,SP�,28,spo,�VP,18,ovp,GR�NE,14,gru,NEOS,4,neo,? ,2,weissnicht
+1191,1,�sterreich,Gallup,TZ �STERREICH,600,4.0,2016-08-12,CAWI,FP�,35,fpo,SP�,25,spo,�VP,19,ovp,GR�NE,11,gru,NEOS,7,neo,? ,3,weissnicht
+1189,1,�sterreich,Gallup,TZ �STERREICH,600,4.0,2016-07-31,CAWI,FP�,35,fpo,SP�,25,spo,�VP,19,ovp,GR�NE,12,gru,NEOS,7,neo,? ,2,weissnicht
+1179,1,�sterreich,Unique Research,profil,500,4.3,2016-07-16,,FP�,35,fpo,SP�,24,spo,�VP,20,ovp,GR�NE,14,gru,NEOS,6,neo,? ,1,weissnicht
+1172,1,�sterreich,Gallup,TZ �STERREICH,600,4.0,2016-07-09,,FP�,34,fpo,SP�,25,spo,�VP,19,ovp,GR�NE,12,gru,NEOS,8,neo,? ,2,weissnicht
+1209,1,�sterreich,Hajek,ATV,700,3.7,2016-06-26,Tel.,FP�,35,fpo,SP�,24,spo,�VP,18,ovp,GR�NE,14,gru,NEOS,7,neo,TS,1,ts
+1168,1,�sterreich,OGM,Kurier,789,3.5,2016-06-19,,FP�,33,fpo,SP�,25,spo,�VP,22,ovp,GR�NE,12,gru,NEOS,6,neo,? ,2,weissnicht
+1166,1,�sterreich,Unique Research,profil,500,0.0,2016-06-18,,FP�,34,fpo,SP�,25,spo,�VP,19,ovp,GR�NE,14,gru,NEOS,7,neo,? ,1,weissnicht
+1161,1,�sterreich,Gallup,TZ �STERREICH,600,4.0,2016-06-10,,FP�,34,fpo,SP�,25,spo,�VP,21,ovp,GR�NE,12,gru,NEOS,6,neo,? ,2,weissnicht
+1159,1,�sterreich,Gallup,TZ �STERREICH,600,4.0,2016-06-05,CAWI,FP�,34,fpo,SP�,24,spo,�VP,21,ovp,GR�NE,13,gru,NEOS,6,neo,So,2,and
+1157,7,Salzburg,Hans Paischer,Salzburger Fenster,450,4.6,2016-05-24,,�VP,28,ovp,FP�,26,fpo,GR�NE,18,gru,SP�,16,spo,NEOS,5,neo,FPS,3,fpssbg
+1158,1,�sterreich,Hajek,ATV,800,3.4,2016-05-24,Tel./Online,FP�,34,fpo,SP�,26,spo,�VP,18,ovp,GR�NE,13,gru,NEOS,8,neo,So,1,and
+1156,5,Steiermark,OGM,Kleine Zeitung,492,4.4,2016-05-21,,FP�,31,fpo,�VP,28,ovp,SP�,25,spo,GR�NE,7,gru,KP�,5,kpo,So,4,and
+1153,1,�sterreich,Gallup,TZ �STERREICH,600,4.0,2016-05-20,,FP�,33,fpo,SP�,23,spo,�VP,22,ovp,GR�NE,13,gru,NEOS,6,neo,? ,3,weissnicht
+1152,1,�sterreich,Gallup,TZ �STERREICH,600,4.0,2016-05-12,,FP�,34,fpo,�VP,22,ovp,SP�,21,spo,GR�NE,13,gru,NEOS,7,neo,? ,3,weissnicht
+1149,4,Ober�sterreich,Spectra,O�N,500,4.3,2016-05-08,,�VP,35,ovp,FP�,34,fpo,SP�,15,spo,GR�NE,12,gru,,,,,,
+1142,1,�sterreich,Hajek,ATV,700,3.7,2016-04-09,,FP�,32,fpo,SP�,22,spo,�VP,22,ovp,GR�NE,15,gru,NEOS,7,neo,TS,0,ts
+1143,1,�sterreich,OGM,O�N,1013,3.0,2016-04-09,,FP�,31,fpo,SP�,23,spo,�VP,23,ovp,GR�NE,14,gru,NEOS,6,neo,TS,1,ts
+1144,1,�sterreich,Unique Research,Heute,800,3.4,2016-04-08,Tel.,FP�,32,fpo,SP�,23,spo,�VP,23,ovp,GR�NE,14,gru,NEOS,7,neo,So,1,and
+1141,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2016-04-06,Tel.,FP�,33,fpo,�VP,24,ovp,SP�,23,spo,GR�NE,12,gru,NEOS,5,neo,? ,3,weissnicht
+1129,1,�sterreich,Unique Research,profil,500,4.3,2016-03-19,Tel.,FP�,32,fpo,�VP,24,ovp,SP�,22,spo,GR�NE,14,gru,NEOS,6,neo,? ,2,weissnicht
+1128,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2016-03-11,,FP�,33,fpo,SP�,23,spo,�VP,23,ovp,GR�NE,12,gru,NEOS,6,neo,? ,3,weissnicht
+1121,11,Deutschland,FG Wahlen ,ARD,1289,2.7,2016-03-10,,UNION,36,unionde,SPD,25,spdde,GR�NE,10,grunede,AFD,10,afdde,LINKE,9,linkede,FDP,5,fdpde
+1120,11,Deutschland,Forsa,stern,2501,1.9,2016-03-09,,UNION,35,unionde,SPD,23,spdde,GR�NE,11,grunede,AFD,10,afdde,LINKE,9,linkede,FDP,6,fdpde
+1126,11,Deutschland,INSA,BILD,2011,2.2,2016-03-08,Online,UNION,33,unionde,SPD,23,spdde,AFD,12,afdde,GR�NE,11,grunede,LINKE,10,linkede,FDP,7,fdpde
+1113,1,�sterreich,Market,Der Standard,400,4.9,2016-03-07,CATI,FP�,32,fpo,SP�,23,spo,�VP,22,ovp,GR�NE,14,gru,NEOS,5,neo,? ,4,weissnicht
+1117,11,Deutschland,Emnid,BILD,1869,2.2,2016-03-05,,UNION,35,unionde,SPD,24,spdde,AFD,11,afdde,LINKE,10,linkede,GR�NE,10,grunede,FDP,5,fdpde
+1119,11,Deutschland,Forsa,BILD,2503,1.9,2016-03-02,,UNION,35,unionde,SPD,24,spdde,GR�NE,10,grunede,LINKE,10,linkede,AFD,10,afdde,FDP,6,fdpde
+1123,11,Deutschland,Infratest dimap,ARD,1505,2.5,2016-02-29,,UNION,36,unionde,SPD,23,spdde,AFD,11,afdde,GR�NE,10,grunede,LINKE,9,linkede,FDP,6,fdpde
+1125,11,Deutschland,INSA,BILD,2007,2.2,2016-02-29,Online,UNION,33,unionde,SPD,23,spdde,AFD,12,afdde,LINKE,11,linkede,GR�NE,11,grunede,FDP,7,fdpde
+1116,11,Deutschland,Emnid,BILD,1978,2.2,2016-02-27,,UNION,36,unionde,SPD,24,spdde,AFD,11,afdde,GR�NE,10,grunede,LINKE,9,linkede,FDP,5,fdpde
+1122,11,Deutschland,Infratest dimap,ARD,1028,3.0,2016-02-26,,UNION,37,unionde,SPD,23,spdde,GR�NE,11,grunede,AFD,10,afdde,LINKE,8,linkede,FDP,6,fdpde
+1118,11,Deutschland,Forsa,stern,2502,1.9,2016-02-24,,UNION,35,unionde,SPD,24,spdde,GR�NE,10,grunede,LINKE,10,linkede,AFD,10,afdde,FDP,6,fdpde
+1111,1,�sterreich,Unique Research,profil,500,4.3,2016-02-20,,FP�,32,fpo,�VP,24,ovp,SP�,23,spo,GR�NE,12,gru,NEOS,8,neo,? ,1,weissnicht
+1115,11,Deutschland,Emnid,BILD,2409,2.0,2016-02-20,,UNION,35,unionde,SPD,24,spdde,AFD,12,afdde,LINKE,10,linkede,GR�NE,10,grunede,FDP,4,fdpde
+1124,11,Deutschland,INSA,BILD,2001,2.2,2016-02-20,Online,UNION,33,unionde,SPD,23,spdde,AFD,13,afdde,GR�NE,11,grunede,LINKE,10,linkede,FDP,7,fdpde
+1103,11,Deutschland,GMS,GMS,1009,3.1,2016-02-18,,UNION,37,unionde,SPD,24,spdde,AFD,11,afdde,LINKE,10,linkede,GR�NE,9,grunede,FDP,5,fdpde
+1093,11,Deutschland,Allensbach,wahlrecht.de,1521,2.5,2016-02-17,,UNION,34,unionde,SPD,24,spdde,AFD,11,afdde,LINKE,10,linkede,GR�NE,10,grunede,FDP,7,fdpde
+1101,11,Deutschland,Forsa,stern,2501,1.9,2016-02-17,,UNION,35,unionde,SPD,23,spdde,GR�NE,11,grunede,LINKE,10,linkede,AFD,9,afdde,FDP,6,fdpde
+1108,11,Deutschland,INSA,BILD,2014,2.2,2016-02-15,Onlin,UNION,33,unionde,SPD,23,spdde,AFD,13,afdde,GR�NE,11,grunede,LINKE,10,linkede,FDP,7,fdpde
+1097,11,Deutschland,Emnid,BILD,2090,2.1,2016-02-13,,UNION,35,unionde,SPD,24,spdde,AFD,12,afdde,GR�NE,9,grunede,LINKE,9,linkede,FDP,5,fdpde
+1100,11,Deutschland,Forsa,stern,2500,1.9,2016-02-10,,UNION,36,unionde,SPD,24,spdde,AFD,10,afdde,GR�NE,10,grunede,LINKE,9,linkede,FDP,5,fdpde
+1107,11,Deutschland,INSA,BILD,2054,2.1,2016-02-09,Online,UNION,33,unionde,SPD,22,spdde,AFD,12,afdde,GR�NE,11,grunede,LINKE,11,linkede,FDP,6,fdpde
+1096,11,Deutschland,Emnid,BILD,2306,2.0,2016-02-05,,UNION,35,unionde,SPD,24,spdde,AFD,12,afdde,LINKE,10,linkede,GR�NE,9,grunede,FDP,4,fdpde
+1099,11,Deutschland,Forsa,stern,2501,1.9,2016-02-03,,UNION,36,unionde,SPD,24,spdde,AFD,10,afdde,GR�NE,10,grunede,LINKE,9,linkede,FDP,5,fdpde
+1104,11,Deutschland,Infratest dimap,ARD,1504,2.5,2016-02-03,Computergest�tzte Telefoninterviews (CATI),UNION,35,unionde,SPD,24,spdde,AFD,12,afdde,GR�NE,10,grunede,LINKE,9,linkede,FDP,5,fdpde
+1106,11,Deutschland,INSA,BILD,2007,2.2,2016-02-01,Online,UNION,33,unionde,SPD,23,spdde,AFD,13,afdde,GR�NE,10,grunede,LINKE,10,linkede,FDP,6,fdpde
+1088,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2016-01-31,,FP�,33,fpo,�VP,23,ovp,SP�,22,spo,GR�NE,11,gru,NEOS,7,neo,? ,4,weissnicht
+1095,11,Deutschland,Emnid,BILD,1638,2.4,2016-01-30,,UNION,34,unionde,SPD,24,spdde,AFD,12,afdde,LINKE,10,linkede,GR�NE,9,grunede,FDP,5,fdpde
+1102,11,Deutschland,FG Wahlen ,ZDF,1380,2.6,2016-01-29,Tel.,UNION,37,unionde,SPD,24,spdde,AFD,11,afdde,GR�NE,11,grunede,LINKE,8,linkede,FDP,5,fdpde
+1098,11,Deutschland,Forsa,stern,2505,1.9,2016-01-27,,UNION,36,unionde,SPD,24,spdde,GR�NE,10,grunede,LINKE,10,linkede,AFD,10,afdde,FDP,5,fdpde
+1092,11,Deutschland,Allensbach,wahlrecht.de,1431,2.6,2016-01-26,,UNION,35,unionde,SPD,25,spdde,AFD,10,afdde,LINKE,10,linkede,GR�NE,9,grunede,FDP,7,fdpde
+1085,1,�sterreich,Unique Research,Heute,800,3.4,2016-01-24,,FP�,31,fpo,�VP,24,ovp,SP�,22,spo,GR�NE,13,gru,NEOS,8,neo,TS,0,ts
+1081,1,�sterreich,Unique Research,profil,500,4.3,2016-01-23,,FP�,30,fpo,�VP,24,ovp,SP�,23,spo,GR�NE,14,gru,NEOS,8,neo,? ,1,weissnicht
+1084,11,Deutschland,Forsa,stern,2501,1.9,2016-01-23,,UNION,37,unionde,SPD,23,spdde,GR�NE,10,grunede,AFD,10,afdde,LINKE,9,linkede,FDP,5,fdpde
+1094,11,Deutschland,Emnid,BILD,1875,2.2,2016-01-23,,UNION,36,unionde,SPD,25,spdde,AFD,10,afdde,GR�NE,9,grunede,LINKE,9,linkede,FDP,5,fdpde
+1077,11,Deutschland,INSA,BILD,2051,2.1,2016-01-18,,UNION,33,unionde,SPD,23,spdde,AFD,13,afdde,LINKE,10,linkede,GR�NE,10,grunede,FDP,7,fdpde
+1065,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2016-01-17,,FP�,34,fpo,SP�,22,spo,�VP,22,ovp,GR�NE,11,gru,NEOS,7,neo,? ,4,weissnicht
+1067,11,Deutschland,Emnid,BILD,2016,2.2,2016-01-16,,UNION,38,unionde,SPD,24,spdde,GR�NE,10,grunede,LINKE,9,linkede,AFD,9,afdde,FDP,5,fdpde
+1074,11,Deutschland,Infratest dimap,ARD,1027,3.0,2016-01-16,"Telefoninterviews, computergest�tzt (CATI) ",UNION,37,unionde,SPD,25,spdde,GR�NE,10,grunede,AFD,10,afdde,LINKE,8,linkede,FDP,4,fdpde
+1071,11,Deutschland,FG Wahlen ,ZDF,1203,2.8,2016-01-15,Tel.,UNION,37,unionde,SPD,24,spdde,AFD,11,afdde,GR�NE,10,grunede,LINKE,8,linkede,FDP,5,fdpde
+1070,11,Deutschland,Forsa,stern,2503,1.9,2016-01-13,,UNION,38,unionde,SPD,23,spdde,LINKE,10,linkede,GR�NE,10,grunede,AFD,9,afdde,FDP,5,fdpde
+1066,11,Deutschland,Emnid,BILD,940,3.2,2016-01-09,,UNION,39,unionde,SPD,23,spdde,LINKE,10,linkede,GR�NE,10,grunede,AFD,8,afdde,FDP,4,fdpde
+1069,11,Deutschland,Forsa,stern,1503,2.5,2016-01-06,,UNION,38,unionde,SPD,23,spdde,LINKE,10,linkede,GR�NE,10,grunede,AFD,8,afdde,FDP,5,fdpde
+1072,11,Deutschland,GMS,GMS,1008,3.1,2016-01-04,Tel.,UNION,39,unionde,SPD,24,spdde,GR�NE,10,grunede,AFD,9,afdde,LINKE,8,linkede,FDP,5,fdpde
+1075,11,Deutschland,INSA,BILD,2022,2.2,2016-01-04,,UNION,36,unionde,SPD,23,spdde,LINKE,10,linkede,GR�NE,10,grunede,AFD,10,afdde,FDP,5,fdpde
+1068,11,Deutschland,Forsa,stern,1501,2.5,2015-12-29,,UNION,38,unionde,SPD,23,spdde,GR�NE,10,grunede,LINKE,10,linkede,AFD,8,afdde,FDP,5,fdpde
+1059,10,Tirol,Research Affairs,Tiroler Tageszeitung,608,3.9,2015-12-28,"368 Online, 240 Tel.",�VP,35,ovp,FP�,19,fpo,GR�NE,16,gru,SP�,12,spo,NEOS,6,neo,FRITZ,5,lfr
+1061,10,Tirol,GMK,Mein Bezirk,400,4.9,2015-12-28,Tel.,�VP,38,ovp,FP�,29,fpo,GR�NE,13,gru,SP�,9,spo,FRITZ,4,lfr,NEOS,4,neo
+1060,4,Ober�sterreich,IMAS,Kronen Zeitung,1000,3.1,2015-12-27,,�VP,34,ovp,FP�,32,fpo,SP�,17,spo,GR�NE,13,gru,NEOS,4,neo,,,
+1058,11,Deutschland,Emnid,BILD,1832,2.3,2015-12-26,,UNION,39,unionde,SPD,24,spdde,LINKE,10,linkede,GR�NE,9,grunede,AFD,9,afdde,FDP,4,fdpde
+1056,11,Deutschland,INSA,BILD,2066,2.1,2015-12-21,,UNION,36,unionde,SPD,23,spdde,LINKE,11,linkede,AFD,10,afdde,GR�NE,10,grunede,FDP,6,fdpde
+1041,1,�sterreich,IMAS,Kronen Zeitung,1000,3.1,2015-12-20,,FP�,27,fpo,SP�,26,spo,�VP,25,ovp,GR�NE,13,gru,NEOS,5,neo,TS,1,ts
+1057,11,Deutschland,Forsa,stern,2504,1.9,2015-12-20,,UNION,39,unionde,SPD,24,spdde,GR�NE,10,grunede,LINKE,10,linkede,AFD,8,afdde,FDP,4,fdpde
+1038,1,�sterreich,Unique Research,profil,500,4.3,2015-12-19,Tel. Befragung,FP�,31,fpo,�VP,24,ovp,SP�,22,spo,GR�NE,13,gru,NEOS,8,neo,? ,2,weissnicht
+1050,11,Deutschland,Infratest dimap,ARD,1021,3.0,2015-12-18,CATI,UNION,38,unionde,SPD,24,spdde,AFD,10,afdde,GR�NE,10,grunede,LINKE,8,linkede,FDP,4,fdpde
+1037,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-12-17,,FP�,33,fpo,SP�,23,spo,�VP,21,ovp,GR�NE,12,gru,NEOS,8,neo,? ,3,weissnicht
+1036,7,Salzburg,GMK,Mein Bezirk,400,4.9,2015-12-16,,�VP,42,ovp,SP�,21,spo,FP�,17,fpo,GR�NE,14,gru,NEOS,3,neo,TS,1,ts
+1049,11,Deutschland,Allensbach,N/A,1457,2.5,2015-12-16,,UNION,38,unionde,SPD,26,spdde,GR�NE,10,grunede,LINKE,9,linkede,AFD,8,afdde,FDP,5,fdpde
+1051,11,Deutschland,Emnid,BILD,2821,1.8,2015-12-15,,UNION,38,unionde,SPD,25,spdde,LINKE,9,linkede,GR�NE,9,grunede,AFD,8,afdde,FDP,5,fdpde
+1047,11,Deutschland,INSA,BILD,2030,2.2,2015-12-14,,UNION,35,unionde,SPD,24,spdde,LINKE,10,linkede,AFD,10,afdde,GR�NE,9,grunede,FDP,6,fdpde
+1035,11,Deutschland,Emnid,BILD,2321,2.0,2015-12-13,,UNION,37,unionde,SPD,26,spdde,LINKE,10,linkede,GR�NE,9,grunede,AFD,8,afdde,FDP,4,fdpde
+1048,11,Deutschland,Forsa,stern,2502,1.9,2015-12-12,,UNION,39,unionde,SPD,24,spdde,GR�NE,11,grunede,LINKE,9,linkede,AFD,8,afdde,FDP,4,fdpde
+1034,11,Deutschland,FG Wahlen ,ZDF,1266,2.7,2015-12-11,Tel.,UNION,39,unionde,SPD,24,spdde,GR�NE,10,grunede,LINKE,9,linkede,AFD,9,afdde,FDP,4,fdpde
+1033,11,Deutschland,INSA,BILD,2012,2.2,2015-12-08,,UNION,35,unionde,SPD,24,spdde,AFD,10,afdde,GR�NE,10,grunede,LINKE,10,linkede,FDP,6,fdpde
+1032,11,Deutschland,Emnid,BILD,2352,2.0,2015-12-05,,UNION,37,unionde,SPD,25,spdde,GR�NE,10,grunede,LINKE,10,linkede,AFD,8,afdde,FDP,4,fdpde
+1031,11,Deutschland,Infratest dimap,ARD,1503,2.5,2015-12-04,CATI,UNION,37,unionde,SPD,25,spdde,GR�NE,11,grunede,AFD,10,afdde,LINKE,8,linkede,FDP,4,fdpde
+1030,11,Deutschland,Forsa,stern,2501,1.9,2015-12-02,,UNION,39,unionde,SPD,24,spdde,GR�NE,10,grunede,LINKE,9,linkede,AFD,6,afdde,FDP,5,fdpde
+1029,11,Deutschland,INSA,BILD,2016,2.2,2015-11-30,,UNION,35,unionde,SPD,24,spdde,AFD,11,afdde,GR�NE,10,grunede,LINKE,10,linkede,FDP,6,fdpde
+1028,11,Deutschland,Emnid,BILD,2356,2.0,2015-11-29,,UNION,38,unionde,SPD,25,spdde,LINKE,10,linkede,GR�NE,10,grunede,AFD,8,afdde,FDP,4,fdpde
+1027,11,Deutschland,FG Wahlen ,ZDF,1246,2.7,2015-11-27,Tel.,UNION,39,unionde,SPD,25,spdde,GR�NE,9,grunede,AFD,9,afdde,LINKE,8,linkede,FDP,4,fdpde
+1026,11,Deutschland,Forsa,stern,2502,1.9,2015-11-25,,UNION,39,unionde,SPD,24,spdde,GR�NE,10,grunede,LINKE,9,linkede,AFD,7,afdde,FDP,5,fdpde
+1025,11,Deutschland,INSA,BILD,2025,2.2,2015-11-23,,UNION,35,unionde,SPD,23,spdde,LINKE,11,linkede,AFD,10,afdde,GR�NE,9,grunede,FDP,6,fdpde
+1022,1,�sterreich,Unique Research,profil,500,4.3,2015-11-21,Tel.,FP�,32,fpo,SP�,22,spo,�VP,20,ovp,GR�NE,13,gru,NEOS,9,neo,? ,4,weissnicht
+1023,11,Deutschland,Emnid,BILD,2057,2.1,2015-11-21,,UNION,35,unionde,SPD,24,spdde,AFD,11,afdde,GR�NE,10,grunede,LINKE,10,linkede,FDP,5,fdpde
+1024,11,Deutschland,Infratest dimap,ARD,1851,2.3,2015-11-20,CATI,UNION,37,unionde,SPD,25,spdde,GR�NE,10,grunede,AFD,9,afdde,LINKE,8,linkede,FDP,5,fdpde
+1019,11,Deutschland,Allensbach,FAZ,1448,2.5,2015-11-19,,UNION,38,unionde,SPD,26,spdde,GR�NE,10,grunede,LINKE,10,linkede,AFD,7,afdde,FDP,6,fdpde
+1020,11,Deutschland,GMS,GMS,1005,3.1,2015-11-19,CATI,UNION,39,unionde,SPD,23,spdde,GR�NE,10,grunede,AFD,9,afdde,LINKE,9,linkede,FDP,4,fdpde
+1021,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-11-19,Tel. ,FP�,33,fpo,SP�,24,spo,�VP,21,ovp,GR�NE,12,gru,NEOS,7,neo,? ,3,weissnicht
+1017,11,Deutschland,Forsa,stern,2504,1.9,2015-11-17,,UNION,36,unionde,SPD,25,spdde,GR�NE,10,grunede,LINKE,9,linkede,AFD,8,afdde,FDP,5,fdpde
+1016,11,Deutschland,INSA,BILD,2057,2.1,2015-11-16,Online,UNION,35,unionde,SPD,24,spdde,AFD,11,afdde,GR�NE,10,grunede,LINKE,10,linkede,FDP,5,fdpde
+1015,11,Deutschland,Emnid,BILD,2412,2.0,2015-11-14,,UNION,37,unionde,SPD,25,spdde,GR�NE,10,grunede,LINKE,9,linkede,AFD,8,afdde,FDP,5,fdpde
+1014,11,Deutschland,FG Wahlen ,ZDF,1262,2.7,2015-11-13,Tel.,UNION,42,unionde,SPD,29,spdde,GR�NE,8,grunede,LINKE,8,linkede,AFD,8,afdde,FDP,3,fdpde
+1011,11,Deutschland,INSA,BILD,2017,2.2,2015-11-10,,UNION,34,unionde,SPD,24,spdde,LINKE,11,linkede,GR�NE,10,grunede,AFD,10,afdde,FDP,6,fdpde
+1013,11,Deutschland,Forsa,stern,2503,1.9,2015-11-10,computergesteuerte Zufallsstichprobe,UNION,38,unionde,SPD,25,spdde,GR�NE,10,grunede,LINKE,8,linkede,AFD,7,afdde,FDP,5,fdpde
+1010,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-11-05,,FP�,32,fpo,SP�,24,spo,�VP,21,ovp,GR�NE,13,gru,NEOS,7,neo,? ,3,weissnicht
+1012,11,Deutschland,Infratest dimap,ARD,1503,2.5,2015-11-05,CATI,UNION,37,unionde,SPD,24,spdde,GR�NE,11,grunede,LINKE,9,linkede,AFD,8,afdde,FDP,5,fdpde
+1008,1,�sterreich,Unique Research,profil,500,4.3,2015-10-31,Telefonische Befragung,FP�,32,fpo,SP�,24,spo,�VP,19,ovp,GR�NE,15,gru,NEOS,7,neo,? ,3,weissnicht
+1007,7,Salzburg,IGF,Salzburger Fenster,421,4.7,2015-10-27,CATI,�VP,29,ovp,FP�,22,fpo,SP�,18,spo,GR�NE,16,gru,NEOS,8,neo,FPS,4,fpssbg
+1005,1,�sterreich,IMAS,Kronen Zeitung,1000,3.1,2015-10-22,,FP�,32,fpo,SP�,25,spo,�VP,24,ovp,GR�NE,12,gru,NEOS,5,neo,TS,1,ts
+1009,11,Deutschland,INSA,BILD,2173,2.1,2015-10-20,,UNION,37,unionde,SPD,25,spdde,LINKE,10,linkede,GR�NE,10,grunede,AFD,8,afdde,FDP,5,fdpde
+1006,1,�sterreich,Market,Der Standard,416,4.8,2015-10-19,CATI,FP�,30,fpo,SP�,24,spo,�VP,22,ovp,GR�NE,15,gru,NEOS,5,neo,? ,4,weissnicht
+1004,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-10-15,,FP�,33,fpo,SP�,23,spo,�VP,20,ovp,GR�NE,14,gru,NEOS,7,neo,? ,3,weissnicht
+999,2,Wien,OGM,Kurier,793,3.4,2015-10-03,,SP�,38,spo,FP�,34,fpo,GR�NE,13,gru,�VP,10,ovp,NEOS,6,neo,So,2,and
+996,2,Wien,Unique Research,Heute,800,3.4,2015-10-02,,SP�,37,spo,FP�,35,fpo,GR�NE,12,gru,�VP,8,ovp,NEOS,6,neo,So,2,and
+997,2,Wien,Gallup,TZ �STERREICH,400,4.9,2015-10-02,,SP�,36,spo,FP�,35,fpo,GR�NE,11,gru,�VP,10,ovp,NEOS,6,neo,? ,2,weissnicht
+998,2,Wien,Market,Der Standard,405,4.8,2015-10-02,Tel. (CATI),SP�,36,spo,FP�,35,fpo,GR�NE,12,gru,�VP,10,ovp,NEOS,5,neo,So,2,and
+995,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-10-01,,FP�,33,fpo,SP�,24,spo,�VP,20,ovp,GR�NE,13,gru,NEOS,6,neo,So,4,and
+994,2,Wien,Unique Research,Kronen Zeitung,1000,3.1,2015-09-26,,SP�,38,spo,FP�,34,fpo,GR�NE,12,gru,�VP,8,ovp,NEOS,6,neo,So,2,and
+993,1,�sterreich,Market,Der Standard,400,4.9,2015-09-20,,FP�,32,fpo,�VP,23,ovp,SP�,22,spo,GR�NE,15,gru,NEOS,4,neo,TS,1,ts
+989,4,Ober�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-09-19,,�VP,37,ovp,FP�,29,fpo,SP�,19,spo,GR�NE,10,gru,NEOS,3,neo,So,2,and
+990,2,Wien,Gallup,TZ �STERREICH,400,4.9,2015-09-19,,SP�,35,spo,FP�,33,fpo,GR�NE,12,gru,�VP,10,ovp,NEOS,7,neo,? ,3,weissnicht
+991,1,�sterreich,Unique Research,profil,500,4.3,2015-09-19,,FP�,33,fpo,SP�,23,spo,�VP,21,ovp,GR�NE,14,gru,NEOS,6,neo,? ,3,weissnicht
+992,4,Ober�sterreich,OGM,Kurier,811,3.4,2015-09-19,,�VP,37,ovp,FP�,32,fpo,SP�,18,spo,GR�NE,10,gru,NEOS,3,neo,,,
+988,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-09-18,,FP�,32,fpo,SP�,25,spo,�VP,21,ovp,GR�NE,12,gru,NEOS,6,neo,? ,4,weissnicht
+987,4,Ober�sterreich,GMK,Mein Bezirk,400,4.9,2015-09-17,Tel.,�VP,37,ovp,FP�,28,fpo,SP�,18,spo,GR�NE,11,gru,NEOS,4,neo,So,2,and
+986,4,Ober�sterreich,Market,Der Standard,401,4.8,2015-09-14,CATI,�VP,40,ovp,FP�,26,fpo,SP�,19,spo,GR�NE,10,gru,NEOS,4,neo,So,1,and
+985,4,Ober�sterreich,Spectra,O�N,500,4.3,2015-09-13,,�VP,39,ovp,FP�,25,fpo,SP�,19,spo,GR�NE,10,gru,NEOS,4,neo,? ,3,weissnicht
+983,2,Wien,Unique Research,Heute,500,4.3,2015-09-10,,SP�,36,spo,FP�,32,fpo,GR�NE,14,gru,�VP,9,ovp,NEOS,8,neo,So,1,and
+982,4,Ober�sterreich,Unique Research,Heute,500,4.3,2015-09-07,,�VP,38,ovp,FP�,27,fpo,SP�,18,spo,GR�NE,12,gru,NEOS,4,neo,? ,1,weissnicht
+980,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-09-05,,FP�,30,fpo,SP�,25,spo,�VP,22,ovp,GR�NE,13,gru,NEOS,6,neo,? ,4,weissnicht
+981,2,Wien,Gallup,TZ �STERREICH,400,4.9,2015-09-05,,SP�,34,spo,FP�,32,fpo,GR�NE,13,gru,�VP,11,ovp,NEOS,6,neo,? ,4,weissnicht
+979,4,Ober�sterreich,IMAS,Kronen Zeitung,750,4.0,2015-09-04,,�VP,40,ovp,FP�,25,fpo,SP�,20,spo,GR�NE,9,gru,NEOS,4,neo,So,2,and
+978,4,Ober�sterreich,M+R ,Heute,500,4.3,2015-08-31,,�VP,39,ovp,FP�,28,fpo,SP�,20,spo,GR�NE,10,gru,NEOS,3,neo,,,
+977,1,�sterreich,IMAS,Kronen Zeitung,1000,3.1,2015-08-23,,SP�,26,spo,�VP,26,ovp,FP�,26,fpo,GR�NE,13,gru,NEOS,5,neo,TS,2,ts
+975,4,Ober�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-08-22,,�VP,38,ovp,FP�,26,fpo,SP�,20,spo,GR�NE,10,gru,NEOS,4,neo,So,2,and
+976,1,�sterreich,Unique Research,profil,500,4.3,2015-08-22,,FP�,31,fpo,�VP,23,ovp,SP�,22,spo,GR�NE,13,gru,NEOS,7,neo,So,4,and
+973,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-08-21,,FP�,29,fpo,SP�,24,spo,�VP,23,ovp,GR�NE,13,gru,NEOS,8,neo,? ,3,weissnicht
+972,1,�sterreich,Market,Der Standard,400,4.9,2015-08-19,CATI,FP�,29,fpo,SP�,23,spo,�VP,22,ovp,GR�NE,16,gru,NEOS,6,neo,TS,1,ts
+971,4,Ober�sterreich,M+R ,Der Standard,1000,3.1,2015-08-03,,�VP,40,ovp,FP�,25,fpo,SP�,21,spo,GR�NE,12,gru,NEOS,3,neo,,,
+970,2,Wien,Gallup,TZ �STERREICH,400,4.9,2015-08-01,,SP�,33,spo,FP�,31,fpo,GR�NE,14,gru,�VP,11,ovp,NEOS,7,neo,? ,4,weissnicht
+969,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-07-31,,FP�,29,fpo,SP�,23,spo,�VP,23,ovp,GR�NE,14,gru,NEOS,7,neo,So,4,and
+968,1,�sterreich,Unique Research,profil,500,4.3,2015-07-25,,FP�,30,fpo,SP�,24,spo,�VP,23,ovp,GR�NE,13,gru,NEOS,8,neo,TS,1,ts
+967,2,Wien,Gallup,TZ �STERREICH,400,4.9,2015-07-18,400,SP�,34,spo,FP�,31,fpo,GR�NE,14,gru,�VP,11,ovp,NEOS,6,neo,? ,4,weissnicht
+965,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-07-17,,FP�,29,fpo,SP�,23,spo,�VP,22,ovp,GR�NE,15,gru,NEOS,7,neo,? ,4,weissnicht
+966,2,Wien,AKonsult,Mein Bezirk,400,4.9,2015-07-17,,SP�,35,spo,FP�,32,fpo,GR�NE,13,gru,�VP,12,ovp,NEOS,6,neo,So,2,and
+964,2,Wien,Market,Der Standard,400,4.9,2015-07-13,CATI,SP�,35,spo,FP�,32,fpo,GR�NE,14,gru,�VP,12,ovp,NEOS,6,neo,? ,1,weissnicht
+963,1,�sterreich,IMAS,Kronen Zeitung,1000,0.0,2015-07-12,,FP�,27,fpo,SP�,26,spo,�VP,26,ovp,GR�NE,13,gru,NEOS,4,neo,TS,2,ts
+962,2,Wien,Unique Research,Heute,500,4.3,2015-07-10,,SP�,35,spo,FP�,30,fpo,GR�NE,14,gru,�VP,10,ovp,NEOS,8,neo,? ,2,weissnicht
+961,4,Ober�sterreich,IMAS,Kronen Zeitung,600,4.0,2015-07-05,,�VP,40,ovp,FP�,25,fpo,SP�,18,spo,GR�NE,9,gru,NEOS,4,neo,So,4,and
+960,2,Wien,Gallup,TZ �STERREICH,400,4.9,2015-07-04,,SP�,35,spo,FP�,30,fpo,GR�NE,14,gru,�VP,11,ovp,NEOS,6,neo,? ,4,weissnicht
+959,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-07-03,,FP�,28,fpo,�VP,24,ovp,SP�,23,spo,GR�NE,15,gru,NEOS,6,neo,So,4,and
+958,4,Ober�sterreich,GMK,Mein Bezirk,400,4.9,2015-07-02,,�VP,39,ovp,FP�,26,fpo,SP�,20,spo,GR�NE,11,gru,NEOS,2,neo,So,2,and
+957,4,Ober�sterreich,Spectra,O�N,500,4.3,2015-06-27,,�VP,39,ovp,FP�,23,fpo,SP�,19,spo,GR�NE,11,gru,NEOS,4,neo,TS,1,ts
+956,1,�sterreich,Unique Research,Heute,800,3.4,2015-06-26,,FP�,29,fpo,SP�,24,spo,�VP,23,ovp,GR�NE,15,gru,NEOS,6,neo,TS,1,ts
+955,1,�sterreich,IFES,Kurier,1000,3.1,2015-06-23,,FP�,27,fpo,SP�,24,spo,�VP,23,ovp,GR�NE,16,gru,NEOS,4,neo,So,5,and
+952,1,�sterreich,Unique Research,profil,500,4.3,2015-06-20,,FP�,28,fpo,�VP,24,ovp,SP�,23,spo,GR�NE,15,gru,NEOS,7,neo,TS,1,ts
+954,7,Salzburg,IGF,Salzburger Nachrichten,502,4.3,2015-06-20,CATI,�VP,32,ovp,SP�,22,spo,GR�NE,21,gru,FP�,19,fpo,TS,4,ts,NEOS,2,neo
+951,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-06-19,,FP�,28,fpo,SP�,24,spo,�VP,24,ovp,GR�NE,15,gru,NEOS,5,neo,? ,4,weissnicht
+953,2,Wien,Gallup,TZ �STERREICH,400,4.9,2015-06-19,,SP�,35,spo,FP�,29,fpo,GR�NE,14,gru,�VP,12,ovp,NEOS,6,neo,? ,4,weissnicht
+950,4,Ober�sterreich,M+R ,Der Standard,500,4.3,2015-06-18,,�VP,39,ovp,FP�,25,fpo,SP�,21,spo,GR�NE,12,gru,NEOS,2,neo,,,
+949,1,�sterreich,IMAS,Kronen Zeitung,1000,3.1,2015-06-15,,SP�,26,spo,�VP,26,ovp,FP�,26,fpo,GR�NE,14,gru,NEOS,4,neo,TS,1,ts
+948,1,�sterreich,Hajek,ATV,500,4.3,2015-06-10,,FP�,28,fpo,�VP,25,ovp,SP�,23,spo,GR�NE,15,gru,NEOS,6,neo,TS,1,ts
+984,4,Ober�sterreich,Spectra,O�N,500,4.3,2015-06-10,,�VP,39,ovp,FP�,23,fpo,SP�,19,spo,GR�NE,11,gru,NEOS,4,neo,? ,4,weissnicht
+947,1,�sterreich,Market,Der Standard,400,4.9,2015-06-06,,FP�,28,fpo,SP�,23,spo,�VP,23,ovp,GR�NE,15,gru,NEOS,6,neo,TS,1,ts
+945,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-06-04,,FP�,28,fpo,SP�,25,spo,�VP,24,ovp,GR�NE,13,gru,NEOS,6,neo,? ,4,weissnicht
+946,7,Salzburg,IMAS,Kronen Zeitung,602,4.0,2015-06-04,,�VP,32,ovp,SP�,20,spo,GR�NE,20,gru,FP�,19,fpo,NEOS,6,neo,TS,3,ts
+944,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-05-30,,FP�,27,fpo,SP�,26,spo,�VP,25,ovp,GR�NE,13,gru,NEOS,5,neo,? ,4,weissnicht
+943,5,Steiermark,OGM,Kurier,502,4.3,2015-05-25,,SP�,32,spo,�VP,29,ovp,FP�,22,fpo,GR�NE,7,gru,KP�,6,kpo,NEOS,4,neo
+942,1,�sterreich,Unique Research,profil,500,4.3,2015-05-21,,FP�,27,fpo,SP�,26,spo,�VP,25,ovp,GR�NE,13,gru,NEOS,6,neo,TS,1,ts
+940,5,Steiermark,Market,Der Standard,398,4.9,2015-05-15,CATI,SP�,33,spo,�VP,31,ovp,FP�,17,fpo,GR�NE,7,gru,NEOS,5,neo,KP�,5,kpo
+941,5,Steiermark,Gallup,TZ �STERREICH,400,4.9,2015-05-15,,SP�,31,spo,�VP,29,ovp,FP�,21,fpo,GR�NE,8,gru,KP�,5,kpo,NEOS,4,neo
+939,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-05-14,,FP�,26,fpo,SP�,25,spo,�VP,25,ovp,GR�NE,14,gru,NEOS,6,neo,? ,4,weissnicht
+937,5,Steiermark,OGM,Kleine Zeitung,500,4.3,2015-05-10,,SP�,30,spo,�VP,28,ovp,FP�,24,fpo,GR�NE,7,gru,KP�,6,kpo,NEOS,3,neo
+938,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-05-10,,SP�,26,spo,FP�,26,fpo,�VP,25,ovp,GR�NE,13,gru,NEOS,6,neo,? ,4,weissnicht
+936,2,Wien,Gallup,TZ �STERREICH,400,4.9,2015-05-08,,SP�,37,spo,FP�,28,fpo,GR�NE,13,gru,�VP,12,ovp,NEOS,7,neo,? ,3,weissnicht
+935,7,Salzburg,Market,Salzburger Nachrichten,400,4.9,2015-05-07,,�VP,31,ovp,SP�,21,spo,GR�NE,20,gru,FP�,18,fpo,TS,4,ts,NEOS,2,neo
+934,5,Steiermark,M+R ,orf.at,800,3.4,2015-05-03,,SP�,34,spo,�VP,30,ovp,FP�,20,fpo,GR�NE,7,gru,KP�,5,kpo,NEOS,3,neo
+933,4,Ober�sterreich,GMK,Mein Bezirk,400,4.9,2015-04-29,,�VP,40,ovp,SP�,21,spo,FP�,21,fpo,GR�NE,12,gru,NEOS,4,neo,So,2,and
+932,1,�sterreich,Unique Research,profil,500,0.0,2015-04-25,,SP�,27,spo,FP�,26,fpo,�VP,24,ovp,GR�NE,14,gru,NEOS,6,neo,TS,2,ts
+931,6,Burgenland,Gallup,TZ �STERREICH,400,4.9,2015-04-24,,SP�,44,spo,�VP,31,ovp,FP�,13,fpo,GR�NE,6,gru,NEOS,3,neo,LBL,3,lblbgld
+929,5,Steiermark,Gallup,TZ �STERREICH,300,5.6,2015-04-21,,SP�,31,spo,�VP,29,ovp,FP�,20,fpo,GR�NE,9,gru,NEOS,5,neo,KP�,4,kpo
+928,10,Tirol,GfK,Tiroler Tageszeitung,500,4.3,2015-04-19,,�VP,39,ovp,GR�NE,16,gru,SP�,13,spo,FP�,13,fpo,FRITZ,5,lfr,NEOS,4,neo
+927,1,�sterreich,IMAS,Kronen Zeitung,1000,0.0,2015-04-18,,SP�,28,spo,�VP,27,ovp,FP�,25,fpo,GR�NE,13,gru,NEOS,5,neo,TS,1,ts
+925,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-04-17,,SP�,26,spo,�VP,26,ovp,FP�,26,fpo,GR�NE,12,gru,NEOS,6,neo,? ,4,weissnicht
+926,2,Wien,IFES,Kronen Zeitung,2001,2.2,2015-04-17,,SP�,39,spo,FP�,23,fpo,GR�NE,16,gru,�VP,13,ovp,NEOS,6,neo,So,3,and
+924,6,Burgenland,Hajek,orf.at,1000,3.1,2015-04-14,,SP�,46,spo,�VP,30,ovp,FP�,12,fpo,GR�NE,6,gru,NEOS,3,neo,LBL,3,lblbgld
+923,4,Ober�sterreich,IMAS,Kronen Zeitung,602,4.0,2015-04-12,CATI,�VP,43,ovp,SP�,22,spo,FP�,18,fpo,GR�NE,10,gru,NEOS,5,neo,So,3,and
+922,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-04-10,,SP�,26,spo,�VP,26,ovp,FP�,25,fpo,GR�NE,13,gru,NEOS,6,neo,? ,4,weissnicht
+921,4,Ober�sterreich,M+R ,Die Presse,1000,3.1,2015-04-07,,�VP,42,ovp,SP�,23,spo,FP�,18,fpo,GR�NE,12,gru,NEOS,3,neo,? ,2,weissnicht
+920,2,Wien,Market,Der Standard,404,4.8,2015-04-06,CATI,SP�,37,spo,FP�,29,fpo,GR�NE,14,gru,�VP,12,ovp,NEOS,7,neo,? ,1,weissnicht
+919,4,Ober�sterreich,Spectra,O�N,500,4.3,2015-04-04,,�VP,43,ovp,SP�,20,spo,FP�,20,fpo,GR�NE,11,gru,NEOS,4,neo,TS,1,ts
+916,2,Wien,Gallup,TZ �STERREICH,300,5.6,2015-04-02,,SP�,37,spo,FP�,27,fpo,�VP,13,ovp,GR�NE,12,gru,NEOS,8,neo,? ,3,weissnicht
+917,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-04-01,,SP�,26,spo,�VP,26,ovp,FP�,25,fpo,GR�NE,12,gru,NEOS,7,neo,? ,4,weissnicht
+915,1,�sterreich,Market,Der Standard,419,4.7,2015-03-29,CATI,FP�,26,fpo,�VP,24,ovp,SP�,23,spo,GR�NE,15,gru,NEOS,6,neo,TS,1,ts
+914,1,�sterreich,Unique Research,Heute,800,3.4,2015-03-27,,�VP,27,ovp,SP�,26,spo,FP�,24,fpo,GR�NE,12,gru,NEOS,7,neo,TS,2,ts
+913,1,�sterreich,Unique Research,profil,500,4.3,2015-03-21,,�VP,26,ovp,SP�,25,spo,FP�,24,fpo,GR�NE,13,gru,NEOS,8,neo,TS,2,ts
+912,1,�sterreich,Gallup,TZ �STERREICH,400,0.0,2015-03-20,,SP�,26,spo,FP�,26,fpo,�VP,25,ovp,GR�NE,13,gru,NEOS,6,neo,? ,4,weissnicht
+911,5,Steiermark,Gallup,TZ �STERREICH,300,5.6,2015-03-15,,SP�,32,spo,�VP,29,ovp,FP�,20,fpo,GR�NE,8,gru,NEOS,5,neo,KP�,4,kpo
+910,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-03-13,,FP�,27,fpo,SP�,25,spo,�VP,24,ovp,GR�NE,13,gru,NEOS,7,neo,? ,4,weissnicht
+909,1,�sterreich,Hajek,ATV,500,4.3,2015-03-12,,�VP,27,ovp,FP�,26,fpo,SP�,24,spo,GR�NE,12,gru,NEOS,7,neo,TS,2,ts
+905,1,�sterreich,AKonsult,Mein Bezirk,604,3.9,2015-03-10,,FP�,27,fpo,SP�,25,spo,�VP,25,ovp,GR�NE,13,gru,NEOS,6,neo,So,4,and
+908,81,Lustenau (GRW),Edwin Berndt,Vorarlberger Nachrichten,500,0.0,2015-03-10,,�VP,42,ovp,FP�,33,fpo,GR�NE,16,gru,SP�,9,spo,So,0,and,,,
+904,1,�sterreich,Market,Der Standard,458,4.5,2015-03-08,Tel.,FP�,27,fpo,�VP,23,ovp,SP�,22,spo,GR�NE,16,gru,NEOS,7,neo,BZ�,1,bzo
+903,2,Wien,Unique Research,Heute,600,4.0,2015-03-06,Tel.,SP�,38,spo,FP�,28,fpo,GR�NE,15,gru,�VP,11,ovp,NEOS,7,neo,So,1,and
+902,2,Wien,Gallup,TZ �STERREICH,300,5.6,2015-02-28,,SP�,39,spo,FP�,25,fpo,GR�NE,13,gru,�VP,12,ovp,NEOS,7,neo,? ,4,weissnicht
+901,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-02-27,,FP�,26,fpo,SP�,25,spo,�VP,24,ovp,GR�NE,13,gru,NEOS,8,neo,So,4,and
+899,1,�sterreich,IMAS,Kronen Zeitung,1000,3.1,2015-02-22,,SP�,27,spo,�VP,26,ovp,FP�,25,fpo,GR�NE,14,gru,NEOS,5,neo,TS,1,ts
+898,1,�sterreich,Unique Research,profil,500,4.3,2015-02-21,,SP�,26,spo,�VP,26,ovp,FP�,26,fpo,GR�NE,12,gru,NEOS,8,neo,TS,1,ts
+896,72,Klagenfurt (GRW),IMAS,Kronen Zeitung,600,4.0,2015-02-14,,FP�,33,fpo,SP�,25,spo,�VP,16,ovp,GR�NE,15,gru,NEOS,5,neo,So,7,and
+892,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-02-13,,SP�,26,spo,FP�,26,fpo,�VP,25,ovp,GR�NE,13,gru,NEOS,7,neo,So,3,and
+893,80,Villach (GRW),OGM,Kleine Zeitung,300,5.6,2015-02-13,Tel.,SP�,53,spo,�VP,21,ovp,FP�,12,fpo,GR�NE,10,gru,NEOS,1,neo,So,3,and
+894,72,Klagenfurt (GRW),OGM,Kleine Zeitung,305,5.6,2015-02-13,Tel.,SP�,31,spo,�VP,25,ovp,FP�,22,fpo,GR�NE,14,gru,NEOS,4,neo,BA,3,baklu
+891,1,�sterreich,meinungsraum.at,NEWS,500,4.3,2015-02-12,,FP�,27,fpo,SP�,25,spo,�VP,24,ovp,GR�NE,12,gru,NEOS,7,neo,TS,1,ts
+895,72,Klagenfurt (GRW),Humaninstitut,APA,450,4.6,2015-02-10,,SP�,35,spo,GR�NE,18,gru,FP�,17,fpo,�VP,11,ovp,TK,7,tkklu,BA,5,baklu
+890,1,�sterreich,Market,Der Standard,405,4.8,2015-02-06,CATI,FP�,26,fpo,�VP,24,ovp,SP�,22,spo,GR�NE,15,gru,NEOS,8,neo,TS,1,ts
+888,79,Steiermark GRW,bmm,Kronen Zeitung,515,4.3,2015-01-31,Tel.,�VP,43,ovp,SP�,37,spo,FP�,11,fpo,GR�NE,3,gru,So,6,and,,,
+889,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-01-31,,FP�,26,fpo,SP�,25,spo,�VP,25,ovp,GR�NE,13,gru,NEOS,7,neo,? ,4,weissnicht
+1105,11,Deutschland,INSA,BILD,2047,2.1,2015-01-25,Online,UNION,33,unionde,SPD,23,spdde,AFD,13,afdde,GR�NE,10,grunede,LINKE,9,linkede,FDP,6,fdpde
+885,1,�sterreich,Unique Research,profil,500,4.3,2015-01-24,,FP�,28,fpo,SP�,26,spo,�VP,26,ovp,GR�NE,12,gru,NEOS,7,neo,TS,1,ts
+886,2,Wien,Gallup,TZ �STERREICH,400,4.9,2015-01-24,,SP�,37,spo,FP�,26,fpo,GR�NE,13,gru,�VP,13,ovp,NEOS,7,neo,? ,4,weissnicht
+884,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-01-22,,FP�,26,fpo,�VP,25,ovp,SP�,25,spo,GR�NE,13,gru,NEOS,7,neo,? ,4,weissnicht
+883,2,Wien,Gallup,TZ �STERREICH,400,4.9,2015-01-10,,SP�,38,spo,FP�,26,fpo,GR�NE,14,gru,�VP,13,ovp,NEOS,6,neo,? ,1,weissnicht
+1076,11,Deutschland,INSA,BILD,2039,2.1,2015-01-10,,UNION,35,unionde,SPD,22,spdde,AFD,12,afdde,LINKE,10,linkede,GR�NE,10,grunede,FDP,6,fdpde
+882,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2015-01-09,,FP�,27,fpo,�VP,26,ovp,SP�,24,spo,GR�NE,13,gru,NEOS,6,neo,? ,4,weissnicht
+879,2,Wien,meinungsraum.at,NEWS,500,4.3,2015-01-08,,SP�,37,spo,FP�,27,fpo,GR�NE,14,gru,�VP,12,ovp,NEOS,7,neo,TS,1,ts
+880,5,Steiermark,meinungsraum.at,NEWS,500,4.3,2015-01-08,,SP�,30,spo,�VP,28,ovp,FP�,21,fpo,GR�NE,10,gru,NEOS,6,neo,KP�,3,kpo
+881,4,Ober�sterreich,meinungsraum.at,NEWS,500,4.3,2015-01-08,,�VP,41,ovp,FP�,19,fpo,SP�,19,spo,GR�NE,13,gru,NEOS,6,neo,TS,0,ts
+1073,11,Deutschland,Infratest dimap,ARD,1504,2.5,2015-01-07,Computergest�tzte Telefoninterviews (CATI),UNION,39,unionde,SPD,24,spdde,GR�NE,11,grunede,AFD,9,afdde,LINKE,8,linkede,FDP,4,fdpde
+877,1,�sterreich,OGM,Kurier,800,3.4,2015-01-01,,�VP,26,ovp,FP�,26,fpo,SP�,25,spo,GR�NE,14,gru,NEOS,7,neo,TS,1,ts
+878,1,�sterreich,Market,Der Standard,422,4.7,2015-01-01,CATI,FP�,26,fpo,SP�,23,spo,�VP,23,ovp,GR�NE,15,gru,NEOS,8,neo,TS,1,ts
+875,10,Tirol,GMK,Mein Bezirk,0,0.0,2014-12-29,,�VP,42,ovp,GR�NE,17,gru,FP�,15,fpo,SP�,12,spo,FRITZ,3,lfr,NEOS,3,neo
+876,1,�sterreich,AKonsult,Mein Bezirk,602,4.0,2014-12-29,CATI,�VP,26,ovp,FP�,26,fpo,SP�,24,spo,GR�NE,14,gru,NEOS,8,neo,TS,1,ts
+874,10,Tirol,Gallup,Tiroler Tageszeitung,500,4.3,2014-12-27,,�VP,38,ovp,SP�,15,spo,GR�NE,15,gru,FP�,13,fpo,NEOS,7,neo,FRITZ,4,lfr
+872,1,�sterreich,Unique Research,profil,500,4.3,2014-12-20,,�VP,28,ovp,SP�,25,spo,FP�,25,fpo,GR�NE,12,gru,NEOS,8,neo,TS,1,ts
+873,1,�sterreich,IMAS,Kronen Zeitung,1000,3.2,2014-12-20,,SP�,26,spo,�VP,26,ovp,FP�,25,fpo,GR�NE,14,gru,NEOS,4,neo,TS,2,ts
+871,1,�sterreich,Gallup,TZ �STERREICH,800,3.4,2014-12-18,,�VP,27,ovp,FP�,26,fpo,SP�,23,spo,GR�NE,13,gru,NEOS,7,neo,? ,4,weissnicht
+870,7,Salzburg,GMK,Mein Bezirk,400,4.9,2014-12-17,400 Interviews im Bundesland Salzburg ab 16 J. ,�VP,41,ovp,SP�,20,spo,FP�,16,fpo,GR�NE,15,gru,NEOS,5,neo,TS,1,ts
+869,4,Ober�sterreich,Spectra,O�N,500,4.3,2014-12-13,,�VP,44,ovp,SP�,19,spo,FP�,16,fpo,GR�NE,12,gru,NEOS,5,neo,TS,1,ts
+865,1,�sterreich,Unique Research,Heute,800,3.4,2014-12-05,Tel.,�VP,28,ovp,FP�,25,fpo,SP�,25,spo,GR�NE,12,gru,NEOS,8,neo,TS,0,ts
+866,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-12-05,,�VP,26,ovp,FP�,25,fpo,SP�,24,spo,GR�NE,14,gru,NEOS,7,neo,? ,4,weissnicht
+864,2,Wien,Gallup,TZ �STERREICH,0,0.0,2014-11-30,,SP�,38,spo,FP�,25,fpo,GR�NE,14,gru,�VP,13,ovp,NEOS,7,neo,? ,3,weissnicht
+861,1,�sterreich,meinungsraum.at,NEWS,500,4.3,2014-11-27,,FP�,27,fpo,�VP,24,ovp,SP�,23,spo,GR�NE,15,gru,NEOS,7,neo,TS,1,ts
+862,1,�sterreich,Hajek,ATV,1000,3.1,2014-11-27,Tel.,�VP,28,ovp,FP�,26,fpo,SP�,24,spo,GR�NE,12,gru,NEOS,7,neo,TS,1,ts
+863,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-11-27,,FP�,25,fpo,�VP,25,ovp,SP�,25,spo,GR�NE,14,gru,NEOS,7,neo,? ,4,weissnicht
+860,1,�sterreich,Market,Der Standard,447,4.6,2014-11-23,Tel.,FP�,25,fpo,�VP,23,ovp,SP�,22,spo,GR�NE,16,gru,NEOS,9,neo,TS,1,ts
+859,1,�sterreich,OGM,Kurier,806,3.4,2014-11-22,,�VP,27,ovp,SP�,25,spo,FP�,25,fpo,GR�NE,14,gru,NEOS,7,neo,TS,1,ts
+857,4,Ober�sterreich,Unique Research,Heute,500,4.3,2014-11-17,,�VP,44,ovp,SP�,20,spo,FP�,18,fpo,GR�NE,12,gru,NEOS,5,neo,So,1,and
+855,2,Wien,Gallup,TZ �STERREICH,400,4.9,2014-11-16,,SP�,38,spo,FP�,25,fpo,GR�NE,15,gru,�VP,12,ovp,NEOS,7,neo,? ,3,weissnicht
+856,2,Wien,GfK,Kurier,2000,2.2,2014-11-16,,SP�,39,spo,FP�,25,fpo,GR�NE,15,gru,�VP,13,ovp,NEOS,8,neo,So,2,and
+854,1,�sterreich,Unique Research,profil,500,4.3,2014-11-15,Online,SP�,27,spo,�VP,27,ovp,FP�,26,fpo,GR�NE,12,gru,NEOS,7,neo,TS,1,ts
+853,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-11-14,Tel.,SP�,25,spo,�VP,25,ovp,FP�,24,fpo,GR�NE,14,gru,NEOS,7,neo,? ,5,weissnicht
+852,2,Wien,meinungsraum.at,NEWS,500,4.3,2014-11-06,Online,SP�,38,spo,FP�,28,fpo,GR�NE,14,gru,�VP,11,ovp,NEOS,7,neo,TS,1,ts
+851,1,�sterreich,Gallup,TZ �STERREICH,0,0.0,2014-10-31,Tel.,FP�,26,fpo,SP�,25,spo,�VP,25,ovp,GR�NE,14,gru,NEOS,6,neo,? ,4,weissnicht
+848,1,�sterreich,meinungsraum.at,NEWS,800,3.4,2014-10-23,Online,FP�,26,fpo,SP�,25,spo,�VP,25,ovp,GR�NE,12,gru,NEOS,9,neo,TS,1,ts
+849,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-10-23,Tel.,FP�,25,fpo,SP�,25,spo,�VP,24,ovp,GR�NE,14,gru,NEOS,8,neo,? ,4,weissnicht
+847,1,�sterreich,IMAS,Kronen Zeitung,0,0.0,2014-10-19,,SP�,25,spo,FP�,24,fpo,�VP,24,ovp,GR�NE,13,gru,NEOS,8,neo,TS,2,ts
+846,1,�sterreich,Unique Research,profil,500,4.3,2014-10-18,Tel.,FP�,26,fpo,SP�,25,spo,�VP,25,ovp,GR�NE,12,gru,NEOS,9,neo,TS,2,ts
+850,78,Wiener Neustadt (GRW),SORA,Mein Bezirk,800,3.4,2014-10-15,Tel.,SP�,52,spo,�VP,23,ovp,FP�,10,fpo,GR�NE,5,gru,NEOS,3,neo,So,6,and
+845,2,Wien,Gallup,TZ �STERREICH,0,0.0,2014-10-12,,SP�,37,spo,FP�,26,fpo,GR�NE,14,gru,�VP,12,ovp,NEOS,7,neo,? ,2,weissnicht
+843,1,�sterreich,Market,Der Standard,404,4.8,2014-10-10,Tel. CATI,FP�,26,fpo,SP�,22,spo,�VP,21,ovp,GR�NE,16,gru,NEOS,10,neo,BZ�,1,bzo
+844,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-10-10,Tel.,FP�,26,fpo,SP�,25,spo,�VP,24,ovp,GR�NE,14,gru,NEOS,8,neo,? ,3,weissnicht
+842,2,Wien,Unique Research,Heute,500,4.3,2014-10-09,,SP�,35,spo,FP�,27,fpo,GR�NE,15,gru,�VP,12,ovp,NEOS,8,neo,? ,3,weissnicht
+841,6,Burgenland,?,bvz.at,1000,3.1,2014-10-08,,SP�,47,spo,�VP,31,ovp,FP�,10,fpo,GR�NE,6,gru,NEOS,2,neo,LBL,2,lblbgld
+840,5,Steiermark,OGM,Kleine Zeitung,500,4.3,2014-10-04,Tel.,SP�,31,spo,�VP,27,ovp,FP�,20,fpo,GR�NE,9,gru,KP�,5,kpo,NEOS,5,neo
+839,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-10-02,Tel.,FP�,26,fpo,SP�,25,spo,�VP,24,ovp,GR�NE,15,gru,NEOS,8,neo,? ,2,weissnicht
+838,1,�sterreich,Hajek,ATV,1000,3.1,2014-09-25,,FP�,26,fpo,SP�,24,spo,�VP,24,ovp,GR�NE,13,gru,NEOS,9,neo,TS,3,ts
+825,1,�sterreich,AKonsult,Mein Bezirk,600,4.0,2014-09-19,,FP�,26,fpo,SP�,25,spo,�VP,24,ovp,GR�NE,14,gru,NEOS,9,neo,TS,2,ts
+824,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-09-18,Tel.,FP�,26,fpo,SP�,25,spo,�VP,23,ovp,GR�NE,15,gru,NEOS,8,neo,? ,3,weissnicht
+822,1,�sterreich,Unique Research,profil,500,4.3,2014-09-13,Online,FP�,26,fpo,SP�,25,spo,�VP,25,ovp,GR�NE,12,gru,NEOS,9,neo,TS,2,ts
+823,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-09-13,Tel.,FP�,27,fpo,SP�,25,spo,�VP,21,ovp,GR�NE,15,gru,NEOS,9,neo,TS,1,ts
+819,9,Vorarlberg,Edwin Berndt,Vorarlberger Nachrichten,504,4.3,2014-09-06,Tel.,�VP,39,ovp,FP�,25,fpo,GR�NE,14,gru,NEOS,10,neo,SP�,10,spo,So,3,and
+821,4,Ober�sterreich,IMAS,Kronen Zeitung,0,0.0,2014-09-05,,�VP,41,ovp,SP�,23,spo,FP�,18,fpo,GR�NE,10,gru,NEOS,6,neo,So,3,and
+817,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-09-04,Tel.,FP�,28,fpo,SP�,25,spo,�VP,20,ovp,GR�NE,15,gru,NEOS,9,neo,TS,1,ts
+818,1,�sterreich,Unique Research,Heute,800,3.4,2014-09-04,Tel.,FP�,26,fpo,SP�,25,spo,�VP,24,ovp,GR�NE,11,gru,NEOS,10,neo,TS,2,ts
+816,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-08-30,Tel.,FP�,28,fpo,SP�,25,spo,�VP,19,ovp,GR�NE,15,gru,NEOS,10,neo,TS,1,ts
+815,1,�sterreich,Market,Der Standard,401,4.8,2014-08-26,Telefon,FP�,28,fpo,SP�,23,spo,�VP,19,ovp,GR�NE,14,gru,NEOS,10,neo,TS,1,ts
+811,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-08-22,Tel.,FP�,27,fpo,SP�,25,spo,�VP,19,ovp,GR�NE,14,gru,NEOS,11,neo,TS,1,ts
+810,9,Vorarlberg,meinungsraum.at,NEWS,623,3.9,2014-08-21,,�VP,39,ovp,FP�,25,fpo,GR�NE,15,gru,NEOS,10,neo,SP�,9,spo,So,2,and
+808,9,Vorarlberg,im Auftrag der Gr�nen,ORF,300,5.6,2014-08-16,Tel.,�VP,42,ovp,FP�,20,fpo,GR�NE,15,gru,NEOS,10,neo,SP�,10,spo,So,3,and
+809,1,�sterreich,IMAS,Kronen Zeitung,1000,3.1,2014-08-16,,SP�,26,spo,FP�,24,fpo,�VP,22,ovp,GR�NE,14,gru,NEOS,8,neo,TS,2,ts
+807,8,K�rnten,Institut f�r Angewandte Politikwissenschaften in Hall in Tirol,Kurier,500,4.3,2014-08-12,N/A,SP�,43,spo,�VP,17,ovp,FP�,16,fpo,GR�NE,13,gru,NEOS,4,neo,TS,4,ts
+804,1,�sterreich,Unique Research,profil,500,4.3,2014-08-09,Tel.,FP�,29,fpo,SP�,25,spo,�VP,19,ovp,GR�NE,13,gru,NEOS,10,neo,TS,2,ts
+805,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-08-09,,FP�,28,fpo,SP�,25,spo,�VP,19,ovp,GR�NE,14,gru,NEOS,10,neo,TS,1,ts
+806,2,Wien,Gallup,TZ �STERREICH,300,5.6,2014-08-09,,SP�,38,spo,FP�,25,fpo,GR�NE,13,gru,�VP,12,ovp,NEOS,9,neo,So,3,and
+803,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-08-02,Tel.,FP�,28,fpo,SP�,24,spo,�VP,19,ovp,GR�NE,14,gru,NEOS,10,neo,TS,1,ts
+799,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-07-18,Tel.,FP�,27,fpo,SP�,25,spo,�VP,20,ovp,GR�NE,15,gru,NEOS,10,neo,So,3,and
+798,1,�sterreich,Market,Der Standard,403,4.8,2014-07-13,Tel.,FP�,27,fpo,SP�,22,spo,�VP,18,ovp,GR�NE,15,gru,NEOS,11,neo,TS,2,ts
+797,1,�sterreich,Unique Research,profil,500,4.3,2014-07-12,Tel.,FP�,28,fpo,SP�,24,spo,�VP,21,ovp,GR�NE,12,gru,NEOS,11,neo,TS,2,ts
+795,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-07-05,Tel.,FP�,27,fpo,SP�,26,spo,�VP,20,ovp,GR�NE,14,gru,NEOS,9,neo,So,4,and
+793,4,Ober�sterreich,M+R ,O�N,1000,3.1,2014-06-27,,�VP,42,ovp,SP�,22,spo,FP�,18,fpo,GR�NE,11,gru,NEOS,7,neo,So,3,and
+794,26,Ober�sterreich (NRW),M+R ,O�N,1000,3.1,2014-06-27,,SP�,26,spo,FP�,25,fpo,�VP,23,ovp,GR�NE,14,gru,NEOS,10,neo,? ,5,weissnicht
+791,1,�sterreich,meinungsraum.at,NEWS,800,3.4,2014-06-26,Online,FP�,28,fpo,SP�,23,spo,�VP,19,ovp,GR�NE,14,gru,NEOS,10,neo,TS,2,ts
+790,1,�sterreich,OGM,Kurier,796,3.4,2014-06-21,Tel.,SP�,26,spo,FP�,25,fpo,�VP,22,ovp,GR�NE,13,gru,NEOS,10,neo,TS,1,ts
+792,2,Wien,IFES,Kronen Zeitung,1200,2.8,2014-06-20,,SP�,40,spo,FP�,23,fpo,GR�NE,14,gru,NEOS,12,neo,�VP,10,ovp,So,1,and
+789,2,Wien,Gallup,TZ �STERREICH,500,4.3,2014-06-19,,SP�,36,spo,FP�,25,fpo,GR�NE,14,gru,�VP,12,ovp,NEOS,9,neo,So,4,and
+788,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-06-18,Tel.,FP�,27,fpo,SP�,25,spo,�VP,21,ovp,GR�NE,14,gru,NEOS,9,neo,So,4,and
+787,1,�sterreich,Unique Research,profil,500,4.3,2014-06-14,,FP�,28,fpo,SP�,25,spo,�VP,21,ovp,GR�NE,13,gru,NEOS,10,neo,TS,1,ts
+786,1,�sterreich,IMAS,Kronen Zeitung,0,0.0,2014-06-13,,SP�,27,spo,FP�,24,fpo,�VP,23,ovp,GR�NE,13,gru,NEOS,8,neo,So,5,and
+785,1,�sterreich,Market,N/A,400,4.9,2014-06-10,Tel.,FP�,27,fpo,SP�,22,spo,�VP,19,ovp,GR�NE,15,gru,NEOS,11,neo,TS,2,ts
+837,1,�sterreich,Hajek,ATV,1000,3.1,2014-06-08,,FP�,27,fpo,SP�,25,spo,�VP,20,ovp,GR�NE,11,gru,NEOS,13,neo,TS,1,ts
+784,1,�sterreich,Unique Research,Heute,500,4.3,2014-06-06,,FP�,26,fpo,SP�,24,spo,�VP,22,ovp,GR�NE,13,gru,NEOS,11,neo,TS,1,ts
+698,55,Bulgarien (EU),CAM (BG),metapolls.net,0,0.0,2014-05-30,,GERB,33,gerbbu,BSP,30,bspbu,DPS,15,dpsbu,Reform,7,reformbu,BWC,6,bwcbg,NDSV,5,ndswbu
+783,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-05-28,Tel.,FP�,26,fpo,SP�,25,spo,�VP,21,ovp,GR�NE,14,gru,NEOS,11,neo,BZ�,1,bzo
+770,43,UK (EU),YouGov,The Sun (UK),1874,2.2,2014-05-21,,Labour,27,labour,UKIP,27,ukip,Cons,23,cons,LibDem,10,libdem,Greens,8,greensuk,So,5,souk
+758,47,Europa (EU),PollWatch2014,pollwatch2014,0,0.0,2014-05-20,,EVP,29,evpfreu,S&D,27,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,6,ecreu
+759,47,Europa (EU),Elecionista,election.de,0,0.0,2014-05-20,,EVP,28,evpfreu,S&D,26,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,ECR,6,ecreu,Gr�ne/EFA,5,efaeu
+771,43,UK (EU),Opinium (UK),metapolls.net,2036,2.2,2014-05-20,Online,UKIP,31,ukip,Labour,29,labour,Cons,20,cons,LibDem,5,libdem,Greens,5,greensuk,So,10,souk
+772,43,UK (EU),TNS-BMRB (UK),metapolls.net,1217,2.8,2014-05-20,,UKIP,31,ukip,Labour,28,labour,Cons,21,cons,LibDem,7,libdem,So,13,souk,,,
+773,43,UK (EU),YouGov,The Sun (UK),1740,2.3,2014-05-20,,Labour,28,labour,UKIP,24,ukip,Labour,21,labour,Greens,12,greensuk,LibDem,10,libdem,So,5,souk
+781,47,Europa (EU),TNS Opinion,electionista,0,0.0,2014-05-20,,EVP,29,evpfreu,S&D,27,sunddfreu,ALDE,8,aldeeu,Gr�ne/EFA,7,efaeu,GUE/NGL,6,guengleu,ECR,6,ecreu
+782,46,Deutschland (EU),FG Wahlen ,ZDF,1248,2.7,2014-05-20,,UNION,38,unionde,SPD,27,spdde,GR�NE,10,grunede,LINKE,8,linkede,AFD,7,afdde,FDP,4,fdpde
+701,42,Frankreich (EU),BVA (FR),LExpress (FR),1045,3.0,2014-05-19,,FN,23,fnfr,UMP,21,umpfr,PS,17,psfr,MoDem,10,modemfr,EE,9,eefr,FG,8,fdgfr
+755,49,Spanien (EU),Sigma-2 (ES),El Mundo (ES),0,0.0,2014-05-19,Tel.,PP,34,ppes,PSOE,26,pses,IU,10,iues,UPyD,6,upydes,CEU,5,ceues,EDD,3,eddes
+760,47,Europa (EU),Der (europ�ische) F�deralist,Der (europ�ische) F�rderalist,0,0.0,2014-05-19,,EVP,29,evpfreu,S&D,27,sunddfreu,ALDE,9,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+761,47,Europa (EU),scenaripolitici.com  (IT),Scenari Politici,0,0.0,2014-05-19,,S&D,30,sunddfreu,EVP,28,evpfreu,ALDE,8,aldeeu,GUE/NGL,6,guengleu,ECR,6,ecreu,Gr�ne/EFA,5,efaeu
+774,43,UK (EU),ICM (UK),metapolls.net,2033,2.2,2014-05-19,,Labour,29,labour,Cons,26,cons,UKIP,25,ukip,LibDem,7,libdem,Greens,6,greensuk,So,6,souk
+706,59,Griechenland (EU),Kapa Research,Ethnos tis Kyriakis (GR),0,0.0,2014-05-18,,SYRIZA,30,syrizagr,ND,25,ndgr,CHRYSI,9,cagr,POTAMI,9,potamigr,KKE,7,kkegr,ELIA,7,eliagr
+775,43,UK (EU),ComRes,metapolls.net,2045,2.1,2014-05-18,,UKIP,35,ukip,Labour,24,labour,UKIP,20,ukip,LibDem,6,libdem,So,15,souk,,,
+693,44,�sterreich_EU,Unique Research,profil,500,4.3,2014-05-17,,�VP,26,ovp,SP�,25,spo,FP�,20,fpo,GR�NE,13,gru,NEOS,10,neo,So,6,and
+694,74,Vorarlberg (EU),Edwin Berndt,Vorarlberger Nachrichten,500,4.3,2014-05-17,,�VP,31,ovp,FP�,18,fpo,GR�NE,15,gru,NEOS,14,neo,SP�,11,spo,REKOS,1,rekosat
+702,42,Frankreich (EU),IFAP,metapolls.net,1424,2.6,2014-05-16,CAWI,FN,23,fnfr,UMP,22,umpfr,PS,17,psfr,MoDem,10,modemfr,EE,10,eefr,FG,8,fdgfr
+705,46,Deutschland (EU),FG Wahlen ,ZDF,1303,2.7,2014-05-16,,UNION,38,unionde,SPD,27,spdde,GR�NE,11,grunede,LINKE,8,linkede,AFD,6,afdde,FDP,3,fdpde
+707,59,Griechenland (EU),Alco (GR),Proto Thema (GR),1000,3.1,2014-05-16,Telefon,SYRIZA,28,syrizagr,ND,26,ndgr,CHRYSI,9,cagr,POTAMI,9,potamigr,ELIA,6,eliagr,KKE,6,kkegr
+749,50,Portugal (EU),Aximage Comunicacao (PT),Correio da Manha (PT),1027,3.0,2014-05-16,cATI,PS,39,pspt,BE,31,bept,PCP-PEV,9,pcppevpt,BE,7,bept,MPT,4,mptpt,L,1,livrept
+757,69,Schweden (EU),Novis (SW),Ekot-Sveriges Radio (SK),1664,2.4,2014-05-16,Tel.,SAP,27,sapsw,M,16,msw,MP,15,mpsw,V,10,vsw,FP,8,fpsw,SD,7,sdsw
+762,47,Europa (EU),Cicero Group,Scenari Politici,0,0.0,2014-05-16,,EVP,27,evpfreu,S&D,26,sunddfreu,ALDE,11,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,7,efaeu,ECR,5,ecreu
+691,44,�sterreich_EU,Hajek,ATV,1000,3.1,2014-05-15,,�VP,26,ovp,SP�,25,spo,FP�,20,fpo,GR�NE,12,gru,NEOS,11,neo,ANDERS,3,andersat
+692,44,�sterreich_EU,Gallup,TZ �STERREICH,400,4.9,2014-05-15,Tel.,SP�,24,spo,�VP,23,ovp,FP�,21,fpo,GR�NE,13,gru,NEOS,13,neo,ANDERS,3,andersat
+708,59,Griechenland (EU),VPRC (GR),Epikaira (GR),1003,3.1,2014-05-15,Tel.,SYRIZA,28,syrizagr,ND,24,ndgr,POTAMI,8,potamigr,CHRYSI,8,cagr,KKE,7,kkegr,ELIA,5,eliagr
+748,51,Niederlande (EU),TNS NIPO (NE),metapolls.net,976,3.1,2014-05-15,,D66,19,d66nl,VVD,12,vvdnl,SP,12,spnl,PVV,12,pvvnl,CDA,11,cdanl,PvdA,10,pvdanl
+763,47,Europa (EU),election.de,election.de,0,0.0,2014-05-15,,EVP,27,evpfreu,S&D,26,sunddfreu,ALDE,11,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,7,efaeu,ECR,5,ecreu
+776,43,UK (EU),ComRes,metapolls.net,2056,2.1,2014-05-15,,UKIP,34,ukip,Labour,24,labour,Cons,22,cons,LibDem,8,libdem,So,12,souk,,,
+690,44,�sterreich_EU,Market,Der Standard,404,4.8,2014-05-14,CATI,SP�,23,spo,�VP,22,ovp,FP�,21,fpo,GR�NE,16,gru,NEOS,14,neo,ANDERS,1,andersat
+704,46,Deutschland (EU),Infratest dimap,ARD,1500,2.5,2014-05-14,,UNION,37,unionde,SPD,27,spdde,GR�NE,9,grunede,LINKE,9,linkede,AFD,7,afdde,FDP,3,fdpde
+756,45,Polen (EU),CBOS (PO),metapolls.net,1057,3.0,2014-05-14,,PO,34,popo,PiS ,32,pispo,SLD,10,sldpo,KNP,10,knppo,PSL,5,pslpo,Europa+,3,epluspo
+764,47,Europa (EU),PollWatch2014,pollwatch2014,0,0.0,2014-05-14,,EVP,28,evpfreu,S&D,28,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,ECR,6,ecreu,EFD,5,meldeu
+777,43,UK (EU),Ipsos (UK),The Standard (UK),1002,3.1,2014-05-14,,Labour,34,labour,Cons,31,cons,UKIP,11,ukip,LibDem,9,libdem,So,15,souk,,,
+778,43,UK (EU),Opinium (UK),metapolls.net,1936,2.2,2014-05-14,Online,UKIP,30,ukip,Labour,28,labour,Cons,22,cons,LibDem,7,libdem,Greens,5,greensuk,So,8,souk
+696,55,Bulgarien (EU),Media (BG),metapolls.net,0,0.0,2014-05-13,,BSP,30,bspbu,GERB,25,gerbbu,BWC,14,bwcbg,DPS,11,dpsbu,Reform,6,reformbu,NDSV,5,ndswbu
+697,55,Bulgarien (EU),Institute of Modern Politics (BG),metapolls.net,995,3.1,2014-05-13,,BSP,30,bspbu,GERB,28,gerbbu,BWC,11,bwcbg,DPS,10,dpsbu,Ataka,7,atakabu,ABV,5,abvbu
+699,64,D�nemark (EU),Voxmeter (DK),metapolls.net,1005,3.1,2014-05-13,,DF,27,dfdk,V,23,vdk,S,22,sdk,SF,9,sfdk,K,7,kdk,R,6,rdk
+703,46,Deutschland (EU),YouGov,BILD,1003,3.1,2014-05-13,Online,UNION,39,unionde,SPD,25,spdde,GR�NE,10,grunede,LINKE,10,linkede,AFD,6,afdde,FDP,4,fdpde
+753,57,Slowenien (EU),Episcenter (SLO),metapolls.net,1817,2.3,2014-05-13,,SDS,27,sdssl,NSi/NLS,19,nsinlssl,VERJAM,11,verjamsl,SD,8,sdsl,LDS,7,ldssl,PS,7,pssl
+780,43,UK (EU),ICM (UK),Guardian,1000,3.1,2014-05-13,,Cons,27,cons,UKIP,26,ukip,Labour,24,labour,Greens,10,greensuk,LibDem,7,libdem,So,7,souk
+751,56,Rum�nien (EU),CSOP (RO),metapolls.net,1055,3.0,2014-05-12,,PSD,38,psdro,PD-L,16,pdlro,PNL,15,pnlro,PMP,9,pmpro,UDMR,6,udmrro,PPDD,5,ppddro
+765,47,Europa (EU),EP/TNS Opinion,elections2014.eu,0,0.0,2014-05-12,,EVP,28,evpfreu,S&D,28,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,ECR,6,ecreu,EFD,5,meldeu
+766,47,Europa (EU),scenaripolitici.com  (IT),scenaripolitici.com (IT),0,0.0,2014-05-12,,S&D,30,sunddfreu,EVP,28,evpfreu,ALDE,9,aldeeu,GUE/NGL,6,guengleu,ECR,6,ecreu,Gr�ne/EFA,5,efaeu
+768,47,Europa (EU),Der (europ�ische) F�deralist,Der (europ�ische) F�rderalist,0,0.0,2014-05-12,,EVP,29,evpfreu,S&D,28,sunddfreu,ALDE,10,aldeeu,GUE/NGL,6,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+779,43,UK (EU),YouGov,Sky News (UK),1933,2.2,2014-05-12,,UKIP,31,ukip,Labour,25,labour,Cons,23,cons,LibDem,9,libdem,Greens,8,greensuk,So,6,souk
+689,44,�sterreich_EU,OGM,Kurier,807,3.4,2014-05-11,,SP�,26,spo,�VP,25,ovp,FP�,20,fpo,GR�NE,13,gru,NEOS,11,neo,So,5,and
+683,44,�sterreich_EU,Gallup,TZ �STERREICH,400,4.9,2014-05-10,Tel.,�VP,24,ovp,SP�,24,spo,FP�,20,fpo,GR�NE,13,gru,NEOS,12,neo,ANDERS,3,andersat
+684,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-05-10,Tel.,FP�,25,fpo,SP�,24,spo,�VP,20,ovp,GR�NE,13,gru,NEOS,13,neo,BZ�,2,bzo
+688,9,Vorarlberg,Edwin Berndt,Vorarlberger Nachrichten,500,4.3,2014-05-10,,�VP,38,ovp,FP�,22,fpo,NEOS,12,neo,GR�NE,11,gru,SP�,11,spo,TS,1,ts
+709,59,Griechenland (EU),Kapa Research,Ethnos tis Kyriakis (GR),1149,2.9,2014-05-10,,SYRIZA,26,syrizagr,ND,25,ndgr,POTAMI,10,potamigr,CHRYSI,9,cagr,KKE,7,kkegr,ELIA,6,eliagr
+676,44,�sterreich_EU,Unique Research,Heute,800,3.4,2014-05-09,Telefon,�VP,25,ovp,SP�,24,spo,FP�,20,fpo,NEOS,13,neo,GR�NE,12,gru,ANDERS,3,andersat
+680,46,Deutschland (EU),FG Wahlen ,ZDF,1223,2.8,2014-05-09,,UNION,38,unionde,SPD,27,spdde,GR�NE,12,grunede,LINKE,8,linkede,AFD,6,afdde,FDP,3,fdpde
+700,64,D�nemark (EU),Gallup (DK),metapolls.net,1156,2.9,2014-05-09,,DF,27,dfdk,V,22,vdk,S,17,sdk,SF,9,sfdk,N,9,ndk,K,6,kdk
+711,48,Italien (EU),Euromedia (IT),Porta a Porta (IT),0,0.0,2014-05-09,,PD,31,pdit,M5S,25,m5sit,FORZA,21,forzait,LEGA,6,lnit,NCD,5,ncdit,FdI,4,fdiit
+712,48,Italien (EU),Emg/TgLa7 (IT),TgLa7 (IT),0,0.0,2014-05-09,,PD,33,pdit,M5S,25,m5sit,FORZA,20,forzait,LEGA,5,lnit,NCD,5,ncdit,FdI,4,fdiit
+713,48,Italien (EU),IPR Marketing (IT),Tg3 (IT),0,0.0,2014-05-09,,PD,33,pdit,M5S,25,m5sit,FORZA,19,forzait,NCD,6,ncdit,LEGA,6,lnit,FdI,4,fdiit
+714,48,Italien (EU),Ipsos (IT),Corriere della Sera (IT),998,3.1,2014-05-09,CATI,PD,34,pdit,M5S,23,m5sit,FORZA,20,forzait,NCD,6,ncdit,LEGA,5,lnit,FdI,4,fdiit
+754,57,Slowenien (EU),Episcenter (SLO),metapolls.net,1161,2.8,2014-05-09,,SDS,26,sdssl,NSi/NLS,20,nsinlssl,SD,10,sdsl,VERJAM,9,verjamsl,PS,7,pssl,LDS,7,ldssl
+673,44,�sterreich_EU,meinungsraum.at,NEWS,800,3.4,2014-05-08,Online,�VP,24,ovp,SP�,23,spo,FP�,21,fpo,NEOS,14,neo,GR�NE,12,gru,BZ�,2,bzo
+710,59,Griechenland (EU),Pulse  (GR),metapolls.net,1202,2.8,2014-05-08,Tel.,SYRIZA,26,syrizagr,ND,23,ndgr,CHRYSI,10,cagr,POTAMI,8,potamigr,ELIA,8,eliagr,KKE,8,kkegr
+715,48,Italien (EU),Piepoli (IT),metapolls.net,0,0.0,2014-05-08,,PD,34,pdit,M5S,25,m5sit,FORZA,20,forzait,NCD,5,ncdit,LEGA,5,lnit,FdI,4,fdiit
+716,48,Italien (EU),Tecne,metapolls.net,0,0.0,2014-05-08,,PD,29,pdit,M5S,28,m5sit,FORZA,22,forzait,LEGA,5,lnit,NCD,5,ncdit,FdI,4,fdiit
+717,48,Italien (EU),SWG ( IT),metapolls.net,2000,2.2,2014-05-08,CATI-CAWI,PD,35,pdit,M5S,24,m5sit,FORZA,19,forzait,LEGA,6,lnit,NCD,5,ncdit,ALTRA,4,altrait
+718,48,Italien (EU),Demopolis (IT),metapolls.net,1402,2.6,2014-05-08,,PD,34,pdit,M5S,26,m5sit,FORZA,18,forzait,NCD,6,ncdit,LEGA,5,lnit,FdI,4,fdiit
+767,47,Europa (EU),Cicero Group,eutwentyfourteen.com,0,0.0,2014-05-08,,EVP,27,evpfreu,S&D,26,sunddfreu,ALDE,11,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,7,efaeu,ECR,5,ecreu
+675,47,Europa (EU),PollWatch2014,pollwatch2014,0,0.0,2014-05-07,,EVP,29,evpfreu,S&D,27,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,5,efaeu,ECR,5,ecreu
+719,48,Italien (EU),Euromedia (IT),Porta a Porta (IT),0,0.0,2014-05-07,,PD,31,pdit,M5S,26,m5sit,FORZA,20,forzait,LEGA,5,lnit,NCD,5,ncdit,FdI,4,fdiit
+769,47,Europa (EU),Der (europ�ische) F�deralist,Der (europ�ische) F�rderalist,0,0.0,2014-05-07,,EVP,29,evpfreu,S&D,29,sunddfreu,ALDE,10,aldeeu,GUE/NGL,6,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+677,64,D�nemark (EU),Epinion (DK),DR,1261,2.7,2014-05-06,,DF,26,dfdk,V,24,vdk,S,21,sdk,N,9,ndk,R,7,rdk,SF,6,sfdk
+720,48,Italien (EU),Ipsos (IT),Ballaro,800,3.4,2014-05-06,,PD,34,pdit,M5S,24,m5sit,FORZA,19,forzait,NCD,6,ncdit,LEGA,5,lnit,FdI,4,fdiit
+663,73,� EU,Galopp,neuwal.com,800,3.4,2014-05-05,CAWI,�VP,20,ovp,SP�,20,spo,FP�,17,fpo,leer,15,leerat,GR�NE,12,gru,NEOS,12,neo
+721,48,Italien (EU),Emg/TgLa7 (IT),TgLa7 (IT),0,0.0,2014-05-05,,PD,34,pdit,M5S,25,m5sit,FORZA,20,forzait,LEGA,5,lnit,NCD,5,ncdit,FdI,4,fdiit
+722,48,Italien (EU),SWG ( IT),metapolls.net,2000,2.2,2014-05-05,CATI-CAWI,PD,35,pdit,M5S,24,m5sit,FORZA,18,forzait,LEGA,6,lnit,NCD,5,ncdit,ALTRA,4,altrait
+723,48,Italien (EU),Ix� for Agor� (IT),RAI3 (IT),1000,3.1,2014-05-05,,PD,33,pdit,M5S,27,m5sit,FORZA,18,forzait,LEGA,5,lnit,NCD,5,ncdit,FdI,4,fdiit
+681,59,Griechenland (EU),Metron Analysis (GR),Ethnos tis Kyriakis (GR),0,0.0,2014-05-04,,ND,29,ndgr,SYRIZA,28,syrizagr,POTAMI,11,potamigr,KKE,7,kkegr,CHRYSI,6,cagr,ELIA,6,eliagr
+682,59,Griechenland (EU),Metron Analysis (GR),Ethnos tis Kyriakis (GR),0,0.0,2014-05-04,,ND,29,ndgr,SYRIZA,28,syrizagr,POTAMI,11,potamigr,KKE,7,kkegr,CHRYSI,6,cagr,ELIA,6,eliagr
+664,4,Ober�sterreich,IMAS,Kronen Zeitung,600,4.0,2014-05-03,,�VP,40,ovp,SP�,21,spo,FP�,18,fpo,GR�NE,10,gru,NEOS,10,neo,So,1,and
+724,48,Italien (EU),Ipsos (IT),Corriere della Sera (IT),1962,2.2,2014-05-03,CATI,PD,34,pdit,M5S,23,m5sit,FORZA,19,forzait,NCD,6,ncdit,LEGA,5,lnit,FdI,4,fdiit
+674,47,Europa (EU),election.de,election.de,0,0.0,2014-05-02,,EVP,29,evpfreu,S&D,28,sunddfreu,ALDE,10,aldeeu,EFD,8,meldeu,GUE/NGL,7,guengleu,ECR,6,ecreu
+678,64,D�nemark (EU),Epinion (DK),DR,1161,2.8,2014-05-02,,DF,25,dfdk,V,24,vdk,S,22,sdk,N,8,ndk,R,7,rdk,SF,6,sfdk
+679,42,Frankreich (EU),IFAP,metapolls.net,989,3.1,2014-05-02,CAWI,FN,24,fnfr,UMP,23,umpfr,PS,19,psfr,MoDem,10,modemfr,EE,9,eefr,FG,8,fdgfr
+659,44,�sterreich_EU,Gallup,TZ �STERREICH,400,4.9,2014-05-01,Telefon,�VP,24,ovp,SP�,24,spo,FP�,19,fpo,NEOS,14,neo,GR�NE,13,gru,ANDERS,3,andersat
+660,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-05-01,,SP�,24,spo,FP�,24,fpo,�VP,20,ovp,NEOS,14,neo,GR�NE,13,gru,BZ�,1,bzo
+658,47,Europa (EU),PollWatch2014,pollwatch2014,0,0.0,2014-04-30,,EVP,28,evpfreu,S&D,28,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,ECR,6,ecreu,Gr�ne/EFA,6,efaeu
+672,46,Deutschland (EU),Infratest dimap,ARD,1600,2.4,2014-04-30,,UNION,39,unionde,SPD,27,spdde,GR�NE,9,grunede,LINKE,8,linkede,AFD,6,afdde,FDP,4,fdpde
+725,48,Italien (EU),Tecne,TGCom 24,0,0.0,2014-04-30,,PD,29,pdit,M5S,27,m5sit,FORZA,21,forzait,LEGA,5,lnit,NCD,5,ncdit,ALTRA,4,altrait
+669,64,D�nemark (EU),Epinion (DK),DR,1161,2.8,2014-04-29,,DF,25,dfdk,V,24,vdk,S,22,sdk,N,8,ndk,R,7,rdk,SF,6,sfdk
+727,48,Italien (EU),Demopolis (IT),metapolls.net,0,0.0,2014-04-29,,PD,33,pdit,M5S,25,m5sit,FORZA,17,forzait,NCD,6,ncdit,LEGA,5,lnit,ALTRA,4,altrait
+729,48,Italien (EU),Ipsos (IT),Ballaro,800,3.4,2014-04-29,CATI,PD,34,pdit,M5S,24,m5sit,FORZA,19,forzait,NCD,6,ncdit,LEGA,5,lnit,FdI,4,fdiit
+752,56,Rum�nien (EU),CSCI (Romania),metapolls.net,1100,2.9,2014-04-29,,PSD,42,psdro,PNL,15,pnlro,PD-L,10,pdlro,PMP,9,pmpro,UDMR,6,udmrro,PPDD,3,ppddro
+667,55,Bulgarien (EU),Sova Harris (BG),metapolls.net,1000,3.1,2014-04-28,,BSP,33,bspbu,GERB,29,gerbbu,MRF,11,mrfbu,BWC,9,bwcbg,Reform,7,reformbu,Ataka,4,atakabu
+668,54,Tschechische Republik (EU),CVVM (CZ),metapolls.net,1027,3.0,2014-04-28,,ANO,28,anocz,CSSD,23,cssdcz,TOP09,11,top09cz,KSCM,10,kscmcz,KDU,9,kducz,ODS,8,odscz
+670,42,Frankreich (EU),IFAP,metapolls.net,997,3.1,2014-04-28,CAWI,UMP,23,umpfr,FN,23,fnfr,PS,20,psfr,MoDem,11,modemfr,EE,8,eefr,FG,8,fdgfr
+726,48,Italien (EU),Datamedia (IT),metapolls.net,800,3.4,2014-04-28,CATI,PD,32,pdit,M5S,26,m5sit,FORZA,20,forzait,NCD,6,ncdit,LEGA,5,lnit,ALTRA,4,altrait
+730,48,Italien (EU),IPR Marketing (IT),Piazzapulita (IT),0,0.0,2014-04-28,,PD,33,pdit,M5S,25,m5sit,FORZA,19,forzait,NCD,6,ncdit,LEGA,5,lnit,FdI,4,fdiit
+731,48,Italien (EU),Emg/TgLa7 (IT),TgLa7 (IT),1425,2.6,2014-04-28,Tel.,PD,33,pdit,M5S,24,m5sit,FORZA,20,forzait,NCD,5,ncdit,LEGA,5,lnit,FdI,4,fdiit
+732,48,Italien (EU),SWG ( IT),metapolls.net,1000,3.1,2014-04-28,CAWI,PD,35,pdit,M5S,22,m5sit,FORZA,18,forzait,LEGA,6,lnit,NCD,5,ncdit,ALTRA,4,altrait
+656,44,�sterreich_EU,Gallup,TZ �STERREICH,800,3.4,2014-04-27,,SP�,24,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,13,gru,NEOS,13,neo,ANDERS,2,andersat
+657,43,UK (EU),YouGov,Sunday Times  (UK),1835,2.3,2014-04-27,Online,UKIP,31,ukip,Labour,28,labour,Cons,19,cons,LibDem,9,libdem,Greens,8,greensuk,So,5,souk
+671,42,Frankreich (EU),Opinion Way (FR),metapolls.net,1830,2.3,2014-04-27,,UMP,22,umpfr,FN,20,fnfr,PS,18,psfr,MoDem,11,modemfr,EE,7,eefr,FG,7,fdgfr
+666,55,Bulgarien (EU),Alpha Research (BG),metapolls.net,1024,3.0,2014-04-26,,GERB,27,gerbbu,BSP,24,bspbu,DPS,9,dpsbu,BWC,7,bwcbg,ABV,7,abvbu,Reform,7,reformbu
+632,46,Deutschland (EU),INSA,wahlrecht.de,500,4.3,2014-04-25,,UNION,36,unionde,SPD,28,spdde,GR�NE,11,grunede,LINKE,9,linkede,AFD,7,afdde,FDP,4,fdpde
+639,57,Slowenien (EU),Ninamedia (SLO),metapolls.net,700,3.7,2014-04-25,Telefon,SDS,29,sdssl,NSi/NLS,21,nsinlssl,VERJAM,10,verjamsl,DeSUS,7,desussl,PS,7,pssl,LDS,7,ldssl
+630,42,Frankreich (EU),IFAP,metapolls.net,1000,3.1,2014-04-24,CAWI Online,UMP,24,umpfr,FN,23,fnfr,PS,19,psfr,MoDem,10,modemfr,EE,9,eefr,FG,8,fdgfr
+647,47,Europa (EU),election.de,election.de,0,0.0,2014-04-24,,S&D,29,sunddfreu,EVP,28,evpfreu,ALDE,10,aldeeu,GUE/NGL,8,guengleu,ECR,7,ecreu,EFD,7,meldeu
+648,47,Europa (EU),EP/TNS Opinion,elections2014.eu,0,0.0,2014-04-24,,EVP,29,evpfreu,S&D,28,sunddfreu,ALDE,8,aldeeu,GUE/NGL,6,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+733,48,Italien (EU),IPR Marketing (IT),Tg3 (IT),0,0.0,2014-04-24,,PD,33,pdit,M5S,24,m5sit,FORZA,19,forzait,NCD,6,ncdit,LEGA,5,lnit,FdI,4,fdiit
+734,48,Italien (EU),Tecne,TGCom 24,0,0.0,2014-04-24,,PD,29,pdit,M5S,27,m5sit,FORZA,21,forzait,FORZA,6,forzait,NCD,5,ncdit,FdI,4,fdiit
+735,48,Italien (EU),Ix� for Agor� (IT),RAI3 (IT),1000,3.1,2014-04-24,CATI-CAMI,PD,32,pdit,M5S,27,m5sit,FORZA,18,forzait,NCD,5,ncdit,LEGA,5,lnit,ALTRA,4,altrait
+750,50,Portugal (EU),Eurosondagem  (PT),Expresso (PT),1533,2.5,2014-04-24,Tel.,PS,38,pspt,PSD,33,psdpt,PCP-PEV,11,pcppevpt,BE,6,bept,SO (PT),14,sopt,,,
+634,45,Polen (EU),PPW (PL),metapolls.net,500,4.3,2014-04-23,,PiS ,31,pispo,PO,29,popo,SLD,11,sldpo,Europa+,8,epluspo,KNP,6,knppo,PSL,5,pslpo
+642,43,UK (EU),YouGov,The Sun (UK),2190,2.1,2014-04-23,Online,Labour,30,labour,UKIP,27,ukip,Cons,22,cons,LibDem,10,libdem,Greens,6,greensuk,So,5,souk
+649,47,Europa (EU),PollWatch2014,pollwatch2014,0,0.0,2014-04-23,,EVP,29,evpfreu,S&D,28,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,ECR,6,ecreu,Gr�ne/EFA,6,efaeu
+736,48,Italien (EU),Demopolis (IT),metapolls.net,0,0.0,2014-04-23,,PD,34,pdit,M5S,24,m5sit,FORZA,18,forzait,NCD,6,ncdit,LEGA,5,lnit,ALTRA,4,altrait
+737,48,Italien (EU),Euromedia (IT),Porta a Porta (IT),0,0.0,2014-04-23,,PD,32,pdit,M5S,25,m5sit,FORZA,20,forzait,LEGA,5,lnit,NCD,5,ncdit,FdI,4,fdiit
+738,48,Italien (EU),Piepoli (IT),metapolls.net,0,0.0,2014-04-23,,PD,34,pdit,M5S,24,m5sit,FORZA,19,forzait,NCD,6,ncdit,LEGA,5,lnit,ALTRA,4,altrait
+650,47,Europa (EU),Cicero Group,eutwentyfourteen.com,0,0.0,2014-04-22,,EVP,27,evpfreu,S&D,27,sunddfreu,ALDE,11,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+627,1,�sterreich,Market,Der Standard,405,4.8,2014-04-21,,FP�,27,fpo,SP�,22,spo,�VP,19,ovp,NEOS,13,neo,GR�NE,12,gru,TS,2,ts
+651,47,Europa (EU),electionista,electionista,0,0.0,2014-04-21,,EVP,28,evpfreu,S&D,27,sunddfreu,ALDE,8,aldeeu,GUE/NGL,8,guengleu,ECR,6,ecreu,Gr�ne/EFA,6,efaeu
+652,47,Europa (EU),Der (europ�ische) F�deralist,Der (europ�ische) F�rderalist,0,0.0,2014-04-21,,EVP,29,evpfreu,S&D,29,sunddfreu,ALDE,10,aldeeu,GUE/NGL,6,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+653,47,Europa (EU),scenaripolitici.com  (IT),Scenari Politici,0,0.0,2014-04-21,,S&D,29,sunddfreu,EVP,29,evpfreu,ALDE,9,aldeeu,GUE/NGL,7,guengleu,ECR,6,ecreu,Gr�ne/EFA,5,efaeu
+631,42,Frankreich (EU),IFAP,metapolls.net,980,3.1,2014-04-20,CAWI Online,FN,23,fnfr,UMP,23,umpfr,PS,19,psfr,MoDem,10,modemfr,FG,9,fdgfr,EE,8,eefr
+655,54,Tschechische Republik (EU),herzmann.cz,N/A,503,4.3,2014-04-20,Telefon und Interview,ANO,22,anocz,CSSD,14,cssdcz,KSCM,11,kscmcz,TOP09,10,top09cz,USVIT,9,usvitcz,ODS,8,odscz
+739,48,Italien (EU),Emg/TgLa7 (IT),TgLa7 (IT),0,0.0,2014-04-20,,PD,34,pdit,M5S,23,m5sit,FORZA,20,forzait,NCD,5,ncdit,LEGA,4,lnit,ALTRA,4,altrait
+643,43,UK (EU),ICM (UK),metapolls.net,2000,2.2,2014-04-19,,Labour,30,labour,UKIP,27,ukip,Cons,22,cons,LibDem,8,libdem,So,13,souk,,,
+665,55,Bulgarien (EU),Institute of Modern Politics (BG),metapolls.net,994,3.1,2014-04-19,,GERB,32,gerbbu,BSP,31,bspbu,BWC,11,bwcbg,DPS,8,dpsbu,Ataka,6,atakabu,ABV,5,abvbu
+740,48,Italien (EU),Ipsos (IT),Corriere della Sera (IT),1000,3.1,2014-04-19,CATI,PD,35,pdit,M5S,21,m5sit,FORZA,20,forzait,NCD,6,ncdit,LEGA,5,lnit,FdI,4,fdiit
+629,65,Estland (EU),TNS Emor (EST),Estonian Public Broadcasting (EST),886,3.3,2014-04-18,,SDE,28,sdeest,ER,25,reest,KE,22,ekest,IRL,19,irlest,EKRE,3,ekreest,So (EST),3,soest
+635,45,Polen (EU),Homo Homini (PL),Wirtualnej Polski (PL),1067,3.0,2014-04-18,,PiS ,33,pispo,PO,31,popo,SLD,14,sldpo,Europa+,7,epluspo,PSL,6,pslpo,KNP,5,knppo
+741,48,Italien (EU),Ix� for Agor� (IT),RAI3 (IT),1000,3.1,2014-04-18,CATI-CAMI,PD,33,pdit,M5S,26,m5sit,FORZA,18,forzait,NCD,6,ncdit,LEGA,5,lnit,ALTRA,4,altrait
+742,48,Italien (EU),SWG ( IT),metapolls.net,2000,2.2,2014-04-18,CATI-CAWI,PD,36,pdit,M5S,23,m5sit,FORZA,18,forzait,FORZA,5,forzait,NCD,5,ncdit,ALTRA,4,altrait
+628,54,Tschechische Republik (EU),SANEP (CZ),metapolls.net,6332,1.2,2014-04-17,,ANO,21,anocz,CSSD,19,cssdcz,KSCM,16,kscmcz,TOP09,8,top09cz,ODS,6,odscz,KDU,6,kducz
+633,51,Niederlande (EU),TNS NIPO (NL),metapolls.net,984,3.1,2014-04-17,,PVV,18,pvvnl,VVD,16,vvdnl,D66,16,d66nl,CDA,11,cdanl,PvdA,11,pvdanl,SP,10,spnl
+636,45,Polen (EU),TNS Polska (PL),metapolls.net,0,0.0,2014-04-17,,PiS ,31,pispo,PO,27,popo,PSL,8,pslpo,Europa+,4,epluspo,SLD,4,sldpo,KNP,3,knppo
+637,45,Polen (EU),TNS Polska (PL),metapolls.net,0,0.0,2014-04-17,,PiS ,31,pispo,PO,27,popo,PSL,8,pslpo,Europa+,4,epluspo,SLD,4,sldpo,KNP,3,knppo
+638,50,Portugal (EU),Aximage Comunicacao (PT),Correio da Manha (PT),613,3.9,2014-04-17,Telefon,PS,43,pspt,PSD,35,psdpt,PCP-PEV,11,pcppevpt,BE,5,bept,SO (PT),7,sopt,,,
+641,69,Schweden (EU),SKOP (SE),metapolls.net,1109,2.9,2014-04-17,Telefon,SAP,29,sapsw,M,23,msw,MP,15,mpsw,V,8,vsw,FP,7,fpsw,C,6,csw
+623,1,�sterreich,IMAS,Kronen Zeitung,1000,3.1,2014-04-16,,SP�,26,spo,FP�,23,fpo,�VP,22,ovp,GR�NE,13,gru,NEOS,12,neo,So,4,and
+624,42,Frankreich (EU),IFAP,EL PA�S ,990,3.1,2014-04-16,CAWI,FN,24,fnfr,UMP,23,umpfr,PS,20,psfr,MoDem,10,modemfr,FG,8,fdgfr,EE,8,eefr
+626,47,Europa (EU),electio2014.eu,electio2014.eu,0,0.0,2014-04-16,,EVP,30,evpfreu,S&D,28,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,ECR,6,ecreu,Gr�ne/EFA,5,efaeu
+743,48,Italien (EU),Datamedia (IT),metapolls.net,1000,3.1,2014-04-16,CATI,PD,32,pdit,M5S,25,m5sit,FORZA,19,forzait,NCD,6,ncdit,LEGA,5,lnit,ALTRA,4,altrait
+640,49,Spanien (EU),Invymark (ES),La Sexta (ES),0,0.0,2014-04-15,,PP,33,ppes,PSOE,30,pses,IU,13,iues,UPyD,9,upydes,SO (ES),15,soes,,,
+744,48,Italien (EU),Ipsos (IT),Ballaro,800,3.4,2014-04-15,CATI,PD,34,pdit,M5S,23,m5sit,FORZA,20,forzait,NCD,6,ncdit,LEGA,5,lnit,FdI,4,fdiit
+597,59,Griechenland (EU),University of Macedonia (GR),metapolls.net,1208,2.8,2014-04-14,,ND,24,ndgr,SYRIZA,24,syrizagr,POTAMI,17,potamigr,KKE,8,kkegr,CHRYSI,7,cagr,ELIA,5,eliagr
+625,47,Europa (EU),Scenari Politici,Scenari Politici,0,0.0,2014-04-14,,S&D,29,sunddfreu,EVP,29,evpfreu,ALDE,9,aldeeu,GUE/NGL,8,guengleu,ECR,6,ecreu,Gr�ne/EFA,5,efaeu
+644,43,UK (EU),YouGov,metapolls.net,1209,2.8,2014-04-14,Online,Labour,33,labour,Cons,25,cons,UKIP,24,ukip,LibDem,11,libdem,Greens,5,greensuk,So,3,souk
+645,43,UK (EU),ICM (UK),metapolls.net,1000,3.1,2014-04-14,,Labour,36,labour,Cons,25,cons,UKIP,20,ukip,LibDem,6,libdem,Greens,6,greensuk,So,7,souk
+745,48,Italien (EU),IPR Marketing (IT),Piazzapulita (IT),0,0.0,2014-04-14,,PD,32,pdit,M5S,24,m5sit,FORZA,20,forzait,NCD,7,ncdit,LEGA,5,lnit,ALTRA,4,altrait
+746,48,Italien (EU),Emg/TgLa7 (IT),TgLa7 (IT),0,0.0,2014-04-14,,PD,34,pdit,M5S,23,m5sit,FORZA,20,forzait,NCD,5,ncdit,LEGA,5,lnit,FdI,4,fdiit
+591,44,�sterreich_EU,Unique Research,profil,500,4.3,2014-04-12,,�VP,26,ovp,SP�,24,spo,FP�,18,fpo,NEOS,14,neo,GR�NE,13,gru,So,5,and
+592,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-04-12,,SP�,24,spo,FP�,23,fpo,�VP,20,ovp,GR�NE,14,gru,NEOS,14,neo,BZ�,1,bzo
+614,57,Slowenien (EU),Dela Stik (SL),metapolls.net,406,4.8,2014-04-12,Tel,SDS,25,sdssl,SNS,15,snssl,NSi/NLS,14,nsinlssl,VERJAM,10,verjamsl,LDS,7,ldssl,PS,6,pssl
+622,63,Zypern (EU),IMR (CY),RIK (CY),1200,2.8,2014-04-12,,DISY,41,disycy,AKEL,26,akelcy,DIKO,13,dikocy,EDEK,9,edekcy,CA,6,cacy,ELAM,1,elamcy
+621,46,Deutschland (EU),FG Wahlen ,ZDF,1226,2.8,2014-04-11,,UNION,39,unionde,SPD,27,spdde,GR�NE,11,grunede,LINKE,8,linkede,AFD,6,afdde,FDP,3,fdpde
+747,48,Italien (EU),Ix� for Agor� (IT),RAI3 (IT),1000,3.1,2014-04-11,CATI-CAMI,PD,32,pdit,M5S,25,m5sit,FORZA,19,forzait,NCD,5,ncdit,LEGA,5,lnit,ALTRA,4,altrait
+583,44,�sterreich_EU,Gallup,TZ �STERREICH,400,4.9,2014-04-10,,�VP,24,ovp,SP�,24,spo,FP�,19,fpo,GR�NE,13,gru,NEOS,13,neo,ANDERS,2,andersat
+593,55,Bulgarien (EU),Gallup (BG),metapolls.net,1013,3.0,2014-04-10,,GERB,30,gerbbu,BSP,28,bspbu,MRF,9,mrfbu,BWC,8,bwcbg,ABV,5,abvbu,Ataka,3,atakabu
+598,48,Italien (EU),SWG ( IT),metapolls.net,1000,3.1,2014-04-10,CAWI,PD,34,pdit,M5S,23,m5sit,FORZA,20,forzait,LEGA,5,lnit,ALTRA,4,altrait,NCD,4,ncdit
+599,48,Italien (EU),Piepoli (IT),metapolls.net,0,0.0,2014-04-10,,PD,33,pdit,M5S,25,m5sit,FORZA,19,forzait,UdC,6,udcit,ALTRA,5,altrait,LEGA,4,lnit
+590,47,Europa (EU),Cicero Group,eu2014,0,0.0,2014-04-09,,EVP,28,evpfreu,S&D,26,sunddfreu,ALDE,11,aldeeu,GUE/NGL,8,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+596,42,Frankreich (EU),TNS Sofres (FR),Le Nouvel Observateur,1501,2.5,2014-04-09,,UMP,25,umpfr,FN,24,fnfr,PS,19,psfr,EE,9,eefr,MoDem,9,modemfr,FG,7,fdgfr
+600,48,Italien (EU),Ipsos (IT),Ballaro,800,3.4,2014-04-09,Tel (CATI),PD,34,pdit,M5S,22,m5sit,FORZA,21,forzait,LEGA,6,lnit,UdC,5,udcit,Scelta ,3,sceltait
+616,43,UK (EU),Populus (UK),Financial Times (UK),2034,2.2,2014-04-09,,Labour,31,labour,Cons,27,cons,UKIP,25,ukip,LibDem,10,libdem,Greens,3,greensuk,So,4,souk
+617,43,UK (EU),TNS-BMRB (UK),metapolls.net,1193,2.8,2014-04-09,,Labour,30,labour,UKIP,29,ukip,Cons,21,cons,LibDem,9,libdem,So,11,souk,,,
+646,43,UK (EU),Populus (UK),metapolls.net,2034,2.2,2014-04-09,,Labour,31,labour,Cons,27,cons,UKIP,25,ukip,LibDem,10,libdem,Greens,3,greensuk,So,4,souk
+595,64,D�nemark (EU),A&B Analyse (DK),metapolls.net,1141,2.9,2014-04-08,,DF,27,dfdk,S,23,sdk,V,21,vdk,N,9,ndk,R,9,rdk,SF,6,sfdk
+613,45,Polen (EU),TNS Polska (PL),metapolls.net,1000,3.1,2014-04-08,Tel (CATI),PO,27,popo,PiS ,26,pispo,PSL,8,pslpo,SLD,8,sldpo,Europa+,6,epluspo,SP,4,sppl
+588,47,Europa (EU),Scenari Politici,Scenari Politici,0,0.0,2014-04-07,,S&D,29,sunddfreu,EVP,29,evpfreu,ALDE,8,aldeeu,GUE/NGL,8,guengleu,ECR,6,ecreu,Gr�ne/EFA,5,efaeu
+589,47,Europa (EU),Der (europ�ische) F�deralist,Der (europ�ische) F�rderalist,0,0.0,2014-04-07,,EVP,29,evpfreu,S&D,28,sunddfreu,ALDE,10,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+601,48,Italien (EU),IPR Marketing (IT),Tg3 (IT),0,0.0,2014-04-07,,PD,31,pdit,M5S,23,m5sit,FORZA,20,forzait,UdC,6,udcit,LEGA,5,lnit,FdI,4,fdiit
+579,1,�sterreich,OGM,Kurier,776,3.5,2014-04-06,,SP�,26,spo,FP�,24,fpo,�VP,21,ovp,NEOS,13,neo,GR�NE,12,gru,TS,2,ts
+602,48,Italien (EU),Emg/TgLa7 (IT),TgLa7 (IT),1540,2.5,2014-04-06,,PD,34,pdit,M5S,23,m5sit,FORZA,21,forzait,UdC,5,udcit,LEGA,4,lnit,FdI,3,fdiit
+618,43,UK (EU),Survation,The Mail on Sunday,1001,3.1,2014-04-06,Online,Labour,34,labour,UKIP,27,ukip,Cons,21,cons,LibDem,9,libdem,So,9,souk,,,
+619,43,UK (EU),YouGov,The Sun (UK),1998,2.2,2014-04-06,Online,Labour,30,labour,UKIP,28,ukip,Cons,23,cons,LibDem,9,libdem,Greens,5,greensuk,So,5,souk
+603,48,Italien (EU),Ipsos (IT),Corriere della Sera (IT),0,0.0,2014-04-05,,PD,33,pdit,M5S,21,m5sit,FORZA,21,forzait,NCD,6,ncdit,LEGA,5,lnit,FdI,4,fdiit
+620,43,UK (EU),ComRes,metapolls.net,2067,2.1,2014-04-05,,Labour,30,labour,UKIP,30,ukip,Cons,22,cons,LibDem,8,libdem,So,10,souk,,,
+576,44,�sterreich_EU,Unique Research,Heute,800,3.4,2014-04-04,Tel.,�VP,26,ovp,SP�,23,spo,FP�,19,fpo,NEOS,14,neo,GR�NE,12,gru,BZ�,2,bzo
+587,47,Europa (EU),EP/TNS Opinion,eu2014,0,0.0,2014-04-04,,EVP,29,evpfreu,S&D,28,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+604,13,Italien,SWG ( IT),metapolls.net,1000,3.1,2014-04-04,CAWI,PD,35,pdit,M5S,20,m5sit,FORZA,20,forzait,LEGA,5,lnit,NCD,4,ncdit,ALTRA,4,altrait
+605,48,Italien (EU),Tecne,TGCom 24,0,0.0,2014-04-04,,PD,30,pdit,M5S,23,m5sit,FORZA,22,forzait,ALTRA,5,altrait,LEGA,5,lnit,NCD,4,ncdit
+577,46,Deutschland (EU),Infratest dimap,ARD,1506,2.5,2014-04-03,,UNION,40,unionde,SPD,28,spdde,GR�NE,9,grunede,LINKE,7,linkede,AFD,6,afdde,FDP,3,fdpde
+584,47,Europa (EU),Cicero Group,eu2014,0,0.0,2014-04-02,,EVP,27,evpfreu,S&D,26,sunddfreu,ALDE,11,aldeeu,Gr�ne/EFA,7,efaeu,EFD,7,meldeu,GUE/NGL,5,guengleu
+585,47,Europa (EU),Der (europ�ische) F�deralist,Der (europ�ische) F�rderalist,0,0.0,2014-04-02,,EVP,28,evpfreu,S&D,28,sunddfreu,ALDE,10,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,6,ecreu
+586,47,Europa (EU),PollWatch2014,pollwatch2014,0,0.0,2014-04-02,,EVP,28,evpfreu,S&D,28,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,ECR,6,ecreu,Gr�ne/EFA,5,efaeu
+606,48,Italien (EU),Lorien (IT),metapolls.net,1000,3.1,2014-04-02,Tel CATI,PD,32,pdit,M5S,23,m5sit,FORZA,22,forzait,LEGA,6,lnit,NCD,5,ncdit,ALTRA,5,altrait
+607,48,Italien (EU),Datamedia (IT),N/A,0,0.0,2014-04-02,,PD,31,pdit,M5S,24,m5sit,FORZA,20,forzait,LEGA,5,lnit,ALTRA,4,altrait,NCD,3,ncdit
+594,54,Tschechische Republik (EU),SANEP (CZ),metapolls.net,8610,1.0,2014-04-01,,ANO,21,anocz,CSSD,19,cssdcz,KSCM,16,kscmcz,TOP09,8,top09cz,ODS,6,odscz,KDU,6,kducz
+608,48,Italien (EU),Ipsos (IT),Ballaro,0,0.0,2014-04-01,,PD,33,pdit,FORZA,22,forzait,M5S,21,m5sit,LEGA,6,lnit,NCD,4,ncdit,ALTRA,3,altrait
+609,48,Italien (EU),Emg/TgLa7 (IT),TgLa7 (IT),0,0.0,2014-04-01,,PD,33,pdit,M5S,22,m5sit,FORZA,21,forzait,LEGA,4,lnit,FdI,3,fdiit,NCD,3,ncdit
+615,49,Spanien (EU),NC Report (ES),La Razon (ES),900,3.2,2014-04-01,Tel.,PP,30,ppes,PSOE,28,pses,IU,12,iues,UPyD,7,upydes,CEU,5,ceues,EdP-V,4,edvves
+578,47,Europa (EU),Scenari Politici,Scenari Politici,0,0.0,2014-03-31,,S&D,28,sunddfreu,EVP,30,evpfreu,ALDE,8,aldeeu,GUE/NGL,8,guengleu,ECR,6,ecreu,Gr�ne/EFA,5,efaeu
+546,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-03-30,Tel.,FP�,24,fpo,SP�,24,spo,�VP,19,ovp,GR�NE,14,gru,NEOS,14,neo,BZ�,1,bzo
+547,42,Frankreich (EU),Ipsos (FR),metapolls.net,1533,2.5,2014-03-30,,UMP,24,umpfr,FN,22,fnfr,PS,19,psfr,EE,10,eefr,FG,8,fdgfr,MoDem,8,modemfr
+551,43,UK (EU),YouGov,The Sun (UK),1916,2.2,2014-03-30,,Labour,32,labour,Cons,24,cons,UKIP,23,ukip,LibDem,11,libdem,Greens,5,greensuk,So,5,souk
+610,48,Italien (EU),SWG ( IT),metapolls.net,1000,3.1,2014-03-29,,PD,35,pdit,M5S,21,m5sit,FORZA,19,forzait,LEGA,5,lnit,ALTRA,4,altrait,NCD,4,ncdit
+528,44,�sterreich_EU,AKonsult,Mein Bezirk,811,3.4,2014-03-28,,�VP,25,ovp,SP�,22,spo,FP�,21,fpo,GR�NE,13,gru,NEOS,12,neo,BZ�,2,bzo
+539,46,Deutschland (EU),FG Wahlen ,ZDF,1255,2.7,2014-03-28,,UNION,39,unionde,SPD,26,spdde,GR�NE,12,grunede,LINKE,8,linkede,AFD,6,afdde,FDP,3,fdpde
+612,48,Italien (EU),Ix� for Agor� (IT),RAI3 (IT),0,0.0,2014-03-28,,PD,30,pdit,M5S,25,m5sit,FORZA,21,forzait,LEGA,6,lnit,ALTRA,5,altrait,FdI,3,fdiit
+527,44,�sterreich_EU,Gallup,TZ �STERREICH,400,4.9,2014-03-27,Telefonisch,SP�,24,spo,�VP,22,ovp,FP�,21,fpo,GR�NE,13,gru,NEOS,13,neo,BZ�,2,bzo
+541,43,UK (EU),YouGov,The Sun (UK),2039,2.1,2014-03-27,Online,Labour,28,labour,UKIP,26,ukip,Cons,24,cons,LibDem,11,libdem,Greens,7,greensuk,So,4,souk
+542,56,Rum�nien (EU),CSCI (Romania),metapolls.net,1120,2.9,2014-03-27,,PSD,42,psdro,PNL,15,pnlro,PD-L,10,pdlro,PMP,10,pmpro,UDMR,7,udmrro,PPDD,4,ppddro
+554,47,Europa (EU),Der (europ�ische) F�deralist,Der (europ�ische) F�rderalist,0,0.0,2014-03-27,,S&D,28,sunddfreu,EVP,28,evpfreu,ALDE,10,aldeeu,GUE/NGL,8,guengleu,Gr�ne/EFA,6,efaeu,ECR,6,ecreu
+611,48,Italien (EU),Tecne,TGCom 24,0,0.0,2014-03-27,,PD,31,pdit,FORZA,23,forzait,M5S,22,m5sit,ALTRA,6,altrait,NCD,4,ncdit,LEGA,4,lnit
+661,8,K�rnten,Humaninstitut,N/A,600,4.0,2014-03-26,quasiexperimentelle deskriptive Felduntersuchung,SP�,38,spo,FP�,16,fpo,GR�NE,14,gru,�VP,12,ovp,TS,10,ts,NEOS,7,neo
+549,50,Portugal (EU),Aximage  (PT),Correio da Manha (PT),755,3.5,2014-03-25,CATI,PS,41,pspt,PSD,38,psdpt,CDU,8,cdupt,BE,7,bept,SO (PT),6,sopt,,,
+553,59,Griechenland (EU),Alco (GR),Proto Thema (GR),1000,3.1,2014-03-25,Tel.,ND,25,ndgr,SYRIZA,25,syrizagr,POTAMI,11,potamigr,CHRYSI,10,cagr,KKE,9,kkegr,ELIA,6,eliagr
+511,48,Italien (EU),Emg/TgLa7 (IT),TgLa7 (IT),1000,3.1,2014-03-24,,PD,32,pdit,FORZA,22,forzait,M5S,21,m5sit,LEGA,4,lnit,NCD,4,ncdit,ALTRA,3,altrait
+555,47,Europa (EU),Scenari Politici,Scenari Politici,0,0.0,2014-03-24,,S&D,30,sunddfreu,EVP,28,evpfreu,ALDE,8,aldeeu,GUE/NGL,8,guengleu,ECR,6,ecreu,Gr�ne/EFA,5,efaeu
+508,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-03-23,"Gallup PolitBarometer f?r M?rz: Aufrechnung der vier letzten Wahlumfragen vom 07.04.2014, 12.02.2014, 30.01.2014 und 17.01.2014.",FP�,24,fpo,SP�,22,spo,�VP,20,ovp,GR�NE,14,gru,NEOS,14,neo,BZ�,2,bzo
+510,49,Spanien (EU),METROSCOPIA,EL PA�S ,1600,2.4,2014-03-23,Telefon,PSOE,29,pses,PP,26,ppes,IU,14,iues,UPyD,8,upydes,ERC,5,erces,CEU,4,ceues
+512,48,Italien (EU),SWG ( IT),metapolls.net,1000,3.1,2014-03-21,,PD,32,pdit,FORZA,22,forzait,M5S,20,m5sit,LEGA,5,lnit,NCD,4,ncdit,SEL,4,selit
+513,48,Italien (EU),Ix� for Agor� (IT),RAI3 (IT),1000,3.1,2014-03-21,,PD,29,pdit,M5S,24,m5sit,FORZA,23,forzait,ALTRA,6,altrait,NCD,4,ncdit,LEGA,4,lnit
+530,64,D�nemark (EU),Wilke,metapolls.net,1244,2.8,2014-03-21,,DF,24,dfdk,V,24,vdk,S,19,sdk,N,9,ndk,R,8,rdk,SF,7,sfdk
+548,50,Portugal (EU),Eurosondagem  (PT),Expresso (PT),1525,2.5,2014-03-21,Tel.,PS,37,pspt,PSD,32,psdpt,CDU,12,cdupt,BE,6,bept,SO (PT),13,sopt,,,
+507,44,�sterreich_EU,Unique Research,profil,500,4.3,2014-03-20,Telefon,�VP,26,ovp,SP�,23,spo,FP�,20,fpo,NEOS,13,neo,GR�NE,11,gru,MARTIN,3,matin
+509,1,�sterreich,meinungsraum.at,NEWS,800,3.4,2014-03-20,Online,FP�,27,fpo,SP�,24,spo,�VP,18,ovp,NEOS,14,neo,GR�NE,12,gru,TS,1,ts
+525,55,Bulgarien (EU),Gallup (BG),Bulgarien Post (BG),1007,3.1,2014-03-20,,GERB,29,gerbbu,BSP,28,bspbu,MRF,9,mrfbu,BWC,7,bwcbg,ABV,5,abvbu,Ataka,4,atakabu
+529,66,Finnland (EU),Taloustutkimus (FI),yle.fi,2430,2.0,2014-03-20,Tel.,KOK,24,kokfi,KESK,18,keskfi,PS,18,perusfi,SPD,16,spdfi,VIHR,10,vihrfi,VAS,7,vasfi
+537,42,Frankreich (EU),Opinion Way (FR),Le Nouvel Economiste (FR),1008,3.1,2014-03-20,CAWI Online,UMP,22,umpfr,FN,21,fnfr,PS,17,psfr,MoDem,9,modemfr,FG,9,fdgfr,EE,7,eefr
+540,59,Griechenland (EU),Pulse  (GR),To Pontiki,1289,2.7,2014-03-20,Telephone,SYRIZA,24,syrizagr,ND,21,ndgr,CHRYSI,13,cagr,POTAMI,13,potamigr,ELIA,8,eliagr,KKE,6,kkegr
+556,47,Europa (EU),EP/TNS Opinion,eu2014,0,0.0,2014-03-20,,EVP,28,evpfreu,S&D,27,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+580,57,Slowenien (EU),Delo (SL),Planet Siol (SL),812,3.4,2014-03-20,,SDS,20,sdssl,NSi/NLS,17,nsinlssl,SD,11,sdsl,SNS,10,snssl,LDS,5,ldssl,DL,4,dlsl
+581,67,Litauen (EU),Vimorus (LT),pollwatch2014,0,0.0,2014-03-20,,LSDP,30,lsdplt,TT,20,ttlt,TS-LKD,14,tslkdlt,DP,10,dplt,LRLS,9,lrlslt,LVZS,5,lvzslt
+557,47,Europa (EU),PollWatch2014,pollwatch2014,0,0.0,2014-03-19,,S&D,29,sunddfreu,EVP,28,evpfreu,ALDE,9,aldeeu,GUE/NGL,8,guengleu,ECR,5,ecreu,Gr�ne/EFA,5,efaeu
+558,47,Europa (EU),Der (europ�ische) F�deralist,Der (europ�ische) F�rderalist,0,0.0,2014-03-19,,S&D,29,sunddfreu,EVP,28,evpfreu,ALDE,10,aldeeu,GUE/NGL,8,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+582,53,Slowakei (EU),MVK (SK),parameter (SK),834,3.4,2014-03-19,,SMER,39,smersk,KDH,12,kdhsk,OLaNO,9,olanosk,NOVA,8,novask,SDKU,6,sdkusk,SMK,5,smksk
+559,47,Europa (EU),Cicero Group,eu2014,0,0.0,2014-03-18,,EVP,27,evpfreu,S&D,26,sunddfreu,ALDE,12,aldeeu,GUE/NGL,8,guengleu,Gr�ne/EFA,7,efaeu,ECR,5,ecreu
+514,48,Italien (EU),IPR Marketing (IT),Tg3 (IT),1000,3.1,2014-03-17,,PD,29,pdit,M5S,23,m5sit,FORZA,23,forzait,NCD,4,ncdit,ALTRA,4,altrait,LEGA,4,lnit
+560,47,Europa (EU),Scenari Politici,eu2014,0,0.0,2014-03-17,,S&D,30,sunddfreu,EVP,29,evpfreu,ALDE,8,aldeeu,GUE/NGL,8,guengleu,ECR,6,ecreu,Gr�ne/EFA,4,efaeu
+501,44,�sterreich_EU,Market,Der Standard,401,4.8,2014-03-16,,�VP,23,ovp,FP�,22,fpo,SP�,21,spo,GR�NE,15,gru,NEOS,12,neo,TS,2,ts
+502,2,Wien,GfK,TZ �STERREICH,0,0.0,2014-03-16,,SP�,38,spo,FP�,24,fpo,�VP,14,ovp,GR�NE,14,gru,NEOS,9,neo,So,4,and
+531,64,D�nemark (EU),Epinion (DK),DR,2060,2.1,2014-03-16,,V,25,vdk,DF,22,dfdk,S,22,sdk,R,8,rdk,N,7,ndk,SF,6,sfdk
+500,1,�sterreich,IMAS,Kronen Zeitung,0,0.0,2014-03-15,,FP�,26,fpo,SP�,24,spo,�VP,21,ovp,GR�NE,11,gru,NEOS,10,neo,TS,3,ts
+532,64,D�nemark (EU),Gallup (DK),Berlingske,1124,2.9,2014-03-15,,DF,25,dfdk,V,25,vdk,S,22,sdk,N,8,ndk,R,6,rdk,SF,5,sfdk
+515,48,Italien (EU),Ix� for Agor� (IT),RAI3 (IT),1000,3.1,2014-03-14,,PD,29,pdit,FORZA,23,forzait,M5S,23,m5sit,ALTRA,7,altrait,LEGA,5,lnit,NCD,3,ncdit
+538,46,Deutschland (EU),FG Wahlen ,ZDF,1284,2.7,2014-03-14,,UNION,38,unionde,SPD,26,spdde,GR�NE,11,grunede,LINKE,8,linkede,AFD,6,afdde,FDP,4,fdpde
+561,47,Europa (EU),Der (europ�ische) F�deralist,Der (europ�ische) F�rderalist,0,0.0,2014-03-14,,S&D,29,sunddfreu,EVP,28,evpfreu,ALDE,9,aldeeu,GUE/NGL,8,guengleu,Gr�ne/EFA,6,efaeu,ECR,6,ecreu
+497,44,�sterreich_EU,Hajek,ATV,1000,3.1,2014-03-13,,SP�,25,spo,�VP,24,ovp,FP�,22,fpo,NEOS,12,neo,GR�NE,10,gru,MARTIN,3,matin
+498,1,�sterreich,Hajek,ATV,1000,3.1,2014-03-13,,FP�,27,fpo,SP�,24,spo,�VP,20,ovp,NEOS,13,neo,GR�NE,12,gru,TS,1,ts
+562,47,Europa (EU),EP/TNS Opinion,eu2014,0,0.0,2014-03-13,,EVP,29,evpfreu,S&D,27,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,6,ecreu
+496,1,�sterreich,Market,Der Standard,401,4.8,2014-03-11,,FP�,27,fpo,SP�,22,spo,�VP,19,ovp,GR�NE,13,gru,NEOS,13,neo,TS,2,ts
+506,59,Griechenland (EU),Palmos Analyse (GR),3comma14,1015,3.0,2014-03-11,Telefon,ND,16,ndgr,SYRIZA,16,syrizagr,POTAMI,7,potamigr,KKE,5,kkegr,CHRYSI,5,cagr,IP,4,ipgr
+516,48,Italien (EU),IPR Marketing (IT),Tg3 (IT),1000,3.1,2014-03-10,,PD,28,pdit,M5S,24,m5sit,FORZA,24,forzait,NCD,6,ncdit,LEGA,4,lnit,ALTRA,4,altrait
+526,54,Tschechische Republik (EU),SANEP (CZ),metapolls.net,7371,1.1,2014-03-10,,ANO,22,anocz,CSSD,19,cssdcz,KSCM,16,kscmcz,TOP09,9,top09cz,ODS,6,odscz,KDU,6,kducz
+552,45,Polen (EU),TNS Polska (PL),metapolls.net,1000,3.1,2014-03-10,,PiS ,27,pispo,PO,25,popo,SLD,8,sldpo,Europa+,7,epluspo,PSL,5,pslpo,KNP,3,knppo
+563,47,Europa (EU),Scenari Politici,Scenari Politici,0,0.0,2014-03-10,,S&D,30,sunddfreu,EVP,29,evpfreu,ALDE,8,aldeeu,GUE/NGL,8,guengleu,ECR,6,ecreu,Gr�ne/EFA,5,efaeu
+495,46,Deutschland (EU),INSA,wahlrecht.de,1001,3.1,2014-03-09,,UNION,38,unionde,SPD,26,spdde,GR�NE,10,grunede,LINKE,9,linkede,AFD,8,afdde,FDP,3,fdpde
+487,44,�sterreich_EU,Gallup,TZ �STERREICH,400,4.9,2014-03-07,Telefon,SP�,23,spo,FP�,22,fpo,�VP,22,ovp,GR�NE,14,gru,NEOS,12,neo,MARTIN,2,matin
+489,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-03-07,Telefonisch,FP�,24,fpo,SP�,23,spo,�VP,20,ovp,GR�NE,14,gru,NEOS,13,neo,BZ�,2,bzo
+518,48,Italien (EU),Ix� for Agor� (IT),RAI3 (IT),1000,3.1,2014-03-07,,PD,29,pdit,FORZA,24,forzait,M5S,22,m5sit,ALTRA,6,altrait,LEGA,5,lnit,FdI,4,fdiit
+486,72,Klagenfurt (GRW),Martin Ladler (Klagenfurt),Kleine Zeitung,500,4.3,2014-03-06,,FP�,29,fpo,SP�,28,spo,�VP,21,ovp,GR�NE,4,gru,So,6,and,? (KLU),12,unentschlk
+494,46,Deutschland (EU),Infratest dimap,wahlrecht.de,1515,2.5,2014-03-06,,UNION,40,unionde,SPD,26,spdde,GR�NE,11,grunede,LINKE,7,linkede,AFD,5,afdde,FDP,4,fdpde
+499,64,D�nemark (EU),AB Analyse (DK),ALTINGET (DK),1231,2.8,2014-03-06,,DF,23,dfdk,S,23,sdk,V,23,vdk,R,8,rdk,N,8,ndk,SF,6,sfdk
+517,48,Italien (EU),Tecne,metapolls.net,1000,3.1,2014-03-06,,PD,28,pdit,FORZA,24,forzait,M5S,22,m5sit,LEGA,5,lnit,NCD,3,ncdit,FdI,3,fdiit
+564,47,Europa (EU),EP/TNS Opinion,eu2014,0,0.0,2014-03-06,,EVP,28,evpfreu,S&D,28,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,6,ecreu
+565,47,Europa (EU),PollWatch2014,pollwatch2014,0,0.0,2014-03-05,,S&D,28,sunddfreu,EVP,27,evpfreu,GUE/NGL,9,guengleu,ALDE,8,aldeeu,ECR,6,ecreu,Gr�ne/EFA,6,efaeu
+492,48,Italien (EU),scenaripolitici.com  (IT),scenaripolitici.com (IT),4000,1.5,2014-03-03,CAWI,PD,28,pdit,M5S,25,m5sit,FORZA,20,forzait,LEGA,6,lnit,ALTRA,5,altrait,NCD,4,ncdit
+566,47,Europa (EU),Scenari Politici,Scenari Politici,0,0.0,2014-03-03,,S&D,30,sunddfreu,EVP,29,evpfreu,ALDE,8,aldeeu,GUE/NGL,8,guengleu,ECR,6,ecreu,Gr�ne/EFA,5,efaeu
+491,45,Polen (EU),Homo Homini (PL),infopolitic,1100,2.9,2014-03-02,CATI,PiS ,33,pispo,PO,26,popo,SLD,17,sldpo,TR,9,trpl,PSL,6,pslpo,PR,3,prpo
+543,56,Rum�nien (EU),CSCI (Romania),metapolls.net,1103,2.9,2014-03-02,,PSD,42,psdro,PNL,14,pnlro,PD-L,13,pdlro,PMP,8,pmpro,UDMR,7,udmrro,PPDD,5,ppddro
+567,47,Europa (EU),Elecionista,electionista,0,0.0,2014-03-02,,S&D,27,sunddfreu,EVP,27,evpfreu,ALDE,10,aldeeu,GUE/NGL,8,guengleu,ECR,6,ecreu,Gr�ne/EFA,6,efaeu
+484,5,Steiermark,bmm,Kronen Zeitung,500,4.3,2014-03-01,,SP�,30,spo,FP�,29,fpo,�VP,24,ovp,GR�NE,7,gru,NEOS,6,neo,KP�,2,kpo
+483,8,K�rnten,IMAS,Kronen Zeitung,500,4.3,2014-02-28,,SP�,36,spo,FP�,18,fpo,GR�NE,15,gru,NEOS,10,neo,�VP,10,ovp,TS,8,ts
+519,48,Italien (EU),SWG ( IT),metapolls.net,1000,3.1,2014-02-28,,PD,31,pdit,FORZA,22,forzait,M5S,22,m5sit,LEGA,5,lnit,SEL,4,selit,NCD,4,ncdit
+520,48,Italien (EU),Ix� for Agor� (IT),RAI3 (IT),1000,3.1,2014-02-28,CATI-CAMI,PD,29,pdit,FORZA,23,forzait,M5S,23,m5sit,ALTRA,7,altrait,LEGA,5,lnit,FdI,4,fdiit
+524,55,Bulgarien (EU),lpha Research (BG),metapolls.net,1020,3.0,2014-02-28,,GERB,25,gerbbu,BSP,23,bspbu,MRF,10,mrfbu,ABV,9,abvbu,BWC,8,bwcbg,Reform,8,reformbu
+568,47,Europa (EU),EP/TNS Opinion,eu2014,0,0.0,2014-02-27,,S&D,29,sunddfreu,EVP,29,evpfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,6,ecreu
+569,47,Europa (EU),Der (europ�ische) F�deralist,Der (europ�ische) F�rderalist,0,0.0,2014-02-27,,EVP,29,evpfreu,S&D,29,sunddfreu,ALDE,9,aldeeu,GUE/NGL,8,guengleu,Gr�ne/EFA,6,efaeu,ECR,6,ecreu
+493,55,Bulgarien (EU),offnews.bg (BG),offnews.bg (BG),0,0.0,2014-02-26,,GERB,17,gerbbu,KzB (BSP),15,kzbbu,DPS,7,dpsbu,ABV,6,abvbu,BBT,6,bbtbu,Reform,5,reformbu
+544,56,Rum�nien (EU),CSCI (Romania),metapolls.net,950,3.1,2014-02-24,,PSD,42,psdro,PNL,16,pnlro,PD-L,13,pdlro,UDMR,7,udmrro,PMP,6,pmpro,SO (RO),16,soro
+534,64,D�nemark (EU),Gallup (DK),metapolls.net,1116,2.9,2014-02-23,,V,27,vdk,DF,22,dfdk,S,22,sdk,N,8,ndk,R,7,rdk,SF,7,sfdk
+570,47,Europa (EU),Kapa Research,3comma14,0,0.0,2014-02-23,,S&D,29,sunddfreu,EVP,27,evpfreu,ALDE,10,aldeeu,GUE/NGL,8,guengleu,Gr�ne/EFA,6,efaeu,ECR,6,ecreu
+482,46,Deutschland (EU),FG Wahlen ,ZDF,1219,2.8,2014-02-21,,UNION,40,unionde,SPD,24,spdde,GR�NE,12,grunede,LINKE,8,linkede,AFD,6,afdde,FDP,4,fdpde
+490,49,Spanien (EU),METROSCOPIA,EL PA�S ,1200,2.8,2014-02-21,Telefoninsch,PSOE,28,pses,PP,26,ppes,IU,15,iues,UPyD,8,upydes,CEU,5,ceues,EdP-V,3,edvves
+521,48,Italien (EU),Ix� for Agor� (IT),RAI3 (IT),1000,3.1,2014-02-21,,PD,28,pdit,M5S,25,m5sit,FORZA,22,forzait,ALTRA,7,altrait,LEGA,5,lnit,FdI,3,fdiit
+481,45,Polen (EU),TNS Polska (PL),gazeta.pl,971,3.1,2014-02-20,,PiS ,29,pispo,PO,19,popo,SLD,9,sldpo,PSL,6,pslpo,TR,5,trpl,SO,32,sopo
+571,47,Europa (EU),EP/TNS Opinion,eu2014,0,0.0,2014-02-20,,S&D,29,sunddfreu,EVP,29,evpfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,6,ecreu
+480,71,Salzburg (GRW),GMK,Mein Bezirk,400,4.9,2014-02-19,Interviews,SP�,33,spo,�VP,20,ovp,B�RGER,17,burgersbg,FP�,12,fpo,NEOS,11,neo,TAZL,2,tazlsbg
+572,47,Europa (EU),PollWatch2014,pollwatch2014,0,0.0,2014-02-19,,S&D,29,sunddfreu,EVP,27,evpfreu,ALDE,9,aldeeu,GUE/NGL,8,guengleu,Gr�ne/EFA,6,efaeu,ECR,6,ecreu
+536,42,Frankreich (EU),Opinion Way (FR),Le Figaro (FR),2104,2.1,2014-02-16,CAWI,UMP,22,umpfr,FN,20,fnfr,PS,16,psfr,MoDem,12,modemfr,EE,9,eefr,FG,9,fdgfr
+472,15,Ungarn,Nezopont (HU),Nezopontintezet (HU),1000,3.1,2014-02-15,,Fidesz,46,fideszhu,MSZP,10,mszphu,Jobbik,10,jobbikhu,EGY�TT,9,egyutthu,DK,6,dkhu,LMP,3,lmphu
+475,44,�sterreich_EU,Karmasin,profil,500,4.3,2014-02-15,,SP�,23,spo,FP�,22,fpo,�VP,22,ovp,GR�NE,14,gru,NEOS,12,neo,MARTIN,2,matin
+550,69,Schweden (EU),Sifo (SE),Exponerat (SE),1076,3.0,2014-02-15,Tel.,SAP,32,sapsw,M,22,msw,MP,11,mpsw,FP,10,fpsw,V,9,vsw,SD,6,sdsw
+573,47,Europa (EU),Der (europ�ische) F�deralist,Der (europ�ische) F�rderalist,0,0.0,2014-02-15,,S&D,28,sunddfreu,EVP,28,evpfreu,ALDE,10,aldeeu,GUE/NGL,7,guengleu,ECR,6,ecreu,Gr�ne/EFA,6,efaeu
+476,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-02-14,Telefon,FP�,24,fpo,SP�,22,spo,�VP,19,ovp,GR�NE,14,gru,NEOS,14,neo,So,7,and
+477,44,�sterreich_EU,Gallup,TZ �STERREICH,400,4.9,2014-02-14,,FP�,23,fpo,�VP,22,ovp,SP�,22,spo,GR�NE,14,gru,NEOS,13,neo,MARTIN,2,matin
+478,48,Italien (EU),Tecne,TGCom 24,0,0.0,2014-02-14,,PD,30,pdit,M5S,25,m5sit,FORZA,24,forzait,LEGA,4,lnit,NCD,4,ncdit,FdI,3,fdiit
+479,46,Deutschland (EU),INSA,wahlrecht.de,0,0.0,2014-02-14,,UNION,38,unionde,SPD,25,spdde,GR�NE,10,grunede,LINKE,10,linkede,AFD,8,afdde,FDP,3,fdpde
+522,48,Italien (EU),Tecne,TGCom 24,1000,3.1,2014-02-14,,PD,30,pdit,M5S,25,m5sit,FORZA,24,forzait,LEGA,4,lnit,NCD,4,ncdit,FdI,3,fdiit
+523,55,Bulgarien (EU),Gallup (BG),metapolls.net,1012,3.0,2014-02-13,,BSP,19,bspbu,GERB,18,gerbbu,MRF,7,mrfbu,BWC,6,bwcbg,ABV,6,abvbu,So (BU),55,sobg
+574,47,Europa (EU),EP/TNS Opinion,eu2014,0,0.0,2014-02-13,,EVP,29,evpfreu,S&D,29,sunddfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+458,69,Schweden (EU),DEMOSKOP (SE),expressen.se,1256,2.7,2014-02-10,Telefon,SAP,35,sapsw,M,25,msw,MP,10,mpsw,SD,9,sdsw,V,7,vsw,FP,5,fpsw
+459,43,UK (EU),ICM (UK),Guardian,1002,3.1,2014-02-10,Telefon,Labour,35,labour,Cons,25,cons,UKIP,20,ukip,LibDem,9,libdem,Greens,7,greensuk,So,4,souk
+456,59,Griechenland (EU),METRISI (GR),3comma14,1008,3.1,2014-02-08,"Telefon, CATI",SYRIZA,21,syrizagr,ND,20,ndgr,CHRYSI,8,cagr,KKE,5,kkegr,PASOK,4,pasokgr,ANEL,4,anelgr
+452,44,�sterreich_EU,meinungsraum.at,NEWS,800,3.4,2014-02-07,Online-Panel,SP�,24,spo,FP�,23,fpo,�VP,20,ovp,GR�NE,13,gru,NEOS,13,neo,MARTIN,1,matin
+464,56,Rum�nien (EU),INSCOP (RO),INSCOP (RO),1054,3.0,2014-02-07,,PSD,37,psdro,PNL,20,pnlro,PD-L,18,pdlro,UDMR,5,udmrro,PPDD,5,ppddro,MP,4,mprp
+451,46,Deutschland (EU),Infratest dimap,wahlrecht.de,1008,3.1,2014-02-06,,UNION,38,unionde,SPD,29,spdde,GR�NE,10,grunede,LINKE,8,linkede,AFD,6,afdde,FDP,4,fdpde
+453,48,Italien (EU),IPR Marketing (IT),Repubblica (IT),2000,2.2,2014-02-06,,PD,28,pdit,M5S,25,m5sit,FORZA,24,forzait,NCD,6,ncdit,LEGA,5,lnit,SEL,2,selit
+545,56,Rum�nien (EU),INSCOP,Adevarul (RO),1054,3.0,2014-02-05,,PSD,37,psdro,PNL,20,pnlro,PD-L,18,pdlro,UDMR,5,udmrro,PPDD,5,ppddro,SO (RO),16,soro
+468,15,Ungarn,Median (HU),Median (HU),1200,2.8,2014-02-04,Pers?nliche Befragung,Fidesz,52,fideszhu,Unity,30,unityhu,Jobbik,14,jobbikhu,LMP,2,lmphu,SO (HU),2,sohu,,,
+465,49,Spanien (EU),NC Report (ES),La Razon (ES),900,3.2,2014-02-03,,PP,30,ppes,PSOE,28,pses,IU,12,iues,UPyD,8,upydes,CEU,5,ceues,EdP-V,4,edvves
+466,49,Spanien (EU),GESOP (ES),El Periodico (ES),1000,3.1,2014-02-03,,PP,32,ppes,PSOE,28,pses,IU,12,iues,UPyD,10,upydes,CEU,5,ceues,EdP-V,3,edvves
+575,47,Europa (EU),EP/TNS Opinion,eu2014,0,0.0,2014-02-03,,S&D,29,sunddfreu,EVP,29,evpfreu,ALDE,8,aldeeu,GUE/NGL,7,guengleu,Gr�ne/EFA,6,efaeu,ECR,5,ecreu
+450,4,Ober�sterreich,IMAS,Kronen Zeitung,750,3.5,2014-02-02,,�VP,42,ovp,SP�,22,spo,FP�,17,fpo,GR�NE,11,gru,NEOS,7,neo,So,1,and
+448,71,Salzburg (GRW),IMAS,Kronen Zeitung,601,4.0,2014-01-31,,SP�,35,spo,�VP,20,ovp,FP�,14,fpo,B�RGER,11,burgersbg,NEOS,11,neo,TAZL,3,tazlsbg
+449,44,�sterreich_EU,Gallup,TZ �STERREICH,400,4.9,2014-01-31,,�VP,23,ovp,SP�,23,spo,FP�,22,fpo,GR�NE,14,gru,NEOS,13,neo,MARTIN,1,matin
+447,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-01-30,,FP�,25,fpo,SP�,23,spo,�VP,19,ovp,NEOS,15,neo,GR�NE,14,gru,So,4,and
+469,15,Ungarn,Nezopont (HU),Nezopontintezet (HU),1000,3.1,2014-01-30,,Fidesz,46,fideszhu,Unity,26,unityhu,Jobbik,9,jobbikhu,LMP,4,lmphu,SO (HU),1,sohu,? (HU),14,nichthu
+446,71,Salzburg (GRW),IGF,Salzburger Nachrichten,511,4.3,2014-01-29,,SP�,35,spo,�VP,23,ovp,B�RGER,16,burgersbg,FP�,10,fpo,NEOS,7,neo,F�R,4,bfsbg
+470,15,Ungarn,Szazadveg (HU),Szazadveg (HU),800,3.4,2014-01-29,,Fidesz,51,fideszhu,Unity,28,unityhu,Jobbik,14,jobbikhu,LMP,6,lmphu,SO (HU),1,sohu,,,
+471,15,Ungarn,Tarki (HU),Tarki,1000,3.1,2014-01-29,,Fidesz,49,fideszhu,MSZP,23,mszphu,Jobbik,14,jobbikhu,DK,6,dkhu,EGY�TT,6,egyutthu,LMP,2,lmphu
+444,44,�sterreich_EU,IFES,TZ �STERREICH,500,4.3,2014-01-26,,SP�,24,spo,FP�,22,fpo,�VP,20,ovp,GR�NE,14,gru,NEOS,12,neo,MARTIN,3,matin
+445,46,Deutschland (EU),Emnid,wahlrecht.de,865,3.3,2014-01-26,,UNION,42,unionde,SPD,26,spdde,GR�NE,10,grunede,LINKE,8,linkede,AFD,7,afdde,FDP,3,fdpde
+454,42,Frankreich (EU),IFAP,leparisien.fr,1894,2.2,2014-01-26,Quotenmethode,FN,23,fnfr,UMP,21,umpfr,PS,18,psfr,MoDem,11,modemfr,FG,9,fdgfr,EE,7,eefr
+462,45,Polen (EU),Homo Homini (PL),EWYBORY.EU,1000,3.1,2014-01-26,,PiS ,30,pispo,PO,26,popo,SLD,20,sldpo,PSL,8,pslpo,Europa+,6,epluspo,PR,5,prpo
+461,50,Portugal (EU),Aximage Comunicacao (PT),jornaldenegocios.pt,601,4.0,2014-01-25,CATI,PSD,37,psdpt,PS,36,pspt,CDU,9,cdupt,BE,7,bept,SO (PT),11,sopt,,,
+460,49,Spanien (EU),METROSCOPIA,EL PA�S ,1200,2.8,2014-01-24,Telefon,PSOE,28,pses,PP,26,ppes,IU,15,iues,UPyD,8,upydes,CEU,5,ceues,EdP-V,5,edvves
+442,1,�sterreich,Market,Der Standard,403,4.8,2014-01-19,,FP�,26,fpo,SP�,23,spo,�VP,20,ovp,GR�NE,12,gru,NEOS,11,neo,BZ�,2,bzo
+443,1,�sterreich,IMAS,Kronen Zeitung,1000,3.1,2014-01-18,,FP�,25,fpo,SP�,25,spo,�VP,23,ovp,GR�NE,13,gru,NEOS,7,neo,TS,2,ts
+440,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-01-17,Telefonisch,FP�,25,fpo,SP�,24,spo,�VP,20,ovp,GR�NE,14,gru,NEOS,12,neo,TS,1,ts
+441,44,�sterreich_EU,Gallup,TZ �STERREICH,400,4.9,2014-01-17,Telefonisch,�VP,24,ovp,SP�,24,spo,FP�,23,fpo,GR�NE,13,gru,NEOS,12,neo,MARTIN,2,matin
+535,66,Finnland (EU),Tietoykk�nen (FI),Iltalehti (FI),500,4.3,2014-01-17,,KOK,21,kokfi,KESK,21,keskfi,SPD,18,spdfi,PS,16,perusfi,VIHR,9,vihrfi,VAS,7,vasfi
+474,15,Ungarn,Ipsos (HU),Tarki,1500,2.5,2014-01-16,Feldarbeit,Fidesz,48,fideszhu,MSZP,27,mszphu,Jobbik,11,jobbikhu,DK,5,dkhu,EGY�TT,5,egyutthu,LMP,3,lmphu
+438,1,�sterreich,meinungsraum.at,NEWS,500,4.3,2014-01-15,Online-Panel,FP�,26,fpo,SP�,26,spo,�VP,19,ovp,GR�NE,12,gru,NEOS,12,neo,TS,1,ts
+455,43,UK (EU),YouGov,N/A,1893,2.2,2014-01-15,Online,Labour,32,labour,UKIP,26,ukip,Cons,23,cons,LibDem,9,libdem,Greens,5,greensuk,SNP,3,snpuk
+473,15,Ungarn,Szazadveg (HU),Szazadveg (HU),1000,3.1,2014-01-15,,Fidesz,52,fideszhu,MSZP,21,mszphu,Jobbik,14,jobbikhu,EGY�TT,5,egyutthu,DK,4,dkhu,LMP,3,lmphu
+467,51,Niederlande (EU),GESOP (ES),electionista,2833,1.8,2014-01-13,,PVV,17,pvvnl,VVD,16,vvdnl,SP,13,spnl,D66,12,d66nl,PvdA,12,pvdanl,CDA,11,cdanl
+436,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2014-01-12,,FP�,24,fpo,SP�,24,spo,�VP,21,ovp,GR�NE,14,gru,NEOS,12,neo,TS,1,ts
+437,44,�sterreich_EU,Gallup,TZ �STERREICH,400,4.9,2014-01-12,,�VP,25,ovp,SP�,23,spo,FP�,22,fpo,GR�NE,13,gru,NEOS,12,neo,MARTIN,2,matin
+463,51,Niederlande (EU),Ipsos (NL),electionista,1000,3.1,2014-01-10,,PVV,16,pvvnl,CDA,13,cdanl,VVD,11,vvdnl,D66,8,d66nl,SP,8,spnl,GL,7,glnl
+431,44,�sterreich_EU,AKonsult,Mein Bezirk,1000,3.1,2014-01-07,Face-to-Face,�VP,23,ovp,FP�,23,fpo,SP�,22,spo,GR�NE,16,gru,NEOS,11,neo,MARTIN,3,matin
+435,43,UK (EU),Survation,The Mail on Sunday,1001,3.1,2014-01-04,,Labour,32,labour,UKIP,26,ukip,Cons,23,cons,LibDem,9,libdem,Greens,5,greensuk,SNP,3,snpuk
+425,10,Tirol,GMK,Mein Bezirk,400,4.9,2013-12-31,Telefonisch,�VP,41,ovp,GR�NE,16,gru,FP�,15,fpo,SP�,11,spo,NEOS,8,neo,FRITZ,2,lfr
+433,56,Rum�nien (EU),CSCI (Romania),infopolitic,1123,2.9,2013-12-27,CATI,PSD,41,psdro,PNL,19,pnlro,PD-L,17,pdlro,PPDD,6,ppddro,UDMR,6,udmrro,MP,5,mprp
+457,59,Griechenland (EU),Real.gr,star.gr,2000,2.2,2013-12-24,,SYRIZA,22,syrizagr,ND,21,ndgr,CHRYSI,9,cagr,KKE,5,kkegr,ANEL,5,anelgr,PASOK,5,pasokgr
+426,45,Polen (EU),EWYBORY.EU,EWYBORY.EU,1000,3.1,2013-12-23,Stra?eninterviews,PiS ,32,pispo,PO,23,popo,SLD,18,sldpo,Europa+,7,epluspo,PSL,7,pslpo,PR,5,prpo
+420,44,�sterreich_EU,Gallup,TZ �STERREICH,400,4.9,2013-12-22,,�VP,24,ovp,FP�,22,fpo,SP�,22,spo,GR�NE,13,gru,NEOS,10,neo,MARTIN,3,matin
+421,10,Tirol,Karmasin,Tiroler Tageszeitung,500,4.3,2013-12-22,,�VP,41,ovp,GR�NE,14,gru,SP�,13,spo,FP�,12,fpo,VWT,6,vwt,FRITZ,4,lfr
+422,1,�sterreich,Market,Der Standard,405,4.9,2013-12-22,,FP�,26,fpo,SP�,24,spo,�VP,20,ovp,GR�NE,12,gru,NEOS,11,neo,BZ�,2,bzo
+419,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-12-21,,FP�,24,fpo,SP�,24,spo,�VP,20,ovp,GR�NE,15,gru,NEOS,11,neo,TS,2,ts
+418,7,Salzburg,GMK,Mein Bezirk,400,4.9,2013-12-18,,�VP,27,ovp,SP�,24,spo,GR�NE,22,gru,FP�,17,fpo,NEOS,6,neo,TS,3,ts
+417,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-12-14,,FP�,24,fpo,SP�,24,spo,�VP,21,ovp,GR�NE,15,gru,NEOS,10,neo,TS,2,ts
+416,44,�sterreich_EU,Hajek,ATV,500,4.3,2013-12-12,,�VP,26,ovp,FP�,21,fpo,SP�,20,spo,GR�NE,13,gru,NEOS,10,neo,MARTIN,5,matin
+415,1,�sterreich,Hajek,ATV,500,4.3,2013-12-12,,FP�,26,fpo,SP�,23,spo,�VP,20,ovp,GR�NE,14,gru,NEOS,11,neo,TS,2,ts
+413,44,�sterreich_EU,Karmasin,profil,500,4.3,2013-12-07,,�VP,26,ovp,FP�,22,fpo,SP�,22,spo,GR�NE,12,gru,NEOS,9,neo,MARTIN,2,matin
+412,1,�sterreich,Market,Der Standard,403,4.8,2013-12-06,,FP�,25,fpo,SP�,23,spo,�VP,21,ovp,GR�NE,13,gru,NEOS,10,neo,TS,3,ts
+430,47,Europa (EU),EP Hochrechnung,lse.ac.uk,0,0.0,2013-12-03,,EVP,0,evpfreu,S&D,0,sunddfreu,ALDE,0,aldeeu,Gr�ne/EFA,0,efaeu,GUE/NGL,0,guengleu,ECR,0,ecreu
+434,59,Griechenland (EU),GPO,3comma14,1000,3.1,2013-12-03,,SYRIZA,27,syrizagr,ND,26,ndgr,CHRYSI,11,cagr,KKE,8,kkegr,ANEL,7,anelgr,PASOK,7,pasokgr
+411,2,Wien,Gallup,TZ �STERREICH,400,4.9,2013-11-30,,SP�,34,spo,FP�,27,fpo,GR�NE,13,gru,�VP,13,ovp,NEOS,10,neo,So,3,and
+410,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-11-29,,SP�,25,spo,FP�,23,fpo,�VP,22,ovp,GR�NE,15,gru,NEOS,10,neo,TS,2,ts
+409,1,�sterreich,Market,trend,446,4.6,2013-11-24,,FP�,25,fpo,SP�,23,spo,�VP,22,ovp,GR�NE,13,gru,NEOS,9,neo,TS,4,ts
+408,1,�sterreich,Karmasin,profil,500,4.3,2013-11-23,,SP�,26,spo,FP�,23,fpo,�VP,23,ovp,GR�NE,14,gru,NEOS,9,neo,TS,3,ts
+427,43,UK (EU),Survation,Daily Star,1006,3.1,2013-11-22,Online Panel,Labour,32,labour,UKIP,25,ukip,Cons,24,cons,LibDem,8,libdem,Greens,6,greensuk,BNP,4,bnpuk
+439,66,Finnland (EU),Taloustutkimus (FI),YLE  (Finnland),2431,2.0,2013-11-19,,KOK,23,kokfi,KESK,22,keskfi,PS,17,perusfi,SPD,15,spdfi,VIHR,8,vihrfi,VAS,7,vasfi
+432,49,Spanien (EU),METROSCOPIA,EL PA�S ,3600,1.6,2013-11-18,Telefonisch,PP,29,ppes,PSOE,28,pses,IU,14,iues,UPyD,8,upydes,EdP-V,6,edvves,CEU,4,ceues
+407,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-11-16,,SP�,26,spo,�VP,23,ovp,FP�,23,fpo,GR�NE,14,gru,NEOS,9,neo,TS,1,ts
+405,1,�sterreich,Karmasin,Heute,800,3.4,2013-11-08,,SP�,27,spo,�VP,23,ovp,FP�,22,fpo,GR�NE,12,gru,NEOS,9,neo,TS,3,ts
+406,44,�sterreich_EU,Karmasin,Heute,800,3.4,2013-11-08,,�VP,25,ovp,SP�,22,spo,FP�,21,fpo,GR�NE,12,gru,NEOS,8,neo,MARTIN,3,matin
+429,47,Europa (EU),EP Hochrechnung,Der Standard,0,0.0,2013-11-08,,EVP,0,evpfreu,S&D,0,sunddfreu,ALDE,0,aldeeu,Gr�ne/EFA,0,efaeu,GUE/NGL,0,guengleu,ECR,0,ecreu
+404,1,�sterreich,Market,Der Standard,603,4.0,2013-10-27,Telefon,SP�,25,spo,FP�,24,fpo,�VP,23,ovp,GR�NE,12,gru,NEOS,8,neo,TS,4,ts
+403,1,�sterreich,Karmasin,profil,500,4.3,2013-10-26,,SP�,26,spo,FP�,23,fpo,�VP,23,ovp,GR�NE,12,gru,NEOS,8,neo,TS,3,ts
+402,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-10-25,,SP�,27,spo,�VP,24,ovp,FP�,22,fpo,GR�NE,13,gru,NEOS,8,neo,TS,2,ts
+401,1,�sterreich,Market,Der Standard,603,4.0,2013-10-20,CATI-Interviews,SP�,25,spo,FP�,25,fpo,�VP,23,ovp,GR�NE,12,gru,NEOS,7,neo,TS,4,ts
+398,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-10-17,,SP�,28,spo,�VP,23,ovp,FP�,22,fpo,GR�NE,13,gru,NEOS,8,neo,TS,2,ts
+400,43,UK (EU),Survation,The Mail on Sunday,1017,3.0,2013-10-10,Online Panel,Labour,35,labour,UKIP,22,ukip,Cons,21,cons,LibDem,11,libdem,Greens,5,greensuk,SNP,3,snpuk
+397,42,Frankreich (EU),IFAP,Le Nouvel Observateur,1893,2.2,2013-10-09,,FN,24,fnfr,UMP,22,umpfr,PS,19,psfr,MoDem,11,modemfr,FG,10,fdgfr,EE,6,eefr
+395,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-10-03,,SP�,28,spo,�VP,23,ovp,FP�,21,fpo,GR�NE,13,gru,NEOS,7,neo,TS,4,ts
+386,40,Vorarlberg (NRW13),BMI,N/A,0,0.0,2013-09-30,,�VP,26,ovp,FP�,20,fpo,GR�NE,17,gru,SP�,13,spo,NEOS,13,neo,TS,5,ts
+387,38,Tirol (NRW13),BMI,N/A,0,0.0,2013-09-30,,�VP,32,ovp,FP�,19,fpo,SP�,18,spo,GR�NE,15,gru,TS,6,ts,NEOS,5,neo
+388,37,Salzburg (NRW13),BMI,N/A,0,0.0,2013-09-30,,�VP,27,ovp,SP�,23,spo,FP�,21,fpo,GR�NE,15,gru,TS,5,ts,NEOS,5,neo
+389,35,O� (NRW13),BMI,N/A,0,0.0,2013-09-30,,SP�,27,spo,�VP,25,ovp,FP�,22,fpo,GR�NE,12,gru,TS,5,ts,BZ�,4,bzo
+390,34,N� (NRW13),BMI,N/A,0,0.0,2013-09-30,,�VP,31,ovp,SP�,28,spo,FP�,19,fpo,GR�NE,10,gru,TS,5,ts,NEOS,4,neo
+391,33,Wien (NRW13),BMI,N/A,0,0.0,2013-09-30,,SP�,32,spo,FP�,21,fpo,GR�NE,16,gru,�VP,14,ovp,NEOS,8,neo,TS,4,ts
+392,36,Steiermark (NRW13),BMI,N/A,0,0.0,2013-09-30,,FP�,24,fpo,SP�,24,spo,�VP,21,ovp,GR�NE,11,gru,TS,10,ts,BZ�,4,bzo
+393,41,Burgenland (NRW13),BMI,N/A,0,0.0,2013-09-30,,SP�,37,spo,�VP,27,ovp,FP�,17,fpo,GR�NE,7,gru,TS,6,ts,NEOS,3,neo
+370,40,Vorarlberg (NRW13),SORA,ORF,0,0.0,2013-09-29,,�VP,26,ovp,FP�,21,fpo,GR�NE,16,gru,SP�,13,spo,NEOS,13,neo,TS,5,ts
+375,40,Vorarlberg (NRW13),BMI,ORF,0,0.0,2013-09-29,,�VP,26,ovp,FP�,21,fpo,GR�NE,16,gru,NEOS,13,neo,SP�,14,spo,TS,6,ts
+376,38,Tirol (NRW13),BMI,ORF,0,0.0,2013-09-29,,�VP,32,ovp,FP�,20,fpo,SP�,19,spo,GR�NE,14,gru,TS,6,ts,NEOS,5,neo
+377,37,Salzburg (NRW13),BMI,ORF,0,0.0,2013-09-29,,�VP,26,ovp,SP�,23,spo,FP�,22,fpo,GR�NE,14,gru,TS,5,ts,NEOS,4,neo
+379,36,Steiermark (NRW13),BMI,ORF,0,0.0,2013-09-29,,FP�,25,fpo,SP�,24,spo,�VP,21,ovp,TS,10,ts,GR�NE,10,gru,BZ�,4,bzo
+380,35,O� (NRW13),BMI,ORF,0,0.0,2013-09-29,,SP�,28,spo,�VP,25,ovp,FP�,22,fpo,GR�NE,11,gru,TS,5,ts,NEOS,3,neo
+381,34,N� (NRW13),BMI,ORF,0,0.0,2013-09-29,,�VP,30,ovp,SP�,28,spo,FP�,19,fpo,GR�NE,9,gru,TS,5,ts,NEOS,4,neo
+382,41,Burgenland (NRW13),BMI,ORF,0,0.0,2013-09-29,,SP�,38,spo,�VP,27,ovp,FP�,18,fpo,GR�NE,6,gru,TS,6,ts,NEOS,3,neo
+383,33,Wien (NRW13),BMI,ORF,0,0.0,2013-09-29,,SP�,32,spo,FP�,22,fpo,GR�NE,15,gru,�VP,13,ovp,NEOS,8,neo,TS,4,ts
+360,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,724,3.6,2013-09-28,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,14,gru,TS,7,ts,BZ�,3,bzo
+359,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,724,3.6,2013-09-27,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,14,gru,TS,7,ts,BZ�,3,bzo
+358,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,711,3.6,2013-09-26,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,14,gru,TS,7,ts,BZ�,3,bzo
+357,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,711,3.6,2013-09-25,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,14,gru,TS,7,ts,BZ�,3,bzo
+356,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,711,3.6,2013-09-24,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,14,gru,TS,7,ts,BZ�,3,bzo
+353,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,657,3.8,2013-09-23,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,15,gru,TS,8,ts,BZ�,3,bzo
+354,1,�sterreich,Gallup,neos.eu,1800,2.3,2013-09-23,telefonisch,SP�,27,spo,�VP,23,ovp,FP�,21,fpo,GR�NE,14,gru,TS,6,ts,NEOS,4,neo
+352,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,645,3.8,2013-09-22,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,15,gru,TS,8,ts,BZ�,3,bzo
+342,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,619,3.9,2013-09-21,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,24,ovp,FP�,20,fpo,GR�NE,15,gru,TS,8,ts,BZ�,3,bzo
+351,1,�sterreich,OGM,Kurier,780,3.5,2013-09-21,-,SP�,27,spo,�VP,22,ovp,FP�,21,fpo,GR�NE,14,gru,TS,6,ts,BZ�,4,bzo
+339,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,621,3.9,2013-09-20,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,24,ovp,FP�,20,fpo,GR�NE,15,gru,TS,8,ts,BZ�,3,bzo
+340,1,�sterreich,Karmasin,Heute,800,3.4,2013-09-20,-,SP�,27,spo,�VP,23,ovp,FP�,21,fpo,GR�NE,14,gru,TS,7,ts,NEOS,3,neo
+341,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-09-20,-,SP�,27,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,14,gru,TS,7,ts,NEOS,4,neo
+343,1,�sterreich,Market,Der Standard,1000,3.1,2013-09-20,"Telefonische Umfrage, repr?sentativ f?r die ?sterreichische Bev?lkerung ab 16 Jahren",SP�,26,spo,�VP,23,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,4,bzo
+346,11,Deutschland,Allensbach,wahlrecht.de,1070,3.0,2013-09-20,-,UNION,40,unionde,SPD,27,spdde,GR�NE,9,grunede,LINKE,9,linkede,FDP,6,fdpde,AFD,5,afdde
+348,11,Deutschland,Forsa,wahlrecht.de,1995,2.2,2013-09-20,,UNION,40,unionde,SPD,26,spdde,GR�NE,10,grunede,LINKE,9,linkede,FDP,5,fdpde,AFD,4,afdde
+336,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,582,4.0,2013-09-19,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,24,ovp,FP�,20,fpo,GR�NE,15,gru,TS,8,ts,BZ�,3,bzo
+337,1,�sterreich,meinungsraum.at,neos.eu,1000,3.1,2013-09-19,"Panel-Umfrage anhand des meinungsraum.at online-Panel (dzt. rund 27.000 PanelistInnen in ganz ?sterreich), Nettostichprobe: 1.200, Gewichtung auf 1.000 Interviews",SP�,28,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,7,ts,NEOS,4,neo
+338,1,�sterreich,Hajek,ATV,1000,3.1,2013-09-19,Feldarbeit ,SP�,27,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,15,gru,TS,7,ts,BZ�,3,bzo
+350,11,Deutschland,INSA,wahlrecht.de,2248,2.0,2013-09-19,Online Panel,UNION,38,unionde,SPD,28,spdde,LINKE,9,linkede,GR�NE,8,grunede,FDP,6,fdpde,AFD,5,afdde
+335,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,604,3.9,2013-09-18,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,24,ovp,FP�,20,fpo,GR�NE,15,gru,TS,8,ts,BZ�,3,bzo
+345,11,Deutschland,Allensbach,wahlrecht.de,1263,2.7,2013-09-18,,UNION,39,unionde,SPD,26,spdde,GR�NE,11,grunede,LINKE,9,linkede,FDP,6,fdpde,AFD,4,afdde
+333,1,�sterreich,Humaninstitut,N/A,800,0.0,2013-09-17,Quotaverfahren,SP�,26,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,13,gru,TS,10,ts,BZ�,6,bzo
+334,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,594,4.0,2013-09-17,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+347,11,Deutschland,Forsa,wahlrecht.de,2502,1.9,2013-09-17,,UNION,39,unionde,SPD,25,spdde,LINKE,10,linkede,GR�NE,9,grunede,FDP,5,fdpde,PIRAT,3,piratde
+332,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,594,4.0,2013-09-16,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+324,29,K�rnten (NRW),Gallup,TZ �STERREICH,400,4.9,2013-09-15,-,SP�,35,spo,FP�,19,fpo,�VP,18,ovp,GR�NE,12,gru,TS,9,ts,BZ�,3,bzo
+325,28,Steiermark (NRW),Gallup,TZ �STERREICH,400,4.9,2013-09-15,-,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,14,gru,TS,9,ts,BZ�,2,bzo
+326,1,�sterreich,Market,Der Standard,400,4.9,2013-09-15,-,SP�,26,spo,�VP,22,ovp,FP�,20,fpo,GR�NE,15,gru,TS,9,ts,BZ�,3,bzo
+327,22,Poll of the Polls �sterreich 2013,Spectra,neuwal.com,605,3.9,2013-09-15,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+344,11,Deutschland,Emnid,wahlrecht.de,1840,2.3,2013-09-15,,UNION,39,unionde,SPD,26,spdde,GR�NE,10,grunede,FDP,5,fdpde,LINKE,9,linkede,PIRAT,3,piratde
+321,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,606,3.9,2013-09-14,Methodische Aggregation aller publizierten Wahlumfragen f?r ?sterreich mit Fokus und Gewichtung der letzten Monate,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+322,1,�sterreich,Karmasin,profil,500,4.3,2013-09-14,-,SP�,28,spo,�VP,25,ovp,FP�,20,fpo,GR�NE,15,gru,TS,6,ts,NEOS,3,neo
+323,1,�sterreich,Spectra,O�N,700,3.7,2013-09-14,-,SP�,26,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,13,gru,TS,9,ts,BZ�,4,bzo
+310,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-09-13,,SP�,28,spo,�VP,25,ovp,FP�,20,fpo,GR�NE,15,gru,TS,7,ts,NEOS,3,neo
+311,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,593,4.0,2013-09-13,Methodische Berechnung und AggregationMethodische Aggregation aller publizierten Wahlumfragen f?r ?sterreich mit Fokus und Gewichtung der letzten Monate,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+309,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,618,3.9,2013-09-12,Methodische Aggregation aller publizierten Wahlumfragen f?r ?sterreich mit Fokus und Gewichtung der letzten Monate,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+318,11,Deutschland,Infratest dimap,wahlrecht.de,2012,2.2,2013-09-12,,UNION,40,unionde,SPD,28,spdde,GR�NE,10,grunede,LINKE,8,linkede,FDP,5,fdpde,PIRAT,3,piratde
+331,12,Bayern,Emnid,wahlrecht.de,1000,3.1,2013-09-12,-,CSU,47,csude,SPD,18,spdde,GR�NE,12,grunede,FW,8,fwde,FDP,4,fdpde,LINKE,4,linkede
+308,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,618,3.9,2013-09-11,Methodische Aggregation aller publizierten Wahlumfragen f?r ?sterreich mit Fokus und Gewichtung der letzten Monate,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+314,11,Deutschland,Forsa,wahlrecht.de,2500,1.9,2013-09-11,,UNION,39,unionde,SPD,25,spdde,LINKE,10,linkede,GR�NE,9,grunede,FDP,6,fdpde,PIRAT,3,piratde
+307,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,618,3.9,2013-09-10,Methodische Aggregation aller publizierten Wahlumfragen f?r ?sterreich mit Fokus und Gewichtung der letzten Monate,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+317,11,Deutschland,GMS,wahlrecht.de,1007,3.1,2013-09-10,telefonisch,UNION,40,unionde,SPD,25,spdde,GR�NE,11,grunede,LINKE,9,linkede,FDP,5,fdpde,PIRAT,3,piratde
+306,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,616,3.9,2013-09-09,Methodische Aggregation aller publizierten Wahlumfragen f?r ?sterreich der letzten Monate mit Fokus auf die letzten max. zwei Monate vor der Wahl. Ergebnisse gewichtet.,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+320,11,Deutschland,INSA,wahlrecht.de,2132,2.1,2013-09-09,Online Panel,UNION,39,unionde,SPD,28,spdde,GR�NE,11,grunede,LINKE,8,linkede,FDP,4,fdpde,AFD,3,afdde
+329,12,Bayern,Infratest dimap,wahlrecht.de,1006,3.1,2013-09-09,-,CSU,47,csude,SPD,21,spdde,GR�NE,11,grunede,FW,7,fwde,FDP,3,fdpde,LINKE,3,linkede
+303,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,610,3.9,2013-09-08,Methodische Aggregation aller publizierten Wahlumfragen f?r ?sterreich mit Fokus und Gewichtung der letzten Monate,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+304,26,Ober�sterreich (NRW),Gallup,TZ �STERREICH,400,4.9,2013-09-08,telefonisch,SP�,29,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,15,gru,TS,6,ts,BZ�,2,bzo
+305,27,Salzburg (NRW),Gallup,TZ �STERREICH,300,5.6,2013-09-08,,�VP,30,ovp,SP�,25,spo,FP�,17,fpo,GR�NE,17,gru,TS,8,ts,BZ�,1,bzo
+312,11,Deutschland,Emnid,wahlrecht.de,1376,2.6,2013-09-08,,UNION,40,unionde,SPD,25,spdde,GR�NE,11,grunede,LINKE,9,linkede,FDP,5,fdpde,PIRAT,3,piratde
+301,25,Vorarlberg (NRW),Edwin Berndt,Vorarlberger Nachrichten,503,4.3,2013-09-07,,�VP,30,ovp,FP�,21,fpo,GR�NE,18,gru,SP�,15,spo,TS,8,ts,BZ�,3,bzo
+302,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,610,3.9,2013-09-07,Methodische Aggregation aller publizierten Wahlumfragen f?r ?sterreich mit Fokus und Gewichtung der letzten Monate,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+299,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,610,3.9,2013-09-06,Methodische Aggregation aller publizierten Wahlumfragen f?r ?sterreich mit Fokus und Gewichtung der letzten Monate,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+300,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-09-06,,SP�,28,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+330,12,Bayern,FG Wahlen ,wahlrecht.de,1010,3.1,2013-09-06,-,CSU,48,csude,SPD,20,spdde,GR�NE,10,grunede,FW,8,fwde,FDP,4,fdpde,So. (DE),10,sonstde
+298,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,604,3.9,2013-09-05,,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+316,11,Deutschland,FG Wahlen ,wahlrecht.de,1296,2.7,2013-09-05,,UNION,41,unionde,SPD,26,spdde,GR�NE,10,grunede,LINKE,8,linkede,FDP,6,fdpde,AFD,3,afdde
+297,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,604,3.9,2013-09-04,Methodische Aggregation aller publizierten Wahlumfragen f?r ?sterreich mit Fokus und Gewichtung der letzten Monate,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+313,11,Deutschland,Forsa,wahlrecht.de,2502,1.9,2013-09-04,,UNION,40,unionde,SPD,23,spdde,GR�NE,11,grunede,LINKE,9,linkede,FDP,5,fdpde,AFD,4,afdde
+315,11,Deutschland,Allensbach,wahlrecht.de,1548,2.5,2013-09-04,,UNION,40,unionde,SPD,25,spdde,GR�NE,13,grunede,LINKE,8,linkede,FDP,6,fdpde,AFD,3,afdde
+296,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,604,3.9,2013-09-03,Methodische Aggregation aller publizierten Wahlumfragen f?r ?sterreich mit Fokus und Gewichtung der letzten Monate,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+328,12,Bayern,GMS,wahlrecht.de,1009,3.1,2013-09-03,-,CSU,47,csude,SPD,18,spdde,GR�NE,13,grunede,FW,8,fwde,FDP,5,fdpde,LINKE,3,linkede
+295,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,609,4.3,2013-09-02,Methodische Aggregation aller publizierten Wahlumfragen f?r ?sterreich mit Fokus und Gewichtung der letzten Monate,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+319,11,Deutschland,INSA,wahlrecht.de,2135,2.1,2013-09-02,Online Panel,UNION,39,unionde,SPD,26,spdde,GR�NE,13,grunede,LINKE,8,linkede,FDP,5,fdpde,AFD,3,afdde
+284,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,765,3.5,2013-09-01,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+286,2,Wien,Gallup,TZ �STERREICH,400,4.9,2013-09-01,,SP�,33,spo,FP�,19,fpo,GR�NE,17,gru,�VP,15,ovp,TS,9,ts,BZ�,1,bzo
+287,24,Wien (NRW),Gallup,TZ �STERREICH,400,4.9,2013-09-01,,SP�,33,spo,FP�,19,fpo,GR�NE,17,gru,�VP,15,ovp,TS,9,ts,BZ�,1,bzo
+288,23,Nieder�sterreich (NRW),Gallup,TZ �STERREICH,400,4.9,2013-09-01,,�VP,31,ovp,SP�,29,spo,FP�,16,fpo,GR�NE,10,gru,TS,9,ts,BZ�,4,bzo
+290,11,Deutschland,Emnid,wahlrecht.de,1851,2.3,2013-09-01,,UNION,39,unionde,SPD,23,spdde,GR�NE,11,grunede,LINKE,10,linkede,FDP,6,fdpde,AFD,3,afdde
+283,1,�sterreich,OGM,Kurier,753,3.5,2013-08-31,,SP�,27,spo,�VP,24,ovp,FP�,20,fpo,GR�NE,15,gru,TS,7,ts,BZ�,3,bzo
+280,1,�sterreich,Karmasin,profil,500,4.3,2013-08-31,,SP�,28,spo,�VP,24,ovp,FP�,20,fpo,GR�NE,15,gru,TS,7,ts,BZ�,2,bzo
+282,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,602,4.0,2013-08-31,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+274,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-08-30,,SP�,28,spo,�VP,23,ovp,FP�,19,fpo,GR�NE,15,gru,TS,9,ts,BZ�,2,bzo
+275,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,597,4.0,2013-08-30,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+276,1,�sterreich,Market,Der Standard,401,4.8,2013-08-30,,SP�,26,spo,�VP,22,ovp,FP�,19,fpo,GR�NE,16,gru,TS,9,ts,BZ�,3,bzo
+394,39,K�rnten (NRW13),BMI,N/A,0,0.0,2013-08-30,,SP�,32,spo,FP�,18,fpo,�VP,15,ovp,GR�NE,12,gru,BZ�,11,bzo,TS,7,ts
+266,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,608,3.9,2013-08-29,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+278,1,�sterreich,meinungsraum.at,NEWS,1000,3.1,2013-08-29,,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,14,gru,TS,8,ts,NEOS,3,neo
+292,11,Deutschland,FG Wahlen ,wahlrecht.de,1358,2.6,2013-08-29,,UNION,41,unionde,SPD,26,spdde,GR�NE,12,grunede,FDP,7,fdpde,LINKE,6,linkede,AFD,3,afdde
+293,11,Deutschland,Infratest dimap,wahlrecht.de,1500,2.5,2013-08-29,,UNION,41,unionde,SPD,26,spdde,GR�NE,11,grunede,LINKE,8,linkede,FDP,5,fdpde,AFD,3,afdde
+267,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,608,3.9,2013-08-28,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+291,11,Deutschland,Forsa,wahlrecht.de,2501,1.9,2013-08-28,,UNION,41,unionde,SPD,22,spdde,GR�NE,11,grunede,LINKE,10,linkede,FDP,5,fdpde,AFD,3,afdde
+294,12,Bayern,Emnid,wahlrecht.de,1000,3.1,2013-08-28,,CSU,48,csude,SPD,18,spdde,GR�NE,13,grunede,FW,8,fwde,FDP,4,fdpde,LINKE,3,linkede
+268,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,597,4.0,2013-08-27,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+269,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,627,3.9,2013-08-26,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+270,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,627,3.9,2013-08-25,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+289,11,Deutschland,Emnid,wahlrecht.de,2755,1.8,2013-08-25,,UNION,40,unionde,SPD,25,spdde,GR�NE,12,grunede,LINKE,8,linkede,FDP,5,fdpde,AFD,3,afdde
+265,1,�sterreich,Spectra,Vorarlberger Nachrichten,700,3.7,2013-08-24,,SP�,27,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,14,gru,TS,7,ts,BZ�,3,bzo
+271,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,627,3.9,2013-08-24,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+260,1,�sterreich,Karmasin,Heute,800,3.4,2013-08-23,,SP�,28,spo,�VP,25,ovp,FP�,20,fpo,GR�NE,15,gru,TS,7,ts,NEOS,2,neo
+261,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-08-23,,SP�,28,spo,�VP,24,ovp,FP�,18,fpo,GR�NE,15,gru,TS,9,ts,BZ�,2,bzo
+262,11,Deutschland,FG Wahlen ,wahlrecht.de,1287,2.7,2013-08-23,,UNION,41,unionde,SPD,25,spdde,GR�NE,13,grunede,LINKE,8,linkede,FDP,6,fdpde,So. (DE),7,sonstde
+263,11,Deutschland,Infratest dimap,wahlrecht.de,1000,3.1,2013-08-23,,UNION,42,unionde,SPD,24,spdde,GR�NE,12,grunede,LINKE,9,linkede,FDP,5,fdpde,AFD,3,afdde
+272,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,623,3.9,2013-08-23,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+273,22,Poll of the Polls �sterreich 2013,neuwal Poll of the Polls,neuwal.com,626,3.9,2013-08-22,Methodische Berechnung und Aggregation,SP�,27,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,15,gru,TS,9,ts,BZ�,3,bzo
+244,11,Deutschland,Allensbach,wahlrecht.de,1553,2.5,2013-08-21,,UNION,39,unionde,SPD,25,spdde,GR�NE,14,grunede,FDP,7,fdpde,LINKE,7,linkede,AFD,3,afdde
+264,11,Deutschland,Forsa,wahlrecht.de,2502,1.9,2013-08-21,,UNION,41,unionde,SPD,22,spdde,GR�NE,13,grunede,LINKE,8,linkede,FDP,6,fdpde,PIRAT,3,piratde
+251,11,Deutschland,GMS,wahlrecht.de,1008,3.1,2013-08-20,telefonisch,UNION,41,unionde,SPD,25,spdde,GR�NE,12,grunede,LINKE,8,linkede,FDP,6,fdpde,PIRAT,3,piratde
+259,11,Deutschland,INSA,wahlrecht.de,2122,2.1,2013-08-20,,UNION,38,unionde,SPD,26,spdde,GR�NE,15,grunede,LINKE,8,linkede,FDP,5,fdpde,AFD,3,afdde
+248,11,Deutschland,Emnid,wahlrecht.de,1883,2.2,2013-08-18,,UNION,40,unionde,SPD,24,spdde,GR�NE,12,grunede,LINKE,8,linkede,FDP,6,fdpde,PIRAT,4,piratde
+250,11,Deutschland,FG Wahlen ,wahlrecht.de,1316,2.7,2013-08-16,,UNION,41,unionde,SPD,25,spdde,GR�NE,13,grunede,LINKE,8,linkede,FDP,5,fdpde,PIRAT,3,piratde
+239,1,�sterreich,Market,Der Standard,401,4.8,2013-08-15,telefonisch,SP�,26,spo,�VP,24,ovp,FP�,18,fpo,GR�NE,15,gru,TS,9,ts,BZ�,3,bzo
+255,11,Deutschland,Infratest dimap,wahlrecht.de,1000,3.1,2013-08-15,,UNION,42,unionde,SPD,25,spdde,GR�NE,12,grunede,LINKE,8,linkede,FDP,5,fdpde,PIRAT,3,piratde
+242,11,Deutschland,Forsa,wahlrecht.de,622,3.9,2013-08-14,,UNION,40,unionde,SPD,23,spdde,GR�NE,13,grunede,LINKE,8,linkede,FDP,5,fdpde,PIRAT,3,piratde
+243,11,Deutschland,Forsa,wahlrecht.de,2502,1.9,2013-08-13,,UNION,41,unionde,SPD,22,spdde,GR�NE,13,grunede,LINKE,8,linkede,FDP,6,fdpde,PIRAT,3,piratde
+258,11,Deutschland,INSA,wahlrecht.de,2121,2.1,2013-08-13,,UNION,39,unionde,SPD,26,spdde,GR�NE,14,grunede,LINKE,8,linkede,FDP,5,fdpde,AFD,3,afdde
+247,11,Deutschland,Emnid,wahlrecht.de,1875,2.2,2013-08-11,,UNION,41,unionde,SPD,25,spdde,GR�NE,13,grunede,LINKE,8,linkede,FDP,5,fdpde,PIRAT,3,piratde
+237,1,�sterreich,Karmasin,profil,500,4.3,2013-08-10,,SP�,28,spo,�VP,25,ovp,FP�,18,fpo,GR�NE,16,gru,TS,7,ts,BZ�,3,bzo
+238,1,�sterreich,IMAS,Kronen Zeitung,1028,3.0,2013-08-10,,SP�,27,spo,�VP,25,ovp,FP�,20,fpo,GR�NE,13,gru,TS,9,ts,BZ�,3,bzo
+236,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-08-09,telefonisch,SP�,28,spo,�VP,25,ovp,FP�,17,fpo,GR�NE,16,gru,TS,8,ts,BZ�,2,bzo
+254,11,Deutschland,Infratest dimap,wahlrecht.de,1000,3.1,2013-08-09,,UNION,42,unionde,SPD,25,spdde,GR�NE,13,grunede,LINKE,7,linkede,FDP,5,fdpde,PIRAT,3,piratde
+235,1,�sterreich,meinungsraum.at,neos.eu,1000,3.1,2013-08-08,Online-Umfrage auf Basis des meinungsraum.at-Panels (dzt. 27.000 Teilnehmer),SP�,26,spo,�VP,24,ovp,FP�,20,fpo,GR�NE,13,gru,TS,9,ts,NEOS,3,neo
+241,11,Deutschland,Forsa,wahlrecht.de,3003,1.8,2013-08-07,,UNION,40,unionde,SPD,23,spdde,GR�NE,14,grunede,LINKE,7,linkede,FDP,5,fdpde,PIRAT,3,piratde
+257,11,Deutschland,INSA,wahlrecht.de,2131,2.1,2013-08-05,,UNION,39,unionde,SPD,26,spdde,GR�NE,14,grunede,LINKE,8,linkede,FDP,5,fdpde,PIRAT,2,piratde
+246,11,Deutschland,Emnid,wahlrecht.de,622,3.9,2013-08-04,,UNION,40,unionde,SPD,25,spdde,GR�NE,13,grunede,LINKE,8,linkede,FDP,5,fdpde,PIRAT,3,piratde
+249,11,Deutschland,FG Wahlen ,wahlrecht.de,1340,2.7,2013-08-02,,UNION,40,unionde,SPD,27,spdde,GR�NE,14,grunede,LINKE,7,linkede,FDP,5,fdpde,So. (DE),7,sonstde
+253,11,Deutschland,Infratest dimap,wahlrecht.de,1503,2.5,2013-08-01,,UNION,42,unionde,SPD,26,spdde,GR�NE,13,grunede,LINKE,7,linkede,FDP,5,fdpde,So. (DE),7,sonstde
+240,11,Deutschland,Forsa,wahlrecht.de,2501,1.9,2013-07-31,,UNION,41,unionde,SPD,22,spdde,GR�NE,13,grunede,LINKE,8,linkede,FDP,5,fdpde,PIRAT,3,piratde
+256,11,Deutschland,INSA,wahlrecht.de,2128,2.1,2013-07-30,,UNION,39,unionde,SPD,26,spdde,GR�NE,15,grunede,LINKE,7,linkede,FDP,4,fdpde,AFD,3,afdde
+234,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-07-28,telefonisch,SP�,27,spo,�VP,25,ovp,FP�,18,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+245,11,Deutschland,Emnid,wahlrecht.de,2321,2.0,2013-07-28,,UNION,40,unionde,SPD,25,spdde,GR�NE,13,grunede,LINKE,8,linkede,FDP,5,fdpde,PIRAT,3,piratde
+233,1,�sterreich,Karmasin,Heute,800,3.4,2013-07-26,,SP�,27,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,14,gru,TS,9,ts,BZ�,2,bzo
+252,11,Deutschland,Infratest dimap,wahlrecht.de,1000,3.1,2013-07-25,,UNION,42,unionde,SPD,25,spdde,GR�NE,14,grunede,LINKE,7,linkede,FDP,4,fdpde,PIRAT,2,piratde
+232,11,Deutschland,Forsa,wahlrecht.de,2500,1.9,2013-07-24,,UNION,41,unionde,SPD,22,spdde,GR�NE,12,grunede,LINKE,9,linkede,FDP,5,fdpde,PIRAT,4,piratde
+231,11,Deutschland,INSA,wahlrecht.de,2152,2.1,2013-07-23,,UNION,38,unionde,SPD,26,spdde,GR�NE,15,grunede,LINKE,7,linkede,FDP,5,fdpde,AFD,4,afdde
+229,11,Deutschland,Emnid,wahlrecht.de,1854,2.3,2013-07-21,,UNION,40,unionde,SPD,25,spdde,GR�NE,13,grunede,LINKE,8,linkede,FDP,6,fdpde,PIRAT,3,piratde
+230,1,�sterreich,IMAS,Kronen Zeitung,500,4.3,2013-07-21,,SP�,27,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,13,gru,TS,10,ts,BZ�,3,bzo
+228,1,�sterreich,Spectra,Kleine Zeitung,700,3.7,2013-07-20,,SP�,27,spo,�VP,24,ovp,FP�,18,fpo,GR�NE,14,gru,TS,10,ts,BZ�,2,bzo
+226,11,Deutschland,Infratest dimap,wahlrecht.de,1000,3.1,2013-07-19,,UNION,41,unionde,SPD,26,spdde,GR�NE,13,grunede,LINKE,7,linkede,FDP,4,fdpde,AFD,3,afdde
+227,1,�sterreich,Market,Der Standard,500,4.3,2013-07-19,,SP�,25,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,9,ts,BZ�,3,bzo
+224,11,Deutschland,Forsa,wahlrecht.de,2502,1.9,2013-07-17,,UNION,41,unionde,SPD,23,spdde,GR�NE,14,grunede,LINKE,8,linkede,FDP,5,fdpde,PIRAT,2,piratde
+225,12,Bayern,Infratest dimap,wahlrecht.de,1004,3.1,2013-07-17,,CSU,47,csude,SPD,18,spdde,GR�NE,15,grunede,FW,8,fwde,FDP,3,fdpde,LINKE,3,linkede
+223,11,Deutschland,GMS,wahlrecht.de,1008,3.1,2013-07-16,,UNION,41,unionde,SPD,25,spdde,GR�NE,13,grunede,LINKE,7,linkede,FDP,5,fdpde,PIRAT,2,piratde
+221,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-07-14,,SP�,27,spo,�VP,24,ovp,FP�,18,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+222,11,Deutschland,Emnid,wahlrecht.de,1838,2.3,2013-07-14,,UNION,41,unionde,SPD,26,spdde,GR�NE,12,grunede,LINKE,7,linkede,FDP,5,fdpde,PIRAT,4,piratde
+220,1,�sterreich,Karmasin,profil,500,4.3,2013-07-13,,SP�,28,spo,�VP,25,ovp,FP�,18,fpo,GR�NE,15,gru,TS,7,ts,BZ�,3,bzo
+218,11,Deutschland,FG Wahlen ,wahlrecht.de,1338,2.7,2013-07-12,,UNION,41,unionde,SPD,26,spdde,GR�NE,13,grunede,LINKE,7,linkede,FDP,5,fdpde,AFD,3,afdde
+219,12,Bayern,GMS,wahlrecht.de,1007,3.1,2013-07-11,,CSU,47,csude,SPD,19,spdde,GR�NE,11,grunede,FW,10,fwde,FDP,5,fdpde,So. (DE),8,sonstde
+217,11,Deutschland,Forsa,wahlrecht.de,2503,1.9,2013-07-10,,UNION,41,unionde,SPD,22,spdde,GR�NE,15,grunede,LINKE,9,linkede,FDP,5,fdpde,PIRAT,2,piratde
+215,1,�sterreich,OGM,Kurier,806,3.5,2013-07-07,,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,15,gru,TS,8,ts,BZ�,3,bzo
+216,1,�sterreich,Market,Der Standard,507,4.3,2013-07-07,Telefonische CATI-Interviews,SP�,26,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,16,gru,TS,8,ts,BZ�,2,bzo
+213,11,Deutschland,Infratest dimap,wahlrecht.de,1505,2.5,2013-07-04,,UNION,42,unionde,SPD,25,spdde,GR�NE,14,grunede,LINKE,7,linkede,FDP,4,fdpde,PIRAT,3,piratde
+212,11,Deutschland,Forsa,wahlrecht.de,2501,1.9,2013-07-03,,UNION,41,unionde,SPD,22,spdde,GR�NE,14,grunede,LINKE,9,linkede,FDP,5,fdpde,PIRAT,2,piratde
+211,11,Deutschland,Emnid,wahlrecht.de,1840,2.3,2013-06-30,,UNION,41,unionde,SPD,25,spdde,GR�NE,13,grunede,LINKE,7,linkede,FDP,5,fdpde,PIRAT,3,piratde
+209,11,Deutschland,FG Wahlen ,wahlrecht.de,1276,2.7,2013-06-29,,UNION,43,unionde,SPD,26,spdde,GR�NE,13,grunede,LINKE,6,linkede,FDP,4,fdpde,AFD,3,afdde
+210,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-06-29,,SP�,28,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,14,gru,TS,8,ts,BZ�,2,bzo
+207,1,�sterreich,Karmasin,Heute,800,3.4,2013-06-28,,SP�,29,spo,�VP,25,ovp,FP�,18,fpo,GR�NE,15,gru,TS,7,ts,NEOS,2,neo
+208,1,�sterreich,AKonsult,Mein Bezirk,1000,3.1,2013-06-28,,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,16,gru,TS,8,ts,BZ�,4,bzo
+206,11,Deutschland,Forsa,wahlrecht.de,2502,1.9,2013-06-26,,UNION,41,unionde,SPD,22,spdde,GR�NE,15,grunede,LINKE,8,linkede,FDP,5,fdpde,PIRAT,2,piratde
+203,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-06-23,,SP�,28,spo,�VP,25,ovp,FP�,18,fpo,GR�NE,14,gru,TS,9,ts,BZ�,2,bzo
+204,11,Deutschland,Emnid,BILD,2755,1.8,2013-06-23,,UNION,41,unionde,SPD,25,spdde,GR�NE,14,grunede,FDP,4,fdpde,LINKE,8,linkede,PIRAT,3,piratde
+205,1,�sterreich,IMAS,Kronen Zeitung,500,4.3,2013-06-22,,SP�,28,spo,�VP,26,ovp,FP�,19,fpo,GR�NE,12,gru,TS,8,ts,BZ�,4,bzo
+131,1,�sterreich,Hajek,ATV,700,3.7,2013-06-21,,SP�,27,spo,�VP,25,ovp,FP�,18,fpo,GR�NE,16,gru,TS,10,ts,NEOS,1,neo
+132,11,Deutschland,Infratest dimap,wahlrecht.de,1008,3.1,2013-06-21,,UNION,41,unionde,SPD,25,spdde,GR�NE,14,grunede,FDP,5,fdpde,LINKE,7,linkede,So. (DE),8,sonstde
+130,11,Deutschland,Forsa,stern,2501,1.9,2013-06-19,,UNION,40,unionde,SPD,22,spdde,GR�NE,15,grunede,FDP,6,fdpde,LINKE,8,linkede,PIRAT,2,piratde
+129,11,Deutschland,GMS,wahlrecht.de,1006,3.1,2013-06-18,,UNION,41,unionde,SPD,25,spdde,GR�NE,14,grunede,FDP,5,fdpde,LINKE,8,linkede,PIRAT,2,piratde
+128,11,Deutschland,Emnid,BILD,2727,1.9,2013-06-16,,UNION,41,unionde,SPD,25,spdde,GR�NE,13,grunede,FDP,5,fdpde,LINKE,8,linkede,PIRAT,3,piratde
+127,1,�sterreich,Karmasin,profil,500,4.3,2013-06-15,,SP�,27,spo,�VP,24,ovp,FP�,18,fpo,GR�NE,15,gru,TS,8,ts,BZ�,2,bzo
+125,12,Bayern,FG Wahlen ,S�ddeutsche,1000,3.1,2013-06-14,,CSU,46,csude,SPD,20,spdde,GR�NE,13,grunede,FW,10,fwde,FDP,4,fdpde,So. (DE),7,sonstde
+126,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-06-14,,SP�,28,spo,�VP,25,ovp,FP�,18,fpo,GR�NE,14,gru,TS,9,ts,BZ�,2,bzo
+124,11,Deutschland,Forsa,stern,2501,1.9,2013-06-12,,UNION,40,unionde,SPD,24,spdde,GR�NE,13,grunede,FDP,5,fdpde,LINKE,9,linkede,PIRAT,2,piratde
+123,12,Bayern,GMS,wahlrecht.de,1309,2.7,2013-06-11,,CSU,46,csude,SPD,20,spdde,GR�NE,11,grunede,FDP,4,fdpde,FW,9,fwde,So. (DE),10,sonstde
+122,11,Deutschland,Emnid,wahlrecht.de,1951,2.2,2013-06-09,,UNION,41,unionde,SPD,26,spdde,GR�NE,13,grunede,FDP,4,fdpde,LINKE,7,linkede,PIRAT,3,piratde
+120,11,Deutschland,Infratest dimap,wahlrecht.de,1503,2.5,2013-06-06,,UNION,41,unionde,SPD,27,spdde,GR�NE,14,grunede,FDP,4,fdpde,LINKE,6,linkede,AFD,3,afdde
+121,11,Deutschland,FG Wahlen ,ZDF,1275,2.7,2013-06-06,,UNION,42,unionde,SPD,28,spdde,GR�NE,13,grunede,FDP,4,fdpde,LINKE,6,linkede,AFD,3,afdde
+118,11,Deutschland,Forsa,stern,2508,1.9,2013-06-04,,UNION,41,unionde,SPD,24,spdde,GR�NE,13,grunede,FDP,4,fdpde,LINKE,8,linkede,PIRAT,3,piratde
+119,11,Deutschland,INSA,wahlrecht.de,2633,1.9,2013-06-04,,UNION,39,unionde,SPD,27,spdde,GR�NE,15,grunede,FDP,4,fdpde,LINKE,6,linkede,PIRAT,3,piratde
+117,11,Deutschland,Emnid,wahlrecht.de,1866,2.2,2013-06-02,,UNION,40,unionde,SPD,26,spdde,GR�NE,14,grunede,FDP,5,fdpde,LINKE,7,linkede,PIRAT,4,piratde
+424,1,�sterreich,Market,Der Standard,400,4.9,2013-06-02,,SP�,25,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,16,gru,TS,9,ts,BZ�,3,bzo
+104,11,Deutschland,Infratest dimap,wahlrecht.de,1000,3.1,2013-05-31,,UNION,42,unionde,SPD,26,spdde,GR�NE,14,grunede,FDP,4,fdpde,LINKE,6,linkede,AFD,3,afdde
+116,1,�sterreich,Karmasin,Heute,800,3.4,2013-05-31,,SP�,27,spo,�VP,25,ovp,FP�,18,fpo,GR�NE,16,gru,BZ�,1,bzo,TS,10,ts
+95,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2013-05-30,telefonisch,SP�,27,spo,�VP,25,ovp,FP�,18,fpo,GR�NE,15,gru,TS,9,ts,BZ�,2,bzo
+85,11,Deutschland,Forsa,N/A,2001,2.2,2013-05-28,,UNION,40,unionde,SPD,24,spdde,GR�NE,14,grunede,FDP,4,fdpde,LINKE,8,linkede,PIRAT,3,piratde
+89,12,Bayern,Forsa,wahlrecht.de,1102,2.9,2013-05-28,,CSU,46,csude,SPD,20,spdde,GR�NE,12,grunede,FDP,4,fdpde,LINKE,3,linkede,FW,9,fwde
+83,11,Deutschland,Emnid,N/A,1568,2.5,2013-05-26,,UNION,40,unionde,SPD,27,spdde,GR�NE,13,grunede,FDP,4,fdpde,LINKE,7,linkede,PIRAT,4,piratde
+76,11,Deutschland,Infratest dimap,N/A,1008,2.7,2013-05-24,,UNION,41,unionde,SPD,27,spdde,GR�NE,14,grunede,FDP,4,fdpde,LINKE,6,linkede,PIRAT,2,piratde
+428,43,UK (EU),ComRes,N/A,2000,68.5,2013-05-24,Online,UKIP,27,ukip,Labour,23,labour,Cons,21,cons,LibDem,18,libdem,Greens,4,greensuk,SNP,4,snpuk
+74,11,Deutschland,Allensbach,N/A,1503,2.2,2013-05-22,,UNION,39,unionde,SPD,27,spdde,GR�NE,13,grunede,FDP,6,fdpde,LINKE,6,linkede,PIRAT,3,piratde
+77,11,Deutschland,Forsa,N/A,2503,1.7,2013-05-22,,UNION,41,unionde,SPD,24,spdde,GR�NE,13,grunede,FDP,4,fdpde,LINKE,8,linkede,PIRAT,3,piratde
+82,11,Deutschland,Emnid,N/A,2003,1.9,2013-05-19,,UNION,39,unionde,SPD,26,spdde,GR�NE,15,grunede,FDP,4,fdpde,LINKE,7,linkede,PIRAT,4,piratde
+70,1,�sterreich,Karmasin,profil,500,4.0,2013-05-16,telefonisch,SP�,26,spo,�VP,25,ovp,FP�,18,fpo,BZ�,2,bzo,GR�NE,16,gru,TS,10,ts
+71,1,�sterreich,IMAS,Kronen Zeitung,500,4.0,2013-05-16,telefonisch,SP�,29,spo,�VP,28,ovp,FP�,19,fpo,BZ�,3,bzo,GR�NE,12,gru,TS,7,ts
+86,11,Deutschland,FG Wahlen ,N/A,2362,2.0,2013-05-12,,UNION,38,unionde,SPD,26,spdde,GR�NE,15,grunede,FDP,4,fdpde,LINKE,8,linkede,PIRAT,4,piratde
+423,1,�sterreich,Market,Der Standard,400,4.9,2013-05-12,telefonisch,SP�,25,spo,�VP,24,ovp,FP�,19,fpo,GR�NE,16,gru,TS,10,ts,BZ�,2,bzo
+69,1,�sterreich,Gallup,TZ �STERREICH,400,5.0,2013-05-09,telefonisch,SP�,26,spo,�VP,25,ovp,FP�,19,fpo,GR�NE,15,gru,TS,9,ts,BZ�,2,bzo
+87,11,Deutschland,Emnid,N/A,2282,2.0,2013-05-05,,UNION,37,unionde,SPD,27,spdde,GR�NE,15,grunede,FDP,5,fdpde,LINKE,7,linkede,PIRAT,4,piratde
+81,9,Vorarlberg,Edwin Berndt,Vorarlberger Nachrichten,503,4.5,2013-05-04,,�VP,43,ovp,FP�,22,fpo,GR�NE,14,gru,SP�,13,spo,BZ�,2,bzo,TS,4,ts
+68,1,�sterreich,Karmasin,Heute,800,4.0,2013-05-03,telefonisch,SP�,28,spo,�VP,24,ovp,FP�,19,fpo,BZ�,2,bzo,GR�NE,14,gru,TS,8,ts
+75,12,Bayern,GMS,N/A,1008,3.16,2013-05-02,,CSU,47,csude,SPD,20,spdde,GR�NE,13,grunede,FDP,3,fdpde,LINKE,2,linkede,FW,8,fwde
+67,4,Ober�sterreich,IMAS,Kronen Zeitung,500,5.0,2013-05-01,telefonisch,�VP,43,ovp,SP�,22,spo,FP�,15,fpo,GR�NE,15,gru,BZ�,1,bzo,TS,4,ts
+39,7,Salzburg,Gallup,TZ �STERREICH,300,6.0,2013-04-28,telefonisch,SP�,29,spo,�VP,28,ovp,FP�,15,fpo,GR�NE,15,gru,TS,11,ts,So,2,and
+88,11,Deutschland,Emnid,N/A,2440,2.0,2013-04-28,,UNION,40,unionde,SPD,27,spdde,GR�NE,14,grunede,FDP,4,fdpde,LINKE,7,linkede,PIRAT,3,piratde
+78,12,Bayern,INSA,N/A,1005,2.7,2013-04-22,,CSU,49,csude,SPD,18,spdde,GR�NE,16,grunede,FDP,2,fdpde,LINKE,2,linkede,FW,9,fwde
+29,7,Salzburg,OGM,Kurier,404,5.0,2013-04-21,telefonisch,�VP,32,ovp,SP�,29,spo,FP�,16,fpo,GR�NE,14,gru,TS,7,ts,So,2,and
+28,7,Salzburg,GMK,Mein Bezirk,400,5.0,2013-04-20,telefonisch,�VP,28,ovp,SP�,25,spo,FP�,16,fpo,GR�NE,17,gru,PIRAT,2,pir,KP�,1,kpo
+40,1,�sterreich,Gallup,TZ �STERREICH,400,5.0,2013-04-20,telefonisch,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,BZ�,2,bzo,GR�NE,13,gru,PIRAT,1,pir
+42,1,�sterreich,Karmasin,profil,500,5.0,2013-04-20,telefonisch,SP�,28,spo,�VP,25,ovp,FP�,19,fpo,BZ�,1,bzo,GR�NE,13,gru,TS,10,ts
+30,7,Salzburg,meinungsraum.at,NEWS,500,5.0,2013-04-17,telefonisch,SP�,29,spo,�VP,27,ovp,FP�,15,fpo,GR�NE,17,gru,TS,10,ts,So,2,and
+32,7,Salzburg,Gallup,TZ �STERREICH,400,5.0,2013-04-10,telefonisch,SP�,29,spo,�VP,29,ovp,FP�,13,fpo,GR�NE,14,gru,TS,11,ts,So,4,and
+43,1,�sterreich,Gallup,TZ �STERREICH,400,5.0,2013-04-07,telefonisch,SP�,27,spo,�VP,25,ovp,FP�,19,fpo,BZ�,1,bzo,GR�NE,14,gru,PIRAT,1,pir
+44,1,�sterreich,IMAS,Kronen Zeitung,400,5.0,2013-04-05,telefonisch,SP�,27,spo,�VP,24,ovp,FP�,18,fpo,GR�NE,14,gru,TS,10,ts,BZ�,4,bzo
+45,1,�sterreich,Karmasin,Heute,800,5.0,2013-04-05,telefonisch,SP�,27,spo,�VP,24,ovp,FP�,19,fpo,BZ�,2,bzo,GR�NE,14,gru,PIRAT,1,pir
+46,1,�sterreich,Market,Der Standard,504,5.0,2013-04-01,telefonisch,SP�,26,spo,�VP,24,ovp,FP�,19,fpo,BZ�,4,bzo,GR�NE,14,gru,TS,10,ts
+79,2,Wien,GfK,TZ �STERREICH,1500,2.12,2013-03-24,,SP�,37,spo,FP�,21,fpo,�VP,15,ovp,GR�NE,14,gru,TS,9,ts,So,4,and
+47,1,�sterreich,Karmasin,profil,500,5.0,2013-03-23,telefonisch,SP�,28,spo,�VP,24,ovp,FP�,20,fpo,BZ�,1,bzo,GR�NE,13,gru,TS,10,ts
+33,7,Salzburg,IMAS,Kronen Zeitung,750,4.0,2013-03-22,-,�VP,28,ovp,SP�,27,spo,FP�,14,fpo,GR�NE,16,gru,TS,10,ts,So,4,and
+48,1,�sterreich,Hajek,ATV,1000,3.0,2013-03-22,telefonisch,SP�,26,spo,�VP,23,ovp,FP�,18,fpo,BZ�,2,bzo,GR�NE,13,gru,TS,15,ts
+49,1,�sterreich,Gallup,TZ �STERREICH,400,5.0,2013-03-16,telefonisch,SP�,28,spo,�VP,25,ovp,FP�,20,fpo,GR�NE,13,gru,BZ�,2,bzo,TS,9,ts
+50,1,�sterreich,Karmasin,Heute,800,4.0,2013-03-15,telefonisch,SP�,27,spo,�VP,24,ovp,FP�,20,fpo,BZ�,2,bzo,GR�NE,14,gru,TS,9,ts
+80,2,Wien,triconsult,Die Presse,1800,1.93,2013-03-15,,SP�,42,spo,FP�,20,fpo,�VP,13,ovp,GR�NE,16,gru,TS,7,ts,So,2,and
+51,1,�sterreich,meinungsraum.at,NEWS,1000,3.0,2013-03-14,telefonisch/online,SP�,26,spo,�VP,22,ovp,FP�,20,fpo,BZ�,2,bzo,GR�NE,14,gru,TS,13,ts
+34,7,Salzburg,IGF,Salzburger Fenster,400,5.0,2013-03-12,-,�VP,31,ovp,SP�,29,spo,FP�,13,fpo,GR�NE,14,gru,BZ�,2,bzo,TS,9,ts
+35,7,Salzburg,Gallup,TZ �STERREICH,200,7.0,2013-03-10,-,SP�,32,spo,�VP,30,ovp,FP�,13,fpo,GR�NE,12,gru,BZ�,3,bzo,TS,8,ts
+52,1,�sterreich,Market,Der Standard,400,5.0,2013-03-10,telefonisch,SP�,27,spo,�VP,24,ovp,FP�,21,fpo,BZ�,3,bzo,GR�NE,13,gru,TS,11,ts
+53,1,�sterreich,Gallup,TZ �STERREICH,400,5.0,2013-03-08,telefonisch,SP�,28,spo,�VP,25,ovp,FP�,20,fpo,BZ�,2,bzo,GR�NE,13,gru,TS,10,ts
+84,12,Bayern,GMS,N/A,1004,3.1,2013-03-06,,CSU,48,csude,SPD,21,spdde,GR�NE,12,grunede,FDP,3,fdpde,LINKE,3,linkede,FW,8,fwde
+54,1,�sterreich,Gallup,oe24.at,400,5.0,2013-02-24,telefonisch,SP�,27,spo,�VP,25,ovp,FP�,22,fpo,BZ�,2,bzo,GR�NE,13,gru,TS,9,ts
+103,3,Nieder�sterreich,Gallup,TZ �STERREICH,200,6.9,2013-02-24,telefonisch,�VP,49,ovp,SP�,23,spo,FP�,11,fpo,TS,8,ts,GR�NE,7,gru,So,2,and
+55,1,�sterreich,Karmasin,profil,500,5.0,2013-02-23,telefonisch,SP�,27,spo,�VP,24,ovp,FP�,23,fpo,BZ�,1,bzo,GR�NE,12,gru,TS,10,ts
+36,7,Salzburg,IGF,Der Standard,403,5.0,2013-02-18,-,SP�,31,spo,�VP,31,ovp,FP�,16,fpo,GR�NE,11,gru,BZ�,2,bzo,TS,7,ts
+57,1,�sterreich,IMAS,Kronen Zeitung,400,5.0,2013-02-13,telefonisch,SP�,24,spo,�VP,23,ovp,FP�,21,fpo,BZ�,5,bzo,GR�NE,11,gru,TS,10,ts
+58,1,�sterreich,Gallup,oe24.at,400,5.0,2013-02-09,telefonisch,SP�,28,spo,�VP,25,ovp,FP�,21,fpo,BZ�,1,bzo,GR�NE,13,gru,TS,8,ts
+59,1,�sterreich,Market,Der Standard,405,5.0,2013-02-04,telefonisch,SP�,27,spo,�VP,23,ovp,FP�,22,fpo,BZ�,1,bzo,GR�NE,13,gru,TS,10,ts
+60,1,�sterreich,Gallup,oe24.at,400,5.0,2013-02-03,telefonisch,SP�,27,spo,�VP,25,ovp,FP�,21,fpo,BZ�,1,bzo,GR�NE,14,gru,PIRAT,1,pir
+396,3,Nieder�sterreich,OGM,Kurier,503,4.3,2013-02-02,,�VP,51,ovp,SP�,21,spo,FP�,11,fpo,GR�NE,7,gru,TS,7,ts,So,3,and
+61,1,�sterreich,Gallup,oe24.at,400,5.0,2013-01-26,telefonisch,SP�,27,spo,�VP,25,ovp,FP�,21,fpo,BZ�,1,bzo,GR�NE,13,gru,PIRAT,1,pir
+62,1,�sterreich,Karmasin,profil,500,5.0,2013-01-26,telefonisch,SP�,27,spo,�VP,26,ovp,FP�,21,fpo,BZ�,2,bzo,GR�NE,13,gru,TS,7,ts
+37,7,Salzburg,IGF,Salzburger Nachrichten,502,5.0,2013-01-24,-,�VP,31,ovp,SP�,29,spo,FP�,17,fpo,GR�NE,13,gru,BZ�,3,bzo,TS,7,ts
+63,1,�sterreich,meinungsraum.at,NEWS,1000,4.0,2013-01-17,telefonisch/online,SP�,25,spo,�VP,19,ovp,FP�,21,fpo,BZ�,4,bzo,GR�NE,15,gru,PIRAT,2,pir
+64,1,�sterreich,Gallup,oe24.at,400,5.0,2013-01-13,telefonisch,SP�,28,spo,�VP,23,ovp,FP�,20,fpo,BZ�,1,bzo,GR�NE,14,gru,PIRAT,1,pir
+65,1,�sterreich,AKonsult,Mein Bezirk,1000,3.0,2013-01-09,telefonisch,SP�,26,spo,�VP,22,ovp,FP�,18,fpo,GR�NE,14,gru,TS,11,ts,BZ�,6,bzo
+66,1,�sterreich,Market,Der Standard,500,5.0,2013-01-01,telefonisch,SP�,27,spo,�VP,24,ovp,FP�,23,fpo,BZ�,2,bzo,GR�NE,14,gru,PIRAT,1,pir
+133,1,�sterreich,Hajek,ATV,1000,3.1,2012-12-20,,SP�,26,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,14,gru,TS,12,ts,BZ�,3,bzo
+202,1,�sterreich,Gallup,oe24.at,400,4.9,2012-10-21,,SP�,25,spo,�VP,22,ovp,FP�,22,fpo,GR�NE,15,gru,TS,11,ts,BZ�,2,bzo
+201,1,�sterreich,Karmasin,profil,500,4.3,2012-10-19,,SP�,25,spo,�VP,23,ovp,FP�,22,fpo,GR�NE,15,gru,TS,10,ts,BZ�,2,bzo
+200,1,�sterreich,Market,Der Standard,400,4.9,2012-10-10,,SP�,28,spo,�VP,22,ovp,FP�,20,fpo,GR�NE,16,gru,TS,10,ts,BZ�,2,bzo
+199,1,�sterreich,AKonsult,Mein Bezirk,1000,3.1,2012-10-09,,SP�,26,spo,FP�,21,fpo,�VP,20,ovp,GR�NE,15,gru,TS,10,ts,BZ�,5,bzo
+198,1,�sterreich,Gallup,oe24.at,400,4.9,2012-10-06,,SP�,26,spo,�VP,22,ovp,FP�,21,fpo,GR�NE,14,gru,TS,12,ts,PIRAT,2,pir
+197,1,�sterreich,Gallup,oe24.at,400,4.9,2012-09-28,,SP�,26,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,14,gru,TS,12,ts,PIRAT,2,pir
+195,1,�sterreich,IMAS,Kronen Zeitung,500,4.3,2012-09-26,,SP�,26,spo,�VP,23,ovp,FP�,19,fpo,GR�NE,12,gru,TS,11,ts,BZ�,4,bzo
+196,1,�sterreich,meinungsraum.at,NEWS,1000,3.1,2012-09-26,,SP�,27,spo,FP�,21,fpo,�VP,19,ovp,GR�NE,15,gru,TS,9,ts,PIRAT,3,pir
+194,1,�sterreich,Gallup,oe24.at,400,4.9,2012-09-23,,SP�,27,spo,�VP,23,ovp,FP�,21,fpo,GR�NE,14,gru,TS,9,ts,PIRAT,3,pir
+193,1,�sterreich,Karmasin,profil,500,4.3,2012-09-22,,SP�,27,spo,�VP,22,ovp,FP�,21,fpo,GR�NE,15,gru,TS,9,ts,BZ�,2,bzo
+192,1,�sterreich,Market,Der Standard,400,4.9,2012-09-20,,SP�,29,spo,�VP,23,ovp,FP�,21,fpo,GR�NE,16,gru,BZ�,4,bzo,So,7,and
+134,1,�sterreich,Hajek,ATV,1000,3.1,2012-09-19,,SP�,27,spo,�VP,22,ovp,FP�,19,fpo,GR�NE,13,gru,TS,11,ts,BZ�,4,bzo
+191,1,�sterreich,OGM,Kurier,500,4.3,2012-09-16,,SP�,28,spo,�VP,23,ovp,FP�,23,fpo,GR�NE,12,gru,TS,6,ts,BZ�,3,bzo
+190,1,�sterreich,Gallup,oe24.at,400,4.9,2012-09-14,,SP�,28,spo,�VP,23,ovp,FP�,20,fpo,GR�NE,13,gru,TS,10,ts,PIRAT,2,pir
+188,1,�sterreich,Market,Der Standard,400,4.9,2012-09-01,,SP�,30,spo,�VP,24,ovp,FP�,21,fpo,GR�NE,15,gru,BZ�,3,bzo,So,7,and
+189,1,�sterreich,Gallup,oe24.at,400,4.9,2012-09-01,,SP�,28,spo,�VP,21,ovp,FP�,20,fpo,GR�NE,14,gru,TS,10,ts,BZ�,3,bzo
+187,1,�sterreich,Gallup,oe24.at,400,4.9,2012-08-26,,SP�,29,spo,�VP,22,ovp,FP�,20,fpo,GR�NE,14,gru,TS,9,ts,PIRAT,3,pir
+186,1,�sterreich,Karmasin,profil,500,4.3,2012-08-25,,SP�,29,spo,�VP,23,ovp,FP�,21,fpo,GR�NE,14,gru,TS,7,ts,BZ�,2,bzo
+185,1,�sterreich,Market,Der Standard,400,4.9,2012-08-19,,SP�,30,spo,�VP,23,ovp,FP�,21,fpo,GR�NE,16,gru,BZ�,4,bzo,So,6,and
+184,1,�sterreich,Gallup,oe24.at,400,4.9,2012-08-18,,SP�,28,spo,�VP,21,ovp,FP�,20,fpo,GR�NE,14,gru,TS,8,ts,PIRAT,4,pir
+183,1,�sterreich,Gallup,oe24.at,400,4.9,2012-08-04,,SP�,29,spo,�VP,21,ovp,FP�,21,fpo,GR�NE,12,gru,PIRAT,6,pir,TS,6,ts
+182,1,�sterreich,Market,Der Standard,500,4.3,2012-07-27,,SP�,30,spo,FP�,23,fpo,�VP,22,ovp,GR�NE,14,gru,BZ�,6,bzo,So,5,and
+181,1,�sterreich,GfK,Die Presse,1500,2.5,2012-07-23,,SP�,28,spo,�VP,24,ovp,FP�,23,fpo,GR�NE,14,gru,BZ�,4,bzo,So,7,and
+180,1,�sterreich,Gallup,oe24.at,400,4.9,2012-07-21,,SP�,28,spo,FP�,23,fpo,�VP,21,ovp,GR�NE,12,gru,TS,6,ts,PIRAT,5,pir
+179,1,�sterreich,IMAS,Kronen Zeitung,500,4.3,2012-07-13,,SP�,29,spo,�VP,24,ovp,FP�,20,fpo,GR�NE,14,gru,BZ�,7,bzo,So,6,and
+178,1,�sterreich,Market,Der Standard,400,4.9,2012-07-08,,SP�,28,spo,FP�,27,fpo,�VP,25,ovp,GR�NE,13,gru,BZ�,5,bzo,So,2,and
+177,1,�sterreich,Gallup,oe24.at,400,4.9,2012-07-07,,SP�,28,spo,FP�,23,fpo,�VP,22,ovp,GR�NE,12,gru,PIRAT,5,pir,TS,4,ts
+175,1,�sterreich,Gallup,oe24.at,400,4.9,2012-06-30,,SP�,28,spo,FP�,24,fpo,�VP,23,ovp,GR�NE,12,gru,PIRAT,7,pir,BZ�,3,bzo
+176,1,�sterreich,Karmasin,profil,500,4.3,2012-06-30,,SP�,29,spo,FP�,24,fpo,�VP,23,ovp,GR�NE,13,gru,BZ�,4,bzo,So,7,and
+174,1,�sterreich,Market,Der Standard,500,4.3,2012-06-20,,SP�,28,spo,FP�,27,fpo,�VP,23,ovp,GR�NE,14,gru,BZ�,5,bzo,So,3,and
+135,1,�sterreich,Hajek,ATV,1000,3.1,2012-06-19,,SP�,30,spo,�VP,25,ovp,FP�,25,fpo,GR�NE,12,gru,BZ�,5,bzo,So,3,and
+90,5,Steiermark,bmm,Kronen Zeitung,500,4.3,2012-06-17,,SP�,39,spo,�VP,35,ovp,FP�,10,fpo,GR�NE,9,gru,KP�,3,kpo,So,4,and
+172,1,�sterreich,Gallup,oe24.at,400,4.9,2012-06-16,,SP�,28,spo,�VP,24,ovp,FP�,23,fpo,GR�NE,12,gru,PIRAT,7,pir,BZ�,2,bzo
+173,1,�sterreich,OGM,Kurier,500,4.3,2012-06-16,,SP�,29,spo,�VP,25,ovp,FP�,25,fpo,GR�NE,14,gru,BZ�,3,bzo,So,4,and
+171,1,�sterreich,Gallup,oe24.at,400,4.9,2012-06-09,,SP�,28,spo,FP�,24,fpo,�VP,23,ovp,GR�NE,14,gru,PIRAT,6,pir,BZ�,3,bzo
+170,1,�sterreich,Karmasin,profil,500,4.3,2012-06-04,,SP�,30,spo,�VP,25,ovp,FP�,24,fpo,GR�NE,12,gru,BZ�,3,bzo,So,6,and
+169,1,�sterreich,Gallup,oe24.at,400,4.9,2012-05-26,,SP�,27,spo,FP�,26,fpo,�VP,22,ovp,GR�NE,14,gru,PIRAT,5,pir,BZ�,3,bzo
+168,1,�sterreich,Market,Der Standard,500,4.3,2012-05-19,,SP�,29,spo,FP�,27,fpo,�VP,22,ovp,GR�NE,14,gru,BZ�,5,bzo,So,3,and
+167,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2012-05-12,,FP�,27,fpo,SP�,26,spo,�VP,21,ovp,GR�NE,13,gru,PIRAT,7,pir,BZ�,3,bzo
+162,1,�sterreich,Karmasin,profil,500,4.3,2012-05-05,,SP�,29,spo,�VP,27,ovp,FP�,23,fpo,GR�NE,13,gru,BZ�,2,bzo,So,6,and
+165,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2012-04-29,,SP�,27,spo,FP�,27,fpo,�VP,22,ovp,GR�NE,13,gru,BZ�,3,bzo,PIRAT,2,pir
+166,1,�sterreich,Karmasin,Heute,800,3.4,2012-04-23,,SP�,27,spo,FP�,27,fpo,�VP,23,ovp,GR�NE,13,gru,BZ�,3,bzo,So,7,and
+164,1,�sterreich,Gallup,oe24.at,400,4.9,2012-04-22,,FP�,28,fpo,SP�,27,spo,�VP,22,ovp,GR�NE,14,gru,BZ�,3,bzo,So,6,and
+91,5,Steiermark,OGM,Kleine Zeitung,400,4.9,2012-04-07,,SP�,34,spo,�VP,29,ovp,FP�,19,fpo,GR�NE,10,gru,KP�,6,kpo,So,2,and
+93,5,Steiermark,OGM,Kleine Zeitung,400,4.9,2012-04-07,,SP�,34,spo,�VP,29,ovp,FP�,19,fpo,GR�NE,10,gru,KP�,6,kpo,So,2,and
+163,1,�sterreich,Gallup,oe24.at,400,4.9,2012-04-07,,SP�,28,spo,FP�,28,fpo,�VP,22,ovp,GR�NE,14,gru,BZ�,4,bzo,So,4,and
+158,1,�sterreich,Hajek,ATV,1000,3.1,2012-03-24,,SP�,29,spo,FP�,27,fpo,�VP,23,ovp,GR�NE,13,gru,BZ�,6,bzo,So,2,and
+159,1,�sterreich,Gallup,oe24.at,800,3.4,2012-03-24,,SP�,28,spo,FP�,28,fpo,�VP,23,ovp,GR�NE,14,gru,BZ�,3,bzo,So,4,and
+136,1,�sterreich,Hajek,ATV,1000,3.1,2012-03-23,,SP�,29,spo,FP�,27,fpo,�VP,23,ovp,GR�NE,13,gru,BZ�,6,bzo,So,2,and
+157,1,�sterreich,Market,Der Standard,500,4.3,2012-03-18,,SP�,29,spo,FP�,27,fpo,�VP,24,ovp,GR�NE,15,gru,BZ�,4,bzo,So,1,and
+154,1,�sterreich,Gallup,oe24.at,800,3.4,2012-03-10,,SP�,29,spo,FP�,27,fpo,�VP,25,ovp,GR�NE,13,gru,BZ�,3,bzo,So,3,and
+155,1,�sterreich,Karmasin,profil,500,4.3,2012-03-10,,SP�,29,spo,FP�,26,fpo,�VP,24,ovp,GR�NE,14,gru,BZ�,3,bzo,So,4,and
+156,1,�sterreich,OGM,Der Standard,432,4.7,2012-03-10,,SP�,28,spo,FP�,27,fpo,�VP,24,ovp,GR�NE,15,gru,BZ�,4,bzo,So,2,and
+153,1,�sterreich,Spectra,O�N,700,3.7,2012-03-09,,SP�,28,spo,�VP,24,ovp,FP�,23,fpo,GR�NE,12,gru,BZ�,8,bzo,So,5,and
+152,1,�sterreich,Karmasin,profil,500,4.3,2012-02-12,,SP�,30,spo,�VP,24,ovp,FP�,24,fpo,GR�NE,13,gru,BZ�,4,bzo,So,5,and
+151,1,�sterreich,Gallup,oe24.at,400,4.9,2012-02-04,,SP�,29,spo,�VP,25,ovp,FP�,24,fpo,GR�NE,14,gru,BZ�,4,bzo,So,4,and
+150,1,�sterreich,Gallup,oe24.at,400,4.9,2012-01-27,,SP�,28,spo,FP�,27,fpo,�VP,24,ovp,GR�NE,13,gru,BZ�,5,bzo,So,3,and
+149,1,�sterreich,OGM,Kurier,804,3.4,2012-01-26,,SP�,28,spo,FP�,28,fpo,�VP,23,ovp,GR�NE,14,gru,BZ�,5,bzo,So,2,and
+137,1,�sterreich,Hajek,ATV,1000,3.1,2011-12-17,,SP�,30,spo,�VP,25,ovp,FP�,25,fpo,GR�NE,14,gru,BZ�,4,bzo,So,2,and
+138,1,�sterreich,Hajek,ATV,1000,3.1,2011-09-13,,SP�,30,spo,FP�,25,fpo,�VP,23,ovp,GR�NE,13,gru,BZ�,6,bzo,So,3,and
+139,1,�sterreich,Hajek,ATV,1000,3.1,2011-06-19,,FP�,29,fpo,SP�,28,spo,�VP,24,ovp,GR�NE,13,gru,BZ�,4,bzo,So,2,and
+140,1,�sterreich,Hajek,ATV,1000,3.1,2011-03-19,,FP�,29,fpo,SP�,26,spo,�VP,25,ovp,GR�NE,14,gru,BZ�,4,bzo,So,2,and
+141,1,�sterreich,Hajek,ATV,1000,3.1,2010-12-17,,SP�,30,spo,�VP,27,ovp,FP�,25,fpo,GR�NE,11,gru,BZ�,4,bzo,So,3,and
+142,1,�sterreich,Hajek,ATV,1000,3.1,2010-08-18,,SP�,31,spo,�VP,29,ovp,FP�,26,fpo,GR�NE,9,gru,BZ�,2,bzo,So,3,and
+143,1,�sterreich,Hajek,ATV,1000,3.1,2010-06-19,,�VP,34,ovp,SP�,32,spo,FP�,20,fpo,GR�NE,9,gru,BZ�,3,bzo,So,2,and
+144,1,�sterreich,Hajek,ATV,1000,3.1,2010-03-19,,�VP,35,ovp,SP�,28,spo,FP�,20,fpo,GR�NE,11,gru,BZ�,3,bzo,So,3,and
+145,1,�sterreich,Hajek,ATV,1000,3.1,2009-12-14,,�VP,33,ovp,SP�,27,spo,FP�,24,fpo,GR�NE,10,gru,BZ�,5,bzo,So,1,and
+146,1,�sterreich,Hajek,ATV,1000,3.1,2009-09-19,,�VP,32,ovp,SP�,28,spo,FP�,23,fpo,GR�NE,9,gru,BZ�,6,bzo,So,2,and
+147,1,�sterreich,Hajek,ATV,1000,3.1,2009-06-20,,�VP,33,ovp,SP�,28,spo,FP�,22,fpo,GR�NE,9,gru,BZ�,7,bzo,So,1,and
+148,1,�sterreich,Hajek,ATV,1000,3.1,2009-03-20,,SP�,32,spo,�VP,30,ovp,FP�,21,fpo,GR�NE,10,gru,BZ�,6,bzo,So,1,and
+349,11,Deutschland,FG Wahlen ,wahlrecht.de,1369,2.6,2008-09-19,-,UNION,40,unionde,SPD,27,spdde,GR�NE,9,grunede,LINKE,9,linkede,FDP,6,fdpde,AFD,4,afdde
+796,1,�sterreich,Gallup,TZ �STERREICH,400,4.9,2008-08-01,Tel.,�VP,26,ovp,SP�,23,spo,FP�,17,fpo,GR�NE,15,gru,BZ�,7,bzo,FRITZ,7,lfr

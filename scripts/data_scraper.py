@@ -5,7 +5,6 @@ import requests
 import pandas as pd
 from tqdm import tqdm
 
-
 class Scraper:
     """
     scrape wahl
@@ -26,7 +25,7 @@ class Scraper:
             dictionary = json.loads(response.text)["data"]
             df = pd.DataFrame(dictionary)
             logging.info(f"Data loaded")
-            return dictionary, df
+            return df
         else:
             logging.error(f'Something went wrong: {response.status_code}')
             return None

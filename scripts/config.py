@@ -1,7 +1,7 @@
 
 from pathlib import Path
 
-class Directories:
+class Directory:
     
     def __init__(self):
         self.path = Path(__file__).parent.parent
