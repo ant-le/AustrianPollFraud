@@ -7,16 +7,12 @@ logging.basicConfig(
     level=logging.INFO, # change to logging.ERROR to only log errors
 )
 # %% Import classes
-from scripts.data_scraper import Scraper
-from scripts.data_preprocesser import Preprocesser
 from scripts.data_plotter import Plotter
-# %% Scripe Data from Source
-scraper = Scraper()
-dic, df = scraper.load()
-polls = df.copy(deep=True)
-# %% Preprocess Data 
-preprocesser = Preprocesser(polls)
-preprocesser.load()
+from scripts.data_getter import Getter
+# %% Get Data
+getter = Getter()
+getter.getProcessedData()
 # %% Plotting
-plotter = Plotter(preprocesser.df)
+plotter = Plotter(getter.df)
 plotter.scatterplot("ÖVP_SPÖ")
+# %%
