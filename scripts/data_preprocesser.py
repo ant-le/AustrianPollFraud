@@ -27,7 +27,7 @@ class Preprocesser:
         self.df = self.df[self.df[var[0]]==1]
         
         self.df[var[1]] = pd.to_datetime(self.df[var[1]])
-        self.df = self.df[(self.df[var[1]].dt.year > 2015) & (self.df[var[1]].dt.year < 2020)]
+        self.df = self.df[(self.df[var[1]].dt.year > 2013) & (self.df[var[1]].dt.year < 2020)]
         logging.info("Cases limited!")
 
 
