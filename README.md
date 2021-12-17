@@ -16,3 +16,4 @@ This is the reprository for my Bachelor-Theisis at Konstanz University
     - What about the inclusion of political theory? 
   - Is Wikipedia data sufficient or should I try to get data from source (archives)?
     - Pulblication Date vs. Polling Date
+  - How to include uncertainty levels of election polls?
