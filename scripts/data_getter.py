@@ -52,3 +52,24 @@ class Getter:
         directory = Directory()
         path = directory.analysisFolder() / "au_polls.csv"
         self.df.to_csv(path, index=False)
+        
+    
+    def getCheckData(self):
+        scraper = Scraper()
+        self.df = scraper.load2()
+        rename_dic={
+            "institute": "institut",
+            "oevp": "ovp",
+            "spoe": "spo",
+            "fpoe": "fpo",
+            "gruene": "gru",
+            "sample": "n",
+            "date": "datum",
+        }
+        self.df = self.df.rename(columns=rename_dic)
+        self.df["regionID"] = 1
+        preprocesser = Preprocesser(self.df)
+        preprocesser.load()
+        self.df = preprocesser.df
+        
+        

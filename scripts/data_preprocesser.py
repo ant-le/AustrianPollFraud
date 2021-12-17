@@ -31,17 +31,18 @@ class Preprocesser:
         logging.info("Cases limited!")
 
 
-    def recode_columns(self):
+    def recode_columns(self, check=False):
         # Recode Voting Percentages
         cols = [x for x in self.df.columns if re.search("Css", x)]
-        for col in cols:
-            parties = self.df[col].unique()
+        if not cols:
+            for col in cols:
+                parties = self.df[col].unique()
             
-            for party in parties:
-                if party not in self.df.columns:
-                    self.df[party] = np.nan
+                for party in parties:
+                    if party not in self.df.columns:
+                        self.df[party] = np.nan
                     
-                self.df.loc[(self.df[col] == party), party] = self.df.loc[(self.df[col] == party), col[0:2]+"Value"]
+                    self.df.loc[(self.df[col] == party), party] = self.df.loc[(self.df[col] == party), col[0:2]+"Value"]
                 
         # Recode institute to binary var
         self.df["bin"] = np.where(self.df.institut == "Research Affairs",1,0)
@@ -59,8 +60,10 @@ class Preprocesser:
             "bin":"Institute_bin",
             "n":"Sample Size",
             "datum":"Date",
-            "methode":"Method",
         }
+        if "methode" in self.df.columns:
+            self.df["methode"] = "Method"
+
         self.df = self.df[list(cols_dic.keys())]
         self.df = self.df.rename(columns=cols_dic)
         
