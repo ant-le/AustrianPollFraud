@@ -1,4 +1,5 @@
-# %% SetUp Logging
+# %%
+# SetUp Logging
 import logging
 
 logging.basicConfig(
@@ -6,29 +7,24 @@ logging.basicConfig(
     datefmt="%m/%d/%Y %H:%M:%S",
     level=logging.INFO, # change to logging.ERROR to only log errors
 )
-# %%   # ------------------------- imports ------------------------- #
+# -------------------------- imports -------------------------- #
 from scripts.config import Configurator
 from scripts.data_scraper import Scraper
 from scripts.data_preprocesser import Preprocesser
 from scripts.data_handler import Handler
-# %%   # ------------------------ init objs ------------------------ #
+# ------------------------- init objs ------------------------- #
 configurator = Configurator()
-scraper = Scraper()
+scraper = Scraper(url="strategie")
 preprocesser = Preprocesser()
 handler = Handler()
-# %%   # ------------------------ run pipeine ------------------------ #
+# ------------------------ run pipeine ------------------------ #
 def run_pipeline():
-    scraper.update()        
-    polls = scraper.load()
-    preprocesser.update(polls)
-    """What to do with ambigious data 
-    -> Take mean and safe intervals 
-    """
-    
+    polls, url = scraper.load()
+    preprocesser.update(polls, url)
     au_polls = preprocesser.load()
     handler.update(au_polls)
-    handler.plotDifference("SPÖ")
-    handler.diff_in_diff("SPÖ")
+    handler.plotDifference("ÖVP")
+    handler.diff_in_diff("ÖVP")
 
 
 if __name__== "__main__":

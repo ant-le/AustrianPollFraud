@@ -19,19 +19,17 @@ class Scraper:
             self.url = "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2017_Austrian_legislative_election"
         elif url == "neuwal":
             self.url = "https://neuwal.com/wahlumfragen/data/neuwal-wahlumfragen-user.json"
+        elif url == "polyd":
+            self.url = "https://de.polyd.org/get/polls/AT-parliament/format/csv"
+        elif url == "strategie":
+            self.url = "https://www.strategieanalysen.at/umfragen/polls.csv"
         else:
-            print("Invalid URL specification: Try 'wiki' or 'neuwal' instead!")
-            
-    
-    def update(self, url="neuwal"):
-        if url == "wiki":
-            self.url = "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2017_Austrian_legislative_election"
-        elif url == "neuwal":
-            self.url = "https://neuwal.com/wahlumfragen/data/neuwal-wahlumfragen-user.json"
-        else:
-            print("Invalid URL specification: Try 'wiki' or 'neuwal' instead!")     
-            
-            
+            print("Invalid URL specification!")
+        
+        
+    def update(self, url):
+        self.url = url
+        
      
     def load(self):
         if "neuwal" in self.url:
@@ -46,19 +44,32 @@ class Scraper:
                 dictionary = json.loads(response.text)["data"]                
                 df = pd.DataFrame(dictionary)
                 logging.info(f"Data loaded")
-                return df
             else:
                 logging.error(f'Something went wrong: {response.status_code}')
                 return None
         
-        if "wiki" in self.url:
+        elif "wiki" in self.url:
             soup = self.load_soup()
             if soup:
                 table_div = soup.find("table")
-                wiki_df = self.parse(table_div)
-                return wiki_df
+                df = self.parse(table_div)
             return soup
-    
+        
+        elif "strategie" or "polyd" in self.url:
+            logging.info("Loading data...")
+            try:
+                response = requests.get(self.url)
+            except Exception as err:
+                logging.error(f"Error while trying to read data: {err}")
+                return False
+            if response.status_code == 200:
+                df = pd.read_csv(self.url)
+                logging.info(f"Data loaded")
+            else:
+                logging.error(f'Something went wrong: {response.status_code}')
+                return None
+        
+        return df, self.url
     
     def load_soup(self):
         logging.info("Loading data...")
