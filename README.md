@@ -10,7 +10,10 @@ This is the reprository for my Bachelor-Theisis at Konstanz University
   <img src="https://github.com/ant-le/Bachelor_Thesis/blob/main/images/ÖVP_difference.jpg" alt="drawing" width="500"/>.  <img src="https://github.com/ant-le/Bachelor_Thesis/blob/main/images/ÖVP_causal_estimate.jpg" alt="drawing" width="450"/>
 
 ## Data
-
+   - [Wikipedia](https://en.wikipedia.org/wiki/Opinion_polling_for_the_2017_Austrian_legislative_election)
+   - [Neuwal](https://neuwal.com/wahlumfragen/)      
+   - [Strategieanalysen](https://www.strategieanalysen.at/umfragen/) with major differences compared to the outher sources.
+   - [Politico](https://de.polyd.org)
 
   
 ## Open Questions
