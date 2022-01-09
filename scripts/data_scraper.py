@@ -13,7 +13,7 @@ class Scraper:
     scrape wahl
     """
     
-    def __init__(self, url="wiki"):
+    def __init__(self, url="polyd"):
         
         if url == "wiki":
             self.url = "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2017_Austrian_legislative_election"

@@ -14,7 +14,7 @@ from scripts.data_preprocesser import Preprocesser
 from scripts.data_handler import Handler
 # ------------------------- init objs ------------------------- #
 configurator = Configurator()
-scraper = Scraper(url="strategie")
+scraper = Scraper()
 preprocesser = Preprocesser()
 handler = Handler()
 # ------------------------ run pipeine ------------------------ #
@@ -23,8 +23,8 @@ def run_pipeline():
     preprocesser.update(polls, url)
     au_polls = preprocesser.load()
     handler.update(au_polls)
-    handler.plotDifference("ÖVP")
-    handler.diff_in_diff("ÖVP")
+    handler.plotData()
+    handler.diff_in_diff()
 
 
 if __name__== "__main__":
