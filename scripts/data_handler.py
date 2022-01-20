@@ -7,28 +7,37 @@ import datetime as dt
 import numpy as np
 import pathlib
 
-from model.diff_in_diff_model import diff_in_diff_regression
+from model.differences import diff_in_diff_regression
 from scripts.config import Configurator
 
 class Handler:
     """
     
     """
-    def __init__(self, df=None, dfname='polyd', y="ÖVP", intervention=dt.datetime(2017,5,10)):
-        self.df = df
-        self.dfname = dfname
+    def __init__(self, dfs=None, url='polyd', y="ÖVP", intervention=dt.datetime(2017,5,10)):
+        self.dfs = dfs
+        self.df = None
+        self.url = url
         self.y = y
         self.intervention = intervention
         
-    def update(self, df=None, dfname=None, var=None, intervention=None):
-        if df:
-            if dfname:
-                self.df = df[dfname]
+        
+    def update(self, dfs=None, url=None, var=None, intervention=None):
+        if dfs:
+            if url:
+                self.dfs = dfs
+                self.df = dfs[url]
             else:
-                self.df = df[self.dfname]
+                self.dfs = dfs
+                self.df = dfs[self.url]
+        else:
+            if url:
+                if self.dfs:
+                    self.df = self.dfs[url]                
         
         if var:
             self.var = var
+            
         if intervention:
             self.intervention = intervention
     

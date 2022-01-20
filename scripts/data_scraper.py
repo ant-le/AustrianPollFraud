@@ -9,40 +9,39 @@ from requests.models import Response
 from tqdm import tqdm
 from bs4 import BeautifulSoup
 
-from scripts.config import Configurator
-
 class Scraper:
     """
     scrape wahl
     """
     
-    def __init__(self, url="all"):
-        self.url = url
-        self.configurator = Configurator()
+    def __init__(self, config):
+        self.config = config
                 
         
-    def update(self, url):
-        self.url = url
-        
-        
-    def load(self):
-        df_wiki = self._loadwiki()
-        df_neuwal = self._loadneuwal()
-        df_strategie = self._loadstrategie()
-        df_polyd = self._loadpolyd()
-        
-        if "all" in self.url:
-            keys = ["wiki", "neuwal", "strategie", "polyd"]
-        else:
-            keys = [self.url]
+    def load(self, safe=False):
+        if self.config.type is "scrape":
+            df_wiki = self._loadwiki()
+            df_neuwal = self._loadneuwal()
+            df_strategie = self._loadstrategie()
+            df_polyd = self._loadpolyd()
             
-        values = [x for x in [df_wiki, df_neuwal, df_strategie, df_polyd] if x is not None]
-        dfs = dict(zip(keys, values))
-        return dfs, self.url     
+            if "all" in self.config.url:
+                keys = ["wiki", "neuwal", "strategie", "polyd"]
+            else:
+                keys = [self.config.url]
+                
+            values = [x for x in [df_wiki, df_neuwal, df_strategie, df_polyd] if x is not None]
+            dfs = dict(zip(keys, values))
+            logging.info(f"Data loaded successfully!")
+            
+            if safe:
+                for df in dfs.keys():
+                    self.config.writeRawData(dfs[df], name=df, overwrite=True)
+            return dfs  
 
 
     def _loadneuwal(self):
-        if 'all' in self.url or 'neuwal' in self.url:
+        if 'all' in self.config.url or 'neuwal' in self.config.url:
             #logging.info("Loading data...")
             try:
                 response = requests.get('https://neuwal.com/wahlumfragen/data/neuwal-wahlumfragen-user.json')
@@ -52,7 +51,6 @@ class Scraper:
             if response.status_code == 200:
                 dictionary = json.loads(response.text)["data"]                
                 df = pd.DataFrame(dictionary)
-                logging.info(f"Neuwal Data loaded")
                 return df
             else:
                 logging.error(f'Something went wrong: {response.status_code}')
@@ -62,7 +60,7 @@ class Scraper:
      
      
     def _loadpolyd(self):
-        if 'all' in self.url or 'polyd' in self.url:
+        if 'all' in self.config.url or 'polyd' in self.config.url:
             #logging.info("Loading data...")
             try:
                 response = requests.get('https://de.polyd.org/get/polls/AT-parliament/format/csv')
@@ -71,7 +69,6 @@ class Scraper:
                 return False
             if response.status_code == 200:
                 df = pd.read_csv('https://de.polyd.org/get/polls/AT-parliament/format/csv')
-                logging.info(f"Polyd Data loaded")
                 return df
             else:
                 logging.error(f'Something went wrong: {response.status_code}')
@@ -81,7 +78,7 @@ class Scraper:
     
     
     def _loadstrategie(self):
-        if 'all' in self.url or 'strategie' in self.url:
+        if 'all' in self.config.url or 'strategie' in self.config.url:
             #logging.info("Loading data...")
             try:
                 response = requests.get('https://www.strategieanalysen.at/umfragen/polls.csv')
@@ -90,7 +87,6 @@ class Scraper:
                 return False
             if response.status_code == 200:
                 df = pd.read_csv('https://www.strategieanalysen.at/umfragen/polls.csv')
-                logging.info(f"Strategie Data loaded")
                 return df
             else:
                 logging.error(f'Something went wrong: {response.status_code}')
@@ -100,7 +96,7 @@ class Scraper:
     
 
     def _loadwiki(self):
-        if 'all' in self.url or 'wiki' in self.url:
+        if 'all' in self.config.url or 'wiki' in self.config.url:
             try:
                 response = requests.get('https://en.wikipedia.org/wiki/Opinion_polling_for_the_2017_Austrian_legislative_election')
             except Exception as err:
@@ -113,7 +109,6 @@ class Scraper:
                 if soup:
                     table_div = soup.find("table")
                     df = self.parse(table_div)
-                    logging.info(f"Wiki Data loaded")
                 return df
             else:
                 logging.error(f'Something went wrong: {response.status_code}')

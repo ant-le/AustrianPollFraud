@@ -1,7 +1,8 @@
 data {
   int<lower=1> N;
+  int<lower=1> M;
   vector[N] y;
-  vector[N] x;
+  matrix[M,N] x;
 }
 parameters {
   real alpha;

@@ -1,12 +1,3 @@
-"""
-Since Intervention Time seems to become a relevant factor, I should
-create a binary variable to distinguish between dates
-and also datasets for the future.
-after Kurz becomes leader
-before Kurz announces ambition
-"""
-
-
 
 # SetUp Logging
 import logging
@@ -17,22 +8,23 @@ logging.basicConfig(
     level=logging.INFO, # change to logging.ERROR to only log errors
 )
 # -------------------------- imports -------------------------- #
+from scripts.config import Configurator
 from scripts.data_scraper import Scraper
 from scripts.data_preprocessor import Preprocessor
-from scripts.data_handler import Handler
+from model.differences import Diff_in_Diff_Model
 # ------------------------- init objs ------------------------- #
-scraper = Scraper()
-preprocessor = Preprocessor()
-handler = Handler()
-# ------------------------ run pipeine ------------------------ #
+configurator = Configurator()
+scraper = Scraper(config=configurator)
+preprocessor = Preprocessor(config=configurator)
+model1 = Diff_in_Diff_Model()
+# ------------------------ run pipeline ------------------------ #
 def run_pipeline():
-    polls, url = scraper.load()
-    preprocessor.update(polls, url)
+    polls = scraper.load()
+    preprocessor.update(polls)
     au_polls = preprocessor.load()
-    handler.update(au_polls, var="ÖVP")
-    handler.plotData()
-    handler.diff_in_diff()
-
+    model1.fitData(au_polls["polyd"])
+    model1.ols_regression()
+    model1.summary()
 
 if __name__== "__main__":
     run_pipeline()
