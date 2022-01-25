@@ -5,13 +5,14 @@ import re
 import requests
 import lxml
 import pandas as pd
-from requests.models import Response
 from tqdm import tqdm
 from bs4 import BeautifulSoup
 
 class Scraper:
     """
-    scrape wahl
+    Class which includes all relevant functionalities to automatically scrape the necessary 
+    data from various sources. Depending on the specification in the Configurator()-Class either
+    all datasets will be scraped or only the specified one.
     """
     
     def __init__(self, config):
@@ -152,6 +153,4 @@ class Scraper:
     
         
 if __name__ == "__main__":
-    scraper = Scraper()
-    dfs = scraper.load()
-    
+    pass

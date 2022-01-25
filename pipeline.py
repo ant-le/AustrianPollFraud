@@ -13,18 +13,21 @@ from scripts.data_scraper import Scraper
 from scripts.data_preprocessor import Preprocessor
 from model.differences import Diff_in_Diff_Model
 # ------------------------- init objs ------------------------- #
-configurator = Configurator()
+configurator = Configurator(type="raw", url="all")
 scraper = Scraper(config=configurator)
 preprocessor = Preprocessor(config=configurator)
-model1 = Diff_in_Diff_Model()
+model1 = Diff_in_Diff_Model(var="ÖVP")
 # ------------------------ run pipeline ------------------------ #
 def run_pipeline():
     polls = scraper.load()
     preprocessor.update(polls)
     au_polls = preprocessor.load()
-    model1.fitData(au_polls["polyd"])
+    model1.fitData(au_polls["neuwal"])
     model1.ols_regression()
     model1.summary()
 
+
 if __name__== "__main__":
     run_pipeline()
+    
+preprocessor.df[configurator.url][preprocessor.df[configurator.url].Date.dt.month == 5]

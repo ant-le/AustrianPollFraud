@@ -3,7 +3,10 @@ import logging
 from pickletools import read_uint1
 import re
 import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 from pandas.api.types import is_string_dtype
+import seaborn as sns
 import numpy as np
 import pathlib
 import datetime as dt
@@ -12,9 +15,15 @@ from scripts.config import Configurator
 
 class Preprocessor:
     """
-    Preprocess Data for Analysis
+    Class preparing all datasets for the analysis. 
+    Parameters
+    ----------
+    date : datetime, default=dt.datetime(2017,10,15)
+        This parameter desices which the time-frame which will be analysed. 
+    df : String, default=None
+        Dataset 
     """
-    
+      
     def __init__(self, config, df=None, date=dt.datetime(2017,10,15)):
         self.df = df
         self.date = date
@@ -30,11 +39,12 @@ class Preprocessor:
             self.date = date
         
 
-    def load(self, safe=False):
+    def load(self, save=False):
         if self.config.type is "scrape" or self.config.type is "raw":
             if self.config.type is "raw":
                 self._getData()
                 logging.info("Data loaded successfully!")
+                
             if self.df is not None:
                 self.df['wiki'] = self._processwiki()
                 self.df['neuwal'] = self._processneuwal()
@@ -42,7 +52,7 @@ class Preprocessor:
                 self.df['strategie'] = self._processstrategie()
                 logging.info(f"Data preprocessed successfully!")
 
-                if safe:
+                if save:
                     for df in self.df.keys():
                         if self.df[df] is not None:
                             self.config.writeAnalysisData(self.df[df], name=df, overwrite=True)                    
@@ -55,22 +65,6 @@ class Preprocessor:
             
         return self.df
 
-    
-    def _getData(self):
-        self.df = {}
-        dfs = []
-        if self.config.url is "all":
-            dfs.extend(["wiki", "neuwal", "polyd", "strategie"])
-        else:
-            dfs.append(self.config.url)
-                
-        for df in dfs:
-            if self.config.type is "processed":
-                self.df[df] = self.config.getAnalysisData(name=df)
-                self.df[df].Date = pd.to_datetime(self.df[df].Date)  
-            else:
-                self.df[df] = self.config.getRawData(name=df)
-    
 
     def _processwiki(self):
         if 'wiki' in self.config.url or 'all' in self.config.url:
@@ -142,7 +136,7 @@ class Preprocessor:
                 "sd": "Sampling Variance"
             }
             df = self._definecolumns(df, cols_dic)
-            df = self._analysisVars(df)
+            df = self._analysisVars(df)            
             return df
     
     
@@ -199,8 +193,54 @@ class Preprocessor:
         df = inputdf.copy()
          # Recode institute to binary var
         df["Treatment"] = np.where(df["Institute"].str.contains("Research Affairs"),1,0)
+        df.sort_values(by=['Date'], inplace=True)
+
         return df
 
+
+    def _getData(self):
+        self.df = {}
+        dfs = []
+        if self.config.url is "all":
+            dfs.extend(["wiki", "neuwal", "polyd", "strategie"])
+        else:
+            dfs.append(self.config.url)
+                
+        for df in dfs:
+            if self.config.type is "processed":
+                self.df[df] = self.config.getAnalysisData(name=df)
+                self.df[df]["Date"] = pd.to_datetime(self.df[df]["Date"])  
+            else:
+                self.df[df] = self.config.getRawData(name=df)
+                
+
+    def descriptivePlot(self, var="ÖVP", save=False, intervention=dt.datetime(2017,5,10), url="polyd"):
+        if self.config.url is not "all":
+            url2 = self.config.url
+        else:
+            url2 = url
+        if self.df:
+            df = self.df[url2]
+            months = df.Date.dt.strftime("%b").unique()
+            with plt.style.context('bmh'):
+                fig, ax = plt.subplots(figsize=(10,5))
+                ax.scatter("Date", var, data=df[df["Treatment"]==1], 
+                           label="Research Affairs", c='sandybrown', s=25)
+                ax.scatter("Date", var, data=df[df["Treatment"]==0], 
+                           label="Other Institutes", c='royalblue', s=25)
+                ax.axvline(intervention, c='lightgrey', ls="--", label="Leadership Change")
+                ax.legend(fancybox=True)
+                ax.set(xticklabels=months)  
+                ax.set(xlabel="Date")
+                ax.set(ylabel="Estimated Voting % or " + str(var))
+                ax.tick_params(bottom=False)
+                plt.show()
+                
+                if save is True:
+                    configurator = Configurator()
+                    path = configurator.imageFolder().joinpath(str(var) + "_difference.jpg")
+                    fig.savefig(path, dpi=300)
+                
 
 if __name__ == "__main__":
     pass
