@@ -1,12 +1,3 @@
-"""
-Bayesian: modeling and imputing missing potential outcomes 
-based on their posterior distributions
-
-Bayesian inference considers the observed values of the 
-four quantities to be realizations of random variables 
-and the unobserved values to be unobserved random variables
-"""
-
 data {
   int<lower=1> N;
   int<lower=1> M;

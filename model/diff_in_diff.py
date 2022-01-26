@@ -1,17 +1,13 @@
 
-from distutils.log import error
-import imp
-from charset_normalizer import logging
+import logging
 import numpy as np
 import pandas as pd
-import datetime as dt
-import colorsys
-import seaborn as sns
 import matplotlib.pyplot as plt
-import matplotlib.colors as cl
+
+from datetime import datetime
 from scipy import stats
 
-class Diff_in_Diff_Model():
+class Diff_in_Diff_Regression:
     """
     Ordinary least squares Difference-in-Differences Regression.
     LinearRegression fits a linear model with coefficients beta = (beta_0, ..., beta_p)
@@ -33,12 +29,14 @@ class Diff_in_Diff_Model():
         Vector with the values of the dependent variable 
     """
 
-    def __init__(self, intervention=dt.datetime(2017,5,10), var="ÖVP"):
+    def __init__(self, intervention=datetime(2017,5,10), var="SPÖ"):
         self.intervention = intervention
         self.var = var
         
         
     def fitData(self, df):
+        df = df.copy()
+        df["Treatment"] = np.where(df["Institute"].str.contains("Research Affairs"),1,0)
         df["Intervention"] = np.where(df["Date"] < self.intervention, 0, 1)
         df["DiD"] = df["Treatment"] * df["Intervention"]
         keep = ["Treatment", "Intervention", "DiD"]
@@ -48,8 +46,8 @@ class Diff_in_Diff_Model():
     
 
     def ols_regression(self):
-        """
-        Methods to fit linear model with coefficients beta = (beta_0, ..., beta_p)
+        """        
+        Method to fit linear model with coefficients beta = (beta_0, ..., beta_p)
         minimising the residual sum of squares with beta = (X^T*X)^-1 * X*y.
         """
         # Reshaping the Data
@@ -91,10 +89,12 @@ class Diff_in_Diff_Model():
                 print("_______________________________________________________________")
                 print(self.results)
                 print("_______________________________________________________________")
+            
             if plot:
-                values = self.results.loc[:, "Coef"]                  
+                values = self.results.loc[:, "Coef"]
+                              
                 with plt.style.context('ggplot'):
-                    fig, ax = plt.subplots(2, 1, figsize=(10,5))
+                    fig, ax = plt.subplots(figsize=(10,5))
                     ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
                                [values[:2].sum(), values.sum()], 
                                label="Research Affairs", lw=2, c="sandybrown")
@@ -103,14 +103,14 @@ class Diff_in_Diff_Model():
                                label="Other Institutes", lw=2, c="royalblue")
                     ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
                                [values[:2].sum(), values[:3].sum()], 
-                               label="Counterfactual", lw=2, color="sandybrown", ls="-.")
+                               label="Counterfactual", lw=2, color="darkgrey", ls="-.")
                     ax.set_ylabel("Percentage Points of " + str(self.var))
                     ax.legend(fancybox=True)
                     ax.set_title("Plot of Counterfacutals of Naive Diff-in-Diff Estimator")
                     plt.show()
                     
         else:
-            error("No Estimates are computed yet")            
+            print("No Estimates are computed yet")            
     
 if __name__ == "__main__":
     pass

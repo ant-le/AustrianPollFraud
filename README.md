@@ -23,3 +23,19 @@ This is the reprository for my Bachelor-Thesis at Konstanz University
   - Is Wikipedia data sufficient or should I try to get data from source (archives)?
     - Pulblication Date vs. Polling Date
   - How to include uncertainty levels of election polls?
+
+
+## List of Strange Articles with Reports
+  - "https://www.oe24.at/oesterreich/politik/oevp-mit-kurz-wuerde-wahl-gewinnen/269402753"
+  - "https://www.oe24.at/oesterreich/politik/63-wollen-lieber-hofer-als-strache/271303977"
+  - "https://www.oe24.at/oesterreich/politik/kurz-bremst-strache-aus/273265891"
+  - "https://www.oe24.at/oesterreich/politik/kurz-gewinnt-duell-gegen-kern/275922611"
+  - "https://www.oe24.at/oesterreich/politik/umfrage-kern-und-strache-kopf-an-kopf/277845682"
+  - "https://www.oe24.at/oesterreich/politik/umfrage-gruene-auf-talfahrt/280199219"
+  - "https://www.epaper-oesterreich.at/issue.act?mutationShortcut=CITYW&issueDate=20170603&issueId=365805&s=860.7668352884567"
+
+## Questions to 
+  - Unique Research
+  - IMAS -> Sehr hohe Werte?
+  - IFES -> Sehr unrealistische Wert
+  - Christina Matzka (search and Rename)
