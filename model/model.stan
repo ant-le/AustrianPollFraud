@@ -1,20 +1,17 @@
 data {
-  int<lower=1> N;
-  int<lower=1> M;
-  vector[N] y;
-  matrix[M,N] x;
+  int<lower=0> N;   // number of data items
+  int<lower=0> K;   // number of predictors
+  matrix[N, K] x;   // predictor matrix
+  vector[N] y;      // outcome vector
 }
 parameters {
-  real alpha;
-  real beta;
-  real<lower=0> sigma;
+  real alpha;           // intercept
+  vector[K] beta;       // coefficients for predictors
+  real<lower=0> sigma;  // error scale
 }
 model {
-  // priors
-  alpha ~ normal(0, 10);
+  y ~ normal(x * beta + alpha, sigma);  // likelihood
   beta ~ normal(0, 10);
-  sigma ~ cauchy(0, 2.5); 
-
-  // model
-  y ~ normal(x * beta + alpha, sigma);
+  alpha ~ normal(20, 10);
+  sigma ~ cauchy(0, 5);
 }

@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 from scipy import stats
 
-class Diff_in_Diff_Regression:
+class TwoWayFixedEffects:
     """
     Ordinary least squares Difference-in-Differences Regression.
     LinearRegression fits a linear model with coefficients beta = (beta_0, ..., beta_p)
@@ -29,7 +29,7 @@ class Diff_in_Diff_Regression:
         Vector with the values of the dependent variable 
     """
 
-    def __init__(self, intervention=datetime(2017,5,10), var="SPÖ"):
+    def __init__(self, intervention=datetime(2017,5,10), var="ÖVP"):
         self.intervention = intervention
         self.var = var
         
