@@ -3,6 +3,7 @@ import logging
 import pandas as pd
 import datetime as dt
 from pathlib import Path
+import numpy as np
 
 from data.raw.polls import _urls, _dates, _new_entries, _sample_size
 from pandas.api.types import is_string_dtype
@@ -18,37 +19,50 @@ class Preprocessor:
         Dataset 
     """
       
-    def __init__(self, df=None, date=dt.datetime(2017,10,15)):
-        self.df = df
+    def __init__(self, kind="processed", date=dt.datetime(2017,10,15), intervention=dt.datetime(2017,5,10)):
         self.date = date
+        self.kind = kind
+        self.intervention = intervention
         self.path = Path(__file__).parent.parent / "data"
     
-    
-    def loadProcessed(self):
-        path = self.path / "analysis" / "au_polls.csv"
-        self.df = pd.read_csv(path)
-        self.df['Date'] = pd.to_datetime(self.df.Date)
-        return self.df
 
-
-    def load(self, save=False, scraper=None):
-        if scraper:
-            self.df = scraper.load()
-        else:
-            path = self.path / "raw" / "polls.csv"
+    def load(self, scraper, save=False):
+        if "processed" in self.kind:
+            path = self.path / "analysis" / "au_polls.csv"
             self.df = pd.read_csv(path)
-            logging.info("Data loaded successfully!")
-                
-        self.df = self._preprocessing()
-        self.df = self._modify()        
-        logging.info(f"Data preprocessed successfully!")
+            self.df['Date'] = pd.to_datetime(self.df.Date)
+            
+            
+        else:
+            if "scrape" in self.kind:
+                self.df = scraper.load()
+            if "raw" in self.kind:
+                path = self.path / "raw" / "polls.csv"
+                self.df = pd.read_csv(path)
+                logging.info("Data loaded successfully!")
+                    
+            self.df = self._preprocessing()
+            self.df = self._modify()   
+            logging.info(f"Data preprocessed successfully!")
 
         if save:
             path = self.path / "analysis" / "au_polls.csv"
             self.df.to_csv(path)
-            
+        
+        self.df = self.createVars()      
+
         return self.df
     
+    
+    def createVars(self):
+        df = self.df.copy()
+
+        df["ÖVP-SPÖ"] = df.ÖVP - df.SPÖ
+        df["Treatment"] = np.where(df["Institute"].str.contains("Research Affairs"),1,0)
+        df["Intervention"] = np.where(df["Date"] < self.intervention, 0, 1)
+        df["DiD"] = df["Treatment"] * df["Intervention"]
+        return df
+        
     
     def _preprocessing(self):
         df = self.df.copy()

@@ -1,8 +1,11 @@
 
+import stan_utility
 import pystan as ps
-import numpy as np
 import pandas as pd
-from datetime import datetime
+import arviz as az
+import matplotlib.pyplot as plt
+import xarray
+xarray.set_options(display_style="html")
 import multiprocessing
 multiprocessing.set_start_method("fork")
 
@@ -12,52 +15,76 @@ warnings.simplefilter('ignore', FutureWarning)
 
 class BayesRegression:
     """
-    Bayesian: modeling and imputing missing potential outcomes 
-    based on their posterior distributions
-
-    Bayesian inference considers the observed values of the 
-    four quantities to be realizations of random variables 
-    and the unobserved values to be unobserved random variables
-    """
-     
-    def __init__(self, intervention=datetime(2017,5,10), var="ÖVP"):
-        self.intervention = intervention
-        self.var = var
-        self.model = ps.StanModel(file="model/model.stan", extra_compile_args=["-w"])
-
+    Implementation of Difference-in-Difference Design with a 
+    Two-Way-Fixed-Effects Estimator where Markov-Chain-Monte-Carlo
+    sampling methods (MCMC) are used in order to generate estimates
+    of the causal effect of interest
     
-    def fitData(self, df, num_iter=10000, num_chains=1, num_warmup=1500, num_thin=1):
+    Parameters
+    ----------
+    intervention : datetime, default=dt.datetime(2017,5,10)
+        This parameter desices which date will be used for splitting the units
+        into pre-intervention Group and post-intervention group.
+    var : String, default='ÖVP'
+        Determines the dependent variable of the model. Alternatively 'SPÖ',
+        'FPÖ' or 'Grüne' can be stated.
+    impute : bool, default=True
+    
+    Attributes
+    ----------
+    model : StanModel 
+        It is a stanModel yes
+    """
+
+    def __init__(self, var="ÖVP", impute=True):
+        self.var = var
+        if impute:
+            self.model = ps.StanModel(file="model/model_impute.stan", extra_compile_args=["-w"])
+        else:
+            self.model = ps.StanModel(file="model/model.stan", extra_compile_args=["-w"])
+
+
+    def sample(self, df, num_iter=50000, num_chains=3, num_warmup=10000, num_thin=10):
         df = df.copy()
-        df["Treatment"] = np.where(df["Institute"].str.contains("Research Affairs"),1,0)
-        df["Intervention"] = np.where(df["Date"] < self.intervention, 0, 1)
-        df["DiD"] = df["Treatment"] * df["Intervention"]
         keep = ["Treatment", "Intervention", "DiD"]
-        data_dict = {"x": df.loc[:, keep], "y": df.loc[:, self.var], "N": len(df), "K":len(keep)}
+        data_dict = {"x": df.loc[:, keep], "y_obs": df.loc[:, self.var], "N": len(df), "K":len(keep)}
         self.fit = self.model.sampling(data=data_dict, 
                                        iter=num_iter, 
                                        chains=num_chains, 
                                        warmup=num_warmup, 
-                                       thin=num_thin)
+                                       thin=num_thin,
+                                       control=dict(adapt_delta=0.98))
         
-        
-    def printResults(self, latex=False):
-        print(self.fit)
-        
-        if latex:
+
+    def summary(self, latex=False, plot=True):
+        if self.fit:
+            print('_____________________________________________________________')
             summary_dict = self.fit.summary()
-            df_sum = pd.DataFrame(summary_dict["summary"],
-                          columns=summary_dict["summary_colnames"],
-                          index=summary_dict["summary_rownames"])
-            print(df_sum.to_latex(caption="Diff-in-Diff Linear Regression Output",
-                    label="Diff_in_Diff", position="h!"))
-        # Extracting traces
-        df_traces = pd.DataFrame()
-        for param in ["alpha", "beta", "sigma", "lp__"]:
-            if param is "beta":
-                df_traces[[f"{param}_1", f"{param}_2", f"{param}_3"]] = self.fit[param]
+            df = pd.DataFrame(summary_dict["summary"],
+                            columns=summary_dict["summary_colnames"],
+                            index=summary_dict["summary_rownames"])
+            df = df[~df.index.str.contains('real')]
+            if latex:
+                print(df.to_latex(caption="Diff-in-Diff Linear Regression Output",
+                        label="Diff_in_Diff", position="h!"))
             else:
-                df_traces[param] = self.fit[param]
-                
-        
+                print(self.fit)
+            if plot:
+                posterior = az.convert_to_inference_data(self.fit)
+                with az.style.context("arviz-whitegrid"):     
+                    az.plot_trace(posterior, var_names=["alpha", "beta", "sigma"])
+                    plt.suptitle("Traces and Posterior Distribution of Parameters", fontsize=20)
+                    plt.show()
+            print('_____________________________________________________________')
+        else:
+            print("No Estimates are computed yet")
+                        
+        fig, axes = plt.subplots(3,2, figsize=(12,6))
+        az.plot_trace(posterior, var_names="beta", axes=axes[1,])
+
+    def check(self):
+        stan_utility.check_all_diagnostics(self.fit)
+
+
 if __name__ == "__main__":
     pass
