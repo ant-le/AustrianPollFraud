@@ -38,7 +38,7 @@ class TwoWayFixedEffects:
         specification hypothesis testing might be included or not.
     """
 
-    def __init__(self, intervention=datetime(2017,5,10), var='ÖVP', test='t'):
+    def __init__(self, intervention=datetime(2017,5,10), var=['ÖVP', 'SPÖ'], test='z'):
         self.intervention = intervention
         self.var = var
         self.test = test
@@ -61,48 +61,56 @@ class TwoWayFixedEffects:
             interaction term is calculated manually.
         """
         df = df.copy()
-        df["Intercept"] = np.hstack([np.ones(len(df))]) 
+        df["Intercept"] = np.hstack([np.ones(len(df))])
         keep = ["Intercept", "Treatment", "Intervention", "DiD"]
         X = df[keep].values
-        y = df.loc[:, self.var].values
+        if isinstance(self.var, str):
+            y = df.loc[:, self.var].values
+            self.fit = self._getCoeffs(X,y)
+        else:
+            self.fit = {}
+            ys = df.loc[:, self.var]
+            for var in self.var:
+                self.fit[f'{var}'] = self._getCoeffs(X,ys.loc[:, var].values)
+                
+        logging.info("OLS Regression successful!")
         
+        
+    def _getCoeffs(self, X, y):    
         # Computing the Estimates 
         invs_gram = np.linalg.inv(X.T @ X)
-        moment = X.T @ y
-        betas = invs_gram @ moment
-        
-        # Computing the Standard Error
         df = X.shape[0]
         if self.test == 't':
-            df -= X.shape[1]        
-        
+            df -= X.shape[1] 
+
+        # Get Coefficients
+        betas = invs_gram @ (X.T @ y)
+            
+        # Compute Standard Errors
         yhat = X @ betas
         error = np.subtract(y, yhat)
         mse = np.divide(error.T @ error, df)
         se = np.sqrt(mse * invs_gram.diagonal())
                         
         # Construct Confidence Intervals
-        # Do I need t-Test or not?
-        t_CI = 1.96
+        CI = 1.96
         if self.test == 't':
-            t_CI = stats.t.ppf(0.975 ,df)
-
-        lower = betas - t_CI * se
-        upper = betas + t_CI * se 
+            CI = stats.t.ppf(0.975 ,df)
+        lower = betas - CI * se
+        upper = betas + CI * se 
         
         # Hypothesis Testing
         score = np.divide(betas,se)
         p = 2*stats.norm.sf(abs(score))
-        if self.test == 't':
+        if test == 't':
             p = 2*(1-stats.t.cdf(score, df))
+            
+        df = pd.DataFrame(list(zip(betas, se, score, p, lower, upper)), 
+                                            columns=['Coef', 'SE', f'{self.test}', 'p-value', '2.5% CI', '97.5% CI'], 
+                                            index=["Intercept", "Institute", "Time Intervention", "Diff-in-Diff"])
+                
+        return df
 
-        
-        # t = np.divide(self.betas, errors)
-        self.fit = pd.DataFrame(list(zip(betas, se, score, p, lower, upper)), 
-                                    columns=['Coef', 'SE', f'{self.test}', 'p-value', '2.5% CI', '97.5% CI'], 
-                                    index=["Intercept", "Institute", "Time Intervention", "Diff-in-Diff"])
-        logging.info("OLS Regression successful!")
-        
 
     def summary(self, latex=False, plot=False):
         """
@@ -118,35 +126,46 @@ class TwoWayFixedEffects:
             standard errors will also be used for the illustration of uncertainty levels.
         """
         if isinstance(self.fit, pd.DataFrame):
-            if latex:
-                print(self.fit.drop(columns=[f'{self.test}', 'p-value']).round(decimals=3).to_latex(caption="Output of Two-Way Fixed Effects OLS Linear Regression Model",
-                    label="TWFE_Output", position="h!"))
-            else:
-                print("_______________________________________________________________")
-                print(self.fit.drop(columns=[f'{self.test}', 'p-value']))
-                print("_______________________________________________________________")
+            self._getSummary(self.fit, latex, plot)
             
-            if plot:
-                values = self.fit.loc[:, "Coef"]
-                              
-                with plt.style.context('ggplot'):
-                    fig, ax = plt.subplots(figsize=(10,5))
-                    ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
-                               [values[:2].sum(), values.sum()], 
-                               label="Research Affairs", lw=2, c="sandybrown")
-                    ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
-                               [values[0], values[[0,2]].sum()], 
-                               label="Other Institutes", lw=2, c="royalblue")
-                    ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
-                               [values[:2].sum(), values[:3].sum()], 
-                               label="Counterfactual", lw=2, color="darkgrey", ls="-.")
-                    ax.set_ylabel("Percentage Points of " + str(self.var))
-                    ax.legend(fancybox=True)
-                    ax.set_title("Plot of Counterfacutals of Naive Diff-in-Diff Estimator")
-                    plt.show()
-                    
+        elif isinstance(self.fit, dict):
+            for key in self.fit.keys():
+                print(f'Summary Statistics for {key}')
+                self._getSummary(self.fit[key], latex, plot)
+                
         else:
             print("No Estimates are computed yet")            
+    
+    
+    
+    def _getSummary(self, df, latex, plot):
+        if latex:
+            print(df.drop(columns=[f'{self.test}', 'p-value']).round(decimals=3).to_latex(caption="Output of Two-Way Fixed Effects OLS Linear Regression Model",
+                                label="TWFE_Output", position="h!"))
+        else:
+            print("_______________________________________________________________")
+            print(df.drop(columns=[f'{self.test}', 'p-value']))
+            print("_______________________________________________________________")
+            
+        if plot:
+            values = df.loc[:, "Coef"]
+                          
+            with plt.style.context('ggplot'):
+                fig, ax = plt.subplots(figsize=(10,5))
+                ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
+                           [values[:2].sum(), values.sum()], 
+                           label="Research Affairs", lw=2, c="sandybrown")
+                ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
+                            [values[0], values[[0,2]].sum()], 
+                           label="Other Institutes", lw=2, c="royalblue")
+                ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
+                           [values[:2].sum(), values[:3].sum()], 
+                           label="Counterfactual", lw=2, color="darkgrey", ls="-.")
+                ax.set_ylabel("Percentage Points of " + str(self.var))
+                ax.legend(fancybox=True)
+                ax.set_title("Plot of Counterfacutals of Naive Diff-in-Diff Estimator")
+                plt.show()
+    
     
 if __name__ == "__main__":
     pass

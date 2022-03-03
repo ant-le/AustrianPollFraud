@@ -1,5 +1,6 @@
 
 import logging
+import re
 import pandas as pd
 import datetime as dt
 from pathlib import Path
@@ -25,7 +26,7 @@ class Preprocessor:
         self.intervention = intervention
         self.path = Path(__file__).parent.parent / "data"
     
-
+        
     def load(self, scraper, save=False):
         if "processed" in self.kind:
             path = self.path / "analysis" / "au_polls.csv"
@@ -43,21 +44,19 @@ class Preprocessor:
                     
             self.df = self._preprocessing()
             self.df = self._modify()   
+            self.df = self._createVars()      
             logging.info(f"Data preprocessed successfully!")
 
         if save:
             path = self.path / "analysis" / "au_polls.csv"
-            self.df.to_csv(path)
+            self.df.to_csv(path, index=False)
         
-        self.df = self.createVars()      
-
         return self.df
     
     
-    def createVars(self):
+    def _createVars(self):
         df = self.df.copy()
 
-        df["ÖVP-SPÖ"] = df.ÖVP - df.SPÖ
         df["Treatment"] = np.where(df["Institute"].str.contains("Research Affairs"),1,0)
         df["Intervention"] = np.where(df["Date"] < self.intervention, 0, 1)
         df["DiD"] = df["Treatment"] * df["Intervention"]
@@ -97,27 +96,44 @@ class Preprocessor:
     def _modify(self):
         df = self.df.copy()
         df.reset_index(drop=False, inplace=True)
-        
-        entry = _new_entries()
-        df.loc[len(df.index)] = entry
 
         urls = _urls()
         df.loc[df["index"].isin(urls["index"]) , 'url'] = urls.loc[urls["index"].isin(df["index"]), "url"].values
-
-            
+ 
         samples = _sample_size()
         df.loc[df["index"].isin(samples["index"]) , 'Sample Size'] = samples.loc[samples["index"].isin(df["index"]), "Sample Size"].values
 
-        
         dates = _dates()
         df.loc[df["index"].isin(dates["index"]) , 'Date'] = dates.loc[dates["index"].isin(df["index"]), "Date"].values
 
-        df.dropna(subset=['url'], inplace=True)
-            
+        df.drop(columns="index", inplace=True)
+        
+        entry = _new_entries()
+        for e in entry:
+            df.loc[len(df)] = e
+        
+        df.dropna(subset=['url'], inplace=True)        
+
+
         df.sort_values(by=['Date', "Institute"], inplace=True, ignore_index=True)
-        df.drop(columns="index")
         return df
     
+    
+    def getMoneyData(self):
+        path = self.path / "raw" / "money.csv"
+        df = pd.read_csv(path)        
+        keep = [x for x in df.columns if re.search("Betrag", x)]
+        keep.append("Förderbetrag Gesamt")
+        df.loc[14, keep] = df.loc[14, keep].str.replace(".",",")
+        money = df.loc[14, keep].str.replace("€","\\euro").values
+        df = pd.DataFrame(money,
+                          columns=['Flow of Money'],
+                          index=["2016", "2017", "2018", "2019", "2020", "overall"])
+        print(df.style.to_latex(caption="Money Research Affairs was paid by the Austrian Ministry of Finance",
+                                label="fig:Money",
+                                position='h!'))
+        
+
 
 if __name__ == "__main__":
     pass

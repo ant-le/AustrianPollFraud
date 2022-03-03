@@ -4,7 +4,14 @@ from pandas import DataFrame, to_datetime
 from datetime import datetime
 
 def _new_entries():
-    new = [NaN,datetime(2017,5,12),"Research Affairs",35,21,25,9,600,"https://www.oe24.at/oesterreich/politik/neue-umfrage-kurz-klar-1/282513188"]
+    new = [
+        [datetime(2016,12,8),"Research Affairs",18,26,35,13,600,"http://www.oe24.at/oesterreich/politik/Trotz-Schlappe-FPOe-klar-auf-Platz-1/261584523"],
+        [datetime(2016,12,9),"Gallup",19,27,34,12,800,"http://www.oe24.at/oesterreich/politik/Hofer-besser-als-Strache/261658295"],
+        [datetime(2016,12,19),"Market",22,25,31,12,415,"https://www.derstandard.at/story/2000049506772/van-der-bellens-sieg-nuetzte-den-gruenen-bisher-nicht"],
+        [datetime(2016,12,30),"Unique Research",19,28,34,11,500,"https://www.profil.at/oesterreich/kanzlerfrage-kern-vorsprung-strache-7916991"],
+        [datetime(2017,5,12),"Research Affairs",35,21,25,9,600,"https://www.oe24.at/oesterreich/politik/neue-umfrage-kurz-klar-1/282513188"]
+    ]
+    
     return new
     
     

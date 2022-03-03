@@ -1,5 +1,4 @@
 
-import stan_utility
 import pystan as ps
 import pandas as pd
 import arviz as az
@@ -42,7 +41,7 @@ class BayesRegression:
             self.model = ps.StanModel(file="model/model_impute.stan", extra_compile_args=["-w"])
         else:
             self.model = ps.StanModel(file="model/model.stan", extra_compile_args=["-w"])
-
+    
 
     def sample(self, df, num_iter=50000, num_chains=3, num_warmup=10000, num_thin=10):
         df = df.copy()
@@ -53,7 +52,7 @@ class BayesRegression:
                                        chains=num_chains, 
                                        warmup=num_warmup, 
                                        thin=num_thin,
-                                       control=dict(adapt_delta=0.98))
+                                       control=dict(adapt_delta=0.98))            
         
 
     def summary(self, latex=False, plot=True):
@@ -79,12 +78,6 @@ class BayesRegression:
         else:
             print("No Estimates are computed yet")
                         
-        fig, axes = plt.subplots(3,2, figsize=(12,6))
-        az.plot_trace(posterior, var_names="beta", axes=axes[1,])
-
-    def check(self):
-        stan_utility.check_all_diagnostics(self.fit)
-
-
+                        
 if __name__ == "__main__":
     pass

@@ -11,7 +11,7 @@ parameters {
 }
 model {
   y_obs ~ normal(x * beta + alpha, sigma);   // likelihood
-  alpha ~ normal(0,5);
+  alpha ~ normal(0, 5);
   beta ~ normal(0, 5);
   sigma ~ inv_gamma(5, 5);   
 } 
