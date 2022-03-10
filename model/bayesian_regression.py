@@ -35,18 +35,16 @@ class BayesRegression:
         It is a stanModel yes
     """
 
-    def __init__(self, var="ÖVP", impute=True):
+    def __init__(self, var="ÖVP"):
+        self.model = ps.StanModel(file="model/model.stan", extra_compile_args=["-w"])
         self.var = var
-        if impute:
-            self.model = ps.StanModel(file="model/model_impute.stan", extra_compile_args=["-w"])
-        else:
-            self.model = ps.StanModel(file="model/model.stan", extra_compile_args=["-w"])
     
 
     def sample(self, df, num_iter=50000, num_chains=3, num_warmup=10000, num_thin=10):
         df = df.copy()
-        keep = ["Treatment", "Intervention", "DiD"]
+        keep = ["Treatment", "bins", "DiD"]
         data_dict = {"x": df.loc[:, keep], "y_obs": df.loc[:, self.var], "N": len(df), "K":len(keep)}
+        # I can use the same model twice
         self.fit = self.model.sampling(data=data_dict, 
                                        iter=num_iter, 
                                        chains=num_chains, 

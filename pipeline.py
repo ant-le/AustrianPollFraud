@@ -8,24 +8,22 @@ logging.basicConfig(
 )
 # -------------------------- imports -------------------------- #
 from scripts.scraper import Scraper
-from scripts.preprocessor import Preprocessor
+from scripts.handler import Handler
 from scripts.plotter import Plotter
-from model.diff_in_diff import TwoWayFixedEffects
 from model.bayesian_regression import BayesRegression
 # ------------------------- init objs ------------------------- #
-scraper = Scraper()
-preprocessor = Preprocessor()
+# scraper = Scraper()
+handler = Handler()
 plotter = Plotter()
-model1 = TwoWayFixedEffects(test='t')
-model2 = BayesRegression(impute=False)
-model3 = BayesRegression()
+# model = BayesRegression()
 # ------------------------ run pipeline ------------------------ #
 def run_pipeline():
-    polls = preprocessor.load(scraper)
-    model1.fit(polls)
-    model2.sample(polls)
-    model3.sample(polls)
+    polls = handler.load()
+    plotter.scatter(polls)
+    plotter.trends(polls, error=True)
+    # model.sample(polls)
+    # model.summary()
     
-
+    
 if __name__== "__main__":
     run_pipeline()

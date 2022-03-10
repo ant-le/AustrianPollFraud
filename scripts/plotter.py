@@ -1,87 +1,119 @@
 
+from cProfile import label
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 import arviz as az
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from datetime import datetime
+from datetime import timedelta
+
 
 class Plotter:
     
-    def __init__(self, var="ÖVP"):
-        self.var = var
-    
+    def __init__(self):
+        pass
 
-    def scatter(self, df, save=False):
-        df = df.copy()
-        months = df.Date.dt.strftime("%b").unique()
+
+    def scatter(self, df, save=False, var='ÖVP', binning=True):
+        df = df.copy()        
         with plt.style.context('ggplot'):
-            fig, ax = plt.subplots(figsize=(10,5))
-            ax.scatter("Date", self.var, data=df[df["Treatment"]==1], 
-                       label="Research Affairs", c='gray', s=25)
-            ax.scatter("Date", self.var, data=df[df["Treatment"]==0], 
-                       label="Other Institutes", c='black', s=25)
-            ax.axvline(datetime(2017,5,10), c='lightgrey', ls="--", label="Leadership Change")
+            fig, ax = plt.subplots(figsize=(14,5))
+            ax.scatter("Date", var, data=df[df["Treatment"]==1], 
+                       label="Research Affairs", 
+                       s=25,
+                       c='olive',
+                       alpha=.6
+            )
+            ax.scatter("Date", var, data=df[df["Treatment"]==0], 
+                       label="Other Institutes",
+                       s=25,
+                       c='silver',
+                       alpha=.6
+
+            )
+            if binning:
+                # Create Lines seperating bins
+                upper = df.groupby('bins')['Date'].max()[:-1].reset_index(drop=True)
+                lower = df.groupby('bins')['Date'].min()[1:].reset_index(drop=True)
+                bins = lower + (upper - lower)/2              
+                ax.vlines(bins, ymin=df[var].min()-1, ymax=df[var].max()+1, color='black',lw=.5)
+                
+                # Plotting mean value of each bin with fixed distances
+                pos = []
+                pos.append(df.Date.min()-timedelta(5))
+                pos[1:len(bins)] = bins
+                pos.append(df.Date.max()+timedelta(5))
+                for b in df.bins.unique():
+                    ax.hlines(df.loc[(df.bins==b) & (df.Treatment==1), var].mean(),
+                              xmin=pos[b-1]+timedelta(7),
+                              xmax=pos[b]-timedelta(7),
+                              color="olive",
+                    )
+                    ax.hlines(df.loc[(df.bins==b) & (df.Treatment==0), var].mean(),
+                              xmin=pos[b-1]+timedelta(5),
+                              xmax=pos[b]-timedelta(5),
+                              color='silver',
+                    )
+            ax.set_xlim([df.Date.min()-timedelta(20), df.Date.max()+timedelta(20)])
+            ax.xaxis.set_major_locator(mdates.MonthLocator(bymonth=(1, 7)))
+            ax.xaxis.set_minor_locator(mdates.MonthLocator())
+            ax.xaxis.set_major_formatter(mdates.ConciseDateFormatter(ax.xaxis.get_major_locator()))
+            ax.set_ylim(df[var].min()-2, df[var].max()+2)    
+            ax.set_ylabel("Estimated Voting % for " + str(var))
             ax.legend(fancybox=True)
-            ax.set(xticklabels=months)  
-            ax.set_ylabel("Estimated Voting % for " + str(self.var))
-            ax.set_title("Descriptive Plot of Data")
             plt.show()
-            
             if save is True:
                 path = Path(__file__).parent.parent / "images" / "descriptive.csv"
                 fig.savefig(path, dpi=300)
-                
     
-    def pre_trends(self, df):            
+    
+    def trends(self, df, var='ÖVP', error=True, diff=.1):            
         df = df.copy() 
-        df["group"] = np.where(df.Date < datetime(2017,3,10), 1,
-                               np.where(df.Date < datetime(2017,5,10),2,
-                                        np.where(df.Date < datetime(2017,7,10),3,4)))
-        d1 = []
-        d0 = []
-        for treat, d in enumerate([d0,d1]):
-            for group in df.group.unique():     
-                d.append(df.loc[(df.Treatment==treat) & (df.group==group)][self.var].values)
-
-        with plt.style.context('ggplot'):
-            gap = 0.1
-            fig, ax = plt.subplots(figsize=(10,5))
-            ax.boxplot(d0,
-                       positions=np.array(np.arange(len(d0)))*2.0-gap,
-                       widths=0.2,
-                       showbox=False,
-                       showfliers=False,
-                       showmeans=True,
-                       medianprops={"color": "white", "linewidth": 0.0001},
-                       meanprops=dict(marker='D', markeredgecolor='black',
-                                      markerfacecolor='black'),
-                       whiskerprops={"color": "black", "linewidth": 1},
-                       capprops={"color": "white", "linewidth": 0.00001})
-            ax.boxplot(d1,
-                       positions=np.array(np.arange(len(d1)))*2.0+gap,
-                       widths=0.2,
-                       showbox=False,
-                       showfliers=False,
-                       showmeans=True,
-                       medianprops={"color": "white", "linewidth": 0.0001},
-                       whiskerprops={"color": "gray", "linewidth": 1},
-                       meanprops=dict(marker='D', markeredgecolor='gray',
-                                      markerfacecolor='gray'),
-                       capprops={"color": "white", "linewidth": 0.00001})
-            ax.plot(np.array(np.arange(len(d1)))*2.0+gap, df[df.Treatment==1].groupby("group")[self.var].mean().values,
-                    color="gray",
-                    linestyle='dashed',
-                    label="Research Affairs")
-            ax.plot(np.array(np.arange(len(d0)))*2.0-gap, df[df.Treatment==0].groupby("group")[self.var].mean().values,
-                    color="black",
-                    linestyle='dashed',
-                    label="Other Institutes")
-            ticks = ['Pre 2', 'Pre 1', 'Post 1', 'Post 2']
-            plt.xticks(np.arange(0, len(ticks) * 2, 2), ticks)
+        tg = df[df.Treatment==1].groupby('bins')[var].mean().values   
+        cg = df[df.Treatment==0].groupby('bins')[var].mean().values   
+        with plt.style.context('ggplot'):  
+            _, ax = plt.subplots(1,1,figsize=(10,5))
+            if error:
+                ax.errorbar(df.bins.unique()+diff,
+                            tg, 
+                            df[df.Treatment==1].groupby('bins')[var].std().values,
+                            elinewidth=.7,
+                            color='olive',
+                            #alpha=.6,
+                            fmt='o',
+                            capsize=6,
+                            label='Research Affairs'
+                )
+                ax.errorbar(df.bins.unique()-diff,
+                            cg, 
+                            df[df.Treatment==0].groupby('bins')[var].std().values,
+                            elinewidth=.7,
+                            color='silver',
+                            fmt='o',
+                            capsize=6,
+                            label='Other Institutes'
+                )
+                
+            else:          
+                ax.scatter(x=df.bins.unique()+diff, y=tg,
+                        label="Research Affairs", 
+                        s=25,
+                        c='olive',
+                        alpha=.6
+                )
+                ax.scatter(x=df.bins.unique()-diff, y=cg,
+                            label="Other Institutes",
+                            s=25,
+                            facecolors=None, 
+                            edgecolors='k', 
+                            c='silver',
+                            lw=1.2,
+                            alpha=.6)
             ax.legend(fancybox=True)
-            ax.set_xlabel("Time periods of two Months")
-            ax.set_ylabel("Estimated Voting % for " + str(self.var))
+            ticks = ['-3', '-2', '-1', '0', '1', '2', '3', '4', '5']
+            plt.xticks(np.r_[1:10], ticks)
+            ax.set_ylabel("Estimated Voting % for " + str(var))
             ax.set_title("Pre-trends based on binning")
             plt.show()
 
@@ -136,50 +168,9 @@ class Plotter:
                               )
 
 
-
-    def plot_timeline(self):
-        dates = [datetime(2019, 11, 12), datetime(2021, 10, 6), datetime(2021, 12, 2), datetime(2021, 12, 20), datetime(2022, 1, 20), datetime(2022, 2, 25)]
-        min_date = datetime(np.min(dates).year - 2, np.min(dates).month, np.min(dates).day)
-        max_date = datetime(np.max(dates).year + 2, np.max(dates).month, np.max(dates).day)
-        labels = ['Elvis appears on\nthe Ed Sullivan Show', 'Buddy Holly dies', 'The Beatles appear\non the Ed Sullivan Show', 
-          'Bob Dylan goes electric', 'The Beatles release\nSgt. Pepper', 'Woodstock']
-        # labels with associated dates
-        labels = ['{0:%d %b %Y}:\n{1}'.format(d, l) for l, d in zip (labels, dates)]
-        with plt.style.context('ggplot'):
-            fig, ax = plt.subplots(figsize=(15, 4), constrained_layout=True)
-            _ = ax.set_ylim(-2, 1.75)
-            _ = ax.set_xlim(min_date, max_date)
-            _ = ax.axhline(0, xmin=0.05, xmax=0.95, c='deeppink', zorder=1)
-            label_offsets = np.zeros(len(dates))
-            label_offsets[::2] = 0.35
-            label_offsets[1::2] = -0.7
-            for i, (l, d) in enumerate(zip(labels, dates)):
-                _ = ax.text(d, label_offsets[i], l, ha='center', fontfamily='serif', fontweight='bold', color='royalblue',fontsize=12)
-            label_offsets = np.zeros(len(dates))
-            label_offsets[::2] = 0.35
-            label_offsets[1::2] = -0.7
-            for i, (l, d) in enumerate(zip(labels, dates)):
-                _ = ax.text(d, label_offsets[i], l, ha='center', fontfamily='serif', fontweight='bold', color='royalblue',fontsize=12)
-            stems = np.zeros(len(dates))
-            stems[::2] = 0.3
-            stems[1::2] = -0.3   
-            markerline, stemline, baseline = ax.stem(dates, stems, use_line_collection=True)
-            _ = plt.setp(markerline, marker=',', color='darkmagenta')
-            _ = plt.setp(stemline, color='darkmagenta')         
-            # hide lines around chart
-            for spine in ["left", "top", "right", "bottom"]:
-                _ = ax.spines[spine].set_visible(False)
-            
-            # hide tick labels
-            _ = ax.set_xticks([])
-            _ = ax.set_yticks([])
-            
-            _ = ax.set_title('Important Milestones in Rock and Roll', fontweight="bold", fontfamily='serif', fontsize=16, 
-                            color='royalblue')
-            
-            
 if __name__ == "__main__":
-    data = pd.read_csv("/Users/anton/Documents/University/Semester_7/Bachelor_Thesis/data/analysis/au_polls.csv")
-    data["Date"] = pd.to_datetime(data.Date)
+    df = pd.read_csv("/Users/anton/Documents/University/Semester_7/Bachelor_Thesis/data/analysis/polls.csv")
+    df.rename(columns={'datum':'Date'}, inplace=True)
+    df["Date"] = pd.to_datetime(df.Date)
     plotter = Plotter()
-    plotter.scatter(data)
+    plotter.trends(df, var="SPÖ")

@@ -38,13 +38,12 @@ class TwoWayFixedEffects:
         specification hypothesis testing might be included or not.
     """
 
-    def __init__(self, intervention=datetime(2017,5,10), var=['ÖVP', 'SPÖ'], test='z'):
-        self.intervention = intervention
+    def __init__(self, var='ÖVP', test='z'):
         self.var = var
         self.test = test
     
 
-    def fit(self, df):
+    def fit(self, input_df):
         """
         Linear approximation of the Two-Way Fixed Effects (causal) effect with 
         beta = (beta_0, ..., beta_p) being the parameters minimising the residual
@@ -60,19 +59,14 @@ class TwoWayFixedEffects:
             Names of varaibles used for the fixed effects linear regression model. The
             interaction term is calculated manually.
         """
-        df = df.copy()
+        df = input_df.copy()
+        df = df[df['Date'] < datetime(2017,10,15)]
         df["Intercept"] = np.hstack([np.ones(len(df))])
         keep = ["Intercept", "Treatment", "Intervention", "DiD"]
         X = df[keep].values
-        if isinstance(self.var, str):
-            y = df.loc[:, self.var].values
-            self.fit = self._getCoeffs(X,y)
-        else:
-            self.fit = {}
-            ys = df.loc[:, self.var]
-            for var in self.var:
-                self.fit[f'{var}'] = self._getCoeffs(X,ys.loc[:, var].values)
-                
+        y = df.loc[:, self.var].values
+        
+        self.fit = self._getCoeffs(X,y)
         logging.info("OLS Regression successful!")
         
         
@@ -125,47 +119,36 @@ class TwoWayFixedEffects:
             Whether result of Diff-in-Diff design should be illustrated graphically. Possibly 
             standard errors will also be used for the illustration of uncertainty levels.
         """
-        if isinstance(self.fit, pd.DataFrame):
-            self._getSummary(self.fit, latex, plot)
-            
-        elif isinstance(self.fit, dict):
-            for key in self.fit.keys():
-                print(f'Summary Statistics for {key}')
-                self._getSummary(self.fit[key], latex, plot)
-                
-        else:
-            print("No Estimates are computed yet")            
-    
-    
-    
-    def _getSummary(self, df, latex, plot):
+        df = self.fit.copy()
+        
         if latex:
             print(df.drop(columns=[f'{self.test}', 'p-value']).round(decimals=3).to_latex(caption="Output of Two-Way Fixed Effects OLS Linear Regression Model",
                                 label="TWFE_Output", position="h!"))
-        else:
-            print("_______________________________________________________________")
-            print(df.drop(columns=[f'{self.test}', 'p-value']))
-            print("_______________________________________________________________")
-            
-        if plot:
-            values = df.loc[:, "Coef"]
-                          
-            with plt.style.context('ggplot'):
-                fig, ax = plt.subplots(figsize=(10,5))
-                ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
-                           [values[:2].sum(), values.sum()], 
-                           label="Research Affairs", lw=2, c="sandybrown")
-                ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
-                            [values[0], values[[0,2]].sum()], 
-                           label="Other Institutes", lw=2, c="royalblue")
-                ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
-                           [values[:2].sum(), values[:3].sum()], 
-                           label="Counterfactual", lw=2, color="darkgrey", ls="-.")
-                ax.set_ylabel("Percentage Points of " + str(self.var))
-                ax.legend(fancybox=True)
-                ax.set_title("Plot of Counterfacutals of Naive Diff-in-Diff Estimator")
-                plt.show()
-    
-    
+        else:       
+            print(df.round(decimals=3))
+            if plot:
+                values = df.loc[:, "Coef"]              
+                with plt.style.context('ggplot'):
+                    fig, ax = plt.subplots(figsize=(10,5))
+                    ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
+                            [values[:2].sum(), values.sum()], 
+                            label="Research Affairs", lw=2, c="gray")
+                    ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
+                                [values[0], values[[0,2]].sum()], 
+                            label="Other Institutes", lw=2, c="black")
+                    ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
+                            [values[:2].sum(), values[:3].sum()], 
+                            label="Counterfactual", lw=2, color="darkgrey", ls="-.")
+                    ax.set_ylabel("Percentage Points of " + str(self.var))
+                    ax.legend(fancybox=True)
+                    ax.set_title("Plot of Counterfacutals of Naive Diff-in-Diff Estimator")
+                    plt.show()
+
+  
 if __name__ == "__main__":
-    pass
+    data = pd.read_csv("/Users/anton/Documents/University/Semester_7/Bachelor_Thesis/data/analysis/polls.csv")
+    data.rename(columns={'datum':'Date'}, inplace=True)
+    data["Date"] = pd.to_datetime(data.Date)
+    model = TwoWayFixedEffects(var='SPÖ')
+    model.fit(data)
+    model.summary(plot=True)
