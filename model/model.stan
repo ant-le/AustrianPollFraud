@@ -2,21 +2,24 @@
 // A Bayesian course with examples in R and Stan. 
 // Chapman and Hall/CRC., Chapter 7,14
 data {
-  int<lower=0> N;                          // number of data items
-  int<lower=0> K;                          // number of predictors
-  matrix[N, K] x;                          // predictor matrix
-  vector[N] y_obs;                         // observed outcome vector
+  int<lower=0> N;                           // number of observations
+  int<lower=0> T;                           // number of time points 
+  int time[N];                              // Time Point vector 
+  vector[N] x;                              // predictor Vector
+  vector[N] y_obs;                          // observed outcome vector
 }
 parameters {
-  real alpha;                              // intercept
-  vector[K] beta;                          // coefficients for predictors
-  real<lower=0> sigma;                     // error scale
-  vector[N] y_est;                         // estimated outcome vector
+  vector[T] alpha;                          // Intercept
+  vector[T] beta;                           // coefficients for predictors
+  vector<lower=0>[T] sigma;                 // error scale
+  vector[N] y_est;                          // estimated outcome vector
 }
 model {
-  y_est ~ normal(x * beta + alpha, sigma); // likelihood
+  for (i in 1:N){
+    y_est[i] ~ normal(x[i] * beta[time[i]] + alpha[time[i]], sigma[time[i]]); // likelihood
+  }
   y_obs ~ normal(y_est, 2);                // estimating sampling variance
-  alpha ~ normal(0,5);                     // prior for intercept
+  alpha ~ normal(0, 5);                    // Intercept prior
   beta ~ normal(0, 5);                     // prior for cieffients
-  sigma ~ inv_gamma(5,5);                  // prior for error scale
+  sigma ~ inv_gamma(5, 5);
 }   

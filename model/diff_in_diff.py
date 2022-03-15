@@ -3,9 +3,6 @@ from cgi import test
 import logging
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-
-from datetime import datetime
 from scipy import stats
 
 class TwoWayFixedEffects:
@@ -59,14 +56,27 @@ class TwoWayFixedEffects:
             Names of varaibles used for the fixed effects linear regression model. The
             interaction term is calculated manually.
         """
+        # Prepare Outcome variable
         df = input_df.copy()
-        df = df[df['Date'] < datetime(2017,10,15)]
-        df["Intercept"] = np.hstack([np.ones(len(df))])
-        keep = ["Intercept", "Treatment", "Intervention", "DiD"]
-        X = df[keep].values
-        y = df.loc[:, self.var].values
+        y = df.loc[:, 'ÖVP'].values
+
+        # Intercept and unit fixed Effects
+        df.loc[:, 'Intercept'] = 1
+        keep = ['Intercept', 'Treatment', 'bins']
+        df = df[keep]
+
+        # Time fixed Effects
+        for i in df.bins.unique():
+            df[f'Group_{i}'] = np.where(df.bins==i,1,0)
+            
+        # DiD - Coefficients
+        for i in df.bins.unique():
+            df[f'Treatment_{i}'] = np.where((df.bins==i) & (df.Treatment==1),1,0)
+
+        X = df.drop(columns=['Group_1', 'bins', 'Treatment_1']).values
         
-        self.fit = self._getCoeffs(X,y)
+        
+        self.results = self._getCoeffs(X=X, y=y)
         logging.info("OLS Regression successful!")
         
         
@@ -101,7 +111,7 @@ class TwoWayFixedEffects:
             
         df = pd.DataFrame(list(zip(betas, se, score, p, lower, upper)), 
                                             columns=['Coef', 'SE', f'{self.test}', 'p-value', '2.5% CI', '97.5% CI'], 
-                                            index=["Intercept", "Institute", "Time Intervention", "Diff-in-Diff"])
+                                            )
                 
         return df
 
@@ -119,30 +129,13 @@ class TwoWayFixedEffects:
             Whether result of Diff-in-Diff design should be illustrated graphically. Possibly 
             standard errors will also be used for the illustration of uncertainty levels.
         """
-        df = self.fit.copy()
+        df = self.results.copy()
         
         if latex:
             print(df.drop(columns=[f'{self.test}', 'p-value']).round(decimals=3).to_latex(caption="Output of Two-Way Fixed Effects OLS Linear Regression Model",
                                 label="TWFE_Output", position="h!"))
         else:       
             print(df.round(decimals=3))
-            if plot:
-                values = df.loc[:, "Coef"]              
-                with plt.style.context('ggplot'):
-                    fig, ax = plt.subplots(figsize=(10,5))
-                    ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
-                            [values[:2].sum(), values.sum()], 
-                            label="Research Affairs", lw=2, c="gray")
-                    ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
-                                [values[0], values[[0,2]].sum()], 
-                            label="Other Institutes", lw=2, c="black")
-                    ax.plot(["Jan 1 - May 10", "May 11 - October 9"], 
-                            [values[:2].sum(), values[:3].sum()], 
-                            label="Counterfactual", lw=2, color="darkgrey", ls="-.")
-                    ax.set_ylabel("Percentage Points of " + str(self.var))
-                    ax.legend(fancybox=True)
-                    ax.set_title("Plot of Counterfacutals of Naive Diff-in-Diff Estimator")
-                    plt.show()
 
   
 if __name__ == "__main__":

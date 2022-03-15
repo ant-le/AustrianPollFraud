@@ -21,6 +21,37 @@ class Handler:
     def __init__(self, folder='analysis'):
         self.folder = folder
     
+    
+    def getSimulationData(self, T=9, noise=False, att=False):
+        # Generate panel data with number of units = N, number of time = Time
+        N = 400
+        # Generate Varialbe 
+        D = np.random.randint(0,2,N) # Treatment Indicator
+        t = np.random.randint(1,T+1,N) # Time Periods
+        y = np.log(t +1)*15             # Outcome
+        data = np.asmatrix([y, D, t])
+        df = pd.DataFrame(data.T,
+                          columns=['ÖVP', 'Treatment', 'bins']
+        )
+        df['Treatment'] = df.Treatment.astype(int)
+        df['bins'] = df.bins.astype(int)
+        df.sort_values(by='bins', inplace=True)
+        df.reset_index(drop=True, inplace=True)
+        # define Treatment Effect 
+        self.tau = np.random.randn(T)*2
+        self.tau[0] = 0
+        # Added for Treatment Effect for the treated units (ATT)
+        if att:
+            df['ÖVP'] = np.where(df.Treatment==1, df.ÖVP-1.5, df.ÖVP)
+        
+        for idx, treat in enumerate(self.tau):
+            df["ÖVP"] = np.where((df.bins==idx+1) & (df.Treatment==1), df.ÖVP+treat, df.ÖVP)    
+            
+        if noise:
+            df['ÖVP'] = np.random.normal(df.ÖVP,2)
+
+        return df
+        
         
     def load(self, save=False):
         path = pathlib.Path(__file__).parent.parent / 'data' / f'{self.folder}'
@@ -67,7 +98,6 @@ class Handler:
         df[var[0]] = pd.to_numeric(df[var[0]], downcast='integer')
         df = df[df[var[0]]==1]
         df[var[1]] = pd.to_datetime(df[var[1]])
-        df = df[df[var[1]] > datetime(2016,12,1)]
         df = df[df[var[1]] > datetime(2016,12,1)]
         return df
     
