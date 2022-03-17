@@ -58,7 +58,7 @@ class TwoWayFixedEffects:
         """
         # Prepare Outcome variable
         df = input_df.copy()
-        y = df.loc[:, 'ÖVP'].values
+        y = df.loc[:, self.var].values
 
         # Intercept and unit fixed Effects
         df.loc[:, 'Intercept'] = 1
