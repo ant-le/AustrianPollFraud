@@ -98,6 +98,8 @@ class Handler:
         neuwal = self._limit(neuwal)
         neuwal = self._recode(neuwal)
         neuwal = self._rename(neuwal)
+        missing = self._new_entries()
+        neuwal = pd.concat([neuwal, missing])
         neuwal = self._createVars(neuwal)
         
         wiki = self.wiki.copy()
@@ -137,8 +139,8 @@ class Handler:
     def _rename(self, input_df):
         df = input_df.copy()
         cols_dic = {
-            "institut":"Institute",
             'datum':'Date',
+            "institut":"Institute",
             "ovp":"ÖVP",
             "spo":"SPÖ",
             "fpo":"FPÖ",
@@ -149,6 +151,37 @@ class Handler:
         for var in ["ÖVP", "SPÖ", "FPÖ", "Grüne"]:
             df[var] = pd.to_numeric(df[var], downcast='integer')
         return df
+    
+    
+    def _new_entries(self):
+        new = [
+            [datetime(2016,12,8),"Research Affairs",18,26,35,13,600,"http://www.oe24.at/oesterreich/politik/Trotz-Schlappe-FPOe-klar-auf-Platz-1/261584523"],
+            [datetime(2016,12,9),"Gallup",19,27,34,12,800,"http://www.oe24.at/oesterreich/politik/Hofer-besser-als-Strache/261658295"],
+            [datetime(2016,12,19),"Market",22,25,31,12,415,"https://www.derstandard.at/story/2000049506772/van-der-bellens-sieg-nuetzte-den-gruenen-bisher-nicht"],
+            [datetime(2016,12,30),"Unique Research",19,28,34,11,500,"https://www.profil.at/oesterreich/kanzlerfrage-kern-vorsprung-strache-7916991"],
+            [datetime(2018,7,12),"Research Affairs",33,26,24,5,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2018,7,26),"Research Affairs",33,27,24,4,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2018,11,19),"Research Affairs",34,25,24,6,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2018,12,13),"Research Affairs",34,25,24,6,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,1,13),"Research Affairs",34,26,24,5,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,1,24),"Research Affairs",34,26,23,6,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,2,21),"Research Affairs",34,25,24,6,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,4,18),"Research Affairs",34,24,23,5,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,5,2),"Research Affairs",34,25,22,5,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,8,8),"Research Affairs",36,22,20,10,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,8,14),"Research Affairs",35,21,19,11,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,8,22),"Research Affairs",35,21,19,11,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,8,29),"Research Affairs",36,22,20,11,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,9,5),"Research Affairs",36,22,20,11,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,9,12),"Research Affairs",35,22,19,11,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,9,19),"Research Affairs",34,23,10,12,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2019,9,21),"Research Affairs",34,23,21,11,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2020,2,27),"Research Affairs",39,17,11,17,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2020,3,26),"Research Affairs",40,18,11,18,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+        ]
+        df = pd.DataFrame(new,
+                          columns=['Date', 'Institute', "ÖVP", "SPÖ", "FPÖ", "Grüne", "Sample Size", "url"])
+        return df.iloc[:,:-2]
 
 
     def _createVars(self, input_df):
@@ -163,18 +196,9 @@ class Handler:
                                                 np.where(df.Date < datetime(2019,9,29),5,
                                                     np.where(df.Date < datetime(2020,3,16),6,
                                                              np.where(df.Date < datetime(2021,1,1),7,8)))))))
-        df["bins"] = np.where(df.Date < datetime(2017,5,10), 1,                                 # Define Binning of Data into T=9 timepoints 
-                               np.where(df.Date < datetime(2017,11,10), 2,
-                                    np.where(df.Date < datetime(2018,5,10), 3,
-                                            np.where(df.Date < datetime(2018,11,10), 4,
-                                                np.where(df.Date < datetime(2019,5,10), 5,
-                                                    np.where(df.Date < datetime(2019,11,10), 6,
-                                                             np.where(df.Date < datetime(2020,5,10), 7,
-                                                                      np.where(df.Date < datetime(2020,11,10), 8,
-                                                                               np.where(df.Date < datetime(2021,5,10),9,10)))))))))
         return df
-        
-    
+
+
     def getMoneyData(self):
         """
         Function for replicating Table of money flow in thesis.
@@ -193,7 +217,7 @@ class Handler:
                                 position='h!'))
 
 
-    def scatter(self, var='ÖVP', binning=False):
+    def scatter(self, var='ÖVP', binning=False, save=False):
         if isinstance(self.data, pd.DataFrame):
             df = self.data.copy()
             if 'Date' in df.columns:   
@@ -243,7 +267,11 @@ class Handler:
                     ax.set_ylim(df[var].min()-2, df[var].max()+2)    
                     ax.set_ylabel("Estimated Voting % for " + str(var))
                     ax.legend(fancybox=True)
-                    plt.show()
+                    if save == True:
+                        path = pathlib.Path(__file__).parent.parent / 'images' / f'scatter{var}.pdf'
+                        plt.savefig(path, dpi=800, format='pdf')
+                    else:
+                        plt.show()
                     
             else:
                 print('No data with continous x-range loaded yet! Use .loadData() to get DataFrame for plotting!')

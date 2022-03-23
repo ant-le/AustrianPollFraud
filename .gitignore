@@ -135,4 +135,4 @@ dmypy.json
 # Paper Folder
 /paper
 .DS_Store
-data/trash
+/trash

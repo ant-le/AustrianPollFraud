@@ -3,6 +3,9 @@ import pystan as ps
 import pandas as pd
 import arviz as az
 import numpy as np
+import pathlib
+from math import ceil
+from matplotlib.lines import Line2D
 import matplotlib.pyplot as plt
 import xarray
 import bokeh.io
@@ -38,14 +41,9 @@ class BayesRegression:
         It is a stanModel yes
     """
 
-    def __init__(self, var="ÖVP", ate=False):
+    def __init__(self, var="ÖVP"):
         self.var = var
-        self.ate = ate
-        
-        if self.ate is True:
-            self.model = ps.StanModel(file="model/model_ate.stan", extra_compile_args=["-w"])
-        else:
-            self.model = ps.StanModel(file="model/model.stan", extra_compile_args=["-w"])
+        self.model = ps.StanModel(file="model/model.stan", extra_compile_args=["-w"])
     
 
     def sample(self, input_df, num_iter=12000, num_chains=4, num_thin=3, num_warmup=900, compare=False):
@@ -73,14 +71,7 @@ class BayesRegression:
                 "T": D.shape[1], 
                 "K": X.shape[1]
         }
-        if self.ate is True:
-            data_dict = {"x": df.loc[:, 'Treatment'].values, 
-                "y_obs": y, 
-                "N": len(df), 
-                "T":len(df.bins.unique()), 
-                "time":df.loc[:,'bins'].values
-            }
-        
+      
         fit = self.model.sampling(data=data_dict, 
                                 iter=num_iter, 
                                 chains=num_chains, 
@@ -96,57 +87,141 @@ class BayesRegression:
             self.post = az.from_pystan(posterior=fit, 
                                        posterior_predictive=["y_hat"], 
                                        observed_data=["y_obs"])
+            
+            
+    def _getSummary(self, beta, interval):
+        coords = {"beta_dim_0":[beta]}
+        tau = np.concatenate(self.post.posterior["beta"].sel(coords).values).flatten()
+        
+        mu = tau.mean()
+        sd = tau.std()
+        
+        tau.sort()
+        N = len(tau)
+        
+        # Conpute Probability
+        if self.var == "SPÖ":
+            prob = round((len([x for x in tau if x > 0]) / N),3)
+        else:
+            prob = round((len([x for x in tau if x < 0]) / N),3)
+            
+        # Compute Highest Density Intervals        
+        nSampleCred = int(ceil(N * interval))
+        # number of intervals to be compared
+        nCI = N - nSampleCred
+        # width of every proposed interval
+        width = np.array([tau[i+nSampleCred] - tau[i] for i in range(nCI)])
+        # index of lower bound of shortest interval (which is the HDI) 
+        best  = width.argmin()
+        # put it in a dictionary
+        lower, upper = tau[best], tau[best + nSampleCred]
 
+        return mu, sd, lower, upper, prob
         
 
-    def summary(self, latex=False):
-        df = az.summary(self.post)
-        df = df[~df.index.str.contains('est')]
+    def summary(self, latex=False, interval=.89):
+        df = pd.DataFrame(columns=['Mean', 'SD','lowHID', 'uppHDI', "P"])
+        df.loc['Beta 0'] = self._getSummary(beta=0, interval=interval)
+        for i in range(1,7):
+            df.loc[len(df.index)] = self._getSummary(beta=i, interval=interval)
+            
         if latex:
-            print(df.to_latex(caption="Diff-in-Diff Linear Regression Output",
-                    label="Diff_in_Diff", position="h!"))
+            print(df.round(3).to_latex(caption="Diff-in-Diff Linear Regression Output",
+                    label="Diff_in_Diff", position="h"))
         else:
-            print(df)
-                        
+            return df
+         
 
-    def posterior(self, interval=.89):
-        df = az.summary(self.post.posterior[["beta"]],
-                            hdi_prob=interval
-                        ).iloc[:,:4]
-        estimand = 'ATE'
-        if self.ate is False:
-            estimand = 'ATT'
-            df.reset_index(inplace=True, drop=True)
-            df.loc[-1] = [0,0,0,0] 
-            df.index = df.index + 1  # shifting index
-            df.sort_index(inplace=True) 
-        bounds = df.iloc[:,2:].to_numpy()
+    def short_term(self, interval=.89, save=False):
+        mu, _, lower, upper, prob = self._getSummary(beta=0, interval=interval)
+        bounds = ([lower, upper] - mu).reshape(2,1)
+        
+        _,ax = plt.subplots(figsize=(12,4), facecolor='White', constrained_layout=True)
+        tau = np.concatenate(self.post.posterior["beta"].sel({"beta_dim_0":[0]}).values).flatten()
+        az.plot_kde(tau,
+                    ax=ax, 
+                    adaptive=True,
+                    plot_kwargs={"linewidth": 1.5, "color": "black"},
+                    rug_kwargs={"color": "black"},     
+                    label=r'Posterior of $\hat{\tau}$'             
+        )
+        ax.vlines(0,
+                    ymin=0,
+                    ymax=.5,
+                    alpha=.8,
+                    colors='k',
+                    ls='--',
+                    lw=1
+        )  
+        ax.errorbar(x=np.mean(tau),
+                    y=0.01,
+                    xerr=abs(bounds),
+                    elinewidth=1.5,
+                    fmt='ok',
+                    capsize=.1,
+                    markerfacecolor="white",
+                    label="Mean and 89% HDI",
+        )
+        ax.set_frame_on(False)
+        ax.get_xaxis().tick_bottom()
+        ax.axes.get_yaxis().set_visible(False) 
+        xmin, xmax = ax.get_xaxis().get_view_interval()
+        ymin, ymax = ax.get_yaxis().get_view_interval()
+        ax.add_artist(Line2D((xmin, xmax), (ymin, ymin), color='black', linewidth=2))         
+        if self.var == 'SPÖ':
+            ax.text(0.3, .1, r'P($\hat{\tau} > 0$) =' +  f'{prob}', fontsize=10)
+            ax.legend(fancybox=True, loc='upper left')
+        else:
+            ax.text(-1.5, .1, r'P($\hat{\tau} < 0$) =' +  f'{prob}', fontsize=10)
+            ax.legend(fancybox=True, loc='upper right')
+        if save == True:
+            path = pathlib.Path(__file__).parent.parent / 'images' / f'short_term_{self.var}.pdf'
+            plt.savefig(path, dpi=800, format='pdf')
+        else:
+            plt.show()
+                        
+                        
+    def long_term(self, interval=.89, save=False):
+        df = self.summary(interval=interval)
+        # Add Intercept Group 
+        df.reset_index(inplace=True, drop=True)
+        df.loc[-1] = 0
+        df.index = df.index + 1  
+        df.sort_index(inplace=True) 
+        # Compute Bounds for error Bars
+        bounds = df.iloc[:,2:4].to_numpy()
         bounds[:, 0] -= df.iloc[:, 0].to_numpy()
         bounds[:, 1] -= df.iloc[:, 0].to_numpy()
-        with plt.style.context('seaborn-white'):
-            _,ax = plt.subplots(figsize=(10,4))
-            ax.set_xlim([-.5, len(df.index)-.5])
-            ax.errorbar(x=df.index,
-                         y=df.iloc[:,0].values,
-                         yerr=abs(bounds.T),
-                         elinewidth=.5,
-                         fmt='ok',
-                         capsize=4,
-                         markerfacecolor="white",
-            )
-            ax.hlines(0, 
-                      xmin=-.5,
-                      xmax=len(df.index)-.5,
-                      colors='black', 
-                      linestyles='--',
-                      linewidth=.8)
-            label = []
-            for i in range(len(df.index)):
-                label.append(f'Group {i}')
-            ax.set_xticks(df.index)
-            ax.set_xticklabels(label)
-            ax.set_ylabel('Coefficient', fontsize=12)
-            ax.set_title(f"Posterior Distributions for {estimand} with 89% Intervals", fontsize=14)
+        
+        _,ax = plt.subplots(figsize=(12,5), facecolor='white', constrained_layout=True)
+        ax.set_xlim([-.5, len(df.index)-.5])
+        ax.set_ylim([-4, 4])
+        ax.errorbar(x=df.index,
+                    y=df.iloc[:,0].values,
+                    yerr=abs(bounds.T),
+                    elinewidth=1.2,
+                    fmt='ok',
+                    capsize=.1,
+                    markerfacecolor="white",
+        )
+        ax.hlines(0, 
+                    xmin=-.5,
+                    xmax=len(df.index)-.5,
+                    colors='black', 
+                    linestyles='--',
+                    linewidth=.8
+        )
+        label = []
+        for i in range(len(df.index)):
+            label.append(f'{i}')
+        ax.set_xticks(df.index)
+        ax.set_xlabel('Time Period', fontsize=14)
+        ax.set_xticklabels(label)
+        ax.set_ylabel('Coefficient', fontsize=14)
+        if save == True:
+            path = pathlib.Path(__file__).parent / 'images' / f'long_term_{self.var}.pdf'
+            plt.savefig(path, dpi=800, format='pdf')
+        else:
             plt.show()
 
 
@@ -202,13 +277,10 @@ class BayesRegression:
                 df = az.summary(model.posterior[["beta"]],
                                     hdi_prob=interval
                                 ).iloc[:,:4]
-                estimand = 'ATE'
-                if self.ate is False:
-                    estimand = 'ATT'
-                    df.reset_index(inplace=True, drop=True)
-                    df.loc[-1] = [0,0,0,0] 
-                    df.index = df.index + 1  # shifting index
-                    df.sort_index(inplace=True) 
+                df.reset_index(inplace=True, drop=True)
+                df.loc[-1] = [0,0,0,0] 
+                df.index = df.index + 1  # shifting index
+                df.sort_index(inplace=True) 
                 bounds = df.iloc[:,2:].to_numpy()
                 bounds[:, 0] -= df.iloc[:, 0].to_numpy()
                 bounds[:, 1] -= df.iloc[:, 0].to_numpy()
@@ -234,11 +306,11 @@ class BayesRegression:
                 ax[axs].set_xticklabels(label)
             ax[0].set_title('Research Affairs',fontsize=13)
             ax[1].set_title('Unique Research',fontsize=13)    
-            fig.suptitle(f'Difference of {estimand} with other Groups of major polling institutes', fontsize=16)
+            fig.suptitle(f'Difference of ATT with other Groups of major polling institutes', fontsize=16)
             fig.supylabel('Coefficient')
             plt.show()      
-        
-         
+
+
     def compareSim(self, tau):
         df = tau.T
         with plt.style.context('arviz-darkgrid'):
@@ -260,6 +332,7 @@ class BayesRegression:
             ax.set_title(f'Posterior Predictive plot of {self.var} against observed outcomes', fontsize=18)
             ax.legend(fancybox=True)
             plt.show()
-
+            
+            
 if __name__ == "__main__":
     pass
