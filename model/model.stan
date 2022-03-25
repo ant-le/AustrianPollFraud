@@ -18,11 +18,11 @@ parameters {
   vector[N] y_est;                              // estimated outcome vector
 }
 model {
-  y_est ~ normal(x*gamma + d*beta, sigma);     // likelihood
+  y_est ~ normal(x*gamma + d*beta, sigma);      // likelihood
   y_obs ~ normal(y_est, 2);                     // estimating sampling variance
   gamma ~ normal(0, 20);                        // fixed effects prior 
   beta ~ normal(0, 2);                          // prior for coeffients
-  sigma ~ inv_gamma(5,5);                       // prior for error scale
+  sigma ~ inv_gamma(5, 5);                      // prior for error scale
 }   
 generated quantities {
   vector[N] y_hat;

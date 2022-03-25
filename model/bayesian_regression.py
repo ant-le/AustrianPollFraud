@@ -44,9 +44,10 @@ class BayesRegression:
     def __init__(self, var="ÖVP"):
         self.var = var
         self.model = ps.StanModel(file="model/model.stan", extra_compile_args=["-w"])
+        self.post = None
     
 
-    def sample(self, input_df, num_iter=12000, num_chains=4, num_thin=3, num_warmup=900, compare=False):
+    def sample(self, input_df, num_iter=12000, num_chains=4, num_thin=3, num_warmup=900):
         df = input_df.copy()
         y = df.loc[:, self.var].values
         # Intercept and unit FE
@@ -81,12 +82,11 @@ class BayesRegression:
                                 seed=352553,
                                 init='random'
         )
-        if compare:
-            return az.convert_to_inference_data(fit)
-        else:
-            self.post = az.from_pystan(posterior=fit, 
+
+        self.post = az.from_pystan(posterior=fit, 
                                        posterior_predictive=["y_hat"], 
-                                       observed_data=["y_obs"])
+                                       observed_data=["y_obs"]
+        )
             
             
     def _getSummary(self, beta, interval):
@@ -101,9 +101,9 @@ class BayesRegression:
         
         # Conpute Probability
         if self.var == "SPÖ":
-            prob = round((len([x for x in tau if x > 0]) / N),3)
+            prob = len([x for x in tau if x > 0]) / N
         else:
-            prob = round((len([x for x in tau if x < 0]) / N),3)
+            prob = len([x for x in tau if x < 0]) / N
             
         # Compute Highest Density Intervals        
         nSampleCred = int(ceil(N * interval))
@@ -122,7 +122,7 @@ class BayesRegression:
     def summary(self, latex=False, interval=.89):
         df = pd.DataFrame(columns=['Mean', 'SD','lowHID', 'uppHDI', "P"])
         df.loc['Beta 0'] = self._getSummary(beta=0, interval=interval)
-        for i in range(1,7):
+        for i in range(1,8):
             df.loc[len(df.index)] = self._getSummary(beta=i, interval=interval)
             
         if latex:
@@ -169,10 +169,10 @@ class BayesRegression:
         ymin, ymax = ax.get_yaxis().get_view_interval()
         ax.add_artist(Line2D((xmin, xmax), (ymin, ymin), color='black', linewidth=2))         
         if self.var == 'SPÖ':
-            ax.text(0.3, .1, r'P($\hat{\tau} > 0$) =' +  f'{prob}', fontsize=10)
+            ax.text(0.3, .1, r'P($\hat{\tau} > 0$) =' +  f'{np.round(prob,4)}', fontsize=15)
             ax.legend(fancybox=True, loc='upper left')
         else:
-            ax.text(-1.5, .1, r'P($\hat{\tau} < 0$) =' +  f'{prob}', fontsize=10)
+            ax.text(-1.5, .1, r'P($\hat{\tau} < 0$) =' +  f'{np.round(prob,3)}', fontsize=15)
             ax.legend(fancybox=True, loc='upper right')
         if save == True:
             path = pathlib.Path(__file__).parent.parent / 'images' / f'short_term_{self.var}.pdf'
@@ -195,7 +195,7 @@ class BayesRegression:
         
         _,ax = plt.subplots(figsize=(12,5), facecolor='white', constrained_layout=True)
         ax.set_xlim([-.5, len(df.index)-.5])
-        ax.set_ylim([-4, 4])
+        ax.set_ylim([-4.5, 4.5])
         ax.errorbar(x=df.index,
                     y=df.iloc[:,0].values,
                     yerr=abs(bounds.T),
@@ -215,25 +215,26 @@ class BayesRegression:
         for i in range(len(df.index)):
             label.append(f'{i}')
         ax.set_xticks(df.index)
-        ax.set_xlabel('Time Period', fontsize=14)
+        ax.set_xlabel('Time Period', fontsize=22)
         ax.set_xticklabels(label)
-        ax.set_ylabel('Coefficient', fontsize=14)
+        ax.set_ylabel('Coefficient', fontsize=22)
         if save == True:
-            path = pathlib.Path(__file__).parent / 'images' / f'long_term_{self.var}.pdf'
+            path = pathlib.Path(__file__).parent.parent / 'images' / f'long_term_{self.var}.pdf'
             plt.savefig(path, dpi=800, format='pdf')
         else:
             plt.show()
 
 
-    def evaluate(self):
+    def evaluate(self, save=False):
         with plt.style.context('seaborn-whitegrid'):
             fig = plt.figure(figsize=(14, 4), constrained_layout=True)
             spec = fig.add_gridspec(2, 3)
             ax0 = fig.add_subplot(spec[:, 2])
             az.plot_energy(self.post, 
                            ax=ax0, 
-                           fill_alpha=[.6,.6])
-            ax0.set_title("Energy Function of Model", fontsize=12)
+                           fill_alpha=[1,.7],
+                           fill_color=('C7','k')
+            )
             
             ax10 = fig.add_subplot(spec[0, 0])
             ax11 = fig.add_subplot(spec[0, 1])
@@ -241,74 +242,99 @@ class BayesRegression:
             ax21 = fig.add_subplot(spec[1, 1])
             ax=np.array([[ax10,ax11], [ax20, ax21]])
             az.plot_trace(self.post,
-                          var_names=['beta', 'sigma'],
+                          var_names=['gamma', 'sigma'],
                           axes=ax,
                           compact=True,
                           combined=False,
+                          chain_prop={"color":'k1'},
             )
-            ax10.set_title("Posterior Distribution of betas", fontsize=12)
-            ax11.set_title("Trace of betas", fontsize=12)
-            ax20.set_title("Posterior Distribution of sigma", fontsize=12)
-            ax21.set_title("Trace of simga", fontsize=12)
-            fig.suptitle('Model Checking based on Energy and Trace', fontsize=17)
-            plt.show()
-            
+            ax10.set_title(r"Posterior Distribution of Fixed Effects $\gamma$ and $\lambda$", fontsize=11)
+            ax11.set_title(r"Trace of Fixed Effects $\gamma$ and $\lambda$", fontsize=11)
+            ax20.set_title(r"Posterior Distribution of Variance $\sigma$", fontsize=11)
+            ax21.set_title(r"Trace of Variance $\sigma$", fontsize=11)
+            if save == True:
+                path = pathlib.Path(__file__).parent.parent / 'images' / f'eval{self.var}.pdf'
+                plt.savefig(path, dpi=200, format='pdf')
+            else:
+                plt.show()            
     
-    def trace(self, param='beta'):
+    def trace(self, param='beta', save=False):
+        df = self.post
+        df.rename({"beta": r"$\hat{\tau}$"}, inplace=True)
+        if param=='beta':
+            param=r"$\hat{\tau}$"
         with plt.style.context('arviz-whitegrid'):
-            az.plot_trace(self.post,
+            az.plot_trace(df,
                           var_names=[param],
                           compact=False,
                           combined=False,
                           chain_prop={"color":'k1'}
             )
+        if save == True:
+            path = pathlib.Path(__file__).parent.parent / 'images' / f'trace{self.var}.pdf'
+            plt.savefig(path, dpi=200, format='pdf')
+        else:
+            plt.show()
     
 
-    def baseline(self, input_df, interval=0.89):
+    def trends(self, input_df, interval=0.89, save=False):
+        true_post = None
+        if self.post:
+            true_post = self.post
         ra = input_df[~input_df.Institute.str.contains('Unique Research')]
         ur = input_df[~input_df.Institute.str.contains('Research Affairs')]
         ur['Treatment'] = np.where(ur.Institute.str.contains('Unique Research'),1,0).copy()
-        ra = self.sample(ra, compare=True)
-        ur = self.sample(ur, compare=True)   
-          
-        with plt.style.context('seaborn-white'):
-            fig ,ax = plt.subplots(1,2, figsize=(14,4), sharex=True, sharey=True, constrained_layout=True)
-            for axs, model in enumerate([ra, ur]):
-                df = az.summary(model.posterior[["beta"]],
-                                    hdi_prob=interval
-                                ).iloc[:,:4]
-                df.reset_index(inplace=True, drop=True)
-                df.loc[-1] = [0,0,0,0] 
-                df.index = df.index + 1  # shifting index
-                df.sort_index(inplace=True) 
-                bounds = df.iloc[:,2:].to_numpy()
-                bounds[:, 0] -= df.iloc[:, 0].to_numpy()
-                bounds[:, 1] -= df.iloc[:, 0].to_numpy()
-                ax[axs].set_xlim([-.5, len(df.index)-.5])
-                ax[axs].errorbar(x=df.index,
+        
+        ra = self.sample(ra)
+        ra = self.summary(interval=interval)
+        ur = self.sample(ur)   
+        ur = self.summary(interval=interval)
+        
+        if true_post:
+            self.post = true_post
+
+        fig ,ax = plt.subplots(1,2, figsize=(24,5), sharex=True, sharey=True, constrained_layout=True, facecolor='white')
+        for axs, model in enumerate([ra, ur]):
+            df = model
+            df.reset_index(inplace=True, drop=True)
+            df.loc[-1] = 0 
+            df.index = df.index + 1  # shifting index
+            df.sort_index(inplace=True) 
+            bounds = df.iloc[:,2:4].to_numpy()
+            bounds[:, 0] -= df.iloc[:, 0].to_numpy()
+            bounds[:, 1] -= df.iloc[:, 0].to_numpy()
+            
+            ax[axs].set_xlim([-.5, len(df.index)-.5])
+            ax[axs].set_ylim([-4, 4])
+            ax[axs].errorbar(x=df.index,
                             y=df.iloc[:,0].values,
                             yerr=abs(bounds.T),
-                            elinewidth=.5,
+                            elinewidth=1.2,
                             fmt='ok',
-                            capsize=4,
+                            capsize=.1,
                             markerfacecolor="white",
-                )
-                ax[axs].hlines(0, 
-                        xmin=-.5,
-                        xmax=len(df.index)-.5,
-                        colors='black', 
-                        linestyles='--',
-                        linewidth=.8)
-                ax[axs].set_xticks(df.index)
-                label = []
-                for i in range(len(df.index)):
-                    label.append(f'Group {i}')
-                ax[axs].set_xticklabels(label)
-            ax[0].set_title('Research Affairs',fontsize=13)
-            ax[1].set_title('Unique Research',fontsize=13)    
-            fig.suptitle(f'Difference of ATT with other Groups of major polling institutes', fontsize=16)
-            fig.supylabel('Coefficient')
-            plt.show()      
+            )
+            ax[axs].hlines(0, 
+                    xmin=-.5,
+                    xmax=len(df.index)-.5,
+                    colors='black', 
+                    linestyles='--',
+                    linewidth=.8
+            )
+            ax[axs].set_xticks(df.index)
+            label = []
+            for i in range(len(df.index)):
+                label.append(f'{i}')
+            ax[axs].set_xticklabels(label)
+        ax[0].set_title('Research Affairs',fontsize=22)
+        ax[1].set_title('Unique Research',fontsize=22)    
+        fig.supylabel('Coefficient', fontsize=22)
+        fig.supxlabel('Time Period', fontsize=22)
+        if save == True:
+            path = pathlib.Path(__file__).parent.parent / 'images' / f'trends{self.var}.pdf'
+            plt.savefig(path, dpi=200, format='pdf')
+        else:
+            plt.show()
 
 
     def compareSim(self, tau):

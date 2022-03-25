@@ -1,4 +1,5 @@
 
+from cProfile import label
 import logging
 import re
 import pathlib
@@ -49,8 +50,13 @@ class Handler:
         # Define Treatment Effect 
         tau_övp = np.abs(np.random.randn(T)*2)
         tau_övp[0] = -2
+        tau_övp[2] = 0
+        tau_övp[3] = 0
         tau_spö = np.abs(np.random.randn(T)*2) * -1
         tau_spö[0] = 0.5
+        tau_spö[2] = 0.5
+        tau_spö[3] = 0.5
+
         if control:
             tau_övp[0] = 0
             tau_spö[0] = 0
@@ -120,6 +126,7 @@ class Handler:
         df = df[df[var[0]]==1]
         df[var[1]] = pd.to_datetime(df[var[1]])
         df = df[df[var[1]] > datetime(2016,12,1)]
+        df = df[df[var[1]] != datetime(2019,5,20)]
         return df
     
 
@@ -155,10 +162,7 @@ class Handler:
     
     def _new_entries(self):
         new = [
-            [datetime(2016,12,8),"Research Affairs",18,26,35,13,600,"http://www.oe24.at/oesterreich/politik/Trotz-Schlappe-FPOe-klar-auf-Platz-1/261584523"],
-            [datetime(2016,12,9),"Gallup",19,27,34,12,800,"http://www.oe24.at/oesterreich/politik/Hofer-besser-als-Strache/261658295"],
-            [datetime(2016,12,19),"Market",22,25,31,12,415,"https://www.derstandard.at/story/2000049506772/van-der-bellens-sieg-nuetzte-den-gruenen-bisher-nicht"],
-            [datetime(2016,12,30),"Unique Research",19,28,34,11,500,"https://www.profil.at/oesterreich/kanzlerfrage-kern-vorsprung-strache-7916991"],
+            # New Data based on Research Affairs archive
             [datetime(2018,7,12),"Research Affairs",33,26,24,5,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
             [datetime(2018,7,26),"Research Affairs",33,27,24,4,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
             [datetime(2018,11,19),"Research Affairs",34,25,24,6,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
@@ -178,7 +182,40 @@ class Handler:
             [datetime(2019,9,21),"Research Affairs",34,23,21,11,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
             [datetime(2020,2,27),"Research Affairs",39,17,11,17,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
             [datetime(2020,3,26),"Research Affairs",40,18,11,18,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2020,10,8),"Research Affairs",41,19,11,12,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,1,14),"Research Affairs",39,24,16,9,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,2,5),"Research Affairs",39,24,15,9,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,2,25),"Research Affairs",37,24,17,9,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,3,11),"Research Affairs",37,23,16,9,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,6,10),"Research Affairs",35,23,14,12,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,6,17),"Research Affairs",35,22,15,12,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,6,24),"Research Affairs",34,23,16,11,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,7,15),"Research Affairs",35,20,18,11,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,7,22),"Research Affairs",35,20,18,12,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,8,5),"Research Affairs",35,21,19,10,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,8,12),"Research Affairs",34,21,19,11,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,8,19),"Research Affairs",34,21,18,10,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,8,26),"Research Affairs",34,21,17,11,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,9,8),"Research Affairs",35,22,18,11,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,9,16),"Research Affairs",35,23,18,10,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            [datetime(2021,9,23),"Research Affairs",35,24,17,10,600,"http://www.researchaffairs.at/Sonntagsfrage/"],
+            # new data based on Strategieanalysen
+            [datetime(2021,9,18),"Unique Research",35,21,19,12,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+            [datetime(2021,8,9),"Unique Research",35,21,19,12,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+            [datetime(2021,9,8),"Unique Research",35,21,19,12,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+            [datetime(2021,6,12),"Unique Research",33,23,18,13,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+            [datetime(2019,7,13),"Unique Research",35,20,21,11,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+            [datetime(2021,8,16),"Market",31,25,18,12,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+            [datetime(2021,7,15),"Market",33,25,17,12,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+            [datetime(2021,6,11),"Market",32,27,16,13,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+            [datetime(2021,6,27),"OGM",33,25,18,11,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+            [datetime(2019,1,21),"OGM",35,25,26,5,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+            [datetime(2021,6,25),"Peter Hajek",34,23,18,11,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+            [datetime(2021,7,26),"IFDD",35,22,19,11,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+            [datetime(2021,6,16),"IFDD",32,27,18,11,800,"https://www.strategieanalysen.at/umfragen/polls.csv"],
+
         ]
+    
         df = pd.DataFrame(new,
                           columns=['Date', 'Institute', "ÖVP", "SPÖ", "FPÖ", "Grüne", "Sample Size", "url"])
         return df.iloc[:,:-2]
@@ -195,7 +232,8 @@ class Handler:
                                             np.where(df.Date < datetime(2019,5,17),4,
                                                 np.where(df.Date < datetime(2019,9,29),5,
                                                     np.where(df.Date < datetime(2020,3,16),6,
-                                                             np.where(df.Date < datetime(2021,1,1),7,8)))))))
+                                                             np.where(df.Date < datetime(2020,11,1),7,
+                                                                      np.where(df.Date < datetime(2021,4,1),8,9))))))))
         return df
 
 
@@ -217,9 +255,10 @@ class Handler:
                                 position='h!'))
 
 
-    def scatter(self, var='ÖVP', binning=False, save=False):
+    def scatter(self, var='ÖVP', binning=False, save=False, missing=True):
         if isinstance(self.data, pd.DataFrame):
             df = self.data.copy()
+            
             if 'Date' in df.columns:   
                 with plt.style.context('ggplot'):
                     fig, ax = plt.subplots(figsize=(14,5))
@@ -236,12 +275,27 @@ class Handler:
                             alpha=.6,
                             edgecolors='black'
                     )
+                    ax.legend(fancybox=True)
+                    if missing:
+                        mis = pd.DataFrame([[datetime(2019,5,20), 38,26,18,5]],
+                                          columns=['Date', 'ÖVP', "SPÖ", "FPÖ", "Grüne"])
+                        ax.scatter("Date", var, data=mis,
+                                   s=15,
+                                   c='red',
+                                   alpha=.5,
+                        )
                     if binning:
                         # Create Lines seperating bins
                         upper = df.groupby('bins')['Date'].max()[:-1].reset_index(drop=True)
                         lower = df.groupby('bins')['Date'].min()[1:].reset_index(drop=True)
                         bins = lower + (upper - lower)/2              
-                        ax.vlines(bins, ymin=df[var].min()-1, ymax=df[var].max()+1, color='black',lw=.3)
+                        ax.vlines(bins, 
+                                  ymin=df[var].min()-1, 
+                                  ymax=df[var].max()+1, 
+                                  color='gray',
+                                  lw=.6,
+                                  alpha=.6, 
+                                  ls='--')
                         # Plotting mean value of each bin with fixed distances
                         pos = []
                         pos.append(df.Date.min()-timedelta(5))
@@ -265,8 +319,7 @@ class Handler:
                     ax.xaxis.set_minor_locator(mdates.MonthLocator())
                     ax.xaxis.set_major_formatter(mdates.ConciseDateFormatter(ax.xaxis.get_major_locator()))
                     ax.set_ylim(df[var].min()-2, df[var].max()+2)    
-                    ax.set_ylabel("Estimated Voting % for " + str(var))
-                    ax.legend(fancybox=True)
+                    ax.set_ylabel("Estimated Vote Share")
                     if save == True:
                         path = pathlib.Path(__file__).parent.parent / 'images' / f'scatter{var}.pdf'
                         plt.savefig(path, dpi=800, format='pdf')
