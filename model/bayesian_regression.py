@@ -258,6 +258,7 @@ class BayesRegression:
             else:
                 plt.show()            
     
+    
     def trace(self, param='beta', save=False):
         df = self.post
         df.rename({"beta": r"$\hat{\tau}$"}, inplace=True)
@@ -339,12 +340,19 @@ class BayesRegression:
 
     def compareSim(self, tau):
         df = tau.T
+        data = self.post
+        data.rename({"beta": r"$\hat{\tau}$"}, inplace=True)
+        param=r"$\hat{\tau}$"
         with plt.style.context('arviz-darkgrid'):
-            az.plot_posterior(self.post,
-                              var_names=['beta'],
+            az.plot_posterior(data,
+                              var_names=[param],
                               ref_val=list(df.loc[1: ,self.var].values),
-                              show=True)
-        
+                              color='k',
+                              ref_val_color='k',
+                              )
+            path = pathlib.Path(__file__).parent.parent / 'images' / 'sim.pdf'
+            plt.savefig(path, dpi=200, format='pdf')
+
 
     def post_predictive(self):
         with az.style.context('arviz-whitegrid'):

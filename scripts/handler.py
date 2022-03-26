@@ -49,13 +49,9 @@ class Handler:
         
         # Define Treatment Effect 
         tau_övp = np.abs(np.random.randn(T)*2)
-        tau_övp[0] = -2
-        tau_övp[2] = 0
-        tau_övp[3] = 0
+        tau_övp[0] = -3
         tau_spö = np.abs(np.random.randn(T)*2) * -1
-        tau_spö[0] = 0.5
-        tau_spö[2] = 0.5
-        tau_spö[3] = 0.5
+
 
         if control:
             tau_övp[0] = 0
